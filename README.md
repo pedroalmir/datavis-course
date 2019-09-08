@@ -16,6 +16,6 @@
 ## Aula do dia 04/09/2019
 
 [full-notebook.html](d3_intro/full-notebook.html)<br>
-[notebook.html](d3_intro_/notebook.html)<br>
+[notebook.html](d3_intro/notebook.html)<br>
 
 Para saber mais sobre a sintaxe markdown, veja [este guia](https://guides.github.com/features/mastering-markdown/).
