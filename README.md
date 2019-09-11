@@ -1,3 +1,12 @@
+## Aula do dia 11/09/2019
+
+[full-notebook.html](d3_scale/full-notebook.html)<br>
+
+## Aula do dia 04/09/2019
+
+[full-notebook.html](d3_intro/full-notebook.html)<br>
+[notebook.html](d3_intro/notebook.html)<br>
+
 ## Aula do dia 02/09/2019
 
 [index01.html](basic/index01.html)<br>
@@ -12,10 +21,4 @@
 [index10.html](basic/index10.html)<br>
 
 ---
-
-## Aula do dia 04/09/2019
-
-[full-notebook.html](d3_intro/full-notebook.html)<br>
-[notebook.html](d3_intro/notebook.html)<br>
-
 Para saber mais sobre a sintaxe markdown, veja [este guia](https://guides.github.com/features/mastering-markdown/).
