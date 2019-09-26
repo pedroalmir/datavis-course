@@ -1,3 +1,7 @@
+## Aula do dia 25/09/2019
+
+[full-notebook.html](d3_crossfilter_2/full-notebook.html)<br>
+
 ## Aula do dia 23/09/2019
 
 [full-notebook.html](d3_crossfilter/full-notebook.html)<br>
