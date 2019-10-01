@@ -1,6 +1,7 @@
 ## Aula do dia 30/09/2019
 
 [index.html](d3_leaflet/index.html)<br>
+[chigado.html](d3_leaflet_chigaco/index.html)<br>
 
 ## Aula do dia 25/09/2019
 

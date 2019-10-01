@@ -1,0 +1,14 @@
+{
+  "name": "@pedroalmir/visualizando-crimes-de-chigado",
+  "main": "d/7d5534b3f00d7f75.js",
+  "version": "322.0.0",
+  "homepage": "https://observablehq.com/@pedroalmir/visualizando-crimes-de-chigado",
+  "author": {
+    "name": "Pedro Almir",
+    "url": "https://observablehq.com/@pedroalmir"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
