@@ -1,0 +1,14 @@
+{
+  "name": "@pedroalmir/exercicio-4-visualizacao-cientifica",
+  "main": "d/76758d0e60019f4d.js",
+  "version": "110.0.0",
+  "homepage": "https://observablehq.com/@pedroalmir/exercicio-4-visualizacao-cientifica",
+  "author": {
+    "name": "Pedro Almir",
+    "url": "https://observablehq.com/@pedroalmir"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
