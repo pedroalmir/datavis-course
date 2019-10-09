@@ -1,3 +1,6 @@
+## Aula do dia 09/10/2019
+[atividadeEmSala.html](d3_network/index.html)<br>
+
 ## Aula do dia 30/09/2019
 
 [atividadeEmSala.html](d3_leaflet/index.html)<br>
