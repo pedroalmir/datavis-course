@@ -1,6 +1,6 @@
 # Homicídios em Fortaleza em 2012
 
-https://observablehq.com/@pedroalmir/homicidios-em-fortaleza-em-2012@111
+https://observablehq.com/@pedroalmir/homicidios-em-fortaleza-em-2012@131
 
 View this notebook in your browser by running a web server in this folder. For
 example:

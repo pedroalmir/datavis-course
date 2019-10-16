@@ -1,4 +1,4 @@
-// https://observablehq.com/@pedroalmir/homicidios-em-fortaleza-em-2012@111
+// https://observablehq.com/@pedroalmir/homicidios-em-fortaleza-em-2012@131
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
@@ -115,7 +115,7 @@ function container() {
 }
 )});
   main.variable(observer("reds")).define("reds", ["d3"], function(d3){return(
-d3.schemeReds[8]
+d3.schemeReds[9]
 )});
   main.variable(observer("colorScale")).define("colorScale", ["d3","reds"], function(d3,reds){return(
 d3.scaleQuantize()
@@ -131,7 +131,7 @@ function zoomToFeature(e) {
 d3.csv("https://gist.githubusercontent.com/emanueles/8ee225792454a78151d0842a10642a29/raw/9984e32effa99da3cea2ec87a7c9b7b231c71d3c/fortaleza_crimes_populacao.csv").then(function(data){
   let bairrosMap = d3.map()
   data.forEach(function(d, i){
-    d.tHP = ((d.Homicidios * d.Populacao)/10000).toFixed(2)
+    d.tHP = ((d.Homicidios / d.Populacao)*100000).toFixed(2)
     bairrosMap.set(d.Bairro, [+d.Homicidios, d.tHP])
   })
   return bairrosMap
