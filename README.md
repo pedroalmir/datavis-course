@@ -1,6 +1,6 @@
 ## Aula do dia 16/10/2019
 [exercicio1.html](d3_color/index.html)<br>
-[exercicio1.html](d3_color2/index.html)<br>
+[exercicio2.html](d3_color2/index.html)<br>
 
 ## Aula do dia 09/10/2019
 [atividadeEmSala.html](d3_network/index.html)<br>
