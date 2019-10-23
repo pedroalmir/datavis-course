@@ -1,0 +1,14 @@
+{
+  "name": "@pedroalmir/d3-com-crossfilter-dc-js-e-leaflet-parte-2",
+  "main": "d/492f487843c4ad0e.js",
+  "version": "84.0.0",
+  "homepage": "https://observablehq.com/@pedroalmir/d3-com-crossfilter-dc-js-e-leaflet-parte-2",
+  "author": {
+    "name": "Pedro Almir",
+    "url": "https://observablehq.com/@pedroalmir"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}

@@ -1,5 +1,6 @@
 ## Aula do dia 23/10/2019
 [exercicio1.html](d3_interactive/index.html)<br>
+[exercicio2.html](d3_interactive_2/index.html)<br>
 
 ## Aula do dia 16/10/2019
 [exercicio1.html](d3_color/index.html)<br>
