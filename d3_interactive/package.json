@@ -1,0 +1,14 @@
+{
+  "name": "@pedroalmir/taxa-de-desemprego-nos-eua-em-agosto-de-2016-parte-2",
+  "main": "d/9979fe567ab84a30.js",
+  "version": "107.0.0",
+  "homepage": "https://observablehq.com/@pedroalmir/taxa-de-desemprego-nos-eua-em-agosto-de-2016-parte-2",
+  "author": {
+    "name": "Pedro Almir",
+    "url": "https://observablehq.com/@pedroalmir"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
