@@ -11,10 +11,10 @@
  */
 function process(sentences, numberOfTopics, numberOfTermsPerTopic, alphaValue, betaValue, randomSeed) {
     var lda = new LDA();
-    // The result will consist of topics and their included terms 
+    // The probabilities will consist of topics and their included terms 
     // [[{"term":"word1", "probability":0.065}, {"term":"word2", "probability":0.047}, ... ], 
     // [{"term":"word1", "probability":0.085}, {"term":"word2", "probability":0.024}, ... ]].
-    var result = [];
+    var topicProbabilities = [];
     // Index-encoded array of sentences, with each row containing the indices of the words in the vocabulary.
     var documents = new Array();
     // Hash of vocabulary words and the count of how many times each word has been seen.
@@ -27,78 +27,87 @@ function process(sentences, numberOfTopics, numberOfTermsPerTopic, alphaValue, b
     var stopwords = getStopWords();
 
     if (sentences && sentences.length > 0) {
-      
-      for(var i = 0; i < sentences.length; i++) {
-          if (sentences[i] == "") continue;
+        for(var i = 0; i < sentences.length; i++) {
+            if (sentences[i] == "") continue;
 
-          documents[i] = new Array();
-          var words = sentences[i] ? sentences[i].split(/[\s,\"]+/) : null;
+            documents[i] = new Array();
+            var words = sentences[i] ? sentences[i].split(/[\s,\"]+/) : null;
 
-          if(!words) continue;
+            if(!words) continue;
 
-          for(var wc = 0; wc < words.length; wc++) {
-              var w = words[wc].toLowerCase().replace(/[^a-z\'A-Z0-9\u00C0-\u00ff ]+/g, '');
-              var wStemmed = stemmer(w);
-              if (w == "" || !wStemmed || w.length == 1 || stopwords.indexOf(w.replace("'", "")) > -1 || stopwords.indexOf(wStemmed) > -1 || w.indexOf("http") == 0) continue;
-              if (f[wStemmed]) { 
-                  f[wStemmed] = f[wStemmed] + 1;
-              } else if(wStemmed) { 
-                  f[wStemmed] = 1; 
-                  vocab.push(wStemmed);
-                  vocabOrig[wStemmed] = w;
-              };
-              
-              documents[i].push(vocab.indexOf(wStemmed));
-          }
-      }
+            for(var wc = 0; wc < words.length; wc++) {
+                var w = words[wc].toLowerCase().replace(/[^a-z\'A-Z0-9\u00C0-\u00ff ]+/g, '');
+                var wStemmed = stemmer(w);
+                if (w == "" || !wStemmed || w.length == 1 || stopwords.indexOf(w.replace("'", "")) > -1 || stopwords.indexOf(wStemmed) > -1 || w.indexOf("http") == 0) continue;
+                if (f[wStemmed]) { 
+                    f[wStemmed] = f[wStemmed] + 1;
+                } else if(wStemmed) { 
+                    f[wStemmed] = 1; 
+                    vocab.push(wStemmed);
+                    vocabOrig[wStemmed] = w;
+                };
+                
+                documents[i].push(vocab.indexOf(wStemmed));
+            }
+        }
 
-      var V = vocab.length;
-      var M = documents.length;
-      var K = parseInt(numberOfTopics);
-      var alpha = alphaValue || 0.1;                                // per-document distributions over topics
-      var beta = betaValue   || .01;                                // per-topic distributions over words
-      documents = documents.filter((doc) => { return doc.length }); // filter empty documents
+        var V = vocab.length;
+        //var M = documents.length;
+        var K = parseInt(numberOfTopics);
+        var alpha = alphaValue || 0.1;                                // per-document distributions over topics
+        var beta = betaValue   || .01;                                // per-topic distributions over words
+        documents = documents.filter((doc) => { return doc.length }); // filter empty documents
 
-      lda.configure(documents, V, 10000, 2000, 100, 10, randomSeed);
-      lda.gibbs(K, alpha, beta);
+        lda.configure(documents, V, 10000, 2000, 100, 10, randomSeed);
+        lda.gibbs(K, alpha, beta);
 
-      var theta = lda.getTheta();
-      var phi = lda.getPhi();
+        var theta = lda.getTheta();
+        var phi = lda.getPhi();
 
-      var text = '';
+        //topics
+        var topTerms = numberOfTermsPerTopic;
+        var topicText = new Array();
+        for (var k = 0; k < phi.length; k++) {
+            var things = new Array();
+            for (var w = 0; w < phi[k].length; w++) {
+                things.push("" + phi[k][w].toPrecision(2) + "_" + vocab[w] + "_" + vocabOrig[vocab[w]]);
+            }
+            things.sort().reverse();
+            //console.log(things);
+            if(topTerms > vocab.length) topTerms = vocab.length;
+            topicText[k] = '';
+            //console.log('Topic ' + (k + 1));
+            var row = [];
+            
+            for (var t = 0; t < topTerms; t++) {
+                var topicTerm = things[t].split("_")[2];
+                var prob = parseInt(things[t].split("_")[0] * 100);
+                if (prob < 2) continue;
+                
+                //console.log('Top Term: ' + topicTerm + ' (' + prob + '%)');
+                topicText[k] += (topicTerm + " ");
+                
+                var term = {};
+                term.term = topicTerm;
+                term.probability = parseFloat(things[t].split("_")[0]);
+                row.push(term);
+            }
 
-      //topics
-      var topTerms = numberOfTermsPerTopic;
-      for (var k = 0; k < phi.length; k++) {
-          var things = new Array();
-          for (var w = 0; w < phi[k].length; w++) {
-               things.push("" + phi[k][w].toPrecision(2) + "_" + vocab[w] + "_" + vocabOrig[vocab[w]]);
-          }
-          things.sort().reverse();
-          //console.log(things);
-          if(topTerms>vocab.length) topTerms=vocab.length;
-
-          //console.log('Topic ' + (k + 1));
-          var row = [];
-          
-          for (var t = 0; t < topTerms; t++) {
-              var topicTerm = things[t].split("_")[2];
-              var prob = parseInt(things[t].split("_")[0] * 100);
-              if (prob < 2) continue;
-              
-              //console.log('Top Term: ' + topicTerm + ' (' + prob + '%)');
-              
-              var term = {};
-              term.term = topicTerm;
-              term.probability = parseFloat(things[t].split("_")[0]);
-              row.push(term);
-          }
-
-          result.push(row);
-      }
+            topicProbabilities.push(row);
+        }
+        //console.log(topicText);
+        var sentencesData = [];
+        for (var m = 0; m < theta.length; m++) {
+            var probPerTopic = {};
+		    for (var k = 0; k < theta[m].length; k++) {
+                probPerTopic["topic" + k] = {"text": topicText[k].trim(), "probability": theta[m][k] * 100};
+            }
+            sentencesData.push({"sentence": sentences[m], probPerTopic})
+            //console.log(probPerTopic);
+	    }
     }
     
-    return result;
+    return {"topicProbabilities": topicProbabilities, "sentencesData": sentencesData};
 }
 
 function makeArray(x) {
