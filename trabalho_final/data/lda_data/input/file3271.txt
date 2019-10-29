@@ -1,0 +1,1 @@
+add new hkquantitytypeidentifiers healthkit samples created enum types interested tried create property hkquantitytype quantitytypeforidentifier property returned nil tried define extension hkquantitytype custom identifiers did work code ideas

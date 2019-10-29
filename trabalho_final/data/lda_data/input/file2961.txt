@@ -1,0 +1,1 @@
+synthea generate synthetic populations default county demographics massachusetts json config files created specifically create different state

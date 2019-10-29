@@ -1,0 +1,1 @@
+uses default encoding utf working dicom data serialize header attributes dicom file patient name japanese characters encoding input data attribute set iso serializer throws create input data iso serializes data know iso subset utf iso blindly create encoding thanks help

@@ -1,0 +1,1 @@
+try read data healthkit error telling application crashed fatal error unexpectedly found nil unwrapping optional value understand trying unwrap optional try optionals error telling force unwrap code try remove bang operator error saying value optional type hkquantitytype unwrapped did mean

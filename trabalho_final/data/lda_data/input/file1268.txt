@@ -1,0 +1,1 @@
+trying read series dicom images folder named series code read series dicom images particular folder getting error index exceeds matrix dimensions

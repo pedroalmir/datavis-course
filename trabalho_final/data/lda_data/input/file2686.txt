@@ -1,0 +1,1 @@
+note couldn find similar question stackoverflow threads found asked reading writing issue integrating googlefit able blood pressure data successfully login adding data tried putting code inserting synchronously getting error tried uninstalling internet access wifi helps working fine code case asks put initialization googleapiclient initialization thanks

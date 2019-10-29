@@ -1,0 +1,1 @@
+following code fetches calories today set startdate able calorie count today count start time midnight today end time today

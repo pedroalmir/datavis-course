@@ -1,0 +1,1 @@
+mirth connect version installed rhl access mirth local machine java java work fine able launch administrator tool mirth clicked administrator button opened window saying starting application giving user name password give error error connecting server specified address please verify server running

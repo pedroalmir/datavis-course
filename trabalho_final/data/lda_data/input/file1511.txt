@@ -1,0 +1,1 @@
+cximgdcm class derived cximage handle dicom files dicom image format jpeg tiff functions exist cximgdcm class desired location cfiledialog class got file format opened dialog idok condition image preferred location code follows note filepath argument source destination

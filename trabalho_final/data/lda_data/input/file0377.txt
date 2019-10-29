@@ -1,0 +1,1 @@
+yesterday apple announced health records api documentation states clinical records read request authorization share clinical record types create new hkclinicalrecord objects prototyping don work hospitals clinics apple currently supports load data healthkit test reading data app

@@ -1,0 +1,1 @@
+sorry basic new dicom know dicom file multiple parts patient study series instance image communicate device needs transfer syntax tells mode communication endian big endian jpeg lossless lossy dicom file parts patient study series instance image transfer syntax patient communicate endian study jpeg lossless mpeg video entire dicom file transfer syntax

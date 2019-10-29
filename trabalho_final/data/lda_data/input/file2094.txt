@@ -1,0 +1,1 @@
+trying evaluate accuracy algorithm segments regions mri volumes brain dice jaccard fpr tnr precision done pixelwise fns number false neg pixels python package pseudo code lesion level example calculate tps number lesions disconnected objects grd trth detected algorithm way size lesion doesn play effect accuracy metrics

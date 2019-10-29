@@ -1,0 +1,1 @@
+wrote simple message parser capable parsing message type validate message result message parsing tree easily traversable improve parser able apply validation rules received message thinking xml message definition stuck approach take sure makes sense written parser necessarily message apply schema message did thank

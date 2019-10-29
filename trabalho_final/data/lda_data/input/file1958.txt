@@ -1,0 +1,1 @@
+byte character set dicom named iso tell equivalent encoding trying encode iso characters bit ascii communication medical systems java world string works encoding look example iso iso equals iso takes input string gives ascii string

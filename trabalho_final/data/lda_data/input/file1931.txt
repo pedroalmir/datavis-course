@@ -1,0 +1,1 @@
+trying plot histogram matlab dicom image medical image format colormap standard gray levels imhist working suggestions

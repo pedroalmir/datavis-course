@@ -1,0 +1,1 @@
+stack dicom coronal images image position patient tag sort images correct order stack contains overiew image showing coronal slices generated axial stack attachment obviously automatically skip overview image sorting stack know utilize dicom tags distinguish rest stack regards

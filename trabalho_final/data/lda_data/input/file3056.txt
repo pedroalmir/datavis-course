@@ -1,0 +1,1 @@
+fhir create relationship resource patient resource location room bed can´find

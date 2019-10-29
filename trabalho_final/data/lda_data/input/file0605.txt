@@ -1,0 +1,1 @@
+code test google fit android fit code working occur call function ondatapoint] register fitness data result logcat outputed log display message listener registered ondatapoint] google fit call try remove ondatapoint]

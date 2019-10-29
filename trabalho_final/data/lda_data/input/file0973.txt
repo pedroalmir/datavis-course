@@ -1,0 +1,1 @@
+working changing dicom headers pydicom patientname contains korean modified patientname english iso error output trying looked charset part related iso solve problem solve problem thanks error message follows

@@ -1,0 +1,1 @@
+trying create new fhir resource patient restful api xml format store patient information create method patient health record reference user composed username password patient database link user patient resource creating rest xml field place information good practice actually extension

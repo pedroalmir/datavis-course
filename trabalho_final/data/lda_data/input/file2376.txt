@@ -1,0 +1,1 @@
+give example java rest client search patients fhir data model

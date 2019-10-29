@@ -1,0 +1,1 @@
+currently working medical research app swift based researchkit framework written objective signature assigned consent document trying create pdf makepdfwithcompletionhandler email completion handler currently consent task view controller figure put completion handler block find code email pdf created consent task following code assign signature document

@@ -1,0 +1,1 @@
+trying figure dicom image position absolute coordinate coordinates slice orientation example two planes sagittal coronal plane interleaved respective image positions form dicom header question coordinate sagittal plane space coordinate coronal plane image position values specific plane image position referenced absolute origin point changed specific image orientation thanks

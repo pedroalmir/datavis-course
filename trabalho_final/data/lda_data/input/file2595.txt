@@ -1,0 +1,1 @@
+trying run niftynet keeps showing error cpu version tensorflow info tensorflow tensorflow version install tensorflow gpu

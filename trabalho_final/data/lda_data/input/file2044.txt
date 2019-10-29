@@ -1,0 +1,1 @@
+read successfully dicom file itk imagefilereader export image vtkjpegwriter add line code doesn run beginning execution read file comment line read file writer connected file reader don moment wasting time trying figure problem

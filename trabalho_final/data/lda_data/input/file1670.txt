@@ -1,0 +1,1 @@
+image barre nom medical samples files mono head barre nom medical samples converting image formats tried following commands extracting dicom file did work dcmj pnm dcml pnm produce gray box image correctly read proper dicom viewer softwares problem solved

@@ -1,0 +1,1 @@
+newbie trying construct message oru type hapi got incorrect message format add patient details code format fix issue example construct oru message pid orc obr obx output patient msh \ abc clinpath abc vet abc vetmed oru output patient comment patient details code pid test testlinpath abc vet abc vetmed oru tried way worked

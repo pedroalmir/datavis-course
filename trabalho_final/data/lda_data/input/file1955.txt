@@ -1,0 +1,1 @@
+store xdocument sqlxml datatype went link storing xdocument sql link converting xdocumentobj tostring throwing please help fix problem store complete xml file database type xml

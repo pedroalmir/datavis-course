@@ -1,0 +1,1 @@
+running brew install postgresql running postgres running command getting following error bash createuser command found

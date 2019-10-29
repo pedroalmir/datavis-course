@@ -1,0 +1,1 @@
+setting new open source fhir server https github microsoft fhir server azure portal fully understand code base structure best tooling prof recognise directory structure allow full remote debugging

@@ -1,0 +1,1 @@
+trying resampledicom example noticed changes rescaleintercept value rescaletype particular reason thanks

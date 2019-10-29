@@ -1,0 +1,1 @@
+google fit apis time modified basicsensorsapi sample code calculate steps count working fine problem call function call function stops getting callbacks unregistering listener don call working fine callbacks event activity function called sure disconnect function yes solve problem relavent code

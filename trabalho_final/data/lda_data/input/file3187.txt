@@ -1,0 +1,1 @@
+trying install quickumls python ubuntu medical nlp followed step step installation guide provided website link https github georgetown lab quickumls completing installation able instantiate matcher object quickumls command following error message pops missing please help pip installation involved specified guide tried showed error

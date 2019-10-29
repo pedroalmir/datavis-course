@@ -1,0 +1,1 @@
+possible add metadata existing hkworkout subclass hkobject metadata property idea add data app existing workout record healthkitstore

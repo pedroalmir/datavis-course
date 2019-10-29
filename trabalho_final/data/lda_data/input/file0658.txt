@@ -1,0 +1,1 @@
+trying create mew dicom image standard sized numpy array straightforward adapted code code google pydicom source browse source dicom examples write new appears execute process file view radiant microdicom

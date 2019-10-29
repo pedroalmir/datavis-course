@@ -1,0 +1,1 @@
+hapi release version works perfectly issue error response hapi request msh \ oul oul response msh \ ack ack msa err application internal error errmsg response check msh field ack ack shouldn ack additionally adding message field valid suspect picks original request help avoid invalid segment hapi additionally add field msh field

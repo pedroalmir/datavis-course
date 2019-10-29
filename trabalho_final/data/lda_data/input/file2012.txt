@@ -1,0 +1,1 @@
+query healthkit hkcategorytypeidentifiersleepanalysis data find compatible hkunit quantity value apple documentation silent units sleep analysis hoping knows answer btw ios health app shows hrs minutes sleep chart hkunit reference doesn options composite units

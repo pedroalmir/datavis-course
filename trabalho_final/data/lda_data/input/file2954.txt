@@ -1,0 +1,1 @@
+building restful fhir search api requires custom response different custom resource api return patients follows thats object array objects return bundle

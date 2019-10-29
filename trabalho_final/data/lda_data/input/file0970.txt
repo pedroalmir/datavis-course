@@ -1,0 +1,1 @@
+newbie programming dcm che libraries writing simple program query pacs server setting query retrieve level patient series image code simple cases works fine cases set query retrieve level image query method fails unexpected message dimse rsp abort command thrown reported understand error mean figure solution guess communication issue help thanks

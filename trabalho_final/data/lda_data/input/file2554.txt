@@ -1,0 +1,1 @@
+working dicom gated pet data artificially create dicom image series includes gated data inquiring increment values sopinstanceuid labels image slice phase gate different values slice gate incremented gates find logic value chosen reference values written

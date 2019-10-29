@@ -1,0 +1,1 @@
+create program gui import dicom images basic math calculate fft ifft work matlab matrix operations nice basic understanding java hear three languages multiple libraries suggestions programming language choice welcome project related master thesis don funding least libraries free solved problem matlab export program matlab export toolboxes aren free thanks answers

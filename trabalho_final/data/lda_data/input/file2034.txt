@@ -1,0 +1,1 @@
+spec documnent implement standards fhir query htm base server returns results response bundle xml atom feed includes resources results query json format required results json format defined atom feed examples servers connect healthintersections svc fhir straightforward conversion xml json confirmed imho precision expected format explicitly defined

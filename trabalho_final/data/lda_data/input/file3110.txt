@@ -1,0 +1,1 @@
+fhir object model resource driven model fine client say patient information called patient related resources organization care provider make calls patient related information single call

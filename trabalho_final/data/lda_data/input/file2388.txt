@@ -1,0 +1,1 @@
+storescp exe support dcmtk docs storescp html storescp dicom application send dicom files storescp dcm file generated please inform switch statement preventing file generation store operation

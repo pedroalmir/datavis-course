@@ -1,0 +1,1 @@
+application encoding decoding concept able encode simple string message able decode message xml format convert xml file data message help give reference help

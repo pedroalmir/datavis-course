@@ -1,0 +1,1 @@
+writing running workout app apple watch app measures heartrate compares specific value alert displayed heartrate high question possible measure heart rate specific point application compare specific value possible streaming heartrate healthkit

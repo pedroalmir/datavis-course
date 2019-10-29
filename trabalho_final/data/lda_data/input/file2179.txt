@@ -1,0 +1,1 @@
+following researchkit tutorial swift raywenderlich researchkit tutorial swift connect ibaction methods buttons main storyboard code tutorial main storyboard click view controller tried setting class viewcontroller uiviewcontroller methods supposed show events don tried ctrl dragging hasn worked

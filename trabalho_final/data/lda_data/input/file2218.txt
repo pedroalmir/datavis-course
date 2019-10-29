@@ -1,0 +1,1 @@
+problem statement develop application processing dicom images diagnostic applications scratch includes image processing model based segmentation registration visualization image visualization graphical user interface python feasible develop large chunk image data python gui pros cons opencv libraries suitable

@@ -1,0 +1,1 @@
+trying run simple example gdcm installed library version installation works perfectly fine able figure compile run example header files looking gdcmreader gdcmwriter figure compiler flags able run file gives error please help searched figure run file

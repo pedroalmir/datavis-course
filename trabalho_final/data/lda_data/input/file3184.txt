@@ -1,0 +1,1 @@
+trying load mri keep getting following error code follows updated loadsave file nibabel didn work please help edit earlier error resolved error encountered

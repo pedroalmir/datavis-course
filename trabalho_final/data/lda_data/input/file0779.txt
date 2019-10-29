@@ -1,0 +1,1 @@
+past couple weeks developing researchkit app run errors try turn survey data json added serialization code try run two errors please find screenshot information tried changing architectures build settings avail fix orkeserializer code bridging header code architectures valid architectures

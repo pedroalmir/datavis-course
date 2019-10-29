@@ -1,0 +1,1 @@
+know enable healthkit independent watchos app projects target find capabilities add app missing tried looking project find

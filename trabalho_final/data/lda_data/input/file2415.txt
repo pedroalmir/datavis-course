@@ -1,0 +1,1 @@
+trying understand risks involved system speaking fhir speaking openehr archetypes especially observation questionnaire device patient resources two content formats mapped seamlessly possibly utilizing extensions required major issues mapping people organisations vendors done mappings

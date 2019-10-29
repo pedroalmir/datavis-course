@@ -1,0 +1,1 @@
+getpatients method patients family names matches goodwin code try extract info bundle list calling tolistofresourcesoftype items returned bundle list patients

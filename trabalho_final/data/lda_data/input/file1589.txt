@@ -1,0 +1,1 @@
+devices send nan number inf plus minus infinity special cases arise means encode fhir observation resource reliability place codes value element way handle hapi fhir know report special values observation fhir resource

@@ -1,0 +1,1 @@
+vtkdicomimagereader read dicom file vtkimagethreshold threshold image write back hard disk processing tried vtkimagewriter library write back working try open file slicer grateful suggest methodology writing dicom files code trying threshold dicom image viewing thresholded image dicom file succeed please help thanks advance

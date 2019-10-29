@@ -1,0 +1,1 @@
+starting mirth trying send message remote server looks follows response looks follows error saying understand error means message control returned message number message control number message send ack returned wrong fault remote party know solve debug

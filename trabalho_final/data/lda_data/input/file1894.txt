@@ -1,0 +1,1 @@
+display dicom image java program pixelmed found correctly display correct contrast contrast low code sourceimage class provided pixelmed chosenimagefile getpath path dicom file dicomimgdisplayer class extend jpanel setimage jpanel class call setimage jframe class jframe class setimage code wrong color model please help thanks

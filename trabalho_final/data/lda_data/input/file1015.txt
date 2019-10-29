@@ -1,0 +1,1 @@
+started feel dicom standard trying write small program read file dump information text file dataset patient names chinese read store names currently reading names file converting code page chinese writing text file chinese characters text file missing working windows

@@ -1,0 +1,1 @@
+segmentation project option section understanding converting labels right wrong questions affect training process difference two labels label normalization layer works label images guess means affect inference results model trained fact got different results appreciate help questions

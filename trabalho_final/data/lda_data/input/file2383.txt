@@ -1,0 +1,1 @@
+install gdcm linux based instructions https anaconda clinicalgraphics gdcm conda install anaconda reasons install gdcm

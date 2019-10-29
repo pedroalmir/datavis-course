@@ -1,0 +1,1 @@
+resource defines attributes related prescription request dosage quantity prescription number pretty common attribute dispensed record pharmacy system wondering defined schema two identifiers schema mentioned post systems patient ambiguous internal database identifier uniquely identify dispense record difference identifier fhir resource

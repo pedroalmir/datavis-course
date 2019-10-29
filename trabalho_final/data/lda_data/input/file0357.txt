@@ -1,0 +1,1 @@
+needing calculate cumulative sum calories getting error nsinvalidargumentexception reason attempt convert incompatible units kcal count line unit defined different return number calories function

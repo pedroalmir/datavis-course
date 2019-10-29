@@ -1,0 +1,1 @@
+code ruby run dcm image dcm image gives warning error find reading dicom fine extract patient information figure pull dicom image make jpg thank help

@@ -1,0 +1,1 @@
+simpleitk process mri images mha format subsequently convert numpy array able visualize images matplotlib perform prerprocessing multiply image binary mask blank image missing simplified code think range data able pinpoint image visualized preprocessing maximum value preprocessing drops problems crop pointers going wrong

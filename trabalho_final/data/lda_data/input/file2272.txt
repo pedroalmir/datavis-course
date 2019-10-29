@@ -1,0 +1,1 @@
+trying delete hkobject added xamarin ios app able successfully query data apple healthkit hkhealthstore deleteobjectasync hkhealthstore deleteobject method vanishes run error returned line code hit sample code recreate issue response sure start trying troubleshoot issue know deleteobjectasync deleteobject working xamarin ios code asynchelpers class found zipped project

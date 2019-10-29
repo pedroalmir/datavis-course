@@ -1,0 +1,1 @@
+create hksamplequery weight don execute create execute hkobserverquery weight observer query updatehandler execute weight sample query works fine time sample query executed time sample query executed nsinvalidargumentexception reason start query active new sample query created time observer update handler executed works fine able instance sample query documented contrary

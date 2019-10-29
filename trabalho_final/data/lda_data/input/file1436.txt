@@ -1,0 +1,1 @@
+currently trying make simple pedometer app authorization working healthkit piece code try permission callback afterward process result reason ios completely skipping line setting breakpoint callback function calls happens doesn stop step skips lines screen simulator  iphone white dialogue pops idea happen wrong additional info class healthkitmanager swift class calling method

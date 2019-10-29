@@ -1,0 +1,1 @@
+working google fit api moment having bit trouble sensors api trying user current speed app workouts documentation bit confusing code snippet example google info page adding listener currently getting datatype values distance heart rate step count current activity user current speed correctly

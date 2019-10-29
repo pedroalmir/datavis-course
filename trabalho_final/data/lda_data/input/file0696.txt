@@ -1,0 +1,1 @@
+fhir specification number resources fhir resourcelist html suppose doctor recommended bedrest patient recommended daily exercise things recorded fhir resource type don patientorder patientrecommendation patientintervention

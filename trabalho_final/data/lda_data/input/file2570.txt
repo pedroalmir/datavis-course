@@ -1,0 +1,1 @@
+developing react native app utilizes apple health kit gather daily step data users got setup running sure people fake step data testing development purposes parts app getting data requests test api serve dummy data file repo know step data sort data apple health kit thanks

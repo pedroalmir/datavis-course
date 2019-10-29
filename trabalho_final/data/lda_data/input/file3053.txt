@@ -1,0 +1,1 @@
+currently working standardize communication lab clinic server working basic workflow returns diagnosticreport type fhir resource clinic server fhir references observations passed part diagnosticreport new hit clinic server made fetch actual observation type fhir resource question way make observation resources part diagnosticreport resource extra hits

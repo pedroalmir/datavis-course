@@ -1,0 +1,1 @@
+rename files field metadata patient names dicom files example found utility called dcmdump output extract part rename file tested gave know part rename dcm file thanks advance

@@ -1,0 +1,1 @@
+ios swift trying give user reasonable error message accessing healthkit records returned query records selected time range user disallowed access particular dataset health case storage requestauthorizationtosharetypes provides success value true way hkhealthkit store give code indicates access disabled code thanks mike

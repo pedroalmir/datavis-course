@@ -1,0 +1,1 @@
+got problem google api php client google fit sum steps made found response doesn work look gist php code problem didn enter loop returns question returns false steps tried retrieve data oauth playground didn data got

@@ -1,0 +1,1 @@
+retrieve list resources fhir server possible list resources getting resources example page profile resources return resources wanted profile ids names possible

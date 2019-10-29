@@ -1,0 +1,1 @@
+validating appointment resource includes contained reference fhir schema schmeatron error dom resource contained resource shall referred resource shall refer containing resource knowledge contained reference referenced resource validates stu schema schematron able validate schematron wrong thanks

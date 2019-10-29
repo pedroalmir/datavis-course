@@ -1,0 +1,1 @@
+trying integrate healthkit app getting duplicate data anytime user syncs opens app writing data app open currently way storing data written app hoping way healthkit looked setting uuid property looked external uuid metadata key doesn prevent duplicates creating separate field app note specific piece data written healthkit

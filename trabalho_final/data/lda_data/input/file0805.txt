@@ -1,0 +1,1 @@
+background hkobserverquery working great app realized user disables healthkit permissions setting queries continue launch app background return results change permissions don continue launching app user doesn tracking activity way address

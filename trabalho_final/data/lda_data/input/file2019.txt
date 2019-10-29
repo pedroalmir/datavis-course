@@ -1,0 +1,1 @@
+new programming python basic python script connects server send text message fine message message needs wrapped mllp found api think python readthedocs latest api html mllp network client modified program following keep getting error message nameerror name mllpclient defined

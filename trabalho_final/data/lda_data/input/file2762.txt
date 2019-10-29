@@ -1,0 +1,1 @@
+requestauthorizationtosharetypes calling back completion method

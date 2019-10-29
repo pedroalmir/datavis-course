@@ -1,0 +1,1 @@
+simple examples involves reading file outputting object having read dot notation working alternative complicated constructs nice supports reading tags improved performance dislike string constants code readable alternatives example particularly readable ideally expect able access dictionary tags dot notation find

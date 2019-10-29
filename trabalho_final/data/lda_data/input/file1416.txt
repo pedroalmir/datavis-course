@@ -1,0 +1,1 @@
+new fhir resources search specific resource type resource type rules rules contain conditions actions conditions connected operator conditions met actions shall performed specific resource type rules able define rules fhir

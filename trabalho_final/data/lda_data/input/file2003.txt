@@ -1,0 +1,1 @@
+reading dicom tags opendicom read dicom tag values

@@ -1,0 +1,1 @@
+fhirbase api project refer fhirbase github installation html local link install fhirbase server follow steps given document try execute api select fhir create storage resourcetype patient give error solve

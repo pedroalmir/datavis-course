@@ -1,0 +1,1 @@
+display dicom files folder run following code show dcm files matlab displays blank windows pixel values zero sub folder contains dcm files edited problem code tried code set dcm images worked working specific set dcm files resolution issue thanks

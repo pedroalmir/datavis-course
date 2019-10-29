@@ -1,0 +1,1 @@
+downloaded fhir server healthintersections fhirserver run server following command fhirserver –debug following error

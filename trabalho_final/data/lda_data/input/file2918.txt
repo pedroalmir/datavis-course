@@ -1,0 +1,1 @@
+request supposed query google fit aggregated heart rate data past months grouped time buckets three data points two single expected result two data points total reason solve problem code output

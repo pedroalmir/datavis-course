@@ -1,0 +1,1 @@
+set dicom images matlab add midline going images outputting images imshow function thanks edit random points middle run image

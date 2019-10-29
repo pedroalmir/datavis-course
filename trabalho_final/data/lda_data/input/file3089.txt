@@ -1,0 +1,1 @@
+working code convert dicom iamge dcm jpeg format code giving javax imageio spi imagereaderspi provider sun media imageioimpl plugins pcx pcximagereaderspi found error error receiving idea missing

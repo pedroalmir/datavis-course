@@ -1,0 +1,1 @@
+currently working medical research app swift based researchkit framework written objective currently trying create survey healthkit question code right line results error find initializer orkhealthkitcharacteristictypeanswerformat accepts argument list type characteristictype string

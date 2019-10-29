@@ -1,0 +1,1 @@
+app makes healthkit calorie entries runs hkstatistics queries fetch calorie data manually numerical value know written figure way set query returns data source isn app predicates set raises saying type operator allowed querying source key apple intentionally made possible operator works fine

@@ -1,0 +1,1 @@
+currently trying work google fit api app api mainly following google documentation code problem problem doesn updating step counter

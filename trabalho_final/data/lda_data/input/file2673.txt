@@ -1,0 +1,1 @@
+believe libraries easily accessible nim open load dicom medical image files nim following libaries https dicom offis dcmtk php sourceforge projects gdcm https github dgobbi vtk dicom https imebra https github xtk readme thanks help page sample dicom images

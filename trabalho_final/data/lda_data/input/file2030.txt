@@ -1,0 +1,1 @@
+check heathkit authorized read user data authorized segue workouts pop alert requestauthorizationtosharetypes return true reference user authorized alternatively tried authorizationstatusfortype switched enum values problem authorized

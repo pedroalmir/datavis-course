@@ -1,0 +1,1 @@
+notice fhir resource types property identifier type identifier set resources system value wondering search resources given identifier ideally search resources types given identifier don think easy way specify url searches types example patient resource identifier system mydomain value find server hapi dstu instance

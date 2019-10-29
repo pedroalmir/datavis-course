@@ -1,0 +1,1 @@
+wondering hounsfield values handled visualizing datasets range unit contains negative values problematic handle example multiplying attenuation factor ray casting assuming converted range represents air bones correct assumption problem real number represented floating point dealt

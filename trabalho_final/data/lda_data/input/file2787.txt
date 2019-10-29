@@ -1,0 +1,1 @@
+python tool receiving message server validate message send back acknowledge message message received valid method cursory check fully validate message actually validate message

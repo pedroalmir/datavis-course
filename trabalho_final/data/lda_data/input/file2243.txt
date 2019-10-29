@@ -1,0 +1,1 @@
+matlab following code part rayryeng answer three dimensional matrix interpolation matlab example dimensions aslo matlabs syntax size rows columns slices dimenson python syntax size slices dim rows columns convert matlab code python code occurred error wrong thank

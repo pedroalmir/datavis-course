@@ -1,0 +1,1 @@
+trying simple fhir patient bundle https vonk fire bundle put postman able working simply copy inner patient resource data put directly https vonk fire patient endpoint works fine example did url https vonk fire patient deb please please point direction exactly going wrong bundle

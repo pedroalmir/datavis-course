@@ -1,0 +1,1 @@
+trying track user steps taken session sessions seconds minutes start session start walking minute later stop session returns steps code running current date represent start session user stops session end session call function two variables created unfortunately stepcount returning wrong

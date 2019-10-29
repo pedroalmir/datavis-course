@@ -1,0 +1,1 @@
+strange reason executing returned date component summary query returns data correct date date data tried setting timezone locale results remain summary model hkacitivitysummaryquery

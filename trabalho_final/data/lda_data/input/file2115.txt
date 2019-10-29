@@ -1,0 +1,1 @@
+new xml files general trying replace specific lines xml file statements python looking suggestions elementtree posts online fit problem file followed replace conditional statements repeated multiple times files tried looping xml find find exact string match succeeded wasn able delete replace line probably having fact isn txt file help greatly appreciated

@@ -1,0 +1,1 @@
+trying obtain java model fhir specification accomplish task downloaded json schema try jsonschema pojo maven plugin generate source code create simple maven project put json schema defined following run goal obtain folliwing output problem classes generated folder ideas tnx advance

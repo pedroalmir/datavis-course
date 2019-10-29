@@ -1,0 +1,1 @@
+trying parse clinical information xml file standardized cda standard xml file best library found everest framework everest codeplex grate work did find examples achieve framework looking example deserialize xml file clinicaldocument class thanks

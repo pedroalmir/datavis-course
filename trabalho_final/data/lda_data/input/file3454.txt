@@ -1,0 +1,1 @@
+send message web service adding char carriage return \ segment terminator stored procedure calling web service send message service receives message saying adding extra char line feed \ segment terminators looked values sending \segment terminators make sure service receives \without extra \ looked haven found solution

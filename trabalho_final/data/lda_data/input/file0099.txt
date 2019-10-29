@@ -1,0 +1,1 @@
+scenario parse validate message works expected valid behavior try parse message validate validation method returns true exceptions thrown generate acknowledgment messages case validation fails message generateack method

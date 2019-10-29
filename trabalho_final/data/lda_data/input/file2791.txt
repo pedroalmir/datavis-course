@@ -1,0 +1,1 @@
+trying start workout session starting session method gets called

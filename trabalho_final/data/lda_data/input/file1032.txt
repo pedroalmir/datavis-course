@@ -1,0 +1,1 @@
+data types default schema doesn appear actually validate format possible instance recently customer sending timestamp missing digit example validate schema edit adding clarification hopefully intersystems healthshare adt comes passes validator extension default similar depending version looks code know put regex segment structure definition smpl data type definition

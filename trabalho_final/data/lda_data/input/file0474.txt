@@ -1,0 +1,1 @@
+itk simpleitk automatically cater rescale intercept slope metadata nifti files dicom files source doesn read metadata python went class access readimageinformation function

@@ -1,0 +1,1 @@
+creating class read dicom file basically binary file filled objects create solid class designed following wanted know think changes make class

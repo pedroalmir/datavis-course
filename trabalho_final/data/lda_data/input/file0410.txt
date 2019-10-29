@@ -1,0 +1,1 @@
+developing android app needs send alert fitness device worn user basically make band vibrate sound alarm checked bands mapmyrun jawbone exposing api

@@ -1,0 +1,1 @@
+working project received message validated xslt issue having message field gender pid comes string database gender field int trying make field gender read converts int value result looking pid field shows converts result getting currently pid field shows pushes

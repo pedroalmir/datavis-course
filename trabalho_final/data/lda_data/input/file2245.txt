@@ -1,0 +1,1 @@
+itk snap compare intensities regions interest conditions subjects realign image registration tool noticed intensity values specific segmentation drew reference image doesn change matter register value different two images manually register second image completely stay possible actual mean intensity segmentation depending registered image

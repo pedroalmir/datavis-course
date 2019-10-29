@@ -1,0 +1,1 @@
+code trying background fetch healthkit data code works fine run app manually perform background fetch debug command thrown error says sure code fetches data separate function processes data gets called results found paste pretty lengthy sure tried putting breakpoints completion handler called tell getting called missing silly advice please know thanks edit error message looks

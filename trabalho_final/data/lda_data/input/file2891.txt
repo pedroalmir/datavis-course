@@ -1,0 +1,1 @@
+implement transfer learning dense architecture searching found feature currently worked implement transfer learning niftynet answer clear straight way implement trying create dense restore weigths ckpt file implement transfer learning perform step thought niftynet network dense vnet module tried following following error question way implement

@@ -1,0 +1,1 @@
+trying google fit api android app followed guide created sha certificate keytool exe jdk bin folder created oauth client app result canceled trying figure problem two days added correct play services library android studio building client callbacks gradle

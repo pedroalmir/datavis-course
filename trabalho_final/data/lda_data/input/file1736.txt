@@ -1,0 +1,1 @@
+currently trying make android dicom app following code opens pictures drom res drawable ussual image formats doesn work dcm main activity thanks advance

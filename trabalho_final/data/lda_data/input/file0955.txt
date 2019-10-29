@@ -1,0 +1,1 @@
+write script extract header information dicom file don external libraries dicomsdl open file bloc notes special characters character string patient name help read file

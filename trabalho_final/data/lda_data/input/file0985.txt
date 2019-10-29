@@ -1,0 +1,1 @@
+message message getting checksum segments correctly segment generating checksum segment generated checksum matches given checksum getting checksum checksum encoded two characters character checksum includes character frame number computed adding binary values characters keeping least significant eight bits result don understand problem message problem thing java

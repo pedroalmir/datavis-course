@@ -1,0 +1,1 @@
+following instructions answer healthkit background delivery app running code runs fine works application open says background delivery successful test application walking changing clock device hour receive logs know run open application observer query runs query initialised appdelegate method didfinishlaunching

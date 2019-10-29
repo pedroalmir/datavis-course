@@ -1,0 +1,1 @@
+dcmtk application successfully compiled dcmtk ios simulator created workspace added dcmtk project application added files target dependencies linked binaries think missing part set header library search paths try header file say dcm xml says file found wrong dcmtk iphone project think simpler way framework

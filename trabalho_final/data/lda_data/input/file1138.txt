@@ -1,0 +1,1 @@
+looking way implement non rigid image registration minimal efforts maximal reuse existing code found plastimatch elastix isi libraries appear limited rigid registration non rigidity mandatory case help welcome

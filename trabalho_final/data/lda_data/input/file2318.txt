@@ -1,0 +1,1 @@
+fhir specification mentioned contained resource embedded reference documentation reference exists looking xsd figure validate xml patient xsd mechanism attempt correct way contained reference

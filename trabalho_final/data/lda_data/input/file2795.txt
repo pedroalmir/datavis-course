@@ -1,0 +1,1 @@
+starting niftynet medical image segmentation going software trying run demo segments images brats challenge dataset braintumorsegmentation downloaded brats data set pythonpath run command following error message sure messed advice welcomed

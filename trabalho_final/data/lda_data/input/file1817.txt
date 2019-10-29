@@ -1,0 +1,1 @@
+writing code create image pixel data stored medical image file dicom essentially two dimensional array rows columns element array contains colour pixel region image element values vary black white values differing shades grey language xojo allows set colour individual pixel canvas rgb hsv colour space instance hsv value pixel value reasonably light shade grey

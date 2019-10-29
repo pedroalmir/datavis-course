@@ -1,0 +1,1 @@
+built itk library ipad works tried make itk example tried possibilites load stack directory documents folder ipad path didn work idea load internet think trying dicom data patient name separate image data think possible end uiimage display ipad searched example sadly didnt found good got idea load dcm ipad idea image data object

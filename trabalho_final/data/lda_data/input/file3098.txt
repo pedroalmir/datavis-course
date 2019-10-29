@@ -1,0 +1,1 @@
+tried import dicom pydicom package got error performed following steps downloaded pydicom tar file extracted performed jython setup install cmd working due compatability jython python make pydicom working jython

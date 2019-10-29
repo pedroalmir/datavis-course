@@ -1,0 +1,1 @@
+swig generated python wrappers gdcm way pass file object having pass currently load dicom file method takes object know create acceptable object python ideally able results call

@@ -1,0 +1,1 @@
+new gdcm code simple laplacian filter dicom image gotten buffer image method access pixels coordinates array changing pixel values buffer original image trying learn dicom code actually know access pixel data change probably treat pixels array code

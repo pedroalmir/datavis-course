@@ -1,0 +1,1 @@
+niftynet medical image segmentation great tutorial spatial window shape parameter constraints https nbviewer jupyter gist fepegar wonder possible shapes logic bigger smaller spatial window shape size important setting parameter image labels inference sizes label image different interested border parameter affect choice

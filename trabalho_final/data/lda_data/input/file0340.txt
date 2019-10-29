@@ -1,0 +1,1 @@
+add second hkquantitytype health kit authorization add heart rate energy burned array quantitytypes add types line datatypes set arrayliteral quantitytypes quantity type array getting error convert value hkquantitytype expected argument type beginner think formatting array correctly

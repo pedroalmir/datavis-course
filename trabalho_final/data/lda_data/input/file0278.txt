@@ -1,0 +1,1 @@
+did pca image datasets pcs features linear svm svm weights project weights original image space find regions image discriminative classification process inverse transform pca method weight vector resulting image positive values svm weights positive negative makes think approach valid suggestions thanks advance

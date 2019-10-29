@@ -1,0 +1,1 @@
+new dicom world trying read patient name study details dicomdir file database code console application execute error directoryrecordsequenceitem record value returning null line entering loop help returning null value able find put breakpoint debug thanks advance sunil

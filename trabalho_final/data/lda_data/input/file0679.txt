@@ -1,0 +1,1 @@
+read dicom format file display manualy file jpeg png option works file time dicom files multiple dicom data files jpeg format folder read file time tried multiple files

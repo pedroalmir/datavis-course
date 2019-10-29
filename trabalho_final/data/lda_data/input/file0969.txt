@@ -1,0 +1,1 @@
+trying workout healthkit code prompting user permission accepting code creates running activity lasts hour burns calories distance saving workout hkhealthstore gives success value yes nil error point expect opening health app find workout distance calories burned missing

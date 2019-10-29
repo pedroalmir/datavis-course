@@ -1,0 +1,1 @@
+following script upload dicom images xnat instance know correct way slow data structured somedir] patientid] sessionid] scans scanname] dcm

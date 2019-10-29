@@ -1,0 +1,1 @@
+trying create image viewer dicom image program reads bit colour grayscale image correctly try open bit image bits image parts missing pixels uses bit dark whilte don know window centre window width rescale slop intercept please help giving exact steps convert bit image bit image don view files uses compression technique store pixels thanks advance

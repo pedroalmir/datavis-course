@@ -1,0 +1,1 @@
+currently developing android application related fitness data application step count heart rate bpm sleep duration exercise data fetch data hourly basis bucketbytime hour aggregate activity summary activity summary data activities withing hour filter exercise data practical exercise types listed api looking alternative solution

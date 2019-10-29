@@ -1,0 +1,1 @@
+regarding development version fhir xxxx problem observation resource consider device having devicecomponents delivering specific devicemetrics create observation specify type specific devicemetric devicecomponent

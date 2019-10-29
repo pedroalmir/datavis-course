@@ -1,0 +1,1 @@
+working iphone app simple app showing heartrate results healthkit nice way step show results raw text unfortunately getting following line telling thread signal sigabrt know did wrong hint direction rest code looks

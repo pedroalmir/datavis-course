@@ -1,0 +1,1 @@
+trying read dicom file python pydicom library dicom data data correctly error messages tried print result pydicom dcmread tried python worked checked meta information compared dicom files processed didn find difference come problem

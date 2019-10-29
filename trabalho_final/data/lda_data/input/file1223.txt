@@ -1,0 +1,1 @@
+xcode mac downloaded itk vtk cmake installed itk vtk cmake created xcode projects itk vtk cmake set target build run target install run tests vtk work say create xcode project cocoa app reading displaying dicom files itk vtk libraries understand example dicomimagereadwrite cxx creating cocoa aplication example similar xcode projects osirix xcodeproj try run mistakes appear

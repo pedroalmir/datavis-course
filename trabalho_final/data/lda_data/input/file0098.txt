@@ -1,0 +1,1 @@
+write script extract pixeldata dicom file don external libraries dicomsdl help write algorithm extract show image

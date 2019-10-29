@@ -1,0 +1,1 @@
+way capture event user starts walking running google fit sdk running continuous background service keep track user running walking battery consuming google fit sdk documentation mentions start end session callbacks don understand register callback running walking events

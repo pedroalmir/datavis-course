@@ -1,0 +1,1 @@
+working project lidc idri dataset contains lung images dicom file dcm data organized folders folder images scan clarification give example three scan folder system follow principle images folder scan question read images folder system mean folder folders code reading images run gives error change folder system remove two folder scan works error tell solve please

@@ -1,0 +1,1 @@
+currently working holter monitor successfully show heart rate bpm heart rate measurement characteristic bluetooth show ecg line graph raw heart data voltage amounts specified reach information interval sensor contact status characteristic don know raw data possible missing feature characteristic way data heart monitor

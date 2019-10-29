@@ -1,0 +1,1 @@
+patient registration system standalone web service fhir applications request data web service cases retrieve information multiple patients example list patients inefficient search patient based individually cause overhead networking searching possible search multiple patients set ids able handle wonder fhir standard supports

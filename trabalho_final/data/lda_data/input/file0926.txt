@@ -1,0 +1,1 @@
+vtkdicomimagereader patient information name descriptive name studyid studyuid image data wanted patient vtkdicomimagereader doesn function posisble solutions vtkmedicalimagereader library read dicom image dcm file extension itk snap best way patient thanks bunch

@@ -1,0 +1,1 @@
+trying dcmj pnm binary dcmtk toolkit convert dicom file set bmps following command keep getting error change unencapsulated representation pixel data know process image

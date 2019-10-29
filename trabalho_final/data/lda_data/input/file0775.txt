@@ -1,0 +1,1 @@
+experiencing issue adding file dicomdir based example successfully created saved disk image series tried adding file dicomdir dir references new file saving successful try open dicomdir series tag found dataset code follows series opening method don know missing regarding saving dicomdir file error

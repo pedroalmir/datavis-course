@@ -1,0 +1,1 @@
+healthkit create hkobserverquery execute enablebackgrounddeliveryfortype wondering call disablebackgrounddeliveryfortype disable registered hkobserverquery delete

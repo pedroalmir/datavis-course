@@ -1,0 +1,1 @@
+trying understand model classes getting generated given fhir resource link build fhir vhdir structuredefinition vhdir organization html xml schema json schema schematron way generate source java classes

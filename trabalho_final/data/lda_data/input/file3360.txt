@@ -1,0 +1,1 @@
+fhir rest fhirclient update resources local fhir server receive following identify happens way debug issue going endpoint returned body contenttype text html valid fhir xml json body type expected fhir endpoint part stack trace receive

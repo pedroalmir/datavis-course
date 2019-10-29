@@ -1,0 +1,1 @@
+python pydicom module load patient sample convert dicom struct contour data image coordinate test function dicom files find returned wrong points data negative data guess method convert dicom struct contour data image coordinate wrong find way method wrong implement thanks advance

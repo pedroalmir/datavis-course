@@ -1,0 +1,1 @@
+calculating distance slices image position distance millimeter convert pixel pixel spacing tag dicom present physical distance pixel row column image calculate distances slices pixel value tag

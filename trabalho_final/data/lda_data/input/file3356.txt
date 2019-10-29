@@ -1,0 +1,1 @@
+trying remove complete branches patient study dicomdir file class sequenceofitems additem item function clear function removes items removeitem item function remove items sequence possible example

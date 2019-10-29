@@ -1,0 +1,1 @@
+built app gathers workout data healthkit external sources saved server users view workouts feed initially set query handled app opened realised database gets updated user opens app causes issues don open app looked solution apple allows access healthkit data users phone unlocked way run healthkit query new workout added healthkit deal background

@@ -1,0 +1,1 @@
+fhir dtsu requirement associate charges encounters trying find way associate encounter resource claim resource ideally claim reference encounter way capture relationship adding extension claim contains reference encounter appropriate create relationship reference claim encounter resource specs fhir claim html fhir encounter html thanks

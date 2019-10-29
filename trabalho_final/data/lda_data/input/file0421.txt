@@ -1,0 +1,1 @@
+example obr segment reference table following headers seq length opt rpt tbl name observations seq fairly self explanatory field number segment things length looks fairly straightforward length data looks data type things name self explanatory full name field main things don know opt mean column things rpt mean column things tbl mean column things

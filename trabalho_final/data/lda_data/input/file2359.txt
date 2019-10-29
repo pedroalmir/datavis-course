@@ -1,0 +1,1 @@
+trying run move rtdose given rtplan tried find rtdose references rtplan expected result single item getting multiple items find scu result question getting multiple results dose references rtplan question replacing findscu movescu error syntax syntax supported movescu given rtplan object query corresponding rtdose thank

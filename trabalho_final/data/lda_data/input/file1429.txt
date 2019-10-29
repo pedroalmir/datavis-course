@@ -1,0 +1,1 @@
+looking define medication schedule fhir medicatation prescription resource data model aside schedule follows drug medication start date end date administration times site route example amoxicillin orally times know possible existing dstu specification cheers

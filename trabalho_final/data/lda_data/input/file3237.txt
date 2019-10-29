@@ -1,0 +1,1 @@
+new smart fhir creating demo application training purpose fhirclient specific vital information patient temp weight specified period date months know date filter search api

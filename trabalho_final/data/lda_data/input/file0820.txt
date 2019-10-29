@@ -1,0 +1,1 @@
+setup app connects google fit reads writes data users body user disables google fit apps settings try revoke apps permissions calling successfully read write data disabling fit returns error edit added method visible client connected moment try disable fit

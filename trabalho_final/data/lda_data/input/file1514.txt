@@ -1,0 +1,1 @@
+currently working xml fhir resource found element resource cross reference resources encounter resource element serviceprovider cross reference resource organization case way specify elements resource organization encounter resource xml validated correctly

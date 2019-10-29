@@ -1,0 +1,1 @@
+looking fhir rest apis complex queries server patient data search parms url specified implement standards fhir search html gives basic operations dates nesting groupings query criteria looking example post xml representation query server results back capability exist examples thanks

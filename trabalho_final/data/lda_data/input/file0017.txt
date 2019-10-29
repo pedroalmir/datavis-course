@@ -1,0 +1,1 @@
+scenario retrieve multiple sets data healthkit body temperature weight blood pressure continue processing going end pdf naive approach going run hksamplequery resultshandler call second resultshandler call third feels don know feels missing better way naive approach reasonable

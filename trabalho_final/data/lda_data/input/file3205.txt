@@ -1,0 +1,1 @@
+working medical images dicom images classify three different class diseases don equal distribution training images class valid approach copy paste unequal ones equal number better way

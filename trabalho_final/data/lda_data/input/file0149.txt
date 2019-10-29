@@ -1,0 +1,1 @@
+brand new clearcanvas dicom files general right trying simple desktop application working added clearcanvas dll project sure actually reading dicom file ideally able access tags separately read file appreciate initial code started thanks

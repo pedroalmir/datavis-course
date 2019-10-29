@@ -1,0 +1,1 @@
+trying set graph background dicom image followed example image data given isn rgba sure convert sure exactly bokeh expecting tried finding specifics documentation luck code doesnt give errors doesn display pixel array doesn alpha data defaults sure figure test solved pointed needed map pixel data rgba space instance means duplicating data channel setting alpha way

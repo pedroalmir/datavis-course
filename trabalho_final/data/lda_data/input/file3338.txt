@@ -1,0 +1,1 @@
+developing app fitness data apple healthkit library apple healthkit found getting error followed steps mentioned github didn run react native link command app stops compiling due autolinking error experience working expo pure react native app following code able find solution working mac given capability accessing healthkit app please help solve tia

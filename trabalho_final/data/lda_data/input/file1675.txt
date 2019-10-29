@@ -1,0 +1,1 @@
+xml able generate hapi libraries xsl change format xml following template current template looks obx segment digital value interprets obx units measure trying interpret obx come clients style duplicates caret current template ignores able value segment substring result produce thanks advance

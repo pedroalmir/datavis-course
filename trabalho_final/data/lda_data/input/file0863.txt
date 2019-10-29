@@ -1,0 +1,1 @@
+suppose new patient trying book appointment fhir apis name name dob phone number system appointment resource specifies actor reference patient resource case created patient system trying book appointment time patient details post details appointment resource post create appointment

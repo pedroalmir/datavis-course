@@ -1,0 +1,1 @@
+currently working program requires read dicom files display correctly extracting pixel array dicom file ran function matplotlib surprise yield vastly different images color shows detail confused happening found difference plt show imshow tried converting pixels brg rgb uses changes wondering frameworks show pixel buffer differently code image show outcomes

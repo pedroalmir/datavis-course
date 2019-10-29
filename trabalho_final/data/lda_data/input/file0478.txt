@@ -1,0 +1,1 @@
+trying train vnet architecture set mri volumes try adding channel different echo time image effectively making niftynet allows image input received error messages stating vnet allow input contains time dimension best place make change source code combine channels thanks

@@ -1,0 +1,1 @@
+trying develop android app bring user fitness data daily step count google fit got code google fit history api sample example please tell put oauth clientid android studio project code give step count log message firebase app initialisation unsuccessful

@@ -1,0 +1,1 @@
+code extract heart rate custom class says self heartratequery defined class correct coz class heartratequery new swift please tell deal extract heartrate correction code put code interface controller

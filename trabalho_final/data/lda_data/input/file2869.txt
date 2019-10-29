@@ -1,0 +1,1 @@
+custom code creates structure definition based user inputs way works set differential getting structure definition requirements user generates snapshot finally persist local storage fhir server tried following code snippet validate structuredefinition persisting database validationresult null matter structuredefinition pass know correct way validate customized structuredefinition

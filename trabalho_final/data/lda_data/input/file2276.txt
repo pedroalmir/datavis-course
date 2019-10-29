@@ -1,0 +1,1 @@
+documented guidance constructing fhir urls recommended case sensitive implementers define behavior context specific requirement resource names urls pascal cased implementers decide

@@ -1,0 +1,1 @@
+sorry good dicom trying write dicom tag chinese words dicom found tag value show messy code result file please help review code resulting file looks blew dcmtk editor help thanks advance joe updated sure dicom file editor support chinese character set attribute value chinese viewed properly thanks

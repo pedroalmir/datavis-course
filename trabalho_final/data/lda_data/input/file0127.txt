@@ -1,0 +1,1 @@
+following code two main things connects google play services onconnected method service started calling startservice method run program following log message code second class basically intent service mistake ideas went wrong thanks theo

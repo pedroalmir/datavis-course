@@ -1,0 +1,1 @@
+trying compile setup file pymedtermino getting message error package directory \utils exist typing python destination folder\setup build getting output suggestion helpful

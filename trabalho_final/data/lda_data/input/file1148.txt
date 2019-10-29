@@ -1,0 +1,1 @@
+medical binary image got manually thresholding grayscale medical image thresholding noticed overlapped regions histogram contained pixels type glandulat tissue type considered threshold range fat tissue considered threshold range post process binary image exact pixels glandular tissue discarding effect wrongly thresholded pixels overlapped region please help

@@ -1,0 +1,1 @@
+trying meshlab software smoothing stl file exporting mesh wrl file laplacian smoothing laplacian smooth smoothing steps boundary smooting contangent weighting applying smoothing filter worked nicely exported file saved open saved file goes back original smoothed version time problem persists export mesh stl file sure bug don know missed idea problem thanks advance

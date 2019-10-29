@@ -1,0 +1,1 @@
+pacs server running conquest list studies series dcmtk standalone applications basic operations select study select serie obtain patient information obtain data work webpage prefer lightweight server idea create simple queries pacs server dicom protocol suggest forums pages ideas libraries

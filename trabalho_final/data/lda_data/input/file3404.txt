@@ -1,0 +1,1 @@
+getting error expression type hkanchoredobjectquery ambiguous content healthkit code line heartratequery hkanchoredobjectquery type quantitytype predicate nil anchor anchor limit int hkobjectquerynolimit query sampleobjects deletedobjects newanchor error void code copy pasted sample project runs errors line project brings error beginner appreciate tips code

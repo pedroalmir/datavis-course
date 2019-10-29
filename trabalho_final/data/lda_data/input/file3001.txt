@@ -1,0 +1,1 @@
+writing program idl read dicom images store big matrix finally dat file dicoms name wrote code getting error idl version sure loop dicom name store big matrix full data make matrix possible make dimensions

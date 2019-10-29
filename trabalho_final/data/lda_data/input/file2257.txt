@@ -1,0 +1,1 @@
+prescription sigs tat taken useful reminder pharmacist relay antibiotic prescriptions fhir medicationorder dosageinstruction includes asneeded code boolean typically pain medication taken needed heart medication taken rigorously marking asneeded false imply prescription finished tat represented extension untilresolved extension value false

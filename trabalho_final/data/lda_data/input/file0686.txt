@@ -1,0 +1,1 @@
+setting healthkit official manual says read user health records enabled passed three steps make work health records capability disabled check result app crashes saying authenticate request health records enable xcode version beta ios sdk entitlement file account settings code crash report

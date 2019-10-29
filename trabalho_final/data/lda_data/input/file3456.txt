@@ -1,0 +1,1 @@
+attempting apple healthkit authorization modal app settings allow user toggle info sharing automatically pops authorization screen least hours later prompt needed meant similarly pushmessage requests user prompted prompted request skeptical add modal prompt app initial load intrusive full screen modal called

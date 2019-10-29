@@ -1,0 +1,1 @@
+rest api needs produce fhir xml fhir json generated java classes xsd xml works json object looks funny includes attributes suppress specified rest api produces application json fhir mediatype application json mediatype application xml xml output json output rid value attribute

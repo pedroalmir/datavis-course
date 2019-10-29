@@ -1,0 +1,1 @@
+read dicom files written following code read files store data cell array process later single dicom file contains data execute code took minutes complete iteration point performance issue following code

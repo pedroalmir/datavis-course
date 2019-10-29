@@ -1,0 +1,1 @@
+reading attributes dicom file directory takes time code reading dicomdir

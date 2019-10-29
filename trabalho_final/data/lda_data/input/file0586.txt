@@ -1,0 +1,1 @@
+trying load monochrome dicom image file dcmtk example code provided docs support dcmtk docs mod dcmimgle html file trying compile dcmtest cxx contains following code trying compile code got dcmtk getting error tried relevant sections library able resolve issue running ubuntu downloaded dcmtk latest snapshot dicom offis dcmtk php know causing compilation issue

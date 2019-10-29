@@ -1,0 +1,1 @@
+healthkit app getting permission user accessing healthkit data authorisation check authorised status particular healthkit object type returns access denied enum integer value code method throws help

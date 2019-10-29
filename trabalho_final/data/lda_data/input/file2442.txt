@@ -1,0 +1,1 @@
+working images processing matlab trying segment malignant cancerous lung nodules initially managed segment lung possible nodules following matlab code apply filter filter benign noncancerous nodules looking solution long time haven found way continue segmented lung update consider nodule size greater malignant cancerous calculate size image

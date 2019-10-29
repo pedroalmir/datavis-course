@@ -1,0 +1,1 @@
+similar question defining medication schedule fhir dstu show medicationorder specified times take days sure multiple dosageinstructions time multiple timing instructions event datetime way considering thanks

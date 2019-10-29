@@ -1,0 +1,1 @@
+start project deals dicom data manipulation visualization part basic research found toolkits itk vtk performs data manipulation medical image data question itk vtk dicom image manipulation segmentation registration better choice itk opencv better option alternate toolkits exists likely achieve requirement suggestions sources links related topic helpful

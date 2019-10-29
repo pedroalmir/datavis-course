@@ -1,0 +1,1 @@
+understanding wwdc video healthkit api allow apps query measures allowed read impression health kit api allow users query health kit kinds data allowed write able find command info listed docs thanks suggestions

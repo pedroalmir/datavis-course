@@ -1,0 +1,1 @@
+two dicom images compute mean squared error images code inherent shift image compared imager slightly misaligned easy way compute shift two numpy arrays tried shifting array pixels direction computing minimum msq robust help advice appreciated

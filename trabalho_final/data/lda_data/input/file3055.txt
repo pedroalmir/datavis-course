@@ -1,0 +1,1 @@
+following code step count found step value current step value changes step value reset continues increment aggregate previous steps cumulative steps close currently shows everytime run code steps value doesn reset taking past values uninstall reinstall app starts know exactly counting steps

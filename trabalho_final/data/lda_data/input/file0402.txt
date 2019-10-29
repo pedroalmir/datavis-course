@@ -1,0 +1,1 @@
+dicom image loaded matrix matlab question show specific slices image orthogonal direction view slice position

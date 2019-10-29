@@ -1,0 +1,1 @@
+working dcmtk communicating pacs client side findscu getting list pacs server following bat file code list series code series number series uid modality question series description code tried send tag code series description code value returning server side

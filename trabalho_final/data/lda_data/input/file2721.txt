@@ -1,0 +1,1 @@
+hkanchoredobjectquery updatehandler multiple types healthkit sample data returns data hkquantitytypeidentifierstepcount hksampletypes code help appreciated func readhealthkitdata type hksampletype

@@ -1,0 +1,1 @@
+trying image slicer function split dicom image tiles recognizing dicom read dicom converted arrays dcm files able view image trying slice error image object attribute read thanks

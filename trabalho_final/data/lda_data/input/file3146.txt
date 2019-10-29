@@ -1,0 +1,1 @@
+open apple watch app swift assuming parent iphone app running background getting error

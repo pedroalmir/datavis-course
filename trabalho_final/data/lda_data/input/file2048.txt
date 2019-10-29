@@ -1,0 +1,1 @@
+trying generate java code xsd fhir downloaded code generation schema ran got following imported eclipse xsd errors fhir base xsd sure solve example account xsd directory

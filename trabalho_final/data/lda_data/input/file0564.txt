@@ -1,0 +1,1 @@
+working scans medical images raw format basically matrix voxels slices extract slice file separate files result definitely looks chest scan texture image strange pixels misplaced relevant info located associated mhd info file sure look

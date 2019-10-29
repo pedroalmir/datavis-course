@@ -1,0 +1,1 @@
+fhir bundles vendor patient encounter observation flag resources total option store resources json values come process normalize nested structures separate tables going traditional tools analytics build dashboards tools support json natively former best easiest way build generate normalized tables programmatically

@@ -1,0 +1,1 @@
+trying test connectivity dcmqrscp following command starting dcmqrscp please find config file created \dicom\echo running dcmqrscp command following echoscu command test connectivity dcmqrscp getting following error observation normal echoscu operations data dictionary loaded correctly logs echoscu couldn find data dictionary load operations please help resolve issue

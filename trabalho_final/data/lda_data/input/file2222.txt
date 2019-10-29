@@ -1,0 +1,1 @@
+trying teach hapi fhir api starting creating message java able looking example official documentation page add information message adding segments message contains msh pid couldn find complete examples looking github code tackle thanks advance

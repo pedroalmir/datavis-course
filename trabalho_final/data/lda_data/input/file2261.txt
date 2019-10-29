@@ -1,0 +1,1 @@
+setting new open source fhir server https github microsoft fhir server azure portal month free subscription following documents mentioned url deploying retrieve metadata service security issues access api don azure setup guide setup fhir server azure authorization authentication

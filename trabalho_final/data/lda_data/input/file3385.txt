@@ -1,0 +1,1 @@
+trying jni wrapper classes swig tool beginner library compilation downloaded cmake tool swig know utilize create java wrappers source folders body experience please share gdcm library good step step documentation currenly downloaded source code following structure please give hint start compiling jni classes source note windows machine

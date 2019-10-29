@@ -1,0 +1,1 @@
+working fhir api reference implementation utilizing existing resource models embedded library trying forge tool modify resources contraints extensions suit requirements noticed publishing mechanism generate models dstu onwards wondering best way converting profiles created forge resource classes fhir model assembly part reference implementation

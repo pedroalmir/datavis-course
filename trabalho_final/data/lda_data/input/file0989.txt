@@ -1,0 +1,1 @@
+getting ambiguous components error anchor components declaration running code

@@ -1,0 +1,1 @@
+parsing diagnosticreport json file works fine try print json file throught iparser encode function json different original print json original json string json step parse second step encode print result different text tag observation showed trying diagnosticreport generated software print completely json file thanks help

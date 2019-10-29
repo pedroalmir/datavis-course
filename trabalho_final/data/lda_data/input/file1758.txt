@@ -1,0 +1,1 @@
+try select healthkit activitysummaries new ios run code unit test nsinvalidargumentexception startdatecomponents date components require calendar wrong code code completely https developer apple library prerelease ios documentation healthkit reference hkactivitysummaryquery class index html tested xcode beta iphone plus simulator

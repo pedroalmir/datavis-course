@@ -1,0 +1,1 @@
+currently working project deals dicom files success parsing data collection dicom files problem occurs try deal pixel data dicom file pass canvas order show dwv library parse dicom file helped pixel data array pass function create new canvas context following result output image completely messed better approach solve problem

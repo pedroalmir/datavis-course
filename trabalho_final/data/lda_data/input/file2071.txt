@@ -1,0 +1,1 @@
+trying create simple dicom viewer plot image matplotlib show plot dicom image tkinter run code error please help error occurs try plot believe wuth way declared values

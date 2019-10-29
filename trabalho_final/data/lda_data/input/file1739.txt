@@ -1,0 +1,1 @@
+implementing fhir moment having trouble dealing appointment reasons know value set available https fhir valueset encounter reason html implement value set problematic reasons resource app practitioners add modify delete reasons various fields color value set won app hints ideas implement thing

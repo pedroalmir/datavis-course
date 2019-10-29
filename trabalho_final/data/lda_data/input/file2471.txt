@@ -1,0 +1,1 @@
+trying populate tableview data health app problem data comes different order time load screen functions getting data health app functions health data problem data comes time different order walkrundistance twice think async calls don know wait functions data cellforrowatindexpath function calling health functions data load tableview correct way

@@ -1,0 +1,1 @@
+trying develop tool visualize dicom images itk library problem drawing data gdcm library provided itk library third party lib reading image correctly retrieved tags retrieve pixels data put qpixmap qimage tried qpixelmap loaddata false return value qimage app crashes help thank

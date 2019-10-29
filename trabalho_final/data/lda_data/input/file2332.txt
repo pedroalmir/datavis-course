@@ -1,0 +1,1 @@
+read dicom tags dicomdir check file dicomdir trying know files haven dicomdir name

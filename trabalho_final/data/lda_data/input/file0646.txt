@@ -1,0 +1,1 @@
+creating fhir valueset codes small externally defined code list appropriate correct fhir specification composition inline codesystem example creating valueset following code list datadictionary nhs data dictionary attributes end ethnic category code asp advantages disadvantages method

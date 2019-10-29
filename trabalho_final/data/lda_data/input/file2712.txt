@@ -1,0 +1,1 @@
+currently trying convert data standard xml format format matching fhir resource xml trying research multiple avenues currently fixated wso enterprise service bus required functionality suspect xslt script useful purposes hoping discussion possible methods know conversion process thanks

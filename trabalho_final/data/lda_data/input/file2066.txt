@@ -1,0 +1,1 @@
+trying create new dicom file existing dicom file scenario dicom file image processing produce transformed processed file original file template things change pixel data rescale offset tags know achieve dcmtk looked various examples show jpg bmp image new dicom file

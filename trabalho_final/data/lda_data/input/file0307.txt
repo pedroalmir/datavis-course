@@ -1,0 +1,1 @@
+simple console application places dicom file stream copies stream jpg file code creates file view image code

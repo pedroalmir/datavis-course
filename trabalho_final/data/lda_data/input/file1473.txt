@@ -1,0 +1,1 @@
+found sample code fine call dcmqr result got error testing public pacs server dicomserver accepts find move commands tried conquest pacs result enyone know wrong

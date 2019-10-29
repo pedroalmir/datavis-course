@@ -1,0 +1,1 @@
+integrated health kit project working fine read health kit records records application asks permission health kit type identifiers read health kit data special permission code tried

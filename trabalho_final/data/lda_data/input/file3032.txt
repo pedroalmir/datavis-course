@@ -1,0 +1,1 @@
+implementing patient portal patients book appointment based hospital schedules slots availability process implemented request response synchronous model appointment resource post create appointment synchronous response knows appointment accepted booked body response situation body status status body created appointment status body appointmentresponse thanks

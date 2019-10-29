@@ -1,0 +1,1 @@
+trying write mindful minutes health app error hkobjectvalidationfailureexception reason value compatible type hkcategorytypeidentifiermindfulsession function amount

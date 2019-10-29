@@ -1,0 +1,1 @@
+niftynet implement deep learning medical image processing thing haven figured regarding data input join multi modality images demo brats different modalities configuration file directory images claim concatenate images know images concatenated slice slice slice slice slice slice slice slice control data organization part file modify suggestion greatly appreciated

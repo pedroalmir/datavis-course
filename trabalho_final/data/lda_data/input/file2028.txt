@@ -1,0 +1,1 @@
+trying receive dicom file memory libary rzdcx allows setting true run trouble documentation found says enableinmemorystoragescp true event return null zero length value change event matter return type wrong return type way avoid error return null value thought mean setting null zero length null continues saving regular zero length string gets stuck trying store file

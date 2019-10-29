@@ -1,0 +1,1 @@
+following code pynetdicom library query store images remote server scp machine scu running program following output echo works know associations working able query files server suggested output called pretty new dicom wondering case correct wrong think line supposed invoke insight store called appreciated

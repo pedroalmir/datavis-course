@@ -1,0 +1,1 @@
+androids sensor api measure heart rate variability requested application returns null checked manifest permissions effect working fine expect return valid sensor returns null ticwatch heart rate sensor sure heart beat working

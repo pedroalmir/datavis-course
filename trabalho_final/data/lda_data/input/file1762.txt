@@ -1,0 +1,1 @@
+program dicomrt matlab able convert dicom structure matlab got mat file load mat file matlab information applied dicom files link https github ulrikls dicomrt matlab

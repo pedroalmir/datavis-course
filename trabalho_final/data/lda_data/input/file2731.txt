@@ -1,0 +1,1 @@
+forgive began learn dicom knew dicom objects stored dicom server words pacs server basically works sql record stored table database sql server dicom world equivalent commands select insert update sql right question command retrieve dicom object stored dicom server btw currently working please help recommend good open source dicom client sdk thanks

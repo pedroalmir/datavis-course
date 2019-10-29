@@ -1,0 +1,1 @@
+rescale intercept rescale slope dicom image calculate window width window center

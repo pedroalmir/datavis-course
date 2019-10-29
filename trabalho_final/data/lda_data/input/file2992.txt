@@ -1,0 +1,1 @@
+question regarding find operation fellow oak dicom developed service wich implements find operation send found patients back tot ultrasound machine testing currently view emulator implemented code found forum receiving request send back dataset everytime ultrasound machine message items found help thanks advance andreas

@@ -1,0 +1,1 @@
+way convert dicom file bufferedimage dicom file mult frame set bufferedimages windows currently dcm che running problem dcm che uses jai thunks native dll clib jiio dll complied compiled windows know open source library thanks

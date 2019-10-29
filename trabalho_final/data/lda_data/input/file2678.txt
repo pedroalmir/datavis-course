@@ -1,0 +1,1 @@
+trying typescript definition file definitely typed having trouble referencing importing files definitions definitely typed fhir definitions errors saying fhir isn namespace module reference files don know idea angular typescript problem help appreciated thanks

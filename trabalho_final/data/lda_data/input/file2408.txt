@@ -1,0 +1,1 @@
+mirth data xml file ccd put sql server database install mirth connect administrator created new channel source xml file destination sql server database selected table database automatically mirth created query problem section insert database ccd document file xml structures two tag entry typecode driv insert database records entry tag example insert database records

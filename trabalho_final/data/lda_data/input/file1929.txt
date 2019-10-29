@@ -1,0 +1,1 @@
+modelled primary care appointment book fhir resources wanting model book allows slots held practitioner doctor nurse location held slot currently way representing schedule slot inference linked actor practitioner location create seperate schedule actor bundle practitioner location slots create single bookable entity

@@ -1,0 +1,1 @@
+google fit history api working fine inserting steps response returning success check google fit dashboard receiving data data syncing app google fit sync data currently google fit default app installed device

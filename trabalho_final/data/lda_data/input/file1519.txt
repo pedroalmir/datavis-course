@@ -1,0 +1,1 @@
+having trouble casting response valueset expansion valueset resource object currently restsharp rest call successful following outputs expected json tried produces null object sure making rookie error look fhir rest restsharp

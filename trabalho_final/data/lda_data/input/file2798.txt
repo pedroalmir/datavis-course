@@ -1,0 +1,1 @@
+trying build app reads data apple health app app asks user permission access data healthkit try read data granting app permission error message operation couldn completed foundation genericobjcerror error errors show xcode message appears testing device portion code gets permission healthkit portion code tries read data healthkit suggestions explanation error messages appreciated

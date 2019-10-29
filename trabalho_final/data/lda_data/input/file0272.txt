@@ -1,0 +1,1 @@
+simplest pythonic way parse dicom file native python implementation non python libraries preferred dicom standard file format digital medical imaging look information libraries support reading subset dicom files two three python bindings native python parser serve two purposes build external libraries learn dicom file format

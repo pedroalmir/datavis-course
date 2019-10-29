@@ -1,0 +1,1 @@
+attempting exchange messages xml encoding syntax release specification messages contain escape sequences obx field version messaging schemas don define element obx content type isn defined mixed causing schema validation fail message xml documents defect schema doesn appear match written specification customize schema make work found solution

@@ -1,0 +1,1 @@
+universal app i´implemented healthkit api runs great iphone try install actual ipad device works perfectly ipad simulator install getting error message info plist application specifies device capability requirements met ipad way distribute universal app healthkit api framework runs iphone heres two screenshots project make standalone ipad app

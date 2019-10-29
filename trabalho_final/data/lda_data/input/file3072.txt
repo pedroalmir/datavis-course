@@ -1,0 +1,1 @@
+capture handle user cancelling healthkit premissions completion block returns success nil error

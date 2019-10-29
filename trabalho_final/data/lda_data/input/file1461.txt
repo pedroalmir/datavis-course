@@ -1,0 +1,1 @@
+script generate collection strings loop assign string variable try execute function following error command line don errors code error

@@ -1,0 +1,1 @@
+retrieve hearterate internal watch sensor depending time app background deactivated heartratesamples retrieved retrieve date time specific sample written healthkit

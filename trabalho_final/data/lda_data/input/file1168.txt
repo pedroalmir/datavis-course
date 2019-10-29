@@ -1,0 +1,1 @@
+working working authorization ran smoothly two months changed code api request make following call correctly sends mapmyfitness site grant access enter valid username password redirects course website token made example remove part left actual callback runs correctly appears mapmyfitness correctly handling adding add callback error

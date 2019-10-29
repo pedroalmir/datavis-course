@@ -1,0 +1,1 @@
+two questions regarding evil dicom library know floats function pixel data contained float elements dimensional array question add individual elements value multiplied black white mask original image add non zero values image floats function data array add array elements add pixels image top left corner bottom right corner

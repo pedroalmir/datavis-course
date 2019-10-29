@@ -1,0 +1,1 @@
+niftynet train cnn gpus understand gpu trained independently two loss values iteration results gpus combined inference time believe multiple gpus reduces training time niftynet doesn case

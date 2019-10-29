@@ -1,0 +1,1 @@
+trying iterate pixels dicom file demo way pixels array reader object

@@ -1,0 +1,1 @@
+trying read dicom image itk reader convert vtkimagedata rendering convert itk image itk imagetovtkimagefilter render vtkrenderwindow origin volume set center volume set coordinate render window dicom image code

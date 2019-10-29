@@ -1,0 +1,1 @@
+make matlab gui reads displays directory dicom files gui needs file menu file menu file open function read directory dicom files idea help

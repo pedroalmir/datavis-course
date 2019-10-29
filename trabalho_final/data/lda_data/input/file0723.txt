@@ -1,0 +1,1 @@
+read config file stored location relative mirth connect installation directory example mirth installed opt mirth connect directory read file opt mirth connect conf directory specifying fully qualified path name multiple instances mirth different environments installed machine hard code full path channel configurations

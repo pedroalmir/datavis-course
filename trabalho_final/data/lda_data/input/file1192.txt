@@ -1,0 +1,1 @@
+trying delete records previously saved healthkit got error error says query records type predicate delete returned samples works type predicate helps issue thanks

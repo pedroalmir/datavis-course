@@ -1,0 +1,1 @@
+consuming files trying marshal hapi objects route sample unfortunately found message whish parsed \symbol causes parser fail find msh header cource fix simple string operation best solution found mllp protocol symbol message codec handle camel apache html question possible codec file ftp component handle conversion string parsing

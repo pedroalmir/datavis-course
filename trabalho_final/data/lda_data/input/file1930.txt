@@ -1,0 +1,1 @@
+new dcmj pnm succesfully converted dcm file jpg commandline win \dcmj pnm exe \test dcm \test jpg misses patient name organization name dcm file jpeg please guide thease details jpeg file

@@ -1,0 +1,1 @@
+understand purpose class sequence pydicom read example provided documentation page pydicom https pydicom github pydicom stable auto examples metadata processing plot sequences html sphx glr auto examples metadata processing plot sequences list dataset described example element dataset class understand required thanks

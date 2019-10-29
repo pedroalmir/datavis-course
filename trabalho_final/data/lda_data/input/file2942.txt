@@ -1,0 +1,1 @@
+develop app work dicom protocol result pixelmed library extract data files know imebra weak thing add pixelmed jar lib folder add line build gradle gives error try build run project idea solve problem

@@ -1,0 +1,1 @@
+code snippet presently works fine returns height information particular time range don set time range tried commenting settimerange line ended giving java lang illegalargumentexception invalid limit specified starttime impossible predict possible predict user inserted height details google fit deal scenario

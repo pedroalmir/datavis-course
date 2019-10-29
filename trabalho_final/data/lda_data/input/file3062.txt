@@ -1,0 +1,1 @@
+hapi fhir dstu application create medicationorder possibility updating deleting erroneous entries patientid created medicationorder writing code clause pretty problematic examples entries presents patient status code compile saying method icriterion type iquery applicable arguments boolean manage create iquery object please instruct proceed

@@ -1,0 +1,1 @@
+open health app updates values don actually open app healthkit update randomly scarsely example step data objects don pulled ios source comes apple watch actually open health app way update information programmatically health app querying coremotion making step object way wouldn help actually trying healthkit monitor heart rate

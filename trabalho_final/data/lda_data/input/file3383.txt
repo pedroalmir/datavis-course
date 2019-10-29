@@ -1,0 +1,1 @@
+struggeling reading dicom files installed oro dicom package set working directory files located trying read dicom file following error message help thank lena

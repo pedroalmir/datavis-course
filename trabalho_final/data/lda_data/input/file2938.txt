@@ -1,0 +1,1 @@
+installing additional packages anaconda work package pydicom downloaded unziped moved pydicom folder subfolder called contains ran didn spit errors ran couldn module open ipython successfully current directory import directory running centos put bashrc file

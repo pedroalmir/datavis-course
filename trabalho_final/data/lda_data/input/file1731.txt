@@ -1,0 +1,1 @@
+array contains dicom images pixeldata memory interpolate images spacing proportional spacing needs adjusted equal images basically apply formula pixelvalue pixelvalue prior image prior image pixelvalue img pixelvalue prior image img prior image better way interpolate array convert pixel values reason images bpp bpp bpp bpp uncompressed compressed pixel values deal thanks matias

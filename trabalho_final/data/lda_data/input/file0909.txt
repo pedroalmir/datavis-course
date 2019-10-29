@@ -1,0 +1,1 @@
+purpose trigger method user walks required steps code run app xcode shows read healthkit document says healthkit executes queries asynchronously background queue queries automatically stop finished executing stop long running query think two points matter possible achieve purpose fix

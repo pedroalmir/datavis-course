@@ -1,0 +1,1 @@
+trying dicom image manipulate opencv python environment pydicom library read dicom dcm image data pixel array attribute display picture opencv imshow method output blank window snippet code moment print array output different normal numpy array tried matplotlib imshow method able display image colour distortions way convert array legible format opencv

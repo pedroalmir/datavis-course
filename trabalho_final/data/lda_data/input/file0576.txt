@@ -1,0 +1,1 @@
+investigating fhir decision support context trying find extract accident information given patient assumed resource type find fits

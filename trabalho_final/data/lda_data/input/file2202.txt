@@ -1,0 +1,1 @@
+history api google fit step count app run service step count updated regular interval app foreground works fine step count app goes background services works fine fitness historyapi readdata fetch steps require steps count app background app killed problem code snippet debug method fitness historyapi readdata gives status time app background killed please help beginner android

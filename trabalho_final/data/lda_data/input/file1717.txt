@@ -1,0 +1,1 @@
+dcmtk send move command pacs dcmtk receives move rsp error know reason error，but don know pacs return values move rsp know move rsp status dicom， tag error message passed move rsp

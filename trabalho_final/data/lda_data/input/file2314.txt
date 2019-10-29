@@ -1,0 +1,1 @@
+fhir patient bundle json operation https fhir operation patient html interested smart fhir python client models make working json file easier example given following possible instantiate generic bundle object class able access different resources bundle

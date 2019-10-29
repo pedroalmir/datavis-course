@@ -1,0 +1,1 @@
+technical help google fit rest rest api making app requires access location information response request getting json access token made following request works request body correct response done following body datasourceid datatypename changed got tried fitness scopes read write

@@ -1,0 +1,1 @@
+working medical application based fhir trying add new record xml json internal server error xml trying post posting xml api server php curl getting internal server error tried json luck json spent days fix issue couldn find solution help appreciated thanks

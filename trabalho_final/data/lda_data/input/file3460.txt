@@ -1,0 +1,1 @@
+trying extract step data healthkit create summary step data grouped hour currently extract samples data date range provided sum step count date range asking way sum group samples statistics hour sql write seriously going query hkstatistics times write month step data grouped hour inefficient especially implemented

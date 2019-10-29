@@ -1,0 +1,1 @@
+currently initiator acceptor applications communicates sequentially make asynchronous process mean initiator application thread sends request backend application wait response backend make asynchronous right protocol

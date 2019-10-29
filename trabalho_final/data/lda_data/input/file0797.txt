@@ -1,0 +1,1 @@
+having trouble getting apple watch app track users swimming distance swimming strokes querying healthkit don receive samples workout configuration set pool swimming able receive samples running distance calories heart rate steps calculating swimming distance strokes possible health kit require custom code apple watch accelerometer gps

@@ -1,0 +1,1 @@
+created receive location pipeline mllp send traffic server set biztalk mllp configuration host property receive location address server set value localhost biztalk appear listen respective port port scanner open port mllp host property receive location set address server don reference actual address server local host changes reconfigured way

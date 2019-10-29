@@ -1,0 +1,1 @@
+developing fitness journey app uses healthkit import workouts apps users give read permissions future give app write permissions add info health app possible ask permissions step process goal overwhelm users asking info

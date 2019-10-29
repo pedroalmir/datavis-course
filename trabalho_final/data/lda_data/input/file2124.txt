@@ -1,0 +1,1 @@
+fhir api stu ver trying post documentreference resource following error generated parsing resource body indexedelement correctly formatted instant occurring parsing value indexed attribute instant datatype value passed form yyyy ddthh offset example different format passing values instant datatypes

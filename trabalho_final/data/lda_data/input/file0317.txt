@@ -1,0 +1,1 @@
+looking fhir documentation patient resource https fhir patient html find way specify patient room number pertains organization facility associated found location resource type https fhir location html location don associated patient thoughts

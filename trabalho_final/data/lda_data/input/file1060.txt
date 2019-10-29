@@ -1,0 +1,1 @@
+possible environmental variables mirth connect destination content destination url

@@ -1,0 +1,1 @@
+problem getting google fit data android wear requests getting timeout response await method parameters response await method did returned clues whats wrong app uses google sign works regular android device creating googleapiclient signinaccount login procedure done run

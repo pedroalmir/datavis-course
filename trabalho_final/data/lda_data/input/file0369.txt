@@ -1,0 +1,1 @@
+regards pipe delimited data exactly encoding characters \ work following example fields field repetitions components sub components correct parsing raw data

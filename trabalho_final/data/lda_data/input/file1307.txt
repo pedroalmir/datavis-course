@@ -1,0 +1,1 @@
+trying connect withings api restsharp return error client generated url

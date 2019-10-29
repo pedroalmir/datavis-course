@@ -1,0 +1,1 @@
+trying google fit api getting step count starter guide try paste code android studio find google android gms common api package googleapiclient class added gradle suggestions thanks edit changed gradle compile google android gms play services works know doesn work thanks

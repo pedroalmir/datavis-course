@@ -1,0 +1,1 @@
+healthkit read types information specifically asking write functionality problem comes trying detect user allowed health type read believe intended way hkhealthstore authorizationstatusfortype method returned denied unknown returning authorized write types found way method reading work

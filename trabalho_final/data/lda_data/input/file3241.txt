@@ -1,0 +1,1 @@
+vtk render model dicom files able display model tissue tissue mean example displaying bones skin found usefull class vtkcontourfilter possible higher second value deeper goes model way sample dicom files able display bones value set skin two contours bones skin problem manually tried different values know stop bones different sample way make automatic set dicom files

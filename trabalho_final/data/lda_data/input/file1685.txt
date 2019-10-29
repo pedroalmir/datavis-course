@@ -1,0 +1,1 @@
+dcmtk library function return three different outputs current image value looked standard documentation found voi lut function three values mention default voi lut function attribute absent confused matching dcmtk dealing images

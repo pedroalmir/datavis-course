@@ -1,0 +1,1 @@
+following code tries read dicom image getting passing file object points path \temp \testing dcm come line tries read dicom file gives error please help

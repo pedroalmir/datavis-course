@@ -1,0 +1,1 @@
+trying handle reasonably clear data structures encoding protocols remain mystified actual implementation mechanics sequence request ack response ack things ack ack receive nack ack pointers start looking learn things

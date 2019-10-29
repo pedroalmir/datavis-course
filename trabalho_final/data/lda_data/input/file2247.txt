@@ -1,0 +1,1 @@
+way load dicom image app droid dicom viewer able pass dcm file app load app view done intents

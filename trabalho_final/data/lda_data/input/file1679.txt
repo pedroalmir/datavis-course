@@ -1,0 +1,1 @@
+read dicom images imagemagic available ios

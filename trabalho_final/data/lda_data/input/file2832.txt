@@ -1,0 +1,1 @@
+currently working problem solve try integrate healthkit app normal solution works perfect currently working error handling inform user went wrong problem method saveobject asynchronous success set outer method returned false idea solve problem snippet code

@@ -1,0 +1,1 @@
+dcmtk library visual studio properties project set compiling error solve set dcmtk projet character set unicode looking error problem class logging probably try comment line code error compile unicode unique way solve problem problem commenting part

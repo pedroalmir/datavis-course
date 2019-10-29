@@ -1,0 +1,1 @@
+working lung data sets matlab sort slices correctly show knew done instance number parameter dicom header did manage run correct code piece code

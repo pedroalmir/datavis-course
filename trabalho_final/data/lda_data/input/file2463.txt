@@ -1,0 +1,1 @@
+thank read problem dataset images dcm two labels training images images tfrecords merge build dataset feed cnn model tfrecordreader read read data pick data print error second useful information image dcm rgb thank
