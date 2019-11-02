@@ -1,1 +1,0 @@
-beginner matlab working medical image processing retinal oct images aim align images height value find maximum height layer eye example input output returns height tried approach outlined hand height returns height complete image

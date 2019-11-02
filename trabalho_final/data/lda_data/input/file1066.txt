@@ -1,1 +1,0 @@
-trying make simple mllp client node made code creates connection server socket sends data server waits answer testing purposes hapi testpanel issue send data script hapi testpanel testpanel don anwser testpanel log says client connected turned debug option testpanel log says testpanel recieved bytes client end wrong script help thank script screenshot testpanel log

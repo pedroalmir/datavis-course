@@ -1,0 +1,1 @@
+serialis fhir resourc json java api try convert fhir object json string find api method avail java implement serial avail api similar api avail java implement pointer convert object actual string json represent default convers spring jackson convert work output correct json write custom object mapper

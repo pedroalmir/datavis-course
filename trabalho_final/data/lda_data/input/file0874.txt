@@ -1,1 +1,0 @@
-project trying read radiation therapy plan plan dicom file dicom thanks dicom editor know values stored different access trying read know value isn empty running code throws message found dataset mentioned know nested items sequences sequences thing tried analyse sequence stored opportunity handle variable doesn bring level sequence read nested child dicom tags sequences dicom

@@ -1,1 +1,0 @@
-represent mother child relationship two patient records fhir relatedperson model obvious permit linking two records supposed linking multiple records exact patient represent relationship

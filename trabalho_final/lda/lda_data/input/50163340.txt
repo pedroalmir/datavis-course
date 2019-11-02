@@ -1,0 +1,1 @@
+creat hl7 messag oru type hapi newbi hl7 try construct hl7 messag oru type hapi got incorrect messag format add patient detail code format fix issu exampl construct hl7 oru messag pid orc obr obx output patient msh abc clinpath abc vet abc vetm oru output patient comment patient detail code pid test testlinpath abc vet abc vetm oru tri wai work

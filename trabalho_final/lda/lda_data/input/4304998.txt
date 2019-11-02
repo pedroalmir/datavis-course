@@ -1,0 +1,1 @@
+close reopen socket hl7 messag try open basic connect hl7 server send request ack respons done continu done continu close socket implement correctli case close socket open javadoc connectionhub indic follow real life open new connect close result 1st pass goe perfectli request ack receiv subsequ call method result client side remov call run fine amount time socket close

@@ -1,1 +1,0 @@
-writing app swift uses apple healthkit trying write max metric sure unit health app unit listed min don apple documentation code looks put place second line reference code write say cycling distance looks note hkunit mile attempt metric say count error don know set unit volume mass time

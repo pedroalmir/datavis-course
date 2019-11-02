@@ -1,1 +1,0 @@
-application uses dcmmkdir exe create dicomdir file bunch dicom files problem put information dicomdir file creates file name similar dda command line args follows files created dicomdir size please know information thanks advance

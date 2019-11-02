@@ -1,0 +1,1 @@
+dicom bufferedimag pixelm have low contrast displai dicom imag java program pixelm found correctli displai correct contrast contrast low code sourceimag class provid pixelm chosenimagefil getpath path dicom file dicomimgdisplayer1 class extend jpanel setimag jpanel class call setimag jframe class jframe class setimag code wrong color model pleas help thank

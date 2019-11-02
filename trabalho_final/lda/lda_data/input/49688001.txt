@@ -1,0 +1,1 @@
+convert dicom imag nrrd imag preserv pixel space try convert seri mri dicom imag dcm nnrd format found slicer manag problem new nrrd imag creat lost pixel space origin dicom imag addit set convert imag untick compress box problem instanc check imag origin dcm new nrrd imagej know solv altern preserv pixel space accept thank advanc tommaso

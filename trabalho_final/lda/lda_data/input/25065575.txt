@@ -1,0 +1,1 @@
+send xml messag post requir send hl7 messag pars xml messag end point host iol sandbox ohi port usernam admin password admin method post path rest patient apach httpclient achiev code sure pass actual xml messag send basic try send hl7 messag pars xml post grate help miss code snippet

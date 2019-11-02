@@ -1,0 +1,1 @@
+construct post request messag medicationord resourc hapi fhir write java code gener post request medicationord resourc hapi fhir dstu2 hl7 come troubl set refer valu contain resourc contain resourc present gener xml messag oper outcom intern server error messag expect outer element call feed found medicationord familiar medicationord resourc pleas help java code

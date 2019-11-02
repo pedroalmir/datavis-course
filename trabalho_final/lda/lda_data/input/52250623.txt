@@ -1,0 +1,1 @@
+permiss deni run python script whnich try open dicom file run local python flask servic open analyz dicom file window env python pydicom run line pydicom dcmread dicom permiss error happen catch tri runa cmd window call python servic script happen json mean access file path dicom list analyz file jped format suggest

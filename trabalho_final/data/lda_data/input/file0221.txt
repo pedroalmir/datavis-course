@@ -1,1 +1,0 @@
-playing fhir recently find way cleanly getting newly created resource extracting header code chance server store history cause fail chance part url vary hardcoded value isn good idea add statements cleaner way getting

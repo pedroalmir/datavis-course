@@ -1,1 +1,0 @@
-app requesting data google fit dataset aggregate function works fine heart rate speed distance stopped working working location data request template datatypename google location sample request returns location data private change google api side different way request location data scopes app authorized note list includes fitness location read thanks advice

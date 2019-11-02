@@ -1,1 +1,0 @@
-process dicom dataset display vtk know advance graphic card able display volume tried glgetintegerv max texture buffer size ext size gives maximum number texels rendered graphic card try compare output vtkimagereader getoutput getdimensions dimensions thought dimensions dimensions dimensions size vtk throw error didn happened glad hear ways point wrong

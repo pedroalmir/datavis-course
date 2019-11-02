@@ -1,0 +1,1 @@
+dcmtk command extract patient dob extract date birth dob patient dicom imag reason extract chang month date patient dicom imag maintain privaci patient know chang dob dcmtk chang full date keep intact 1st extract dob chang wai keep don know dcmtk command get patient dob dicom imag know command

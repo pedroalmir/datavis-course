@@ -1,1 +1,0 @@
-essentially steps follow point right direction reading file dicom reading medata dicom create table values value

@@ -1,0 +1,1 @@
+fhir resourc linkag memori object explor java fhir refer implement look repres data model fhir object understand fhir rest base least built mind suppos simpli memori fhir object repres data don expos rest servic look common represent data specif look best practic creat refer memori object build type relationship

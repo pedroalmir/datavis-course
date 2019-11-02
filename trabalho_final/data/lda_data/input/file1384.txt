@@ -1,1 +1,0 @@
-developing system able create structured report pacs obviously order create dicom instance file containing report data three uids study series instance studyuid seriesuid study series report created sopinstanceuid generate new uid method pixelmed documentation familiar pixelmed source algorithm python source

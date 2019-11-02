@@ -1,1 +1,0 @@
-trying make basic script pull daily steps healthkit ios page triggered happens request permission read healthkit data work going wrong code offer suggestions

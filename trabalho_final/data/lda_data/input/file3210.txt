@@ -1,1 +1,0 @@
-followed tutorial segment lungs scan images saved dicom files tried segmented images npy extension trying load view files saved npy files getting following error code post code shows way saved image npy suggest done solve error

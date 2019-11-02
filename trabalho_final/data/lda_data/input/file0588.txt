@@ -1,1 +1,0 @@
-following swift code following error message find initializer type hkstatisticsquery accepts argument list type quantitytype hksampletype quantitysamplepredicate nspredicate options hkstatisticsoptions void please advise resolve issue

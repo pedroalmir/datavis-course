@@ -1,1 +1,0 @@
-watch kit app tries request healthkit permission interface controller apple watch run app asked permission app defaults having health kit permission make apple request healthkit permission

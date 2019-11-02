@@ -1,1 +1,0 @@
-moment develop mobile application fitness tracker thinking rest api android api don understand case automatic data collection steps taken device occur understand request information completed steps time example month documentation allows application case automatically access raw information sensors give google fit happens android api show steps real time

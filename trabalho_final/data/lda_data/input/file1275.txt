@@ -1,1 +1,0 @@
-set dicom images show average window center images pydicom value tags value images equal calculate average value window center simplified code helps

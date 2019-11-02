@@ -1,1 +1,0 @@
-currently working android app uses google fit apis read data datareadresult asynctask datareadresult fix help appreciated

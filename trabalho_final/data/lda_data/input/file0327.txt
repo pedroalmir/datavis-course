@@ -1,1 +1,0 @@
-creating fitness health app show user real time calories heart rate health kit permissions don know fetch calories heart rate permission code getting success calories heart rate function code fitbit apis return data apple api return data

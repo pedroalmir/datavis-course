@@ -1,1 +1,0 @@
-making web tool shows fhir observation resources example measurements taken home blood pressure weight patient health worker look graph able comment guess comment linked invididual observations general comment patient resource comment

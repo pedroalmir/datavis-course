@@ -1,1 +1,0 @@
-requirement read parse ccd xml application gave error initially attribute solved renaming attribute try unmarshal ccd xml java obj generated java classes getting value java object ccd xml complex best way parse ccd xml open java please suggest

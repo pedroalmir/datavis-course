@@ -1,0 +1,1 @@
+fhir json pars java jackson download schema fhir site xsd2java convert pojo work fine iam jackson librari creat json send request fhir server iam json fhir site sai incompat thank

@@ -1,0 +1,1 @@
+read lidc idri dataset directori system work project lidc idri dataset contain lung imag dicom file dcm data organ folder folder imag scan clarif give exampl 1st scan folder system follow principl imag folder scan question read imag folder system mean folder folder code read imag run give error chang folder system remov folder scan work error tell solv pleas

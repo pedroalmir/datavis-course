@@ -1,1 +1,0 @@
-dicom file define character set default ascii default encoding dicom files dicom file contains german tags file specify character set assume case file allowed contain ascii symbols default character set report file invalid submit change make sure understood dicom correctly

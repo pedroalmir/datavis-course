@@ -1,1 +1,0 @@
-project medical image segmentation having trouble aligning masks lesions trying package correct masks files based metadata assuming images metadata spacing direction origin indicated default constants code appended code moving mask small amount sets element mask zero know wrong transform solutions libraries

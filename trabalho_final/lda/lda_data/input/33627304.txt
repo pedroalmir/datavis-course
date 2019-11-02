@@ -1,0 +1,1 @@
+fhir appoint book model primari care appoint book fhir resourc want model book allow slot held practition doctor nurs locat held slot current wai repres schedul slot infer link actor practition locat creat seper schedul actor bundl practition locat slot creat singl bookabl entiti

@@ -1,1 +1,0 @@
-trying query retrieve example qrscu pynetdicom working good patient name search search study basis studydate studytime note sop dicom available try studyrootfindsopclass tried gives error please help fetch study study date time

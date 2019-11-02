@@ -1,0 +1,1 @@
+pars hl7 php hl7 xml try pars extract data tag fail miser call function work fine tag don repeat tag repeat suck xml string abl pars follow xml grab data follow tag segment messag try code give occurr help

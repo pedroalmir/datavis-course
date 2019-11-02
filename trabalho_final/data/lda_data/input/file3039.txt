@@ -1,1 +1,0 @@
-google fit api describes two data types sensor api returning data explain difference

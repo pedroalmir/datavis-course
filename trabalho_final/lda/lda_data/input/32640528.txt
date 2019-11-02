@@ -1,0 +1,1 @@
+iso support byte charact set dicom name iso tell equival encod gb2312 try encod iso charact bit ascii commun medic system java world string gb2312 work encod 1st look exampl iso iso equal iso take input string give ascii string

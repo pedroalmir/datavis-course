@@ -1,0 +1,1 @@
+convert hl7 segment xml xml abl gener hapi librari xsl chang format xml follow templat current templat look obx segment digit valu interpret obx6 unit measur try interpret obx6 come client style duplic caret current templat ignor abl valu segment substr result produc thank advanc

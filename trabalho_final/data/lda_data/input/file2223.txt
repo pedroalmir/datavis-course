@@ -1,1 +1,0 @@
-simpleitk imageserieswriter default slice given volume axis write slices images view change axis output view word default axis slices axial view slices coronal sagittal view tried github fnndsc med image output xyz function images array blindly written transposed axis reversed flipped feel write code full control code write slices axis successfully modify code slices views

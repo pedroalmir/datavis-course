@@ -1,0 +1,1 @@
+biztalk btahl72xreceivepipelin pipelin compon set applic file receiv port send port subscrib receiv port filter set biztalk receiv port pipelin btahl72xreceivepipelin send port pipelin btahl72xsendpipelin drop hl7 messag receiv port file locat produc error subscript set error occur issu pipelin compon wai

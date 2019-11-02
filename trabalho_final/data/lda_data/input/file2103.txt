@@ -1,1 +1,0 @@
-folders dicomdir structure folder dicomdir four images export convert dicomdir four dcm files possible programmatically

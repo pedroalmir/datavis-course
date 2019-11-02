@@ -1,1 +1,0 @@
-tried code read data healthapp getting results nil value error invalid hkobjecttype hkquantitytypeidentifierdistancewalkingrunning keypath workouttype mac version xcode version code access healthkit data

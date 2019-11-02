@@ -1,1 +1,0 @@
-nodejs app connects fhir server queries patient data sure pass oauth token getpatient function fhir node library application

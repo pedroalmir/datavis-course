@@ -1,0 +1,1 @@
+extract data hl7 file talend try read data hl7 file talend compon thl7input compon job sampl file hl7 compon configur abl extract data output get null valu read forum talend read hl7 file abl extract input helpful

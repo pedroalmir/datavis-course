@@ -1,1 +1,0 @@
-attempting reverse engineer android app called hearttrace order pull sensor data higher frequency decompiled adjusted parameters recompiled apk app longer connects google fit api api require new signature google recompiling issue thanks

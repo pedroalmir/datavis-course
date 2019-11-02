@@ -1,0 +1,1 @@
+hl7 field relat equip manufactur model hl7 field identifi equip medic devic manufactur model dicom attribut manufactur model softwar identifi vendor model inform devic similar attribut hl7 messag

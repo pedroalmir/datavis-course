@@ -1,1 +1,0 @@
-mirth javascript reader connector source call stored procedure procedure returns multiple rows way script row returned procedure generate message send appropriately option aware script generate message polling interval set addition changing procedure help insight greatly appreciated

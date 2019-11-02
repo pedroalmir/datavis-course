@@ -1,0 +1,1 @@
+xslt replac string int work project receiv hl7 messag valid xslt issu have hl7 messag field gender pid come string databas gender field int try make hl7 field gender read convert int valu result look pid field show convert result get current pid field show push

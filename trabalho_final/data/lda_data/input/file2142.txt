@@ -1,1 +1,0 @@
-pull healthkit data hksamplequery create array populate tableview tableviewcell characters blood sugar number screenshot cell heres query data help please setup tableview

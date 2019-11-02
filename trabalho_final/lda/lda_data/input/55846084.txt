@@ -1,0 +1,1 @@
+hapifhir tolistofresourcesoftyp method getpati method patient famili name match goodwin32 code try extract info bundl list call tolistofresourcesoftyp item return bundl list patient

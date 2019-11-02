@@ -1,1 +1,0 @@
-working hcup data range values single column needs split multiple columns hcup data frame reference desired output approach problem package splitstackshape code approach leads memory issues better approach problem comments data letters letter end two numbers change letter single range

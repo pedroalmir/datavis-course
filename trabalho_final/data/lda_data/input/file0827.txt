@@ -1,1 +1,0 @@
-having hard time healthkit working ios app done steps found solve problem keep getting error trying authorize healthkit code asking authorization yes enabled project capabilites yes enabled dev center app missing

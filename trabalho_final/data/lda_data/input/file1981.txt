@@ -1,1 +1,0 @@
-successfully ccmake compile dcmtk build ios environment don know compiled file new ios project moved dcmtk compiling new iphone project error path

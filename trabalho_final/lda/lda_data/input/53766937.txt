@@ -1,0 +1,1 @@
+record question answer fhir structur verbal consult patient dialog patient doctor best model resourc model fhir model questionnair questionnairerespons doesn right type interact questionnairerespons refer questionnair publish static document question consult uniqu consult link patient doctor

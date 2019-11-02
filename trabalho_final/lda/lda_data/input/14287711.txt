@@ -1,0 +1,1 @@
+imag seri singl dicom file itktool coupl scan regist groupwis registr method metz implement elastix registr toolbox tool requir data multipl imag encapsul singl file know achiev pxcastconvert tool itktool toolbox castconvert4d cxx github figur right command line argument usag possibl advic combin multipl imag singl file dicom mhd file pxcastconvert

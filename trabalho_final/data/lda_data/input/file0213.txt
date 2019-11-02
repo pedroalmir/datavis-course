@@ -1,1 +1,0 @@
-devices data hour minutes make client sensor check client state don know

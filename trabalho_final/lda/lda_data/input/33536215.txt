@@ -1,0 +1,1 @@
+convert dicom imag vtk make convers dicom imag jpg png imag vtk imag produc match origin know rescal pixel imag convert know know convers properli code python

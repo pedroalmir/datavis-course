@@ -1,1 +1,0 @@
-code app detect updates healthkit data background init method appdelegate called code run background methods appdelegate called documentation application lifecycle background code appreciated

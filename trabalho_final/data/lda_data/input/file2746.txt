@@ -1,1 +1,0 @@
-trying copy official google fit sample setup sensors having problems try add class androidstudio doesn find class doesn exist

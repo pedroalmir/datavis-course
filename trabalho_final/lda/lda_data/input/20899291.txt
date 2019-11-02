@@ -1,0 +1,1 @@
+renam file metadata content renam file field metadata patient name dicom file exampl found util call dcmdump extract part renam file test gave know part renam dcm file thank advanc

@@ -1,1 +1,0 @@
-healthmanager class function authorizehealthkit healthmanager swift file problem trying invoke method authorizehealthkit viewcontroller swift

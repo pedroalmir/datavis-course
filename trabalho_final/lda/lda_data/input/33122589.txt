@@ -1,0 +1,1 @@
+read dicom tag tag itk itk read dicom file call read tag valu work fine tag gantri angl problem come try read tag embed getvaluefromtag read back empti string exposur sequenc valu read tag tag itk look itk document wai

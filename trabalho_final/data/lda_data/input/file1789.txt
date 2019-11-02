@@ -1,1 +1,0 @@
-code works fine authorization given device authorized earlier work getstephistory commented viewdidload tried requesting additional authorization getstephistory function doesn solve problem

@@ -1,1 +1,0 @@
-test healthkit app ios simulator iphone developer account added entitlement file apple developer healthkit capability enabled build app file bundle try access healthkit api simulator throws error option try healthkit ios simulator developer account

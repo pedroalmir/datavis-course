@@ -1,1 +1,0 @@
-trying develop simple server hapi library based example api sourceforge xref uhn examples sendandreceiveamessage html send query message acknowledgement socket send qbp luck receiving query response seperate port tried follow example closely possible tried replacing simpleserver twoportserver didn work better ideas

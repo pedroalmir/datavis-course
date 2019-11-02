@@ -1,1 +1,0 @@
-make application fetches observations entered server compares pre stored critical limits particular patient tags observation resource green yellow red depending values best resource store patient limit values different types observations deciding tag blood pressure pulse oximeter weight set patient system setting special observation resource

@@ -1,0 +1,1 @@
+read heart rate measur x2a37 valu polar read bpm valu consult characterist spec awar byte read notif handl have troubl understand valu gener instanc exampl output gatt tool understand follow flag bit set specifi valu exist uint8 heart rate measur valu uint16 interv understand follow document sai valu present mean receiv valu side note goal extract hrv featur valu

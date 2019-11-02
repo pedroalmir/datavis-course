@@ -1,1 +1,0 @@
-google fit api specific historyapi fitness historyapi readdailytotal steps calories distance got steps calories distance creating problem onresult getting called help highly appreciated code false case distance returns true try steps calories code run background thread

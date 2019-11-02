@@ -1,1 +1,0 @@
-getting illegalargumentexception trying initialize googleapiclient mentioned link code initialize apiclient followed error log error log getting error comment following method enableautomanage understand error due app calling startactivitywithresult requestcode greater bit don understand exactly happening fix

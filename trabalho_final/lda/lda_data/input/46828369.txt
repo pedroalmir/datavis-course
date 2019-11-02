@@ -1,0 +1,1 @@
+log hl7 messag biztalk pipelin hl7 flow mllp adapt biztalk acceler provid microsoft chang format hl7 messag xml format process come log hl7 messag option avail store databas store file locat code pipelin compon possibl store copi hl7 messag separ msmq queue option log consid approach know msmq adapt hl7 appropri adapt mllp microsoft provid addit tool btahl7

@@ -1,1 +1,0 @@
-app trying insert distance data google fit works smoothly authorization granted status issuccess returns distance shows google fit app inserting expended calories interval expected idea aggregate distance delta isn working

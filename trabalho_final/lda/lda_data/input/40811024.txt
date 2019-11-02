@@ -1,0 +1,1 @@
+rescal intercept slope metadata nifti file itk simpleitk automat cater rescal intercept slope metadata nifti file dicom file doesn read metadata python went class access readimageinform function

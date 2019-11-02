@@ -1,0 +1,1 @@
+defin medic schedul fhir dstu2 look defin medic schedul fhir medicat prescript resourc data model asid schedul follow drug medic start date end date administr time site rout exampl know possibl exist dstu2 specif cheer

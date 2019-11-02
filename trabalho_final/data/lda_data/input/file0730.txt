@@ -1,1 +1,0 @@
-nhapi parse message don know messagetype msh runtime read msh header read messagetype field parse message message type frustrated lack documentation examples base new thought understanding spec tried nhapi

@@ -1,1 +1,0 @@
-new matlab trying write code converts lung dicom images hounsfield units created function saved file know apply function series dicom images altogether patient folder contains images multiple folders apply function series dicom images general thanks advance function

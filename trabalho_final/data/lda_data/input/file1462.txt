@@ -1,1 +1,0 @@
-looking standalone tool windows generates dicomdir file directory containing dicom images looked tomovision products dicom dir htm gives runtime error recommend tool purpose

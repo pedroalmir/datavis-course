@@ -1,0 +1,1 @@
+convert bit grayscal dicom imag bit correct procedur try creat imag viewer dicom imag program read bit colour grayscal imag correctli try open bit imag 1st bit imag part miss pixel bit dark whilt don know window centr window width rescal slop intercept pleas help give exact step convert bit imag bit imag don view file compress techniqu store pixel thank advanc

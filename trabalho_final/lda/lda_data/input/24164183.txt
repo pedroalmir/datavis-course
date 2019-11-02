@@ -1,0 +1,1 @@
+apach camel read hl7 file fail due u000b symbol consum hl7 file try marshal hapi hl7 object rout sampl unfortun found messag whish pars u000b symbol caus parser fail find msh header courc fix simpl string oper best solut found mllp protocol symbol messag hl7 codec handl question possibl hl7codec file ftp compon handl convers string pars

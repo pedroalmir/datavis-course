@@ -1,1 +1,0 @@
-working project includes image registration basically extract points cloud stack dicom images directory researched activiz vtk itk find example able obtain cloud points libraries post code thank

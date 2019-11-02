@@ -1,1 +1,0 @@
-trying determine hkquantitytypeidentifier matches measurements provided particular health kit sample determine tried following two options run give negative result types matching option gives run time nsexception error unknown method proper way determine type maths hkquantitysample type

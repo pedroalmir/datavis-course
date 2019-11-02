@@ -1,1 +1,0 @@
-trying plot single drug prescribed hospital dummy database patient encounters goal plotting pattern administration drug given frequently high dose closer time admission discharge middle patient stay tried ggplot function did help visualize pattern ggplot

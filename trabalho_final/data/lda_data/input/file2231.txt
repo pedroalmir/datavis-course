@@ -1,1 +1,0 @@
-created app tabs fragments fragment tried api works suppose write code api mainactivity works fine wrong getting errors android studio code form fragment code form main activity

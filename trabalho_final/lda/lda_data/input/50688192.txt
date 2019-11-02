@@ -1,0 +1,1 @@
+hapi hl7 valid throw work java endpoint intend hl7 messag valid basic app run variat standard hapi hl7 valid exampl pass valid messag success respons pass invalid messag success respons wai error respons hl7 badli format pipepars throw case get caught catch block pass invalid messag actual get valid return valid error don actual valid pars crash try pars miss

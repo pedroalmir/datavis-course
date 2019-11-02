@@ -1,1 +1,0 @@
-making app researchkit framework apple followed installation guide github added files project trying import header files framework error file found did created new project named added files dragging navigation controller embedding framework embedded binaries create simple task existing view controller import header files

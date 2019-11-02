@@ -1,1 +1,0 @@
-fhir api https github ewoutkramer fhir api attempting parse xml file serialise json line works fine xml file bundle parsed inputbundle object serialise json second line code error info xml file taken directly implement standards fhir query example response xml html ideas wrong

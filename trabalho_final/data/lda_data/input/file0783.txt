@@ -1,1 +1,0 @@
-niftynet pretrained segmentation model segmenting custom data downloaded pre trained weights modified model dir path downloaded run getting error https github tensorflow models issues link says add help rid error

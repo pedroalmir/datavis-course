@@ -1,1 +1,0 @@
-python program nibabel package analyze medical images nifti format occurred line following code found occurred error element tried search relative topic nibabel ioerror errno open files doesn solve problem prefer thanks

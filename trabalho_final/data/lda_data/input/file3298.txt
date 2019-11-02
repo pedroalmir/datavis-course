@@ -1,1 +1,0 @@
-foe search interactions support specifying number items expected response count parameter able find reference parameter specify page number query parameter custom queries option better alternative example standard way request second page patient resultset page having records patient count pagenumber

@@ -1,1 +1,0 @@
-trying parse message file version obx segment coming null message parsed don obr segment message terser failing fetch obx segment values returning null values obr segment mandatory view obx attachments message

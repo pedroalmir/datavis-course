@@ -1,1 +1,0 @@
-basically user uploads cda document documents containing entries medications vitals allergies surgeries make sure duplicated database skip inserting

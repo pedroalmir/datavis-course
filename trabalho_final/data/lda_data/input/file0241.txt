@@ -1,1 +1,0 @@
-figured basic parsing ccd sql thought share result knows better way please feel free comment particularly interested reducing text associated namespace declaration know simply remove namespace xmlns urn original xml prefer

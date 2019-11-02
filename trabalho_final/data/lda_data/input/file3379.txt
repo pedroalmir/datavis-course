@@ -1,1 +1,0 @@
-hello working app new fhir standards designed pull information ehr organize wondering possible search multiple fhir resources single request instance single request search single patient latest blood pressure heart rate

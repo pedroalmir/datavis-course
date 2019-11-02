@@ -1,0 +1,1 @@
+extract rtdose dicom imag find slice origin interest extract transform matrix imag coordin patient coordin dicom header rtdose matrix rtdose singl dicom file imageorigin patient origin 1st slous given origin slous better mean extract dcm file separ slice help appreci zahra

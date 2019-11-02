@@ -1,1 +1,0 @@
-started exploring niftynet think help project trying train network segmentation segmentation application built config ini file running run receive error error argument axcodes list strings expected list element allowed characters received following configuration file requirements setting tried different lists strings s] config ini file states wrong

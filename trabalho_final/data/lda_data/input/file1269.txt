@@ -1,1 +1,0 @@
-trying add support google fit api smartwatch app time test smartwatch shows accounts click account throwing null reference checked oauth fine totally confused going code activity

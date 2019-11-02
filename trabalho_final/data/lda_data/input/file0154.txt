@@ -1,1 +1,0 @@
-looked documentation creating profiles fhir forge create xml believe valid describe profile find documentation actually states request make restful api actually add new profile ideas

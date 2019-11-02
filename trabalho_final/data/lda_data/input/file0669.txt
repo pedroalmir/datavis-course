@@ -1,1 +1,0 @@
-currently working symptom based disease prediction project got stuck connect android project infermedica api send symptoms results

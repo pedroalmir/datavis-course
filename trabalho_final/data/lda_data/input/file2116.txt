@@ -1,1 +1,0 @@
-develop android app interacts smartband retrieve heart beat rate data band wish implement google fit api suggest smart band models sdk allows app google fit api communicate band

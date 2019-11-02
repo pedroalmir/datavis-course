@@ -1,0 +1,1 @@
+resiz dicom imag python try resiz dicom imag differ dimens common dimens size train neural network thought cv2 solv problem get datatyp understood error jupyt notebook try creat tensorflow neural network predict class imag imag common dimens size 1st layer train function creat read dcm file pass function expect output size imag get follow error

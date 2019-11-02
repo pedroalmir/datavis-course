@@ -1,1 +1,0 @@
-looking convert older edi format messages json make processable apache drill compressible parquet looked hapi having luck finding utility non xml json conversion suggestion reference library

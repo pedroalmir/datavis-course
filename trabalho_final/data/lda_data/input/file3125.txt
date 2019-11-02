@@ -1,1 +1,0 @@
-way understand extension structure keep attributes listed fhir specification supposed explain extension url system property create pages fhir server asp mvc follow format guide lines page design tool create page publish

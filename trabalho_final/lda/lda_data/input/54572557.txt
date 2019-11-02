@@ -1,0 +1,1 @@
+set modifi dicom suid send pac newbi world dicom send modifi dicom file creat copi dicom queri pac server back server new seri patient studi modifi dicom new singl seri increment subnumb sopuid worri posibl new seri suid get reject accept wai number send new dicom imag pac server increment sopuid suid

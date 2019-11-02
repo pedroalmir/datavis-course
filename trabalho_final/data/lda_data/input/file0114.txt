@@ -1,1 +1,0 @@
-trying access ios app set thought properly runs nsarrayi allowauthorizationforreadingwithentitlements unrecognized selector instance badc error sure followed ray wenderlichs post app isn working entitle run code case idea tried looking debug figure

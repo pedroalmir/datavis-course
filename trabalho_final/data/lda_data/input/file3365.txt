@@ -1,1 +1,0 @@
-currently working mirth part new appointment booking parse data mirth siu request getting date yyyymmddhhmmss fomat sch category idea timezone coming request come locale timezone request actually thanks advance help

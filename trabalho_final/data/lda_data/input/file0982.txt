@@ -1,1 +1,0 @@
-working app swift uses apple healthkit app working getting user steps healthkit working code problem takes data multiple sources add separatebysource option hkstatistics based question apple documentation following code work simply adding error xcode red underlines character two options

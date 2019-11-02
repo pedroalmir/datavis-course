@@ -1,1 +1,0 @@
-setup described steps answer post withings api authentication copy paste final url generated step send request url response browser screen remains empty reason happening oauth token oauth secret two appended callback url

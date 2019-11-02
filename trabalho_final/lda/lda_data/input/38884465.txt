@@ -1,0 +1,1 @@
+hapi fhir patient bundl request work hapi fhir server new java client hope accomplish creat fhir patient bundl singl identifi patient resourc resourc complet bundl json file come python background simpl request curl iter right endpoint patient welcom time process altern transact great advic sincer appreci

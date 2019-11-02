@@ -1,1 +1,0 @@
-building android app shows withings user activity data application trying call refresh token url getting invalid signature response

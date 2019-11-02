@@ -1,1 +1,0 @@
-fhir nuget package created ewout kramer tying asp web api unfortunately built json serialization isn generating json correctly contains lots suggested framework code works repetitive isn following convention json xml serialization methods web api fhir objects packages available write

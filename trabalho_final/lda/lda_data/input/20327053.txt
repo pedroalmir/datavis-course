@@ -1,0 +1,1 @@
+convert hl7 messag fhir resourc directli current poc convert hl7 messag fhir resourc 1st step convert hl7 messag xml format xmlparser hapi api 2nd step written xslt convert xml fhir resourc xml format want figur simpler approach hl7 fhir resourc convers step process step

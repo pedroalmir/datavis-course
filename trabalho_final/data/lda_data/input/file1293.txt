@@ -1,1 +1,0 @@
-trying anonymize accession numbers fake custom pydicom pass custom value call back function suppose global variable avoid reduce unwarranted bugs different way global variables edit thought walk special python function method code change code callback optional parameter callback self data element replace value

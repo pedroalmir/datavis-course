@@ -1,1 +1,0 @@
-trying write vtkimagedata dicom keep getting access reading violation try write image unhandled ffda eca access violation reading location code type data thoughts whats causing error find similar online followed example https github dgobbi vtk dicom blob master examples testdicomwriter cxx don metadata shouldn problem

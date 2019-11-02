@@ -1,1 +1,0 @@
-looking way export structure sets dicom file algorithm segmentation structures outputs set contours export dicom rtstructset language preference python solution work add python wrapper thank

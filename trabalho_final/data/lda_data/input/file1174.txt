@@ -1,1 +1,0 @@
-message xml mode obviusly hidden parts retrieve tsql table tried variable xmldata xml doesn work help thanks

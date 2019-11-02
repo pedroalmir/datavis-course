@@ -1,1 +1,0 @@
-dcmtk pacs server process dcmqrscp exe exe dcmqrscp cfg file contain detail hosttable aetitle table vendor table hostable create title question shall single aetitle different ipaddress

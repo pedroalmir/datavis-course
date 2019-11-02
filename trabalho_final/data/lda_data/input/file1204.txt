@@ -1,1 +1,0 @@
-windows service program interacts external dll method returns object sending datetime parametre call medhod dll system indexoutofrangeexception mhrs windows mhrs biz checkshedule xml datetime startdate datetime enddate method working fine call different project make windows service idea difference make sure dll call works intended

@@ -1,1 +1,0 @@
-application uses google fit history api reading valid activity detect googlefit app good way

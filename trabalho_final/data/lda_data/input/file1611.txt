@@ -1,1 +1,0 @@
-developing program matlab view diacom files measure area particular target region image target area given manual input number points know dicom analyzing feel simply inputting points coordinates matlab function polyarea give actual area know actual area know pixel spacing slice thickness please help

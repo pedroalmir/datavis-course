@@ -1,1 +1,0 @@
-currently poc converting message fhir resource step converting message xml format xmlparser hapi api second step written xslt convert xml fhir resource xml format wanted figure simpler approach fhir resource conversion step process two steps

@@ -1,1 +1,0 @@
-existing application generates ccr message validates ccr schema create new application generate ccd xslt map ccr schema ccd schema biztalk generate ccr message experience success creating xslt map

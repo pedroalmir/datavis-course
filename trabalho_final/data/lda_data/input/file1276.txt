@@ -1,1 +1,0 @@
-correct way background delivery ios healthkit following code enable healthkit background delivery configure extra things make work enabling healthkit capability respond manual input ios native health app

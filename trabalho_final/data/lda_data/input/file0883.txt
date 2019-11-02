@@ -1,1 +1,0 @@
-rest api support health data apple know healthkit api helps send receive data apple health data store restricted ios apps trying achieve utilize send receive platform web apps information solution appreciated

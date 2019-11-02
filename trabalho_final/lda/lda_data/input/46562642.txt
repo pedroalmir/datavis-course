@@ -1,0 +1,1 @@
+enclos multipl fhir resourc singl resourc current work standard commun lab clinic server work basic workflow return diagnosticreport type fhir resourc clinic server fhir refer observ pass part diagnosticreport new hit clinic server made fetch actual observ type fhir resourc question wai make observ resourc part diagnosticreport resourc extra hit

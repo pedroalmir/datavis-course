@@ -1,1 +1,0 @@
-set jpg images actually slices scan reconstruct dicom image files import pacs clearcanvas set requisite tags confirmed converting jpg files dicom proprietary application make sure sure processing jpg file pixeldata tag currently converting byte array advice clearcanvas forums image garbled dicom viewer processing image data readable format

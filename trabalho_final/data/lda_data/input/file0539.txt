@@ -1,1 +1,0 @@
-building app researchkit ray wenderlich tutorial following code continues give error message current didn write code sure wrong don know fix code occasionally xcode suggest change brings error message says case specific problem answers questions weren helpful case

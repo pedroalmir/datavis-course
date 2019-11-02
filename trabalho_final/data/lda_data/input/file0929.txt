@@ -1,1 +1,0 @@
-trying integrate sensors api google fit apis building google client callback status code logcat log building fitness client blank error logcat latest play services kitkat device building revision recent sdk manager correctly added project google developer console app

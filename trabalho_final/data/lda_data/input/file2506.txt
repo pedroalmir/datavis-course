@@ -1,1 +1,0 @@
-steps mentioned https developers google fit android started implement simple fitness android app activate fitness api google developers console left sidebar click apis auth find fitness api set status find fitness api api find list apis https console developers google project

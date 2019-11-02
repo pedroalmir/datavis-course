@@ -1,0 +1,1 @@
+window script pars hl7 file huge file hl7 segment split smaller file hl7 data pattern logic data chunk start msh end segment start msh script window cmd base instal softwar machin file structur file exampl split file file come unix newlin remain sourc file help

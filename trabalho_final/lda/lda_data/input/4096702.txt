@@ -1,0 +1,1 @@
+dicom window width level formula give greyvalu try implement window width level formula dicom specif applic return grayscal moment dicom specifi formula follow attribut appli follow pseudo code input valu output valu rang ymin ymax window center window width translat follow syntax howeveri part formula return possibl

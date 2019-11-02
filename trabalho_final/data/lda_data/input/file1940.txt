@@ -1,1 +1,0 @@
-dcmtk read hopefully modify dicom images following code did create dicomimage write pixel data bmp file filename specified image returns gray image outline original image barely recognized look https dropbox nlae hfvqf jpg code produces https dropbox fff kch bzjqy bmp missing code did understand function please enlighten thank

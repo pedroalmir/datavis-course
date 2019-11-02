@@ -1,0 +1,1 @@
+biztalk hl7 adaptor btahl7 error msh trail delimit receiv port locat set schema deploi rad parti set allow trail delimint send messag biztalk trail delimit work fine send messag biztalk trail delimit look come hci follow ack biztalk error eventlog know problem isn schema manual remov trail delimint work fine

@@ -1,0 +1,1 @@
+simpl sender reciev hl7 messag servic wso2 look open sourc esb solut implement messag servic base hl7 protocol best solut wso2 download instal version instal configur hl7 transport axi repositori creat proxi servic document test servic correctli implement creat simpl sender reciev note found launch command ant hl7acceptor follow error target hl7acceptor exist project sampl

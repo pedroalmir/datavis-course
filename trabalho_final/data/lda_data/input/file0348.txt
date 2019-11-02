@@ -1,1 +1,0 @@
-new healthkit framework wants real time oxygen saturation blood stream ref https github coolioxlr watchos heartrate repo tried make query oxygen saturation checking simulator getting heart rate repo getting oxygen level empty know wrong done correct

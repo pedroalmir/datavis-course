@@ -1,1 +1,0 @@
-looking clinical document architecture api open source preferably exactly nhapi structured object model building specific message types message classes creating messages messages nhapi looked mirthconnect primarily java javascript based haven strong candidates google hoping know

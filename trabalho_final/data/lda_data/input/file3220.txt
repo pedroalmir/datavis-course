@@ -1,1 +1,0 @@
-working dicom images matlab know read dicom image performed following steps dicomread dcm image dcm info dicominfo dcm image dcm value info patientname ans usman changed value info patientname khan info patientname ans khan step know going changed values matlab run command show changed value regards

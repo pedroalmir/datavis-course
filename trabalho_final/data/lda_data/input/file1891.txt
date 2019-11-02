@@ -1,1 +1,0 @@
-trying healthkit step counter function code read directly store reading displaying step data

@@ -1,1 +1,0 @@
-convert set nifti files dicom format python script know neat solution dicom nifti conversion dcm nii didn find opposite tried work med image throws overwhelming amount exceptions trying help

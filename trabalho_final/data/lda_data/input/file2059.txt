@@ -1,1 +1,0 @@
-tried develop application google fit follow link try run application got following error google fit connection failed cause connectionresult statuscode unknown status code resolution null googleplayservicesutil unexpected error code

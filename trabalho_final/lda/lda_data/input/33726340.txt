@@ -1,0 +1,1 @@
+with author got problem get user data access token with api step api doc servic return invalid signatur error method tri authsecret paramet gener signatur with specif tri chang order place oauth signatur paramet alphabet success help previou step api document successfulli got oauth token oauth token secret userid signatur gener

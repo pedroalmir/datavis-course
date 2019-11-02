@@ -1,0 +1,1 @@
+radiolog order carestream hl7 segment send hl7 segment event repli radiolog order carestream hl7 segment send hl7 segment event repli radiolog order radiolog appoint possibl messag confirm messag omg gener clinic order messag event omi imag order messag event oru unsolicit observ messag event

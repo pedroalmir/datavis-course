@@ -1,0 +1,1 @@
+itk imag convert vtkimagedata try read dicom imag itk reader convert vtkimagedata render convert itk imag itk imagetovtkimagefilt render vtkrenderwindow origin volum set center volum set coordin render window dicom imag code

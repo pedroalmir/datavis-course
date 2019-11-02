@@ -1,0 +1,1 @@
+healthkit hksamplequeri heart rate read try heart rate read healthkit store hksamplequeri keep get count count minut

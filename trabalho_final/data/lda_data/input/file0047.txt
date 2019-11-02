@@ -1,1 +1,0 @@
-mirth instance version sending post method web api restfull service problem message service outbound message cut characters example message msh \ cpsi iso cgh receivedmessage variable text msh \ received order message cut channel configuration post query parameters headers content type content type value value send

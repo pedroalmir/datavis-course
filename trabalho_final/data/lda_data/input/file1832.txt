@@ -1,1 +1,0 @@
-information patient message filenumber recorddate department name doctor father name complaint diagnosis info diagnosis date

@@ -1,1 +1,0 @@
-know fhir resource bringing list specialities available organisation specialities input searching encounters case fetch list specialities organisation list filtered speciality name code input parameters organisation specialities frame request url please suggest best way achieve case

@@ -1,1 +1,0 @@
-read individual pixel values dicom images

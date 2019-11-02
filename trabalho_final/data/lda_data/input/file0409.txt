@@ -1,1 +1,0 @@
-new number dicom images max pixel values ordinates images automatically crop patches image keeping center pixel max pixel found patches way extract four patches pixel please tell made code image giving right answer please help

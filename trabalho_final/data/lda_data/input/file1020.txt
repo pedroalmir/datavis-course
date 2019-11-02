@@ -1,1 +1,0 @@
-trying run niftynet keeps showing error cpu version tensorflow worked installed tensorflow gpu stopped working please note import tensorflow works fine sure solve problem

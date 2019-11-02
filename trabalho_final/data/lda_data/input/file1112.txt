@@ -1,1 +1,0 @@
-app uses app support background modes uses notify user set intervals doesn collect data works fine running user follows steps start native workout app start app back native workout apple workout app crashes idea scenario user starts app native app app refuses work background bug takes place watchos

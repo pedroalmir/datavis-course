@@ -1,1 +1,0 @@
-downloaded schema fhir site xsd java converting pojo working fine iam jackson library create json sending request fhir server iam json fhir site says incompatible thanks

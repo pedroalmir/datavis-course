@@ -1,0 +1,1 @@
+hl7 assign patient locat gener hl7 file face problem pv1 segment don find set facil variabl valu hapi don find java method allow suc set pv1 consult doctor field insertxxx method set pv1 field valu

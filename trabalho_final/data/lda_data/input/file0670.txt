@@ -1,1 +1,0 @@
-possible search parameter resources fhir based server currently hapi returns correct basic resource able search resource types basic patient observation hoping way thanks stephen

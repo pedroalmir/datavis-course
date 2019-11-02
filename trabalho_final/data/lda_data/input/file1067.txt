@@ -1,1 +1,0 @@
-developed application needs display daily steps count api available google fit sdk working properly steps count match displayed google fit official application example steps google fit app display steps reason issue clue

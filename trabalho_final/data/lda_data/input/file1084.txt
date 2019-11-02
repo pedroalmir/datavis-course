@@ -1,1 +1,0 @@
-trying validate fhir json bundle resource ajv command line fhir schemas samplebundledanieltojson json directory play different options parametres example setting referenced schemas success fhir json schemas idea fhir json validation thanks

@@ -1,0 +1,1 @@
+jsonschema2pojo maven plugin gener java class try obtain java model accomplish task download try jsonschema2pojo maven plugin gener sourc code creat simpl maven project put json schema defin follow run goal obtain folliw output problem class gener folder idea tnx advanc

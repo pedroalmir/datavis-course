@@ -1,1 +1,0 @@
-basic example fhir api work trying read sample patient data second line throws formatexception line pos trying read value reader start primitive tried patients relative absolute paths didn help

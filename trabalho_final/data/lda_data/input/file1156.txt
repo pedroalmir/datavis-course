@@ -1,1 +1,0 @@
-medical image datasets given patient acquired time different modality frame reference coordinate space different dataset don know origins dataset smaller physical dimensions voxel sizes number frames different resample register images matter

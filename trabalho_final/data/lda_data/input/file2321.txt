@@ -1,1 +1,0 @@
-applet java displaying images folder run applet html error

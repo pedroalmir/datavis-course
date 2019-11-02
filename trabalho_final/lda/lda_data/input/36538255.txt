@@ -1,0 +1,1 @@
+custom healthkit hkquantitytyp identifi add new hkquantitytypeidentifi healthkit sampl creat enum type interest tri creat properti hkquantitytyp quantitytypeforidentifi properti return nil tri defin extens hkquantitytyp custom identifi did work code idea

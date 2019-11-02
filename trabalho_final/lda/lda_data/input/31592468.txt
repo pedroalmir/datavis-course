@@ -1,0 +1,1 @@
+dicom deflat explicit endian data transfer syntax organ descript standard initi took mean entir dicom file gzip entir file gzip header contain identifi transfer syntax parser viewer abl read transfer syntax know gzip perspect viewer given file type know transfer syntax look gzip header publicli avail sampl imag transfer syntax

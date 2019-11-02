@@ -1,1 +1,0 @@
-setting framework apple recommends following way enable capabilities xcode check healthkit available device calling method enabled available instantiate object request authorization user read share data question related number step available later method course availability ipad isn available entitlement ios doesn install app cases method returns false

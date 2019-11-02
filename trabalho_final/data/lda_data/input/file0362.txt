@@ -1,1 +1,0 @@
-title says posting patient resources fhir multiple calls having patient passed xml hundreds thousands patients add tons data wondering efficient way post

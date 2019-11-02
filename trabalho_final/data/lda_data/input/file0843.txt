@@ -1,1 +1,0 @@
-trying perform convolutional network medical images nifti format keras try fit model error expected conv dimensions got array shape change input size error expected input shape got array shape size images resize images flip order image elements code model

@@ -1,0 +1,1 @@
+fhir profil structuredefinit base profil structuredefinit structuredefinit creat part fhir profil base structuredefinit creat part profil daf patient structuredefinit part daf fhir profil part core fhir definit sai want creat secondarycar daf patient base daf patient restrict element allow fhir dstu specif

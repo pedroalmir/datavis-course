@@ -1,0 +1,1 @@
+problem send data hl7 server node try make simpl hl7 mllp client node made code creat connect hl7 server socket send data server wait answer test purpo hapi testpanel issu send data script hapi testpanel testpanel don anwser testpanel log sai client connect turn debug option testpanel log sai testpanel reciev byte client end wrong script help thank script screenshot testpanel log

@@ -1,1 +1,0 @@
-trying fhir connector wso following documentation request create operation proxy request response body void following doctype allowed log questions able take correct tests following guide pass data create resource fhir base type format described thanks advance update enabled messagebuilder messageformatter suggested hariprasath previus error resolved error

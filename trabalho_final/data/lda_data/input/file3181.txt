@@ -1,1 +1,0 @@
-looking fhir resource validation fhir structure definition core found lib couldn find better way validation code requirements simple cardinality validation values bindings profiles idea mind passing fhirresource parameter load structure definition file check properties return error messages operational outcome advise best way try specially core

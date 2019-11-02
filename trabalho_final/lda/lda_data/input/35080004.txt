@@ -1,0 +1,1 @@
+pars hl7 messag receiv hl7 messag system exampl pars messag messag receiv system type orm oru obx orl qbp oul rsp ack oml error invalid messag check hl7 messag receiv error messag acknowleg valid hl7 messag valid pars messag displai valu field present segment

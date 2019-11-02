@@ -1,1 +1,0 @@
-video formats supported dicom tell mpeg format supported

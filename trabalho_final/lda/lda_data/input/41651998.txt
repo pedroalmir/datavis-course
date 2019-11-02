@@ -1,0 +1,1 @@
+python read convert raw imag file work scan medic imag raw format basic matrix voxel slice extract slice file separ file result definit look chest scan textur imag strang pixel misplac relev info locat associ mhd info file sure look

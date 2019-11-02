@@ -1,1 +1,0 @@
-trying understand appointment booking workflow fhir querying schedule resource slot resource workflow mentioned fhir documentation shall expect clients follow

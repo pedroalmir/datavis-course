@@ -1,0 +1,1 @@
+build gdcm cmake previous download gdcm built cmake follow command work fine repeat sai find bunch header file time lanfinfo pthread unix build fail step miss thought note time

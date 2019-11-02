@@ -1,0 +1,1 @@
+extract pdf hl7 write program pars hl7 messag write data text file hl7 contain embed pdf base64 format decod base64 encod pdf line var pdffile obx getobservationvalu data show pdf base64 format abl access data clearli pdf valu pdffile object access pleas check imag attach access pdf data imag cast encapsul data object

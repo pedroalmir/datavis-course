@@ -1,1 +1,0 @@
-request sensor data band android app real time difficulties permissions checked device bluetooth default api trying example https developers google fit android ble sensors time onscanstopped callback don explanation don understand fails code onconnected tried data types shows scan successful callback seconds

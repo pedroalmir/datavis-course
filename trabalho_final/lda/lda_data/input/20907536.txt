@@ -1,0 +1,1 @@
+send messag hl7 mirth connector post mirth instanc version send post method web api restful servic problem messag hl7 servic outbound messag cut 1st charact exampl messag msh cpsi iso cgh receivedmessag variabl text msh receiv order messag cut channel configur post queri paramet header content type content type valu valu send

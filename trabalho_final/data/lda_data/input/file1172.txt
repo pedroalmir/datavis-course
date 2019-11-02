@@ -1,1 +1,0 @@
-find initializer type hkquantitysample accepts argument list type sampletype hkquantitytype predicate nspredicate limit int sortdescriptors nil resultshandler

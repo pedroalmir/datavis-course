@@ -1,0 +1,1 @@
+field valu name name structur valu hl7 field specifi name structur file hl7 messag line code work name field known runtim strongli type method

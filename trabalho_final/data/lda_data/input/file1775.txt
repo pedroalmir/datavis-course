@@ -1,1 +1,0 @@
-able read average heart rate data healthkit period time duration workout code look apple health app shows heart rate samples apple watch taken infrequently min makes average read period inaccurate trigger healthkit sample gather heart rate data watch write healthkit

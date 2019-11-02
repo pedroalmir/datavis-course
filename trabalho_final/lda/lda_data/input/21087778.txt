@@ -1,0 +1,1 @@
+convert jpg imag dicom file dcm4che set attribut creat dicom file write imag dicom file

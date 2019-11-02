@@ -1,1 +1,0 @@
-able read hrv readings healthkit sort values date created able read readings interval healthkit samplequery prints perfect values way currently going querying problem results contain correct hrv values enumerating results getting wrong block

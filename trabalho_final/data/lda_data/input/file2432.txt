@@ -1,1 +1,0 @@
-timezone current steps calculated healthkit utc device timezone user changes timezones impact healthkit data

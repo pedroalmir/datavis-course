@@ -1,1 +1,0 @@
-tell read dicom tag

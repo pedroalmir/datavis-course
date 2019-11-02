@@ -1,0 +1,1 @@
+dcmtk data pixel dicom file dcmtk project retriev pixel dicom file thid basic exampl pixel data section pixeldata variabl pixel

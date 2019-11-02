@@ -1,0 +1,1 @@
+data bulk api call try load data fhirbas bulk api call command endpoint json data get respons content locat header return bulk data api server

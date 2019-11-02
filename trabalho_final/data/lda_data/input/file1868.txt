@@ -1,1 +1,0 @@
-code image segmentation looking automatic semi automatic image segmentation basically extract pixels region image given threshold value user selection locate view tumors pathologies working dicom images array pixel values manipulate sure code dicom end short array pixel values extract ones threshold example values say points space values correspond thanks matias

@@ -1,1 +1,0 @@
-working reading mri multi slice looking number slice unfortunately slice count dicom header ask slice count reading dicom header directly calculate slice count physical value slice siemenstag thanks advance

@@ -1,1 +1,0 @@
-known allergy mechanism defined fhir resources specification

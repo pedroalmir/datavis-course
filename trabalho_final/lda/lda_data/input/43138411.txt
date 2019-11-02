@@ -1,0 +1,1 @@
+python opencv dicom file try opencv dicom monochrom file solut 1st transform monochrom dicom file pixel valu black white rgb

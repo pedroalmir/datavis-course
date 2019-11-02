@@ -1,1 +1,0 @@
-data stored standard flat file format possibly relational database mapped fhir resources wondering standard methodology tool data mapping fhir ability track changes made

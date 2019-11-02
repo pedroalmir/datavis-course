@@ -1,0 +1,1 @@
+convert dicom structur contour data imag coordin python pydicom modul load patient sampl convert dicom struct contour data imag coordin test function dicom file find return wrong point data neg data guess method convert dicom struct contour data imag coordin wrong find wai method wrong implement thank advanc

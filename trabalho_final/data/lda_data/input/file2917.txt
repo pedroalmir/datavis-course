@@ -1,1 +1,0 @@
-trying resize dicom images different dimensions common dimension size training neural network thought solve problem getting datatype understood error jupyter notebook trying create tensorflow neural network predict class image images common dimension size layer training function created read dcm files pass function expected output sized image getting following error

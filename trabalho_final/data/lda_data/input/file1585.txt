@@ -1,1 +1,0 @@
-creating dicom dir working dcmmkdir exe inputfiles \dicomfiles dcmmkdir \dicomexe output \dicomcddir please guide give arguments dcmmkdir

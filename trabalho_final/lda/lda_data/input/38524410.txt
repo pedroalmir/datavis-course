@@ -1,0 +1,1 @@
+error find function readdicom instal request packag work directori set correctli try open data fail read got feedback chang

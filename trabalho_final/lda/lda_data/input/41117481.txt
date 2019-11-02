@@ -1,0 +1,1 @@
+pars patient data hl7 adt messag format requir pars data hl7 adt messag format pleas suggest stuck encod patient data hl7 adt decod hl7 adt messag patient data model encod hl7 adt messag pleas suggest

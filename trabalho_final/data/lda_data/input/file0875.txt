@@ -1,1 +1,0 @@
-fhir spec datatype supports following characters numerals generating fhir responses sor creating value resource resources dynamically keywords terminology sor keywords contain character results generated value containing characters subsequent url invocations reference urls resources characters resource snippet rfc indicates okay urls reason restricted values fhir

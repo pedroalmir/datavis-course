@@ -1,1 +1,0 @@
-working fhir server customized member resource say receive patient following add extra tag support fhir api work customized resource deserilizer process put patient object read mirjam baltus post model classes enhanced declared partial class mean work fhir api source code add partial class compile way dll nuget touch source code

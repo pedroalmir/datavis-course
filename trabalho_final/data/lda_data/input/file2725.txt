@@ -1,1 +1,0 @@
-fhir specification narrative two child elements status div having cardinality understanding narratives child elements status div resources narratives child elements discharge summary example resource validated valid fhir validator missing misunderstanding

@@ -1,0 +1,1 @@
+with return invalid param try connect with api restsharp return error client gener url

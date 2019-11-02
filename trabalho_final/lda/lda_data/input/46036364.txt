@@ -1,0 +1,1 @@
+findandgetstr dcmtk return null tag develop quick follow exampl provid buffer return null tag work fine return 1st charact tag api work know buffer empti former api issu snippet ascii valu actual name patient snippet buffer null doesn read name note

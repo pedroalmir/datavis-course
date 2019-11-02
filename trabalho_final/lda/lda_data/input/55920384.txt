@@ -1,0 +1,1 @@
+case fhir resourc name url document guidanc construct fhir url recommend case sensit implement defin behavior context specif requir resourc name url pascal case implement decid

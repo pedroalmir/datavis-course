@@ -1,1 +1,0 @@
-set attributes create dicom file write image dicom file

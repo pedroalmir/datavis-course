@@ -1,0 +1,1 @@
+add medic name autocomplet function ehr medlineplu dailym nlm rxnorm develop ehr stuck medic autocomplet function type medic name input box api mention titl question type medic name exampl zoco system make request api don know api respons list approxim medic name match json format

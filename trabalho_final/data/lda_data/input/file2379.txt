@@ -1,1 +1,0 @@
-interested extraction transformation matrix image coordinate patient coordinate dicom header rtdose matrix rtdose single dicom file imageorigin patient origin slice given origin slice better mean extract dcm file separate slices help appreciated zahra

@@ -1,1 +1,0 @@
-trying fetching heart rate order plot graph mentioned docs heart rate fetched hkstatisticscollectionquery trying fetch data current date fetched data code heart rate accessing hkstatisticscollectionquery returned nil wrong

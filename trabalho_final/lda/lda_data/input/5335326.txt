@@ -1,0 +1,1 @@
+dicom dcmmkdir command line creat dicom dir work dcmmkdir inputfil dicomfil dcmmkdir dicomex output dicomcddir pleas guid give argument dcmmkdir

@@ -1,1 +1,0 @@
-raw accelerometer data form axes smoothened applied band pass filter convert frequency domain signal apply fft figure points plotted empty return value fft complex array frequency highest amplitude point wrong give example value frequency highest amplitude applying fft full code available

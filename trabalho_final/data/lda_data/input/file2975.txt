@@ -1,1 +1,0 @@
-code implemented application worked data inserted displayed google fit correctly doesn work tested doesn work https github googlesamples android fit screenshot test app returns error please tell method works correctly find solution make work code snippet returns success changes google fit

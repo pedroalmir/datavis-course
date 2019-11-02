@@ -1,0 +1,1 @@
+hl7 nhapi api oml patientnam object properti applcat request audienc exampl set object properti patientnam patientaddress exampl oml object set patientaddress tri line gener index rang error actual hl7 xad type arrai element function properti set patientaddress object actual type actual hl7 xad type arrai thank advanc

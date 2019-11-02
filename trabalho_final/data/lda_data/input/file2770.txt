@@ -1,1 +1,0 @@
-relatively new android development unity trying create android plug unity detects steps distance google fit sensors api exported plugin jar file imported assets plugin android androidmanifest xml try build run phone error guessing unity find google fit library added dependency android gradle file way add unity make sense try making aar file jar

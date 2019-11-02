@@ -1,0 +1,1 @@
+add resourc bundl fhirclient smart fhir work smart fhir python librari successfulli creat bundl individu resourc assum helper method bundl class allow add resourc bundl figur exampl pseudocod thought bundl contain list element entri need append resourc doesn work messag attributeerror nonetyp object attribut append

@@ -1,1 +1,0 @@
-trying grab heart rate value sensor real time code activates workout session watch sensor lights clearly working access value method returns detected know fix issue

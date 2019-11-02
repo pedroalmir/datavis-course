@@ -1,1 +1,0 @@
-trying implement google fit api https github googlesamples android fit android studio following error set oauth google developer console providing package name ssh builds enabled api figure order successfully connect google play

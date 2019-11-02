@@ -1,0 +1,1 @@
+request sensor type heart beat return null android ticwatch android sensor api measur heart rate variabl request applic return null check manifest permiss effect work fine expect return valid sensor return null ticwatch heart rate sensor sure heart beat work

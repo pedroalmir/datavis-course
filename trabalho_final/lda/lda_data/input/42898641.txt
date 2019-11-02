@@ -1,0 +1,1 @@
+appl healthkit glucos level read give convers error face error code code appl health kit read glucos level healthapp func updategluco nsinvalidargumentexcept reason attempt convert incompat unit mol line self gluco quantiti doublevalueforunit hkunit moleunitwithmolarmass hkunitmolarmassbloodglucos

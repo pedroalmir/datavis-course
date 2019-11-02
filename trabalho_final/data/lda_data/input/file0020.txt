@@ -1,1 +1,0 @@
-libraries https github openehr java libs netbeans installation guide tells meet java requirements netbeans bundled maven find way install libraries java project help

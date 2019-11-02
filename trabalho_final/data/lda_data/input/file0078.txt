@@ -1,1 +1,0 @@
-xml trying parse extract data tags failing miserably call function works fine tags don repeat tags repeat sucks xml string able parse following xml grab data following tags segments message trying code gives occurrence help

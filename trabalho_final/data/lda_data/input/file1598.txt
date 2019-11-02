@@ -1,1 +1,0 @@
-familiar healthkit clear run query total number minutes activity specified time frame total number units covered documentation

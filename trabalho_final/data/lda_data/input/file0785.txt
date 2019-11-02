@@ -1,1 +1,0 @@
-individual slice time information field dicom header negative values positive values assumed times respect volume acquisition time recorded header going assumption mean acquisition time varies checking difference successive volume acquisition times equal loss happening trying look raw fmri data slice time correction necessary individual slice times

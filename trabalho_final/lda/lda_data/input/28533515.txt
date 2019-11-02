@@ -1,0 +1,1 @@
+call command line command afni command try read dicom header tag dicom file wai read dicom header tag pydicom packag python appar work python instal version python call afni function dicom hinfo command line dicom tag valu syntax call afni function termin follow dicom hinfo tag filenam dcm output fgre call dicom info tag filenam dcm python script guess subprocess work sure case

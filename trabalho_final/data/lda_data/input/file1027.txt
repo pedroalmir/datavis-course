@@ -1,1 +1,0 @@
-trying retrieve points datasource dataset google fit rest api explained stackoverflow post made api call list datasources datasource supplied response make query documentation return users datasources datasets resource includes points tried datasource api call result wrong datapoints returned response

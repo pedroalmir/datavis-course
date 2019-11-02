@@ -1,1 +1,0 @@
-fhir documentation mentions search parameters parameters mandatory user client sends request searching schedules

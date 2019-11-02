@@ -1,0 +1,1 @@
+python help api hl7 new program python basic python script connect server send text messag fine messag hl7 messag need wrap mllp found api think modifi program follow keep get error messag nameerror name mllpclient defin

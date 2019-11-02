@@ -1,0 +1,1 @@
+read dicom imag seri correctli itk read seri dicom imag convert imag itk follow exampl document exampl dicomseriesreadimagewrite2 cxx have problem solv hear tip pleas problem code line underlin code long compil variabl seriesitr valu variabl seriesend null pointer wrong thank help advanc

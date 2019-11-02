@@ -1,1 +1,0 @@
-niftynet project data augmentation config file noticed rotation angle scaling percentage random flipping axes checked documents don understand proper setting random flipping axes flip three axes shall thank

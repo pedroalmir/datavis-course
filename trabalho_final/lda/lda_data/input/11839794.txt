@@ -1,0 +1,1 @@
+dcmtk applic dcmtk applic successfulli compil dcmtk simul creat workspac dcmtk project applic file target depend link binari think miss part set header librari search path try header file sai dcm2xml sai file found wrong think simpler wai framework

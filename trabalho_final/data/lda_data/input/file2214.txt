@@ -1,1 +1,0 @@
-marshal part struct part implementation fhir metadata fields omitting three content three fields codesystem compose expansion shouldn change json tags original source code code strongly depends working way written tell json marshal override existing json tags struct elements

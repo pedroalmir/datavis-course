@@ -1,0 +1,1 @@
+repeat segement hl7 pentaho kettl know hl7 input step read segment messag hl7 segement repeat exampl recent transform got 2nd segment dg1 1st lost inform step extract messag hl7

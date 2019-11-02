@@ -1,0 +1,1 @@
+get inform patient hl7 messag inform patient hl7messag filenumb recordd depart name doctor father name complaint diagnosi info diagnosi date

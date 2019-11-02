@@ -1,1 +1,0 @@
-pick valid dicom files folder recursively pick files folder dcm extension file dcm picked file valid dicom file best way thought reading byte file validating method exes validates thank harsha edit solution problem finally dcmftest exe verification hope right track harsha

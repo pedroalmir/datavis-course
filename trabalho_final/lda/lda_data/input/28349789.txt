@@ -1,0 +1,1 @@
+handl read write privat dicom tag dcmtk respect handl privat tag dicom give code exampl write privat tag fix attribut tag similarli exampl read privat tag note time privat tag get reloc read privat tag privat tag get reloc time privat creator test data privatecr unknown tag data test data privatecr unknown tag data suggest read relocat privat tag similarli avoid reloc write

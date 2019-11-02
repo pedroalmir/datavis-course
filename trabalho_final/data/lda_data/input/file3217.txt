@@ -1,1 +1,0 @@
-going create new spring boot application fetch messages process cases mllp protocol data transfer implement java advantages mllp

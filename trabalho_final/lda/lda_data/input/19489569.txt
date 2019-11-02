@@ -1,0 +1,1 @@
+window script search valu hl7 file window batch file try open folder open latest hl7 file date folder search specif valu file valu kei name echo valu new script help write script

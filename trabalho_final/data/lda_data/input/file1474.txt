@@ -1,1 +1,0 @@
-format able store xml frame ecg data generated digital display ecg machine yes raw image data bmp tags xml help welcome thanks xibee

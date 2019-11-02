@@ -1,1 +1,0 @@
-new dicom dcmtk trying retrieve dcm files public test server dicomserver movescu command working able run findscu successfully data tried works thing doesn work movescu output running local dicom server right way achieve

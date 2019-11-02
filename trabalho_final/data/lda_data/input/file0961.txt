@@ -1,1 +1,0 @@
-strange question testing handle errors dicom file tags read unfortunately don damaged dicom available specifically advise apply sort incorrectly encoded text tag invalid numeric data tag file read python pydicom package

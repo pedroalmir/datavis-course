@@ -1,1 +1,0 @@
-process images main program two options train update weights based training set inference predict adjust set convenient way calculate validation set know dice loss calculation function starting painful advice appreciated

@@ -1,0 +1,1 @@
+hkhealthstor read permiss work app know give app permiss read data app

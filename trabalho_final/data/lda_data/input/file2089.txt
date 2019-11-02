@@ -1,1 +1,0 @@
-integrating google fit api open source project working allow user login google account credentials user consent process error try pass additional scope permissions sign uri sure problem url encoding sure api expects array scope urls possible put multiple permissions oauth flow google fit api integration url working fine error redirecting

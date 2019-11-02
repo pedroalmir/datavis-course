@@ -1,1 +1,0 @@
-heart rate signal video calculated fft found peaks graph video graph peaks fft tried calculates heart rate heart rate sample video approximately

@@ -1,0 +1,1 @@
+retriev dicom file base valu tag retriev dicom file dicom server directori local machin valu tag patientid particular string dicom file contain patientid valu retriev particular local machin movescu individu attribut file modifi supplement kei option search file contain patientid valu retriev file modifi valu dicom file option avail dcmtk movescu context help appreci

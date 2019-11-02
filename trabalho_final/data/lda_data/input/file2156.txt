@@ -1,1 +1,0 @@
-done couple days research regarding simple textview area application display today steps managed authentication working code pops asks permission think right selected figure simple gain step count information hope couple lines code help appreciated thanks edit step count number figure display later toasts help figure going

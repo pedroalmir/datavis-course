@@ -1,1 +1,0 @@
-new dicom protocol having questions related transfer syntax needs chosen sending images list images send remote server images list following format doc wondering list transfer syntax corresponds dicom format take dicom images determine format sure transfer syntax example hard coding image list images take loop know transfer syntax dicom image

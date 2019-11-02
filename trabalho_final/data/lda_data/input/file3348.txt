@@ -1,1 +1,0 @@
-please screenshot isn package pydicom installed credit igor looks working sublime text build import dicom working eclipse pydev environment solved problem eclipse adding path python interpreter configuration hand auto config didn add path

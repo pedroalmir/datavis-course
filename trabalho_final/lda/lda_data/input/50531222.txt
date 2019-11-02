@@ -1,0 +1,1 @@
+fhir api support unknown member resourc work fhir server custom member resourc sai receiv patient follow add extra tag support fhir api work custom resourc deseril process put patient object read mirjam baltu post model class enhanc declar partial class mean work fhir api sourc code add partial class compil wai dll nuget touch sourc code

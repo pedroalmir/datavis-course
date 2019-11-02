@@ -1,0 +1,1 @@
+load dicom imag dcmtk try load monochrom dicom imag file dcmtk exampl code provid doc file try compil dcmtest cxx contain follow code try compil code got get error tri relev section librari abl resolv issu run ubuntu download dcmtk latest snapshot know caus compil issu

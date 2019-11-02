@@ -1,0 +1,1 @@
+pars dicom file directori gdcm directori contain volumetr data varieti sourc sai pet know given dataset sai load imag seri file handl multipl modal dataset current manual peek tag divid file list pars separ particularli gener wai better method gdcm work feel bit hack proper wai find

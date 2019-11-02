@@ -1,1 +1,0 @@
-trying statistical query heart rate data healthkit code compiles results following error function call fatal error unexpectedly found nil unwrapping optional value error occurs line result returning nil verified heart rate data available healthkit don believe data query exist ideas better way code

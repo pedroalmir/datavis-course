@@ -1,1 +1,0 @@
-dicom files patients brain maps sorted patient map value slice slice brain gradients dicom files zero dicom file isotropic dicom file teacher useless dti analysis teacher asked convert nii files correct fsl eddy current correction reallign gradients slice zero know thing reallignation fsl eddy current correction reallignation thanks advance

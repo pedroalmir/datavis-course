@@ -1,1 +1,0 @@
-working command line interface python fhir looking ecoredefinitions xml file version different dstu know ecoredefinitions xml dstu implement standards fhir ecoredefinitions xml able find similar files different fhir versions particular upcoming versions previous dstu available

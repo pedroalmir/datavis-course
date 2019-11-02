@@ -1,0 +1,1 @@
+retriev patient studi detail dcm4chee fetch data dcm4chee upload modal tri util tool getscu retriev dcm file particular studyinstanceid don download dcm imag fetch inform patientid accessionnumb studyid querytool dcm4chee

@@ -1,1 +1,0 @@
-havea windows service built build send tcp receive ack free libraries probably handle tcp part find good library least parsing logic deliver class instance representing message work

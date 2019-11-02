@@ -1,0 +1,1 @@
+dicomwrit color imag try write sequenc color imag dicom file matlab imag type sequenc store matrix name size num row num col num channel num imag execut give follow error sai data bit depth ensur imag bit sure wrong sai write color imag fact read color dicom imag size matrix store read data guess possibl write color imag help regard appreci doesn talk color imag sequenc

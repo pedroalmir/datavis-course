@@ -1,0 +1,1 @@
+python recogn modul directori instal addit packag anaconda work packag pydicom download unzip move pydicom folder subfold call contain ran didn spit error ran couldn modul open ipython successfulli current directori import directori run cento put bashrc file

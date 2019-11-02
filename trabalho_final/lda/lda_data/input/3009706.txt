@@ -1,0 +1,1 @@
+hl7 compon havea window servic built build hl7 send tcp receiv ack free librari probabl handl tcp part find good librari least pars logic deliv class instanc repres messag work

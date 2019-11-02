@@ -1,0 +1,1 @@
+send ack mirth web servic write simpl web servic mirth send hl7 messag web servic simpl cgi script accept hl7 messag string possibl coupl valu post request mirth sender simpl web servic send back ack mirth know went wrong specif format mirth expect respons wai tell mirth expect note mirth receiv end

@@ -1,0 +1,1 @@
+run gdcm exampl ubuntu try run simpl exampl gdcm instal librari version instal work perfectli fine abl figur compil run exampl header file look gdcmreader gdcmwriter figur compil flag abl run file give error pleas help search figur run file

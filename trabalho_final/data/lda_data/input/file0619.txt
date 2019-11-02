@@ -1,1 +1,0 @@
-evildicom grab dicom data transfer directory program secondary program checks new files periodically change dicom tag temp location change tag resave change memory write directly needs figure evildicom api suggestions following basic code evildicom esapi video

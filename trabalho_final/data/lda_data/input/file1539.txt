@@ -1,1 +1,0 @@
-running following command find scu tool offis dicom toolkit dcmtk keep getting error association worked actual move fail moment transfer message error

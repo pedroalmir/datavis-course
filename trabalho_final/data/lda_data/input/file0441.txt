@@ -1,1 +1,0 @@
-currently working medical research app swift based researchkit objective based framework trying create conditional orkorderedtask https gist github mattio ecc basically says answer previous question yes display question skip find code objective having trouble converting swift

@@ -1,1 +1,0 @@
-steps android wear find example github provided fitstepswatchfaceservice check manifest failed please help thanks

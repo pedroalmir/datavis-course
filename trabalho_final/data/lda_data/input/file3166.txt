@@ -1,1 +1,0 @@
-validate adt version message conformance xml profile version java program validates message xml getting errors proceed solving input message console output

@@ -1,1 +1,0 @@
-started learning ios development swift apologise advance sound dumb question trying integrate healthkit app following tutorials say xcode capabilities enable healthkit problem doesn work error add healthkit entitlement app device tip idea developer account haven purchased membership smth

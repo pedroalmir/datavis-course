@@ -1,1 +1,0 @@
-trying convert fhir object json string find api methods available java implementation serializers available api similar api available java implementation pointers convert object actual string json representation default conversion spring jackson converter working outputting correct json write custom object mapper

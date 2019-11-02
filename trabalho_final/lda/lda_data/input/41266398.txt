@@ -1,0 +1,1 @@
+perl utf8 charact get distort trasnmit script send hl7 messag mirth program check mirth charact ascii set distort shall hl7 connect socket intern receiv warn tri execut gain info environ default local empti line result

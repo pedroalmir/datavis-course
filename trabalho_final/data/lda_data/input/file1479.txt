@@ -1,1 +1,0 @@
-two destinations calls soap webservice take response destination convert mutable xml object logger error msg shows valid msg returns suggestions help

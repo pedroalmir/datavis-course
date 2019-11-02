@@ -1,1 +1,0 @@
-working fhirclient smart fhir python library successfully created bundle individual resources assume helper methods bundle class allow add resource bundle figure example pseudocode thought bundle contains list element entry needed append resource doesn work message attributeerror nonetype object attribute append

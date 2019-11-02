@@ -1,1 +1,0 @@
-problem restful server implements hapi fhir patientresourceprovider practitionerresourceprovier search practitioner resource narrative template generated receive message log problem patient resource narrative element generated problem know happens isnt different providers think thanks

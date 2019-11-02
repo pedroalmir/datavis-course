@@ -1,1 +1,0 @@
-generate token azure fhir server php backend php guzzle generate token auth header access fhir server tried guide https kvaes wordpress azure php oauth management api open azure portal login wanted able generate token seamlessly party api

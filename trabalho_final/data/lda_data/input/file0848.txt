@@ -1,1 +1,0 @@
-applehealthkit application working correctly problem able detect user taps don allow button asking permission method application uses healthkit user doesn allow apple documentation basically question detect

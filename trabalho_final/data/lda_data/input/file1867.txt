@@ -1,1 +1,0 @@
-managed call healthkit fetch recent weight data run includes load text follows code tried truncating end obviously text messy acceptable tried add following code private func viewcontroller set two decimals code results result uilabel string attempt sort programming app personally ongoing learning process slowly adding changing breaking

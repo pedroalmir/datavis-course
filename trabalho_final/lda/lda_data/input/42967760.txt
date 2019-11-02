@@ -1,0 +1,1 @@
+surnam hl7 pid segment write pid segment hl7 patient surnam hyphen space surnam exampl patient name jessica mari lewi william write field lewi william jessica lewi william jessica

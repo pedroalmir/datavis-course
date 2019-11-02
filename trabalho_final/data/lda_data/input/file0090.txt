@@ -1,1 +1,0 @@
-xcode beta requesting access health app method asks authorization produces completion handler returns code decline simulator code handles authorization code wrong xcode bug thanks help

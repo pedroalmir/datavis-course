@@ -1,0 +1,1 @@
+swift healthkit trigger heart rate sampl abl read averag heart rate data healthkit period time durat workout code look appl health app show heart rate sampl appl watch taken infrequ min make averag read period inaccur trigger healthkit sampl gather heart rate data watch write healthkit

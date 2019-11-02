@@ -1,0 +1,1 @@
+android studio queri gui new develop android applic current creat dictionari detect symptom search function exampl user search cough applic displai disea relat symptom sqlite databas databas design good tabl symptom ill joint tabl abl relationship problem tabl exist databas nest sql search contain queri

@@ -1,0 +1,1 @@
+read dicom file python simpl itk simpl itk read dicom file know show qlabel show image1 qlabel

@@ -1,0 +1,1 @@
+read multipl orc obr segment hl7 messag hapi follow hl7 messag pars try fetch valu obr orc segment hapi terser method follow statement give follow error end messag reach iter loop don know wrong gui pleas help proper input teaser method valu

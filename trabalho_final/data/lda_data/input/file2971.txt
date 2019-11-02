@@ -1,1 +1,0 @@
-folder dicom images stored images array print different folder find method write images imwrite

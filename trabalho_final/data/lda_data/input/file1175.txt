@@ -1,1 +1,0 @@
-read series dicom images display volume followed steps ipp sorter setfilenames vtkimagechangeinformation tried visualize vtkimageviewer sending code wrote pretty sure loads sorts images gives error sorting succeeded sorting succeeded program unexpectedly finished code thanks help

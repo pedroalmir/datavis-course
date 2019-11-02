@@ -1,1 +1,0 @@
-trying understand different uses settext setlabel settextsimple setlabelsimple fhir reference implementation cases require string primitive type plain old setlabelsimple approach tried looking examples favor perform exactly string object value gets assigned plain old java string object preferred mode recommend

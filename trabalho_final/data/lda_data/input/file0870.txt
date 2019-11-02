@@ -1,1 +1,0 @@
-working hapi fhir server new java client hoping accomplish create fhir patient bundles single identifying patient resource resources complete bundle json file come python background simple request curl iterate right endpoint patients welcome time process alternatives transactional great advice sincerely appreciated

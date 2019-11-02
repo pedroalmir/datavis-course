@@ -1,1 +1,0 @@
-following code read heart rate data automatically observer query data available healthkit hksampletype readglucosetype read blood pressure data health kit observer query

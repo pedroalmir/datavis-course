@@ -1,1 +1,0 @@
-working dicom images dcmtk make process problem retrieve tags batch images process take long load long values pixel data print long tag values shortened default print textual dump tag option specified multiple times dumping single file take tags loaded searching tags tags retrieve possibilities load specific tags reduce time necessary dump file dcmtk right tool open

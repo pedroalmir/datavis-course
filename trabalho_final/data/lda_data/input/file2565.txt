@@ -1,1 +1,0 @@
-querying web service retrieve list patients way encapsulate tags root element matches fhir standard fhir dedicated manage patient

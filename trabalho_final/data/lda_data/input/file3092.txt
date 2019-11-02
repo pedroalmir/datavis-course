@@ -1,1 +1,0 @@
-working health related app functionality app depends health location services trying access health data permissions parts app restricted health data permissions searched internet read apple documentation found function hkhealthstore authorizationstatus returns status data health app work read permissions access information help greatly appreciated thanks

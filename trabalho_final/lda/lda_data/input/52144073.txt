@@ -1,0 +1,1 @@
+process xrai imag dcm file pydicom find slicethick attribut new imag process know pre process dicom imag python follow tutori slicethick attribut data calcul sampl dataset code error got

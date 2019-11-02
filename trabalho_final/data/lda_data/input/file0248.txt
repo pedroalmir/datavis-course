@@ -1,1 +1,0 @@
-blood glucose values added back health ios https support apple construct healthkit hkunit mmol millimoles liter blood glucose values following throw exceptions terminating app due uncaught nsinvalidargumentexception reason parse factorization string

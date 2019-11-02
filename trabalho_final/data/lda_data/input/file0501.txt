@@ -1,1 +1,0 @@
-ran query hapi fhir database returned paged result back hapi base java actually search documentation hapifhir doc rest client html code runs getting bundle prints urls expected tries execute bundle connectionexception connection refused connect server appears responsive rerun program exact result returned idea connection refused similar issue try run manually postman

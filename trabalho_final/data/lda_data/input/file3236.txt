@@ -1,1 +1,0 @@
-trying sort dicoms multiple subjects respective folders based patientid current directory dicoms subjects sorting able dicom directory group subjects patientid count dicoms subject possible copy move dicoms directory sort folder based patientid code example metadata example counter output added following code try sort images subdirectories run error error

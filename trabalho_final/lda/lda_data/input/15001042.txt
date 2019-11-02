@@ -1,0 +1,1 @@
+modifi dicom imag save raw data matlab data try modifi dicom imag pixel dicom imag rgb imag dimens repres fame take frame modifi specif pixel valu try dicom imag data raw format reason save raw format data file dcmodifi command dcmtk 1st question save raw data correct format kindli suggest know dcmodifi command dcmtk handl data case modifi singl frame thank

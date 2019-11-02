@@ -1,1 +1,0 @@
-trying project unfortuantely read dicom files try access pixel array attribute plot throwing error error suggestion nice thank advance solved solution

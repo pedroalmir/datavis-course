@@ -1,1 +1,0 @@
-working project given cda documents parse extract data database find good parser library reads cda xml returns different sections idea best way approach pretty new healthcare tech field missing imaging library parse cdc object

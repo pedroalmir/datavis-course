@@ -1,0 +1,1 @@
+fhir repeat patient resourc singl xml messag queri web servic retriev list patient wai encapsul tag root element match fhir standard fhir dedic manag patient

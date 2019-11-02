@@ -1,0 +1,1 @@
+loop simplexml larg hl7 messag inform contain obx segment least obx segment messag load segment pid msh loop obx segment inform held obx obx5 run code data 1st obx segment wrong

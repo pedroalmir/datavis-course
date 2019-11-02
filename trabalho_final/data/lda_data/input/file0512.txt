@@ -1,1 +1,0 @@
-best way total step count recorded hksamplequery method initwithsampletype set start end date query method returns array hkquantitysamples guess query recorded step counts array calculate total step count hoping easier solution thousands hksamplequery objects way initwithsampletype return total step count

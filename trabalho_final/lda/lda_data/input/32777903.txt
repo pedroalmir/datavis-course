@@ -1,0 +1,1 @@
+hl7 fhir search queri paramet case sensit lowercas question check refer implement exampl search return error messag defin fhir specif server deal found question respons rest api question camel case properti referencedorgan queri paramet lower case look

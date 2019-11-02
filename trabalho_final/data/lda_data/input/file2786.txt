@@ -1,1 +1,0 @@
-flow uses mllp adapter biztalk accelerator provided microsoft change format message xml format processed comes logging messages options available storing database storing file location coding pipeline components possible store copy message separate msmq queue options logging considered approach know msmq adapter appropriate adapter mllp microsoft provided additional tools btahl

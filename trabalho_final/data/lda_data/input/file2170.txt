@@ -1,1 +1,0 @@
-read series dicom image convert image itk follow example documentation examples dicomseriesreadimagewrite cxx having problems solved hear tip please problem code line underlined code long compiles variable ‘seriesitr value variable ‘seriesend null pointer wrong thanks help advanced

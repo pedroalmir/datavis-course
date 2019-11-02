@@ -1,1 +1,0 @@
-trying figure difference transferring dicom files scu scp pynetdicom wado api methods transferring dicom files figure standard case

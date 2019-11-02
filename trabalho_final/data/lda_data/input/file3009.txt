@@ -1,1 +1,0 @@
-following code cumulative steps started recording values show current steps cumulative tried replacing datatype constants did work calling readdata method history api datapointlistener failed miserably desired output lags thing method change data cumulative steps midnight store sharedpreferences subtract number ondatapoint cumulative better method

@@ -1,0 +1,1 @@
+healthkit sampl type hkcategorytypeidentifierapplestandhour try author sampl type hkcategorytypeidentifierapplestandhour run code wrong appl prohibit write sampl type test xcode edit watcho add function

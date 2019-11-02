@@ -1,1 +1,0 @@
-daily summaries devices garmin api data form https healthapi garmin api request obtain daily summaries following steps create curl command useraccesstoken tocken login https healthapi garmin response request data manual health rest api specification example please answer don give data request

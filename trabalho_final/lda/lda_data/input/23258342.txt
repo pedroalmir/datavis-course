@@ -1,0 +1,1 @@
+dicom imag area calcul develop program matlab view diacom file measur area particular target region imag target area given manual input number point know dicom analyz feel simpli input point coordin matlab function polyarea give actual area know actual area know pixel space slice thick pleas help

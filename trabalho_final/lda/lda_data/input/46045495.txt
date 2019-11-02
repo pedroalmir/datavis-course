@@ -1,0 +1,1 @@
+pydicom dataset attribut transfersyntaxuid suffer read dicom file pydicom post differ code caus error think wrong anonym know occur delet transfersyntaxuid relat dicom standard read try set transfersyntaxuid manual read know work thank advanc

@@ -1,1 +1,0 @@
-apple demo healthkit app called activityrings set bundle identifiers entitlements correctly ios app watch extension working recording data seemingly haven touched code console log says error occurred error authorization determined reporting query handler assignment apple written print error know broken functionality requestauthorizationtosharetypes function appdelegate swift

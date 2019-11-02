@@ -1,0 +1,1 @@
+frequenc highest amplitud fft raw acceleromet data form smoothen appli band pass filter convert frequenc domain signal appli fft figur point plot empti return valu fft complex arrai frequenc highest amplitud point wrong give exampl valu frequenc highest amplitud appli fft full code avail

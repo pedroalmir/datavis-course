@@ -1,1 +1,0 @@
-folder filled dicom structures starts dicomdir goes encapsulate single dcm file easy sharing uploading know tools utilize pydicom dcm chee toolkit dcmtk preferable things installed functional thanks advance

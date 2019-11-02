@@ -1,1 +1,0 @@
-trying convert list dicom tags dcm files excel python tags showing errors patientname pixelspacing conversion tags showing excel file contain show data slicethickness spacingbetweenslices dicom format resolve output file different folder chdir command tried method figure suggestion greatly appreciated code data dicom tag thanks

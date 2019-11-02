@@ -1,1 +1,0 @@
-trying implement google fit listener data updated google fit services link google fit documentation simple example clear reason two problems don know implement variable aren examples documentation define simple work sure launch application gives result error code java lang securityexception signature check failed

@@ -1,1 +1,0 @@
-working extracting patients info fhir server came two types searching methods different difference search method confusing isn mentioned two search methods achieve level filtering method compared url method

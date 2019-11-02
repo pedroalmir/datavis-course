@@ -1,1 +1,0 @@
-machine sends data tcp specified port continuously listen port display data received screen creates connection scenario connection created machine starts sending

@@ -1,0 +1,1 @@
+tell segment actual exist hl7 messag nhapi contain pv2 segment pars messag nhapi parent group pv2 group return mean pv2 present try avoid write code evalu field segment pv2 exampl segment miss messag sourc nhapi latest version updat follow tyson suggest come method

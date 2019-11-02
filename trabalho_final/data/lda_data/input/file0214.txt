@@ -1,1 +1,0 @@
-retrieve dicom files dicom server directory local machine value tag patientid particular string dicom file contains patientid value retrieve particular local machine movescu individual attributes file modified supplemented –key option search file contains patientid value retrieve file modifying values dicom files option available dcmtk movescu context help appreciated

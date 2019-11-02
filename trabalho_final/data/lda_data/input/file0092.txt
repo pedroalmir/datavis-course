@@ -1,1 +1,0 @@
-working feature read hkworkout samples health app display description string user tells workout property indicate user type activity type sample represents property supposed convert hkworkoutactivitytype user friendly string missing better way getting description hkworkout sample

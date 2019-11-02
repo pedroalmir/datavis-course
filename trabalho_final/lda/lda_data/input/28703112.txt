@@ -1,0 +1,1 @@
+multipl nte segment hl7 messag mirth try add multipl nte line end hl7 messag mirth add singl line exampl add line tmp msg simpli overwrit previou line end try add end messag content static understand creat line separ

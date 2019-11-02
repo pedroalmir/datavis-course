@@ -1,1 +1,0 @@
-created simple tcp listener handle messages receiving messages correctly attempting send ack message back server end doesn getting responses wrong set realize needs refactored right trying establish connection

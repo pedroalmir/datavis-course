@@ -1,1 +1,0 @@
-writing tool dicom images spectroscopy shared data functions making gui made different sliders buttons shared data dicom files global variables store information functions share globals currently taught avoid global variables possible increasing coupling better read data dicom file function redundant matlab object oriented help

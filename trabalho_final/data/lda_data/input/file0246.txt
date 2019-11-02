@@ -1,1 +1,0 @@
-afaik boolean value representation specify boolean true false private tag thought short string saying standard widely way specify

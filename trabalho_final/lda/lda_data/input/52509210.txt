@@ -1,0 +1,1 @@
+mirth channel sourc tcp listen set run mirth azur window server try hl7 messag meditech familiar tcp concept help appreci meditech send hl7 messag server configur set mirth channel exampl panel select put public address put port number set inbound rule put meditech address port number

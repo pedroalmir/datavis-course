@@ -1,1 +1,0 @@
-icm function defined output algorithm logical matrix size able display image shows different component varying gray value returns display connected components think thresholds image returns values number classes means ellipse structures two squares close middle image don know number classes present input image ground truth output

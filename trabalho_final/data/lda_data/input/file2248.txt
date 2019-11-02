@@ -1,1 +1,0 @@
-server hosted network having labdaq having medisoft send messages dropped labdaq folder medisoft looking mirth setup connectivity mode file reader writer

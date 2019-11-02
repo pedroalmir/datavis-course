@@ -1,1 +1,0 @@
-github repository url add codes calling fhir apis https github cerner smart fhir tutorial created app following steps tutorial insert codes call endpoint fhir cerner dstu medication statement possible call post api sandbox yes know hope learn thanks

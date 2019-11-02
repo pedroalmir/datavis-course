@@ -1,0 +1,1 @@
+transform raw pixel rescal slope rescal intercept dicom solut post transform raw pixel work good imag face problem imag imag have pixel valu rescal slope rescal intercept appli solut mention new pixel valu neg find valu new pixel valu lookup tabl creat window level window width look tabl have posit valu pleas help solv problem

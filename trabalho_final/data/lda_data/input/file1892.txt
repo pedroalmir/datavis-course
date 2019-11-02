@@ -1,1 +1,0 @@
-exploring java fhir reference implementation looking represent data model fhir objects understand fhir rest based least built mind suppose simply memory fhir objects represent data don expose rest service looking common representation data specifically looking best practice creating references memory objects build type relationship

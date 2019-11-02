@@ -1,1 +1,0 @@
-verbal consultation patient dialog patient doctor best modeled resource models fhir models questionnaire questionnaireresponse doesn right type interaction questionnaireresponse reference questionnaire published static document questions consultation unique consultation linked patient doctor

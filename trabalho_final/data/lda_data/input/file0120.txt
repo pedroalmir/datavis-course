@@ -1,1 +1,0 @@
-trying wrap head dicom pretty basic question spent hours standard find answer question instance series required set dicom tags true instance study required set tags realize instance required conform sop class attributes given class required leaving open possibility instances optional attributes instances series thinking right way

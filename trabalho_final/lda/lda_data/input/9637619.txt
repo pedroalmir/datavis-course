@@ -1,0 +1,1 @@
+convert dicomdir dcm file folder dicomdir structur folder dicomdir imag export convert dicomdir dcm file possibl programmat

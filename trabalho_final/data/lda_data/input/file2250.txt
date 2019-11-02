@@ -1,1 +1,0 @@
-working app uses workout sessions request heart rate data high frequency works perfectly create new workout session app unfortunately usability issue user activates workout watch app say jogging app stop workout starting new check workout session going achieve basically utilise session running

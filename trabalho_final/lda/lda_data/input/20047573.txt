@@ -1,0 +1,1 @@
+type hl7 messag confirm imag pac hl7 messag type exchang imag finish imag readi view orm segment shall map imag field pac pleas note messag request pac thank advanc abdallah

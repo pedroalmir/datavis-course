@@ -1,1 +1,0 @@
-way sensor data apple watch example connect heart rate apple watch app steps app define delegate receive heart rate information apple watch make request apple watch send data periodically know works monitors interface similar depend healthkit achieve

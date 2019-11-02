@@ -1,0 +1,1 @@
+determin transfer syntax dicom imag new dicom protocol have question relat transfer syntax need chosen send imag list imag send remot server imag list follow format doc wonder list transfer syntax correspond dicom format take dicom imag determin format sure transfer syntax exampl hard code imag list imag take loop know transfer syntax dicom imag

@@ -1,0 +1,1 @@
+read patient name tag dicomdir clearcanva new dicom world try read patient name studi detail dicomdir file databas code consol applic execut error directoryrecordsequenceitem record valu return null line enter loop help return null valu abl find put breakpoint debug thank advanc sunil

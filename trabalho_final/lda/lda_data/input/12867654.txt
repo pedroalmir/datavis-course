@@ -1,0 +1,1 @@
+clear vtkrenderwindow qvtkwidget bunch vtkimagemapp vtkactor2d vtkrender load object qvtkwidget dicom imag render user open imag time close imag order replac problem old imag window method clear render window appar doesn work removeallprop clear window

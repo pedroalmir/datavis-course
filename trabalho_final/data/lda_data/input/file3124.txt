@@ -1,1 +1,0 @@
-fhir server fhir client works environment locale uses version firely team set patient birth date sends request fhir server set rely customers remember convert format date sending fhir server set correct formatting example serializer tried add startup didn help googled code code doesn mean set yyyy serializing deserializing

@@ -1,1 +1,0 @@
-previously downloaded gdcm built cmake following command worked fine repeat says find bunch header files sys time lanfinfo pthread unix build fails step missing thought noted time

@@ -1,0 +1,1 @@
+extract inform dicom file write script extract header inform dicom file don extern librari dicomsdl open file bloc note special charact charact string patient name help read file

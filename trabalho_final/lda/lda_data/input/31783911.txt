@@ -1,0 +1,1 @@
+receiv ack mirth test tcp applic send hl7 messag mirth receiv acknowledg mirth problem send messag mirth channel creat connector type tcp listen mirth did send back acknowledg applic found respon successfulli gener respons successfulli send receiv ack messag mirth newbi mirth don know exactli set channel receiv send ack messag pleas help thank

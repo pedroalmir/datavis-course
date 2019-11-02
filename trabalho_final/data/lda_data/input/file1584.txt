@@ -1,1 +1,0 @@
-possible retrieve raw ecg signals programmatically qardiocore bluetooth android device android qardio app doesn work qardiocore wanted know tried write app usage android worked

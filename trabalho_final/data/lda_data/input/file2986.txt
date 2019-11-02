@@ -1,1 +1,0 @@
-writing java code generating post request medicationorder resource hapi fhir dstu come troubles setting reference values contained resources contained resources present generated xml message operation outcome internal server error message expecting outer element called feed found medicationorder familiar medicationorder resource please help java code

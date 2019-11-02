@@ -1,1 +1,0 @@
-apache camel mina hapi receive messages noticed taking time unmarshal create message object time increases larger message message obx segment obx obx field tested manually removing fields obx found improvement performance way tell hapi parse fields obx

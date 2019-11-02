@@ -1,1 +1,0 @@
-convert dicom image grayscale image matlab thanks

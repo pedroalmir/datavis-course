@@ -1,0 +1,1 @@
+type fhir resourc record intervent fhir specif number resourc suppos doctor recommend bedrest patient recommend daili exercis thing record fhir resourc type don patientord patientrecommend patientintervent

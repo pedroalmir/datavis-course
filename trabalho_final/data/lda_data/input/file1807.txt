@@ -1,1 +1,0 @@
-saved matrix coordinate row col slice matlab load python unfortunately loading row col slice python given matlab syntax size rows columns slices dimension python syntax size slices dim rows columns example following code viwe variable array row col slice load saved matrix dicom matrix matlab python

@@ -1,0 +1,1 @@
+camel stop process rout camel rout process hl7 messag process succe pass endpoint process happen processhl7 catch block process stop process docatch encount end happen happen flow endpoint stop docatch block

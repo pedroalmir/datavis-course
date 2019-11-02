@@ -1,1 +1,0 @@
-fhir api implemented read operation capabilitystatement read operation implement issummary true search operation figuring resource elements issummary true fhir api

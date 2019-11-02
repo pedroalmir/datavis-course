@@ -1,1 +1,0 @@
-writing medical records system android based odk clinic trying communicate openmrs server unfortunately hapi way resource intensive phone especially phones looking record data cholera epidemics doctors borders know good parser java works standard

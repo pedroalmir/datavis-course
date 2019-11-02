@@ -1,1 +1,0 @@
-working simple researchkit app survey questions orksteps answers participant submits survey database research found orkeserializer sqlite potential parts solution missing big picture view things integrated working solution starting knowledge databases data transfer swift basic information helpful extract data orkresult swift extract data standard type database small survey

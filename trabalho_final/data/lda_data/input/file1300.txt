@@ -1,1 +1,0 @@
-try access dicom file rgb pixel array unknown compression extracting grayscale pixel arrays works completely fine goal convert common grayscale array unfortunately result array containing correct pixel data contents false scaled spatially disturbed issue

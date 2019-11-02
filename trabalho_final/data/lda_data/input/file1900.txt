@@ -1,1 +1,0 @@
-specified recommended way merging two patients fhir rest style merge implemented posting update patient resource changing patient link element doesn explicit signficant operation merge alternative possibility define merge operation patient resource specification fhir community patterns suggestions

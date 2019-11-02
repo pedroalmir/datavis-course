@@ -1,1 +1,0 @@
-app uses healthkit framework retrieve user health data different data points healthkit currently calls completion handler sample query way combine results process efficiently knowledge code thank advance

@@ -1,1 +1,0 @@
-downloaded jar file fhir validator ran validator instructions website ran following command cmd java jar fhir validator jar composition xml defn validation min xml zip downloaded resource file validation package desktop following error note added xmx constantly memory error

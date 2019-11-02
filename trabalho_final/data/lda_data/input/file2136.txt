@@ -1,1 +1,0 @@
-open dicom image matlab place data cursor specific set coordinates obtain index pixel value match set coordinates image matrix attached image idea happening

@@ -1,1 +1,0 @@
-searched issue asking couldn find similar developed client server solution send receive message socket connect client server connection able send message outputsteam object send multiple socket connection tried different approaches didn work properly piece code client side server side send messages socket connection

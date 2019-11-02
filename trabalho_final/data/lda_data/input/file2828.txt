@@ -1,1 +1,0 @@
-sequencedelimitationitem defined length dicom way undefined length sequencedelimitationitem present two ways idi present undefined length set think way looking simplifies reading algorithms bit plus unknown sequences lengths calculated saved having parse unknown substructure

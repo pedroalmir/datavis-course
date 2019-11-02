@@ -1,0 +1,1 @@
+tool script gener dicomdir look standalon tool window gener dicomdir file directori contain dicom imag look give runtim error recommend tool purpos

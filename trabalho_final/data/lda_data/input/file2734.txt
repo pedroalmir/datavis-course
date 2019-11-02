@@ -1,1 +1,0 @@
-consider logical fragment effective cardinalities identifier explicit myclinicnbr constrained myclinicnbr yourclinicnbr constrained identifier questions validate yourclinicnbr having cardinality incompatible identifier yourclinicnbr override yourclinicnbr bring compliance identifier make statement part correct snapshot cardinality

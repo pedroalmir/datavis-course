@@ -1,0 +1,1 @@
+resampl imag matlab follow problem volum 1st 512x512x72 voxel dimens 2nd 1024x1024x88 voxel dimens resampl 2nd volum order voxel dimens 1st

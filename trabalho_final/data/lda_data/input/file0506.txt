@@ -1,1 +1,0 @@
-trying implement generalized dice loss implemented niftynet different convnet written keras backend try train model loss function following error raised valueerror operation gradient please make sure ops gradient defined differentiable common ops gradient argmax eval happen loss functions try implement know address issue tell non differentiable operators present code

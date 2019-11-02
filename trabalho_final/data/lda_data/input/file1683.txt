@@ -1,1 +1,0 @@
-converting legacy code itk dicom manipulation reading private image tags getting results base encoded format private tags wondered value getting tag basically encoded value know base comes gdcm library question header functions part itk create gdcm objects convert encoded values write function conversion shall efficient native way itk library

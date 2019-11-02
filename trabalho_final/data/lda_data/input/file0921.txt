@@ -1,1 +1,0 @@
-google fit api project user daily steps problem user enter steps manually adding activities retrieve daily steps google fit api returns steps added manually way differentiate manually added steps sensor recorded steps

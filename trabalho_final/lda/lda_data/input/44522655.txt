@@ -1,0 +1,1 @@
+specif charact set attribut singl dicom object came dicom object contain sequenc privat tag item sequenc contain specif charact set specif charact set element valu found extra specif charact set creat problem applic allow dicom standard multipl specif charact set singl object scope rule find answer nema document check dicom conform statement result

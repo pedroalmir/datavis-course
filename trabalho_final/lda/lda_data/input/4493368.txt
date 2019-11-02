@@ -1,0 +1,1 @@
+ienumer parser class design creat class read dicom file basic binari file fill object creat solid class design follow want know think chang make class

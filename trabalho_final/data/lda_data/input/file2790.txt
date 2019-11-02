@@ -1,1 +1,0 @@
-information creating valid dicom file dcmtk understand mpeg currently released development branch assume process creating mpeg similar mpeg clarify transfer syntaxs mentioned multi frame videos frame mpeg wrapped dicom image create mutli frame dicom image simply take file put dicom headers beginning file anyways sample code creating valid dcm file mpeg mpeg

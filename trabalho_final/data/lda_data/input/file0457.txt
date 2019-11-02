@@ -1,1 +1,0 @@
-trying simple oauth log withings api able login page appear enter account details hit sign page refreshes taking authorize app page following settings top haven changed replace consumer key secret copies tell wrong able exact code login fitbit api fine

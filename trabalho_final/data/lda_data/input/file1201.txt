@@ -1,1 +1,0 @@
-strange problem mirth connect sender channel working fine tested testing environment deployed sender channel live strange problem arises data processed successfully source transformer destination llp sender message successfully receiver database writer step getting error

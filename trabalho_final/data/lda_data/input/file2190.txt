@@ -1,1 +1,0 @@
-two matrices roi dicom image grey scale second matrix values second matrix did thresholding kept values range superimpose two matrices images show result figure means background grey image superimposed color image region non zero values help thanks

@@ -1,0 +1,1 @@
+xsd java pojo creat custom string class xsd file defin health relat specif come gener java pojo jaxb eclips command line xic command problem got creat class basic java type link class creat new class class valu field normal object end sort convolut code inconveni mean try marshal unmarshal correspond json object compli extra nest level horribl cleaner idea thank

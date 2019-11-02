@@ -1,1 +1,0 @@
-xcode create app healthkit try authorize healthkit ios simulator crashes code bottom know fix

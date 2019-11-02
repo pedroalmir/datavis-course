@@ -1,1 +1,0 @@
-following problem tried install pydicom package python following command windows anaconda setup work fine package installed type list open spyder pycharm type importerror module named pydicom idea wrong went conda pydata docs pkgs html fine please assist

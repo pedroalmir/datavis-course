@@ -1,1 +1,0 @@
-application hands sitting top vtk vtkdicomimagereader getting image position width height good good way read imagetype string tag general read tag back vtkdicomimagereader pass tag value back dicom file

@@ -1,1 +1,0 @@
-probably misunderstand data types images lets say uint image uint darkest brightest intensity value logic make darkest brightest intensity value int image int image originally dicom darkest pixel brightest say int pixels saved int type numpy array addition concatenate two int numpy arrays results binary image white black help getting wrong

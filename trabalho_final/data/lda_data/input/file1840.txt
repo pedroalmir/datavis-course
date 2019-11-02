@@ -1,1 +1,0 @@
-trying integrate withings rails apps omniauth provider wrote called omniauth withings able configure provider allow visit auth withings redirects withings authorization page allow access browser redirected callback url auth withings callback routed controller action attempts measurement data withings simplificator withings gem problem happens call user authenticate missing

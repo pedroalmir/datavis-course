@@ -1,0 +1,1 @@
+hl7 messag termin send hl7 messag web servic char carriag return segment termin store procedur call web servic send hl7 messag servic receiv messag sai extra char line feed segment termin look valu send segment termin make sure servic receiv extra look haven found solut

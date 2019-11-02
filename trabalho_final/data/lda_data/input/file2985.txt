@@ -1,1 +1,0 @@
-advise sql data type dicom uid sample primary key

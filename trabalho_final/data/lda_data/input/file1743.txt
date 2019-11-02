@@ -1,1 +1,0 @@
-creating diagnosticorder fhir standard return type order full blood count category type example laboratory diagnosticorder item code property custom value presume probably order type represent category order create extension misunderstood specification

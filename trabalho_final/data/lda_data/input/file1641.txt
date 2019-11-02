@@ -1,1 +1,0 @@
-application trying construct message send application nhapi message successfully constructed trying extract throws error encoding notsupportedexception specifications framework version language piece code immediately line constructed message

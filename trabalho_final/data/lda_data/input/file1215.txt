@@ -1,1 +1,0 @@
-matlab data trying modify dicom image pixels dicom image rgb image dimension represents fames take frame modify specific pixel values try dicom image data raw format reason saving raw format data file dcmodify command dcmtk question saving raw data correct format kindly suggest know dcmodify command dcmtk handle data case modify single frame thanks

@@ -1,1 +1,0 @@
-getting hang communication scu scp dicom servers images clearcanas pacs server access web gui following code able send dicom scu computer scp remote server question way send objects different directories server make directories remotely server send data different directories

@@ -1,1 +1,0 @@
-created application creates weight data source unfortunately typo application field name incorrectly typed weight rest api update method support changing fields unfortunately rest api delete method impact problem android logs indicate way update field delete data source

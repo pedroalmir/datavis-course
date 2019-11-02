@@ -1,1 +1,0 @@
-newbie world dicom send modified dicom file created copy dicom queried pacs server back server new series patient study modified dicom new single series increment subnumber sopuid worried posibility new series added suid getting added rejected accepted way numbering sending new dicom image pacs server increment sopuid suid

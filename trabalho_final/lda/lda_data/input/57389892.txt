@@ -1,0 +1,1 @@
+gener java model class fhir resourc try understand model class get gener given fhir resourc link xml schema json schema schematron wai gener sourc java class

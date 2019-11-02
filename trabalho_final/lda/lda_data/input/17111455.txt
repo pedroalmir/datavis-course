@@ -1,0 +1,1 @@
+process hl7 type messag xslt regex combin xslt hl7 type messag transform regex xslt combin format messag datetim yyyymmddhhmmss unitnam room bed locat separ pipe person multipl locat messag look patient locat end xml result look probabl substr type function locat problem run rel new xslt regex gener don know recurs instanc messag multipl locat end result solv thank advanc

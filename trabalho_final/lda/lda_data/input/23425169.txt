@@ -1,0 +1,1 @@
+hl7 fhir diagnosticord code categori creat diagnosticord hl7 fhir standard return type order full blood count categori type exampl laboratori diagnosticord item code properti custom valu presum probabl order type repres categori order creat extens misunderstood specif

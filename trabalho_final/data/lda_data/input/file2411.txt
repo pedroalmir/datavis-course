@@ -1,1 +1,0 @@
-new python user simple image processing essentially dynamic medical image series images different time points store array due nature scanning technique likely occasional patient motion imaging frames makes data unusable delete frames recast array new dimensions deletion frame update image display best way achieve goal skeleton code

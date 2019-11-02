@@ -1,1 +1,0 @@
-attempting following psuedocode generate hashmapone populated results found dicom file key manipulated matching purposes generate second hashmaptwo read text document compare keys hashmaps match add results value hashmapone new hashmapthree getting stuck adding matched key value hashmapthree populates null value despite declaring public static variable please tell code snippets

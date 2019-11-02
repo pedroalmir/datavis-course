@@ -1,1 +1,0 @@
-new fhir trying understand resources work assume patient data store patient resource define fhir patient resource build fhir patient html say data limited patient name gender birthdate omit fields defining patient resource

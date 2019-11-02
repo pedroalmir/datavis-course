@@ -1,1 +1,0 @@
-directory contains volumetric data variety sources say pet know given dataset say vtkgdcmimagereader load image series files handle multiple modalities datasets currently manually peeking tags dividing files lists parsing separately particularly general way going better method gdcm work feels bit hack proper way find

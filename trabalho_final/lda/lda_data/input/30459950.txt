@@ -1,0 +1,1 @@
+downsampl fmri imag fsl set fmri imag group dimension voxel dimens volum group dimension voxel dimens imag refer imag registr due differ resolut registr fail flirt 1st downsampl upsampl tri follow approach flirt input imag ref good size imag output imag applyxfm init usr share fsl flirtsch ident mat work downsampl upsampl correct downsampl upsampl

@@ -1,1 +1,0 @@
-help load data dicom xml document fill structure xml doc

@@ -1,1 +1,0 @@
-fields identify equipment medical device manufacturer model dicom attributed manufacturer model software identify vendor model information device similar attributes message

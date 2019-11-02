@@ -1,0 +1,1 @@
+add arrai hkquantitytyp health kit author add 2nd hkquantitytyp health kit author add heart rate energi burn arrai quantitytyp add type line datatyp set arrayliter quantitytyp quantiti type arrai get error convert valu hkquantitytyp expect argument type beginn think format arrai correctli

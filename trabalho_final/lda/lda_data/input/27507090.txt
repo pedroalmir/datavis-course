@@ -1,0 +1,1 @@
+default dicom encod specif charact set dicom file defin charact set default ascii default encod dicom file dicom file contain german tag file specifi charact set assum case file allow contain ascii symbol default charact set report file invalid submit chang make sure understood dicom correctli

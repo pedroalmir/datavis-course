@@ -1,1 +1,0 @@
-running code button click app crashes instantly log shows following error button click method contains following codes mentioned log run thread alternate methode run code

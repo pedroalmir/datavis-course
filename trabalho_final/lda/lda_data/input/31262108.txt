@@ -1,0 +1,1 @@
+try metadata healthkit try data healthkit send uuid item nsuuid convert string don wrong idea metadata string xcode suggest add string anyobject variabl metadata creat sampl got error

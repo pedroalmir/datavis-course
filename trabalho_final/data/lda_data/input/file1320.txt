@@ -1,1 +1,0 @@
-rest api google fit list sessions fitness users sessions list method gives dozen results results set pagetoken value got previous response new results contain data points pagetoken happens pagination function google python api client iterate results new data sure session data google fit account missing regarding pagination thanks

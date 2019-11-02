@@ -1,1 +1,0 @@
-make functions dicom serie vtk make connections window mouse primary design example click zoombutton click image left button mouse image zoomed know function name connection mouse functions pushbutton

@@ -1,1 +1,0 @@
-itk read dicom file calling read tag value works fine tags gantry angle problem comes trying read tag embedded getvaluefromtag read back empty string exposure sequence value read tags tags itk looking itk documentation way

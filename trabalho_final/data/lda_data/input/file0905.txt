@@ -1,1 +1,0 @@
-simpleitk work dicom pet images python access information stored dicom header convert pixel value suv fine accessing metadata dictionnary keys access available metadata dictonnary delivered simpleitk error raised try access tags example tags exist find imagej tried access private tags taken account know tags available list tags given access thanks help

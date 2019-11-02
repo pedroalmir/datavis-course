@@ -1,0 +1,1 @@
+mirth hl7 ack error messag control match start mirth hl7 try send messag remot server look follow respons look follow error sai understand error mean messag control return messag number messag control number messag send ack return wrong fault remot parti know solv debug

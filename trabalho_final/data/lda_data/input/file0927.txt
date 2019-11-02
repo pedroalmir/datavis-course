@@ -1,1 +1,0 @@
-creating googleapiclient instance following code client created phone shows account selection dialog oauth authorization dialog activity gets result following method log authorization process working trying google fit following code following error application needs oauth consent user missing oauth credentials created google console

@@ -1,1 +1,0 @@
-syncing weight data healthkit keep reference latest weight data synced retrieve healthkit data problem approach user enters historic data synced perform query creationdate startdate database identify historic value newer filter newly created values healthkit

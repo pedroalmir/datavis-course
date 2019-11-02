@@ -1,0 +1,1 @@
+raw ecg data ble current work holter monitor successfulli show heart rate bpm heart rate measur characterist bluetooth show ecg line graph raw heart data voltag amount specifi reach inform interv sensor contact statu characterist don know raw data possibl miss featur characterist wai data ad8232 heart monitor

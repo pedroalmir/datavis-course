@@ -1,0 +1,1 @@
+send fhir hl7 patient resourc json messag slice identifi element send json messag fhir patient resourc have identifi element slice epino civilno discrimin epino offici civilid usual send identifi valu

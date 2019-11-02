@@ -1,1 +1,0 @@
-writing job converts dcm jpg images dicom gem code console followed issue github page suggested able convert dcm image jpg directly command dicom show error able convert jpg console dicom throwing fix

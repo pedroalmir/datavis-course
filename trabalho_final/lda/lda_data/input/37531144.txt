@@ -1,0 +1,1 @@
+googl fit histori api return wrong time bucket request suppos queri googl fit aggreg heart rate data past month group time bucket data point singl 29th expect result data point total 25th 29th reason solv problem code output

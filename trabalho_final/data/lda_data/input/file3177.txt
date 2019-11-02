@@ -1,1 +1,0 @@
-trying log write windows event log fellow oak dicom log connector setup log service xmlconfigurator assemblyinfo exe logger copy output copy nuget package dicom log log package installed looking added log xml config initialize logging serilog example

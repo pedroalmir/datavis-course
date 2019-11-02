@@ -1,0 +1,1 @@
+read dicom imag try read dicom imag imageview came vtkgdmreader try execut give error code exampl error setinput member vtktextur error setinput member vtkpolydatamapp pleas tell face problem error relat vtk version pleas help resolv problem

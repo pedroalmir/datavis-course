@@ -1,0 +1,1 @@
+biztalk mllp receiv locat specifi localhost server address creat receiv locat hl72x pipelin mllp send hl7 traffic server set biztalk mllp configur host properti receiv locat address server set valu localhost biztalk appear listen respect port port scanner open port mllp host properti receiv locat set address server don refer actual address server local host chang reconfigur wai

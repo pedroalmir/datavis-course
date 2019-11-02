@@ -1,1 +1,0 @@
-trying image classification dicom images balanced classes pre trained model train model constant validation accuracy validation loss fluctuating predicting model returns array prediction image model predicts two classes constant val accuracy possibly overfitting

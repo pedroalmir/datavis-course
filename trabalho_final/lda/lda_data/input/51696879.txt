@@ -1,0 +1,1 @@
+purpos wado dicom servic class user provid try figur differ transfer dicom file scu scp pynetdicom3 wado api method transfer dicom file figur standard case

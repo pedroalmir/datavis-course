@@ -1,0 +1,1 @@
+swagger yaml schema definit object fix properti list implement api 1st applic help swagger import object return dicom object return collect attribut flexibl name exampl know name attribut advanc file structur uniform concret question schema definit json document tri follow success swagger editor return error

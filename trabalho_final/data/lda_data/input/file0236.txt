@@ -1,1 +1,0 @@
-simple itk read dicom file know show qlabel show image qlabel

@@ -1,1 +1,0 @@
-currently dcmtk pac modality console communication dcmtk execute file dcmmkcrv store curve data dcm file question curve data example curve data

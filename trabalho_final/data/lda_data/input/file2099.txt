@@ -1,1 +1,0 @@
-suffering reading dicom files pydicom post different pydicom dataset object attribute transfersyntaxuid code causes error think goes wrong anonymizing know occurs deleting transfersyntaxuid related dicom standard read trying set transfersyntaxuid manually read know works thanks advance

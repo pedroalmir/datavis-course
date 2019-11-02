@@ -1,0 +1,1 @@
+connect mirth system tcp sender listen new mirth connect know connect mirth machin take data hl7 messag databas sourc machin send data hl7 messag mirth machin differ user kindli prai tell requir set mirth destin mirth sourc window bit mirth llp sender destin connector

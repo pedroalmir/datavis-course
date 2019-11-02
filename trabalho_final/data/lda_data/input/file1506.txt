@@ -1,1 +1,0 @@
-trying convert dicom files mhd file code https itk itkexamples src gdcm readdicomseriesandwrite dimage documentation html works information lost conversion takes series convert mhd file based series simpler way convert dicom mhd mha format python help highly appreciated

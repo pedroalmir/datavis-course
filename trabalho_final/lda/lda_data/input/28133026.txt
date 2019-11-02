@@ -1,0 +1,1 @@
+list segment group repetit hl7 v2x msg hapi regard messag list segment group respect repetit count list segment subgroup group hapi apach camel

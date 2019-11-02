@@ -1,0 +1,1 @@
+convert dicom slice imag python current sit task plot dicom slice model numpi matplotlib marchingcub triangul volumemodel tri method websit unfortun didn work

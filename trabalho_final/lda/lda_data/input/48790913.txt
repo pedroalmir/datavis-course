@@ -1,0 +1,1 @@
+hapi hl7 valid valid pars messag scenario pars valid hl7 messag work expect valid behavior try 1st pars hl7 messag valid valid method return true thrown gener acknowledg messag case valid fail messag generateack method

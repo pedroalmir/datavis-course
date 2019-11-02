@@ -1,0 +1,1 @@
+send file separat mirth hl7 receiv send expect specif end file marker tcp messag ascii ascii mirth hl7 engin carriag return fairli straight send file separ thank advanc

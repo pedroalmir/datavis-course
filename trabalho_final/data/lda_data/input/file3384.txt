@@ -1,1 +1,0 @@
-requirement read parse ccd xml application tried generating jaxb classes ccd schema gave error initially attribute solved renaming attribute try unmarshal ccd xml java obj generated java classes error ccd xml complex whats best way parse ccd xml open java php tool please suggest

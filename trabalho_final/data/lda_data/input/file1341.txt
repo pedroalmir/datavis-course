@@ -1,1 +1,0 @@
-find dcmtk query pacs study root study level condition studydate modality query patientid know modality tag series level pacs condition study root study level dicomobject dcm chee scp cfind return modality modalitiesinstudy modality pacs find correct number know study modalitiesinstudy study level did return modality values query wrong number study actual number

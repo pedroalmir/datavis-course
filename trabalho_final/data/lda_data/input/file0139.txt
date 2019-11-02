@@ -1,1 +1,0 @@
-following code took application trying load dicom images card read attributes display grid function works fine application integrate code application crashes tried debugging values variables

@@ -1,1 +1,0 @@
-trying parse files stored hdfs nifi finding examples proper way achieve please help

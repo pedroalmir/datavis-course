@@ -1,1 +1,0 @@
-create categorical variable based value data frame consider table hospital visits patient ids note patient visit hospital add new field indicating patient received aspirin hospital visit table multiple levels receive medicine doctor right example course tried merge tables inner join worked ended duplicates patient got aspirin ibuprofen know got aspirin least shape table new index

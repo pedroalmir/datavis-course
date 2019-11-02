@@ -1,1 +1,0 @@
-receiving lab messages static host dynamic port message received send ack message back host port destination tcp writer channel correct message port number fixed tell mirth send message sending host port thanks advance abhi

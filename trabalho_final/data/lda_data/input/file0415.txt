@@ -1,1 +1,0 @@
-install gdcm windows import gdcm python got error environment python gdcm gdcm windows

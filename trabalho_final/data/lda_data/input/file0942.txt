@@ -1,1 +1,0 @@
-hapi fhir library generic restful client communicate fhir server occasionally delivering unclean xml errors avoided json easy override adding fluent chain mentioned documentation intro page methods don way set encoding accept server sends default way set default encoding context client creation applies

@@ -1,0 +1,1 @@
+fhir differenti profil declar differenti element structuredefinit differenti element replac properti base element specifi properti exampl proper valu label properti gener snapshot appli differenti base remov properti desir

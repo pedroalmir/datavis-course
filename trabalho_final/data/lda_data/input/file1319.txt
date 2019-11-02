@@ -1,1 +1,0 @@
-trying fhir pull patients encounters appointments intermediate database analysis fhir api appear designed handle patient time encounter time efficient way pull full set encounters keep current appointments

@@ -1,1 +1,0 @@
-trying record digit nsnumber health kit peakexpiratoryflowrate code receiving error try data health kit terminating app due uncaught hkobjectvalidationfailureexception reason hkquantitysample min requires unit type volume time incompatible unit min

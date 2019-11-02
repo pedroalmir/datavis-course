@@ -1,1 +1,0 @@
-large dicom mri dataset patients patient folder slices dcm files data patient different sizes example patient pixelspacing slicethickness spacingbetweenslices pixels patient pixelspacing slicethickness spacingbetweenslices pixels question convert pixel spacing slice thickness thanks

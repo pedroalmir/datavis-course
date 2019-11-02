@@ -1,0 +1,1 @@
+hl7 xml schema miss element definit attempt exchang hl7 messag specif messag contain escap sequenc obx field don defin element obx content type isn defin mix caus schema valid fail messag xml document defect schema doesn appear match written specif custom schema make work found solut

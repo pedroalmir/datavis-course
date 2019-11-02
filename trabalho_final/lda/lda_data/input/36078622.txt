@@ -1,0 +1,1 @@
+pars multipl in1 segment hl7 hapi terser receiv hl7 messag version exampl in1 repeat try pars 2nd in1 segment terser throw creat repetit structur in1 structur non repeat

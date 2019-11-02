@@ -1,1 +1,0 @@
-trying make histogram dicom file life figure getting negative value index transposed image index negative sure wrong values correct file size header depth width program trying process matlab error attempted access hist index positive integer logical equation bin width image depth bins

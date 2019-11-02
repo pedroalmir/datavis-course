@@ -1,1 +1,0 @@
-qvtkwidget bunch vtkimagemapper vtkactor two vtkrenderers load objects qvtkwidget dicom image two renderers user open two images time close image order replace problem old image window method clear render windows apparently doesn work removeallprops clear windows

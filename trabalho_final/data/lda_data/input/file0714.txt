@@ -1,1 +1,0 @@
-modality having various dicom tags various tag draw region interest roi modality dicom file dicom help know modality tag draw marker modality referential tag roi reference sop instance uid respect modality

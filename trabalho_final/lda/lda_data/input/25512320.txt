@@ -1,0 +1,1 @@
+healthkit hkauthorizationstatu read data healthkit read type inform specif ask write function problem come try detect user allow health type read believ intend wai hkhealthstor authorizationstatusfortyp method return deni unknown return author write type found wai method read work

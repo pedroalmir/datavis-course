@@ -1,1 +1,0 @@
-programmer new company trying populate fhir resource simple key value pairs communicate sister iis write send two strings try look fhir spec appropriate resource confused

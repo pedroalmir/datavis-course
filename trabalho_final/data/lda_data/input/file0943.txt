@@ -1,1 +1,0 @@
-simpleitk read metaimage data access metadata stored key value mhd file way found call pretty slow loads array memory way access origin spacing direction loading full image

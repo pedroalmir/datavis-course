@@ -1,1 +1,0 @@
-having images having height width different depth make depth image equal didn find python code help

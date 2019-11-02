@@ -1,1 +1,0 @@
-following instructions index php title fhir build process fhir build failing modified publish bat ensure uses correct jdk running windows bit machine jdk tried jdk failing error looks saxon jar hell ideas

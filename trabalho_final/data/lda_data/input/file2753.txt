@@ -1,1 +1,0 @@
-adding code healthkit ios swift app getting error error occurred error domain apple healthkit code missing apple developer healthkit entitlement userinfo nslocalizeddescription missing apple developer healthkit entitlement solve thanks

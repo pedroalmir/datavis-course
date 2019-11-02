@@ -1,0 +1,1 @@
+nhapi pars issu new nhapi pars hl7 messag issu face pars adt messag pv1 segment null attach sampl messag code sampl messag code

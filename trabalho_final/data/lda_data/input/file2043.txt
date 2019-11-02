@@ -1,1 +1,0 @@
-researching methods building client interface existing emrs read tons info various coding schemes clueless worked emr possible build web interface post requests pull push data server database separate database client say web application interface engine mirth communicate emr database web application

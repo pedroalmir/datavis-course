@@ -1,1 +1,0 @@
-configure clearcanvas sdk web application image viewer web page say imageviewer aspx

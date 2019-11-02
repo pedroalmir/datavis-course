@@ -1,1 +1,0 @@
-guys new developing android applications currently creating dictionary detect symptom search function example user search cough application display diseases related symptom sqlite database database design good table symptom illness joint table able relationship problem table existing database nested sql search containing two queries

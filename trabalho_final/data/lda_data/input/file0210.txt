@@ -1,1 +1,0 @@
-edi messages stored oracle database pull individual fields isa currently ugly sql create sql package make easier wondering done imagine select edi extract field clob column isa edi table

@@ -1,0 +1,1 @@
+healthkit heartrat sampl metadata hkprivateheartratecontext fatal error get fatal error watcho set metadata heart rate sampl stream queri set sampl type get stream sampl idea

@@ -1,1 +1,0 @@
-trying pull data google fit google oauth requires access token request google fit api way application unrestricted access data rest api

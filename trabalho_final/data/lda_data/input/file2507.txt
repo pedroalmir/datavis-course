@@ -1,1 +1,0 @@
-resource definition practitioner implement standards fhir practitioner htm address set problem managing physicians national identifier rpps france physician addresses work public hospital private organization time instance physicians active addresses deal thanks advance

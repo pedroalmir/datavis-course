@@ -1,1 +1,0 @@
-testing tcp application send message mirth receiving acknowledgement mirth problem send message mirth channel created connector type tcp listener mirth did send back acknowledgment application found respone successfully generated response successfully send receive ack message mirth newbie mirth don know exactly set channel receive send ack message please help thanks

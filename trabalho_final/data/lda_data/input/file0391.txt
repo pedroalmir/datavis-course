@@ -1,1 +1,0 @@
-mule healthcare toolkit collection features facilitates integration healthcare systems providing tools needed easily create read transform version messages mule unfortunately available mule esb enterprise way implement complete messaging service based community version mule best regards

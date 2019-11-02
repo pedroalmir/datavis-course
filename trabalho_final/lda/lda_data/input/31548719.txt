@@ -1,0 +1,1 @@
+dicomimag writebmp function produc unclear grai imag dcmtk read hopefulli modifi dicom imag follow code did creat dicomimag write pixel data bmp file filenam specifi imag return grai imag outlin origin imag bare recogn look code produc miss code did understand function pleas enlighten thank

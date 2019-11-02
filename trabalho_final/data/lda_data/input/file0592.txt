@@ -1,1 +1,0 @@
-trying request authorisation category healthkit code https raywenderlich ios healthkit swift getting started argument type hkcategorytype conform expected type hashable category healthkit general tutorial dedicated hkcategorytype possibly hkcategorytypeidentifiermindfulsession

@@ -1,0 +1,1 @@
+make hl7 commun assynchron current initi acceptor applic commun sequenti make asynchron process mean initi applic thread send request backend applic wait respons backend make asynchron right hl7 protocol

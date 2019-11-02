@@ -1,1 +1,0 @@
-looking way compress dicom files send remote server nodejs case tried compression work large dicom files tested file gave compressed file comes small size file size reduced cases won worth please explain working large dicom files better way compress dicom files order send internet thanks advance

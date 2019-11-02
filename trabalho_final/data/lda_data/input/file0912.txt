@@ -1,1 +1,0 @@
-created simple client send formatted messages server unfortunately access server messages coming back right message sends wait message back ack sits waiting advice greatly appreciated create message segments

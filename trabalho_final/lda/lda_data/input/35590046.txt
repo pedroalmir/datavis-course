@@ -1,0 +1,1 @@
+ascii hl7 segment valid wai repres new line place ascii charact segment hl7 messag repres new line charact valid recommend x0d x0d0a repres new line charact plain text format hl7 ascii charact explicitli invalid hl7

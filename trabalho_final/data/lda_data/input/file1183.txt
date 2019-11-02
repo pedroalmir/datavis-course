@@ -1,1 +1,0 @@
-having trouble converting nanoseconds google fit api https developers google fit rest reference users datasources datasets dataset identifier composite minimum data point start time maximum data point end time represented nanoseconds epoch formatted starttime endtime starttime endtime bit integers able convert datetime nanoseconds way convert nanoseconds

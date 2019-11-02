@@ -1,1 +1,0 @@
-appointment json cast dstu hapi fhir json object standard library available google gson library works give value object fields convert json uhn fhir model dstu resource appointment class gives appointment object empty fields

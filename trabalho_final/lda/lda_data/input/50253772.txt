@@ -1,0 +1,1 @@
+dcmtk dump reduc time load work imag make process problem retriev tag batch imag process take long load long valu pixel data print long tag valu shorten default print textual dump tag option specifi multipl time dump singl file take tag load search tag tag retriev possibl load specif tag reduc time necessari dump file dcmtk right tool open

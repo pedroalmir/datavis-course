@@ -1,0 +1,1 @@
+subtract pixel valu dicom imag dcmtk dcmtk read dicom imag follow attribut new sampl getoutputdata read int16 data surpris valu neg near subtract valu imag question subtract valu goe avail imag document speak render pixel data alwai unsign mean special imag data sign attribut sai method proper real data dcmtk

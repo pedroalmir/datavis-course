@@ -1,1 +1,0 @@
-trying upload dicom file local orthanc server error wrote following code upload file server note tried upload file postman successfully uploaded thanks help advance

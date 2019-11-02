@@ -1,1 +1,0 @@
-given list clinics having fhir server suppose system registry containing endpoints explained https fhir managing html authenticate authorize actor clinic wants query servers system registry patient wants query data multiple servers

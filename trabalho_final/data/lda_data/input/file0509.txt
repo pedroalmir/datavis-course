@@ -1,1 +1,0 @@
-reading official document say messages based xml encoding syntax okay clear xml based mean possible format old pipe delimited format

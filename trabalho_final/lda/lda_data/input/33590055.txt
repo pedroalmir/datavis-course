@@ -1,0 +1,1 @@
+read hkworkoutactivitytyp run healthkit tri code read data healthapp get result nil valu error invalid hkobjecttyp hkquantitytypeidentifierdistancewalkingrun keypath workouttyp mac version xcode version code access healthkit data

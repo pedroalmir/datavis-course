@@ -1,0 +1,1 @@
+obr segment requir view obx segment attach hl7 messag try pars hl7 messag file version obx segment come null messag pars don obr segment hl7 messag terser fail fetch obx segment valu return null valu obr segment mandatori view obx attach hl7 messag

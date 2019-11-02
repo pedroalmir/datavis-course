@@ -1,1 +1,0 @@
-developing medical application asp make module patient blood results module import messages parse patient blood results highlight normal values blood test dlls nhapi know advise start module actual requirements bloodresults ultimately imported initially cut paste results parsed processed show current results highlight trends abnormal values stored results table

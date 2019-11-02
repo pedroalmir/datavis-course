@@ -1,1 +1,0 @@
-know application opens dcm file clicked say file manager able load dcm url app displays dicom image

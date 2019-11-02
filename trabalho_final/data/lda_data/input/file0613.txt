@@ -1,1 +1,0 @@
-dicom data slices display three planes axial sagittal coronal data read slices matlab matrix follows display images sagittal coronal planes exchanged wrong understanding orientation dicom images considered increasing increasing increasing

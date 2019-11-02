@@ -1,1 +1,0 @@
-new mitk advanced programmer help displaying dicom image widget visual studio mitk develop program supposed open view dicom images user browses image displayed interactively editing existing rectangle qpixmap possible qlabel qgraphicsview don know program tried qgraphicsview works jpegs hope help thanks advance

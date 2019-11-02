@@ -1,0 +1,1 @@
+view dicom imag bokeh try set graph background dicom imag follow imag data given isn rgba sure convert sure exactli bokeh expect tri find specif document luck code doesnt give error doesn displai pixel arrai doesn alpha data default sure figur test solv point need map pixel data rgba space instanc mean duplic data channel set alpha wai

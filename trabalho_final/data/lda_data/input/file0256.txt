@@ -1,1 +1,0 @@
-write app displays steps done asking google fit api unfortunately history api call returns empty datasets debugging nexus tablet google fit installed added steps manually google fit app code steps oncreate function steps receive buckets datasets datapoints code finishes errors apiclient returns connected google fit history api return steps added google fit app thanks advance

@@ -1,0 +1,1 @@
+dcmtk findscu return multipl result expect try run move rtdose given rtplan 1st tri find rtdose refer rtplan expect result singl item get multipl item find scu result question get multipl result dose refer rtplan question replac findscu movescu error syntax syntax support movescu given rtplan object queri correspond rtdose thank

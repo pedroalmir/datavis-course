@@ -1,0 +1,1 @@
+conformanceprofil hl7 hapi conformanceprofil hl7 parser differ defaultvalid valid hapicontext novalid messag invalid tag pars fail

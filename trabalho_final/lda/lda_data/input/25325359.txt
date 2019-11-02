@@ -1,0 +1,1 @@
+itk imagefileread read add vtk imagewrit object creation read successfulli dicom file itk imagefileread export imag vtkjpegwrit add line code doesn run begin execut read file comment line read file writer connect file reader don moment wast time try figur problem

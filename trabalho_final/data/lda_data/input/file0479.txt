@@ -1,1 +1,0 @@
-careful reading threads problems don know whats going dicom loading problem thing dicom dataset constituted dcm files listed server text files dcm files server code location dcm file load volume messages console telling dcm file opened fine least think says following error messages help greatly appreciated

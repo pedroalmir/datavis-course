@@ -1,0 +1,1 @@
+save dicom file format specifi locat disk mfc cximgdcm class deriv cximag handl dicom file dicom imag format jpeg tiff function exist cximgdcm class desir locat cfiledialog class got file format open dialog idok condit imag prefer locat code follow note filepath argument sourc destin

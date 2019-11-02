@@ -1,1 +1,0 @@
-going work dicom images dcmtk compiled installed ios

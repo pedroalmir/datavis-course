@@ -1,1 +1,0 @@
-implement feature app allows user import fhir data app exactly new feature apple health import health records read fhir specs having idea integrate fhir servers system contains ios android web app issue access hospital fhir server oauth credentials app app secret contact hospital ideally integrate hospitals apple health list

@@ -1,0 +1,1 @@
+fine tune niftynet pre train model custom data niftynet pretrain segment model segment custom data download pre train weight modifi model dir path download run get error link sai add help rid error

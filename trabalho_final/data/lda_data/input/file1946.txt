@@ -1,1 +1,0 @@
-convert message json hapi convert message xml json library convert xml json output xml output segmenname fieldname msh json segmenname fieldname give meanigful name field figure map element xml different key json
