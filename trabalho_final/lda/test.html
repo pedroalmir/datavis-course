@@ -22,11 +22,19 @@
             }
 
             $(document).ready(function() {
+                //Data pre-processing...
                 //executePreProcessing();
-                
-                var result = executeLDA([], 20, 15);
-                console.log(result);
-                download('LDA-Result.json', JSON.stringify(result))
+
+                // Executing LDA...
+                d3.csv("https://raw.githubusercontent.com/pedroalmir/datavis-course/master/trabalho_final/data/PostsTreated.csv").then(function(data){
+                    let sentences = [];
+                    data.forEach(function(d, i){
+                        sentences.push(d.text);
+                    });
+                    var result = executeLDA(sentences, 20, 15);
+                    console.log(result);
+                    download('LDA-Result.json', JSON.stringify(result))
+                })
             });
         </script>
         <script src="stem.js"></script>
