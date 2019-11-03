@@ -1,1 +1,1 @@
-type dicom imag format awar singl frame multi frame dicom imag file know cine dicom imag dicom imag format
+types dicom image format aware single frame multi frame dicom image files know cine dicom image dicom image format

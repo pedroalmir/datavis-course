@@ -1,1 +1,1 @@
-read dicom pixel pars dicom file order pixel process tri dcmtk librari work simpl lightweight cross platform librari read dicom file suggest greatli appreci
+read dicom pixel parse dicom files order pixel processing tried dcmtk library working simple lightweight cross platform library read dicom files suggestion greatly appreciated

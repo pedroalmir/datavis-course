@@ -1,1 +1,1 @@
-pyqtgraph possibl imageview histogram current show dicom imag don histogram side possibl move button place make
+pyqtgraph possible imageview histogram currently showing dicom image don histogram side possible move button place make

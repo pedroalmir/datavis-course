@@ -1,1 +1,1 @@
-map exist resourc hl7 fhir respons try understand concept datatyp hl7 fhir look appoint resourc exampl paramet suggest valu propos pend book given exist databas custom statu attend confirm attend late correct wai handl hl7 fhir respons consum
+mapping existing resource hl7 fhir response trying understand concept datatype hl7 fhir looking appointment resource example parameter suggested values proposed pending booked given existing database custom status attended confirmed attended late correct way handle hl7 fhir response consumer

@@ -1,1 +1,1 @@
-log4net event log integr fellow oak dicom dicom log4net try log4net write window event log setup log4net servic xmlconfigur assemblyinfo logger copi output copi nuget packag dicom log4net log4net packag instal log4net xml config initi log serilog exampl
+log4net event logging integration fellow oak dicom dicom log4net trying log4net write windows event log setup log4net service xmlconfigurator assemblyinfo exe logger copy output copy nuget package dicom log4net log4net package installed added log4net xml config initialize logging serilog example

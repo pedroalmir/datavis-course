@@ -1,1 +1,1 @@
-hl7 receiv ack respons server creat simpl client send hl7 format messag server unfortun access server messag come back right messag send wait messag back ack sit wait advic greatli appreci creat messag segment
+hl7 receiving ack response server created simple client send hl7 formatted messages server unfortunately access server message coming back right message sends wait message back ack sits waiting advice greatly appreciated create message segment

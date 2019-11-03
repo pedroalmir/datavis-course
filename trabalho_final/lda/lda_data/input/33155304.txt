@@ -1,1 +1,1 @@
-convert hkquaniti int swift simpl figur convert hkquaniti case step int
+convert hkquanity int swift simple figure convert hkquanity case steps int

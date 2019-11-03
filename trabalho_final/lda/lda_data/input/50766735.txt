@@ -1,1 +1,1 @@
-run gdcm exampl ubuntu try run simpl exampl gdcm instal librari version instal work perfectli fine abl figur compil run exampl header file look gdcmreader gdcmwriter figur compil flag abl run file give error pleas help search figur run file
+run gdcm examples ubuntu trying run simple example gdcm installed library version installation works perfectly fine able figure compile run example header files looking gdcmreader gdcmwriter figure compiler flag able run file gives error please help searched figure run file

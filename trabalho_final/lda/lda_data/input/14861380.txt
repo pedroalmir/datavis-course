@@ -1,1 +1,1 @@
-bicub interpol work mri data try add slice stack mri imag did linear interpol calcul new slous averag immedi top bottom slice bicub immedi top bottom slice estim new slous
+bicubic interpolation work mri data trying add slices stack mri image did linear interpolation calculating new slouse average immediate top bottom slice bicubic immediate top bottom slice estimate new slouse

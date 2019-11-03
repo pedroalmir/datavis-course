@@ -1,1 +1,1 @@
-exc bad access healthkit read dateofbirthwitherror call follow function read dataofbirth keep receiv bad access error test devic swift xcode beta currenthealthstor defin appdeleg global variabl error receiv line execut
+exc bad access healthkit reading dateofbirthwitherror call following function read dataofbirth keep receiving bad access error testing device swift xcode beta currenthealthstore defined appdelegate global variable error received line executed

@@ -1,1 +1,1 @@
-mirth hl7 ack error messag control match start mirth hl7 try send messag remot server look follow respons look follow error sai understand error mean messag control return messag number messag control number messag send ack return wrong fault remot parti know solv debug
+mirth hl7 ack error message control ids match starting mirth hl7 trying send message remote server looks follows response looks follows error saying understand error means message control returned message number message control number message send ack returned wrong fault remote party know solve debug

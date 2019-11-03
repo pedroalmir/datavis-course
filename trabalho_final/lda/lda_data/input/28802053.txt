@@ -1,1 +1,1 @@
-healthkit step counter try healthkit step counter doesn fail don activ miss
+healthkit step counter trying healthkit step counter doesn fail don activity missing

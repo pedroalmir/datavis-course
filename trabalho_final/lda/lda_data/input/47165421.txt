@@ -1,1 +1,1 @@
-write base64 encod string mirth file writer configur mirth channel listen sourc set receiv json field json request contain base64 encod string repres pdf try write disk don understand configur destin channel help sampl payload data type sourc destin thank mick
+write base64 encoded string mirth file writer configured mirth channel listener source set receive json fields json request contains base64 encoded string represents pdf trying write disk don understand configure destination channel help sample payload data types source destination thanks mick

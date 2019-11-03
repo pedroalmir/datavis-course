@@ -1,1 +1,1 @@
-extract qdm element ehr calcul ecqm qualiti data model qdm element ehr raw data calcul ecqm know ehr export data standard cda fhir hl7 extract qdm element standard
+extract qdm element ehr calculate ecqm quality data model qdm element ehr raw data calculate ecqm know ehr export data standard cda fhir hl7 extract qdm element standard

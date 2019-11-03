@@ -1,1 +1,1 @@
-upgrad xcode appl researhkit pop error redefinit modul research kit upgrad xcode try compil app appl researchkit modul modulemap pop error error messag lexic preprocessor issu redefinit modul researchkit idea
+upgrade xcode apple researhkit pop error redefinition module research kit upgrade xcode try compile ios app apple researchkit module modulemap pop error error message lexical preprocessor issue redefinition module researchkit idea

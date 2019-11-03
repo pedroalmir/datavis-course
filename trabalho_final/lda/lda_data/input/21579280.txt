@@ -1,1 +1,1 @@
-constrain resourc fhir given implement scenario accept limit resourc system wai describ resourc profil number scenario valid system clearli implement awai advertis restrict sai implement conform profil
+constraining resources fhir given implementation scenario acceptable limit resource system way described resource profiles number scenarios validation system clearly implement away advertising restriction say implementation conformance profile

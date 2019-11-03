@@ -1,1 +1,1 @@
-resourc comment fhir observ make web tool show fhir observ resourc exampl measur taken home blood pressur weight patient themself health worker look graph abl comment guess comment link invididu observ gener comment patient resourc comment
+resource comment fhir observation making web tool shows fhir observation resource example measurements taken home blood pressure weight patient themself health worker look graph able comment guess comment linked invididual observation general comment patient resource comment

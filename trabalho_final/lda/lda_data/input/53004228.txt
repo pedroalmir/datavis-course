@@ -1,1 +1,1 @@
-unif scan voxel size interpol python matlab follow code part rayryeng answer exampl dimens aslo matlab syntax size row column slice 3rd dimenson python syntax size slice 3rd dim row column convert matlab code python code occur error wrong thank
+unification scan voxel size interpolation python matlab following code part rayryeng answer example dimensions aslo matlabs syntax size rows columns slice 3rd dimenson python syntax size slice 3rd dim rows column convert matlab code python code occurred error wrong thank

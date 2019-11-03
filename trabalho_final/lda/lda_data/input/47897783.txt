@@ -1,1 +1,1 @@
-render dicom file header unread strang question test handl error dicom file tag read unfortun don damag dicom avail specif advis appli sort incorrectli encod text tag invalid numer data tag file read python pydicom packag
+render dicom file header unreadable strange question testing handle error dicom file tag read unfortunately don damaged dicom available specifically advise apply sort incorrectly encoded text tag invalid numeric data tag file read python pydicom package

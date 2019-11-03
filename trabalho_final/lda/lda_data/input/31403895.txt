@@ -1,1 +1,1 @@
-dicom imag posit sequenc simpl question develop java applic base dcm4che calcul find posit dicom imag sequenc seri posit mean find imag 1st 2nd seri specif calcul find number slice sequenc posit slice dicom imag sequenc 1st question know tag popul 2nd
+dicom image position sequence simple question developing java application based dcm4che calculate find position dicom image sequence series position mean find image 1st 2nd series specifically calculate find number slice sequence position slice dicom image sequence 1st question know tag populated 2nd

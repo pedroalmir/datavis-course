@@ -1,1 +1,1 @@
-gener java model class fhir resourc try understand model class get gener given fhir resourc link xml schema json schema schematron wai gener sourc java class
+generate java model class fhir resource trying understand model class getting generated given fhir resource link xml schema json schema schematron way generate source java class

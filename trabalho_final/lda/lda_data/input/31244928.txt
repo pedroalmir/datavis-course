@@ -1,1 +1,1 @@
-fhir observ code nan inf devic send nan number inf plu minu infin special case aris mean encod fhir observ resourc reliabl place code valu element wai handl hapi fhir know report special valu observ fhir resourc
+fhir observation coding nans inf device send nan number inf plus minus infinity special case arise means encode fhir observation resource reliability place codes value element way handle hapi fhir know report special values observation fhir resource

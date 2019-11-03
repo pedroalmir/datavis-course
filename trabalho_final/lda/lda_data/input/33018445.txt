@@ -1,1 +1,1 @@
-check healthkit author check heathkit author read user data author segu workout pop alert requestauthorizationtosharetyp return true refer user author altern tri authorizationstatusfortyp switch enum valu problem author
+check healthkit authorized check heathkit authorized read user data authorized segue workout pop alert requestauthorizationtosharetype return true reference user authorized alternatively tried authorizationstatusfortype switched enum values problem authorized

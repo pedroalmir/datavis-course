@@ -1,1 +1,1 @@
-load dicom imag cornerston try load dicom imag cornerston librari error uncaught loadimag imag loader imageid imag file name imag dcm wrong code
+load dicom image cornerstone trying load dicom image cornerstone library error uncaught loadimage image loader imageid image file named image dcm wrong code

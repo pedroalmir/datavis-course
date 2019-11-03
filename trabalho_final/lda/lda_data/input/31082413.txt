@@ -1,1 +1,1 @@
-assign viewcontrol class vice versa new swift start plai researchkit creat custom class basic model connect custom viewcontrol api found problem tell assign class viewcontrol setviewcontrol method
+assign viewcontroller class vice versa new swift started play researchkit created custom class basically model connect custom viewcontroller api found problem tell assign class viewcontroller setviewcontroller method

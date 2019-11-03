@@ -1,1 +1,1 @@
-fhir contain referecn schematron valid fail valid appoint resourc includ contain refer fhir schema schmeatron error knowledg contain refer referenc resourc valid stu schema schematron abl valid schematron wrong thank
+fhir contained referecnes schematron validation fails validating appointment resource includes contained reference fhir schema schmeatron error knowledge contained reference referenced resource validate stu schema schematron able validate schematron wrong thank

@@ -1,1 +1,1 @@
-group function fhir search latest releas hapifhir server client side hl7 fhir compliant part project work retriev latest observ devic have experi sql natur expect oper achiev read document oper hapifhir miss good workaround order retriev latest devic
+group function fhir search latest release hapifhir server client side hl7 fhir compliant part project working retrieve latest observation device having experience sql naturally expected operation achieve reading documentation operation hapifhir missing good workaround order retrieve latest device

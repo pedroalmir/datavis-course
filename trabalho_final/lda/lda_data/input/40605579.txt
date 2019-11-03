@@ -1,1 +1,1 @@
-gdcm load dicom file dicom file run perfectli dicom viewer tool open gdcm viewer link dcm file help open dicom file new viewer
+gdcm load dicom file dicom file run perfectly dicom viewer tool open gdcm viewer link dcm file help open dicom file new viewer

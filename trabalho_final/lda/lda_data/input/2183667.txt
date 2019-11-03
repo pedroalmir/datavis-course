@@ -1,1 +1,1 @@
-hl7 format process ecg digit data hl7 format abl store xml frame ecg data gener digit displai ecg machin raw imag data bmp tag xml help welcom thank xibe
+hl7 format process ecg digital data hl7 format able store xml frame ecg data generated digital display ecg machine yes raw image data bmp tag xml help welcome thanks xibee

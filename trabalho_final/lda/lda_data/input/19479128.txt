@@ -1,1 +1,1 @@
-visualis dicom imag develop applic displai dicom imag multi planar reconstruct work fine skin best altern read vtk pretti sure exampl refer
+visualisation dicom image developing application displays dicom image multi planar reconstruction works fine going skin best alternative read vtk pretty sure example reference

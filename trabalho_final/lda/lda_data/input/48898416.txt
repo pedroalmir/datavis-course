@@ -1,1 +1,1 @@
-load dicom imag server path contain load dicom imag server path contain http diocm librari filepath local directori work fine filepath server throw dicom dicomfileexcept sai specifi path valu correct right wai load dicomimag server
+load dicom image server path contains load dicom image server path contains https diocm library filepath local directory working fine filepath server throwing dicom dicomfileexception saying specified path value correct right way load dicomimage server

@@ -1,1 +1,1 @@
-differ dcmtk old new version couldn load dicom imag dicom viewer dcmtk old version dicom data lut descriptor implicit endian transfer syntax resolv issu new version dcmtk resolv issu
+difference dcmtk old new versions couldn load dicom images dicom viewer dcmtk old version dicom data lut descriptor implicit endian transfer syntax resolve issue new version dcmtk resolves issue

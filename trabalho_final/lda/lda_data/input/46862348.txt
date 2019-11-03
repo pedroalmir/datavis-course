@@ -1,1 +1,1 @@
-dicom point cloud vtk method convert dicom scan imag point cloud vtk vtk allow read dicom dicom seri volum render possibl gener point cloud seri dicom imag isn possibl vtk librari purpos
+dicom point cloud vtk method converting dicom scan image point cloud vtk vtk allows reading dicom dicom series volume rendering possible generate point cloud series dicom images isn possible vtk library purpose

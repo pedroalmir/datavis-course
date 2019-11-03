@@ -1,1 +1,1 @@
-offi dicom dcmdump transfer syntax uid offi dicom dcmdump tool extract inform dicom imag dump dicom inform output look dicom file format did dcmdump translat valu switch
+offis dicom dcmdump transfer syntax uid offis dicom dcmdump tool extract information dicom image dump dicom information output looks dicom file format did dcmdump translate value switch

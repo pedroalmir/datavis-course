@@ -1,1 +1,1 @@
-fine tune niftynet pre train model custom data niftynet pretrain segment model segment custom data download pre train weight modifi model dir path download run get error link sai add help rid error
+fine tune niftynet pre trained model custom data niftynet pretrained segmentation model segmenting custom data downloaded pre trained weight modified model dir path downloaded run getting error link says add help rid error

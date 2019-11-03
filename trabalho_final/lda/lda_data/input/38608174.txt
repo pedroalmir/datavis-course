@@ -1,1 +1,1 @@
-java lang illegalstateexcept specifi valid bucket strategi request aggreg error creat read request object class tri look document unclear code error method don know proce
+java lang illegalstateexception specify valid bucketing strategy requesting aggregation error creating read request object class tried look documentation unclear code error method don know proceed

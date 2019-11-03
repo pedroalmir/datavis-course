@@ -1,1 +1,1 @@
-mirth send ack messag sender host port receiv lab hl7 messag static host dynam port messag receiv send ack messag back host port destin tcp writer channel correct messag port number fix tell mirth send messag send host port thank advanc abhi
+mirth send ack message sender host port receiving lab hl7 messages static host dynamic port message received send ack message back host port destination tcp writer channel correct message port number fixed tell mirth send message sending host port thanks advance abhi

@@ -1,1 +1,1 @@
-dicom file export space vtk space valu allreadi oppen file try work exactli dicom file
+dicom file export spacing vtk spacing value allready oppened file try work exactly dicom file

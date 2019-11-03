@@ -1,1 +1,1 @@
-valu type hkhealthstor type dateofbirthwitherror try read data healthkit keep get issu run code give error tell doesn work pretti exact code work
+value type hkhealthstore type dateofbirthwitherror trying read data healthkit keeping getting issue run code gives error tell doesn work pretty exact code work

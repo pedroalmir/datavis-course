@@ -1,1 +1,1 @@
-dcm4che refus dicom dcm4che3 nopresentationcontextexcept run dcm4che3 server dicom refus messag document check servic storescp acceptedimagesopclass don find help error
+dcm4che refuse dicom dcm4che3 nopresentationcontextexception run dcm4che3 server dicom refused message documentation check service storescp acceptedimagesopclass don find help error

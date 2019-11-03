@@ -1,1 +1,1 @@
-hl7 compon havea window servic built build hl7 send tcp receiv ack free librari probabl handl tcp part find good librari least pars logic deliv class instanc repres messag work
+hl7 component havea windows service built build hl7 send tcp receive ack free library probably handle tcp part find good library least parsing logic deliver class instance representing message work

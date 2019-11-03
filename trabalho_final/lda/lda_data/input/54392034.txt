@@ -1,1 +1,1 @@
-hkworkoutsessiondeleg call try start workout session start session method get call
+hkworkoutsessiondelegate called trying start workout session starting session method gets called

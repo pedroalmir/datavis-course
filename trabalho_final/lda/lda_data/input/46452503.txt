@@ -1,1 +1,1 @@
-pass rxnumber fhir medicationrequest resourc sure rxnumber part incom medicationrequest know person treat rxnumber fhir context
+pass rxnumber fhir medicationrequest resource sure rxnumber part incoming medicationrequest know person treating rxnumber fhir context

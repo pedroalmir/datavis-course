@@ -1,1 +1,1 @@
-creat advanc hl7 messag hapi fhir try teach hapi fhir api start creat hl7 messag java abl look offici document page add inform messag nk1 pv1 al1 segment messag contain msh pid couldn find complet exampl look github code tackl thank advanc
+creating advanced hl7 message hapi fhir trying teach hapi fhir api starting creating hl7 message java able looking official documentation page add information message adding nk1 pv1 al1 segments message contains msh pid couldn find complete example looking github code tackle thanks advance

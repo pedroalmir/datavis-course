@@ -1,1 +1,1 @@
-android develop open dcm file bitmap current try make android dicom app follow code open pictur drom drawabl ussual imag format doesn work dcm main activ thank advanc
+android development open dcm file bitmap currently trying make android dicom app following code opens pictures drom res drawable ussual image format doesn work dcm main activity thanks advance

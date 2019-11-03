@@ -1,1 +1,1 @@
-convert charact encod chameleon simul utf default latin simul japanes hl7 messag chameleon simul select messag file japanes charact displai special charact chameleon simul displai japanes charact convert charact encod chameleon simul utf default latin
+convert character encoding chameleon simulator utf default latin simulate japanese hl7 message chameleon simulator select message file japanese character displayed special character chameleon simulator displayed japanese character convert character encoding chameleon simulator utf default latin

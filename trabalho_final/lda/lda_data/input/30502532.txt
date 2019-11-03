@@ -1,1 +1,1 @@
-convert jpg png imag dicom format lazaru question clear convert jpg png imag dicom format lazaru
+convert jpg png images dicom format lazarus question clear convert jpg png images dicom format lazarus

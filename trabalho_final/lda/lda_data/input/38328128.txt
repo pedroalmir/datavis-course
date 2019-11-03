@@ -1,1 +1,1 @@
-nhapi gt1 segment dft return empti collect stump follow sampl messag pars messag work pid problem gt1 accept dft support gt1 segment option return empti list final line blow sai index bound gt1 collect load wrong
+nhapi gt1 segment dft returning empty collection stumped following sample message parse message work pid problem gt1 accepted dft support gt1 segment optional returning empty list final line blows saying index bound gt1 collection loading wrong

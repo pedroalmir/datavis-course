@@ -1,1 +1,1 @@
-draw line set imag word line appear atop imag function preview imag
+draw line set image word line appear atop image function preview image

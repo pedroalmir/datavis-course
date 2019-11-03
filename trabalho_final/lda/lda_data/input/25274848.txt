@@ -1,1 +1,1 @@
-fhir spark make mongodb storag hipaa compliant look wai make mongo storag spark hipaa compliant mongodb ssl transport encrypt data wire gazzang data rest good option data rest allow index properti json
+fhir spark making mongodb storage hipaa compliant looking way make mongo storage spark hipaa compliant mongodb ssl transport encrypt data wire gazzang data rest good option data rest allowing indexing properties json

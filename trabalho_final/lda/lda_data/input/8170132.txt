@@ -1,1 +1,1 @@
-dicom opencv hai know opencv process dicom imag reconstruct purpos softwar handl dicom imag matlab
+dicom opencv hai know opencv process dicom image reconstruction purpose software handle dicom image matlab

@@ -1,1 +1,1 @@
-problem write jpeg2000 imageio try convert dicom imag jpeg2000 imageio code procedur explain oracl document doesn work don understand wrong java advanc imag librari instal jre verifi dicom jpeg2000 support error thrown take long write file output file corrupt thank advanc
+problem writing jpeg2000 imageio trying convert dicom image jpeg2000 imageio code procedure explained oracle documentation doesn work don understand wrong java advanced image library installed jre verified dicom jpeg2000 supported errors thrown takes long write file output file corrupted thank advance

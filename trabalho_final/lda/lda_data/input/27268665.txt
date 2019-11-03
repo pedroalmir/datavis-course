@@ -1,1 +1,1 @@
-healthkit heart rate bpm valu swift hkunit sampl type unit type unit name unit string heart rate count time beat minut count min
+ios healthkit heart rate bpm values swift hkunit sample type unit type unit name unit string heart rate count time beats minute count min

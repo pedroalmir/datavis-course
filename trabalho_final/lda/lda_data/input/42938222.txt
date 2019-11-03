@@ -1,1 +1,1 @@
-dicom registr ipp dicom file follow imag patient posit ipp pixel space img1 ipp img2 ipp imag restrat align understand imag ipp 1st step bring img1 interpol img1 time match img2 mean ipp img1 chang time thank advanc ash
+dicom registration ipp dicom files following image patient position ipp pixel spacing img1 ipp img2 ipp image restration alignment understand image ipp 1st step bring img1 interpolate img1 time match img2 mean ipp img1 change time thanks advance ash

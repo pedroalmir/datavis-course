@@ -1,1 +1,1 @@
-itk resampledicom try resampledicom exampl notic chang rescaleintercept valu rescaletyp particular reason thank
+itk resampledicom trying resampledicom example noticed changes rescaleintercept value rescaletype particular reason thanks

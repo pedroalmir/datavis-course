@@ -1,1 +1,1 @@
-hl7 pars orc have troubl read orc field orm order messag hapistructur jar read method getfillerordersnumb return null valu pars messag read orc field databas read post ladder reach orc obr nte segment help piec code thank advanc
+hl7 parsing orc having trouble reading orc field orm order message hapistructures jar read method getfillerordersnumber returning null value parse message read orc field database read posts ladder reach orc obr nte segment help piece code thanks advance

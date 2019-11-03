@@ -1,1 +1,1 @@
-method fire order method class try call order call method problem bmi return reason happen method fire method right defin variabl method right defin bmi variabl method call 1st happen reason get return 1st make sens
+method firing order methods class try call order call method problem bmi returned reason happening method firing method right define variable method right define bmi variable method calling 1st happen reason getting returned 1st makes sense

@@ -1,1 +1,1 @@
-gdcm grassroot dicom decompress dicom imag data possibl python wrapper decod imag data dicom file imag data dicom file content tag pixel data decod imag raw rgb greyscal think work imag data path actual dicom file
+gdcm grassroots dicom decompress dicom image data possible python wrapper decode image data dicom file image data dicom file contents tag pixel data decode image raw rgb greyscale thinking working image data path actual dicom file

@@ -1,1 +1,1 @@
-make perform function mousepressev make function dicom seri vtk make connect window mous primari design exampl click zoombutton click imag left button mous imag zoom know function name connect mous function pushbutton
+make perform function mousepressevent make functions dicom serie vtk make connection window mouse primary design example click zoombutton click image left button mouse image zoomed know function name connection mouse functions pushbutton

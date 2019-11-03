@@ -1,1 +1,1 @@
-type hl7 messag confirm imag pac hl7 messag type exchang imag finish imag readi view orm segment shall map imag field pac pleas note messag request pac thank advanc abdallah
+type hl7 message confirm image pac hl7 message type exchanged imaging finished image ready viewed orm segment shall map image field pac please note message requested pac thanks advance abdallah

@@ -1,0 +1,10 @@
+0	0,09617	fhir resource patient json search extension server element reference null profile observation bundle type list api system query identifier request 
+1	0,15171	data database information patient medical application find system store project table record device sql stored standard create list based make 
+2	0,23833	error code problem method run project function class file issue working work line fine library wrong call don works missing 
+3	0,18301	dicom image file files pixel read library dcm convert series images code data matlab python format display window slice jpeg 
+4	0,26691	find type set number time result code question class don 1st source create point case found custom object work string 
+5	0,09079	tag data values file syntax niftynet transfer output private sequence length read bit dataset sample attribute label list extract element 
+6	0,13787	app healthkit data health apple heart watch ios rate workout user query iphone kit sample background read swift time permission 
+7	0,10706	google fit api data app step android steps user activity count fitness code time application device read history calory sensor 
+8	0,09263	server send application mirth service response message request client receive hl7 connect query port web data channel dicom retrieve pacs 
+9	0,09864	hl7 message xml segment messages field parse schema file hapi cda version parsing ccd obx java msh pid biztalk character 

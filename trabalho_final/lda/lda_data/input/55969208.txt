@@ -1,1 +1,1 @@
-modifi transfer syntax uid tag dicom imag import mri imag set varian eclips plan system error occur object convers unsupport transfer syntax uid jpeg lossless hier
+modify transfer syntax uid tag dicom image importing mri image sets varian eclipse planning system error occured objects conversion unsupported transfer syntax uid jpeg lossless hier

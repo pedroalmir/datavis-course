@@ -1,1 +1,1 @@
-python hl7 listen socket messag acknowledg try creat hl7 listen python abl receiv messag socket abl send valid acknowledg python code
+python hl7 listener socket message acknowledgement trying create hl7 listener python able receive message socket able send valid acknowledgement python code

@@ -1,1 +1,1 @@
-repres medic altern fhir know resourc repres medic altern take drug drug drug
+represent medication alternatives fhir know resource represent medication alternative taking drug drug drug

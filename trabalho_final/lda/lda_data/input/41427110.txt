@@ -1,1 +1,1 @@
-fhir json schema complet partial json schema hl7 fhir resourc json scchema avail
+fhir json schema complete partial json schema hl7 fhir resource json scchema available

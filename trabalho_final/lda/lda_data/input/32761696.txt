@@ -1,1 +1,1 @@
-read dicom tag valu activiz displai dicom imag code dicom tag valu reader class valu dicom attribut
+reading dicom tag value activiz displaying dicom image code dicom tag values reader class value dicom attribute

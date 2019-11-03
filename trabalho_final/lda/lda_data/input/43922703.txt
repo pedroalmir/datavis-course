@@ -1,1 +1,1 @@
-pars hl7 messag newest nhapi parser version start work nhapi tri pars messag hl7 version nhapi model work pars hl7 messag previou version sai newer hl7 nhapi version sai wai wai version nhapi base parser pipepars specif version
+parsing hl7 message newest nhapi parser version starting work nhapi tried parse message hl7 version nhapi model working parse hl7 message previous version say newer hl7 nhapi version say way way version nhapi base parser pipeparser specific version

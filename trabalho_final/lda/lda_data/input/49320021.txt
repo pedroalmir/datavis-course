@@ -1,1 +1,1 @@
-sort tag evil dicom add tag dose rate set add tag code var dcm dicomobject read nom fichier tag add int bottom file desir put tag dose rate set tag properti beam
+sort tag evil dicom add tag dose rate set add tag code var dcm dicomobject read nom fichier tag add int bottom file desire put tag dose rate set tag properties beam

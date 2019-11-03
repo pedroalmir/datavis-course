@@ -1,1 +1,1 @@
-inlin codesystem fhir valueset creat fhir valueset code small extern defin code list appropri correct fhir specif composit inlin codesystem exampl creat valueset follow code list advantag disadvantag method
+inline codesystem fhir valueset creating fhir valueset code small externally defined code list appropriate correct fhir specification composition inline codesystem example creating valueset following code list advantages disadvantage method

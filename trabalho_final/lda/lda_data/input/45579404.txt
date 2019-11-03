@@ -1,1 +1,1 @@
-properli convert dicom imag opencv problem convert dcm imag dcmtk format opencv code sure paramet put byte pre pixel
+properly convert dicom image opencv problem converting dcm image dcmtk format opencv code sure parameter put bytes pre pixel

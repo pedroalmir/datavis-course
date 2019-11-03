@@ -1,1 +1,1 @@
-json result fhir search spec documn json format requir result json format defin atom feed exampl server straightforward convers xml json confirm imho precis expect format explicitli defin
+json result fhir search spec documnent json format required result json format defined atom feed examples server straightforward conversion xml json confirmed imho precision expected format explicitly defined

@@ -1,1 +1,1 @@
-get recent bmi valu hkhealthstor user recent bmi read instanc hkhealthstor right follow doesn right wai actual numer valu bmi countunit hkunit
+getting recent bmi value hkhealthstore user recent bmi reading instance hkhealthstore right follows doesn right way actual numerical value bmi countunit hkunit

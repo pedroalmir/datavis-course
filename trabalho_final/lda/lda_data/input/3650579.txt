@@ -1,1 +1,1 @@
-gdcm load dicom gdmcgdcmpinvok
+gdcm load dicom gdmcgdcmpinvoke

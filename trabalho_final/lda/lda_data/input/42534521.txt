@@ -1,1 +1,1 @@
-fhir search resourc possibl search paramet resourc fhir base server current hapi return correct basic resourc abl search resourc type basic patient observ hope wai thank stephen
+fhir searching resource possible search parameter resources fhir based server currently hapi returns correct basic resource able search resource type basic patient observation hoping way thanks stephen

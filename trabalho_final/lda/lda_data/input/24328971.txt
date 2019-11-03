@@ -1,1 +1,1 @@
-queri xml column tsql hl7 messag hl7 messag xml mode obviusli hidden part retriev tsql tabl tri variabl xmldata xml doesn work help thank
+query xml column tsql hl7 message hl7 message xml mode obviusly hidden part retrieve tsql table tried variable xmldata xml doesn work help thanks

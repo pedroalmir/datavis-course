@@ -1,1 +1,1 @@
-mirth listen hl7 acknowledg messag mirth channel listen sourc deploi inbound commun channel channel send hl7 applic develop know send ack messag send inbound port origin messag mirth specif process send acknowledg
+mirth listen hl7 acknowledgement messages mirth channel listens source deploys inbound communication channels channel sends hl7 application developing know send ack message send inbound port original message mirth specific process sending acknowledgement

@@ -1,1 +1,1 @@
-hapi hl7 terser segment order creat messag terser try creat hl7 messag code similar follow gener messag segment order msh actual result msh question wai control order gener segment hapi terser wai forc terser gener segment order creat set method
+hapi hl7 terser segments order creating message terser trying create hl7 message code similar following generated message segments order fhs bhs msh actual result fhs msh bhs question way control order generated segment hapi terser way force terser generate segment order created set method

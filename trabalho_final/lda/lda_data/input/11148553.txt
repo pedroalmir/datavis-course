@@ -1,1 +1,1 @@
-respons send tcp listen creat simpl tcp listen handl hl7 messag receiv messag correctli attempt send ack messag back server end doesn get respons wrong set realiz need refactor right try establish connect
+response sending tcp listener created simple tcp listener handle hl7 messages receiving message correctly attempting send ack message back server end doesn getting response wrong set realize needs refactored right trying establish connection

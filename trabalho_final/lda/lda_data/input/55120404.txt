@@ -1,1 +1,1 @@
-threshold otsu attributeerror axessubplot object attribut ravel load nifti file convert pack scan goal threashold otsu algorithm mask background compar imag try plot error code attach screenshot
+threshold otsu attributeerror axessubplot object attribute ravel loaded nifty files converted pack scans goal threashold otsu algorithm mask background compare image try plot error code attached screenshot

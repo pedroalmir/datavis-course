@@ -1,1 +1,1 @@
-wado protocol implement node creat simpl dicom echo server nodej face problem client respond connect unsur miss experi write dicom echo server code tri respond binari data text data work
+wado protocol implemented node creating simple dicom echo server nodej facing problem client respond connect unsure missing experience writing dicom echo server code tried responding binary data text data work

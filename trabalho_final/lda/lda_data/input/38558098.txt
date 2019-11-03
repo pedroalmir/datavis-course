@@ -1,1 +1,1 @@
-add code extens fhir resourc add extens code dstu2 claimrespons item adjud code bind strength extens format proper suggest format thank
+add coding extension fhir resource add extension coding dstu2 claimresponse item adjudication code binding strength extensible format proper suggested format thanks

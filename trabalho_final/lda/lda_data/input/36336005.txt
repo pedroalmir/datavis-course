@@ -1,1 +1,1 @@
-hkdevic empti localidentifi udideviceidentifi healthkit framework tri read step count iphon appl watch health app queri object did show idea empti due sourc record info request respons
+hkdevice empty localidentifier udideviceidentifier healthkit framework tried read steps count iphone apple watch health app queried object did show idea empty due source recording info request response

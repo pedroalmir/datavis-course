@@ -1,1 +1,1 @@
-surfac mesh dicom matlab creat surfac mesh dicom imag matlab imag process toolbox step read dicom imag segment imag creat surfac mesh question creat surfac mesh segment imag data
+surface mesh dicom matlab create surface mesh dicom image matlab image processing toolbox step read dicom images segment image create surface mesh question create surface mesh segmented image data

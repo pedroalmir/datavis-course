@@ -1,1 +1,1 @@
-hl7 messag document tool take seper hl7 messag combin singl document 7edit run test document send better run manual messag
+hl7 message document tool take seperate hl7 messages combine single document 7edit run test document send better running manually message

@@ -1,1 +1,1 @@
-run openehr gen framework supposedli setup openehr gen framework run command error datasourc groovi file data
+run openehr gen framework supposedly setup openehr gen framework run command error datasource groovy file data

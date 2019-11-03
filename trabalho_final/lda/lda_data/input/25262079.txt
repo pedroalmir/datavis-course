@@ -1,1 +1,1 @@
-dcmtk integr android project dcmtk view read dicom file instal ndk requir know dcmtk work idea work pleas guid
+dcmtk integration android project dcmtk view read dicom files installed ndk required know dcmtk works idea works please guide

@@ -1,1 +1,1 @@
-dcmtk movescu work file retriev new dicom dcmtk try retriev dcm file public test server movescu command work abl run findscu successfulli data tri work thing doesn work movescu output run local dicom server right wai achiev
+dcmtk movescu working file retrieval new dicom dcmtk trying retrieve dcm files public test server movescu command working able run findscu successfully data tried works thing doesn work movescu output running local dicom server right way achieve

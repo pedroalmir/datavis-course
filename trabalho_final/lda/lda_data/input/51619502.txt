@@ -1,1 +1,1 @@
-read new dicom file folder pyinotifi pydicom try process new file given folder pyinotifi watchdog code got follow error file corrupt 1st number error greater lower expect look time read pixel data
+read new dicom files folder pyinotify pydicom trying process new file given folder pyinotify watchdog code got following error file corrupted 1st number error greater lower expected look time read pixel data

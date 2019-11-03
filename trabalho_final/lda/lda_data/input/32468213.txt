@@ -1,1 +1,1 @@
-make mask dicom make mask tumor region dicom file wai softwar sequenc mri dicom includ boundari tumor mass read pixel intens tumor mass make mask thank
+making mask dicom make mask tumor region dicom file way software sequence mri dicom includes boundary tumor mass read pixel intensity tumor mass making mask thanks

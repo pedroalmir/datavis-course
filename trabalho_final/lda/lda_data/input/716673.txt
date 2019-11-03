@@ -1,1 +1,1 @@
-creat imag raw data dicom imag raw pixel data dicom imag convert object tri work
+create image raw data dicom image raw pixel data dicom image convert object tried working

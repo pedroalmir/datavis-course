@@ -1,1 +1,1 @@
-request patient demograph hl7 work applic connect hl7 protocol connect sync patient demograph save applic request patient inform patient anytim document talk updat trigger patient demograph chang send new data wai request data anytim
+request patient demographics hl7 working application connects hl7 protocol connection syncing patient demographics saved application request patient information patient anytime document talking update trigger patient demographics changes send new data way request data anytime

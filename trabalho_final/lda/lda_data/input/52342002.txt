@@ -1,1 +1,1 @@
-nhapi pars orm have troubl put structur messag order messag cast stai null orm001 null hl7 type went think obr line thing take
+nhapi parsing orm having trouble putting structure message order message cast stays null orm001 null hl7 type went thinking obr line thing take

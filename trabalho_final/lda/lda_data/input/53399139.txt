@@ -1,1 +1,1 @@
-fhir api stu3 valid hl7 tool hl7 fhir valid jar file valid messag add function project pars messag class call valid structur
+fhir api stu3 validating hl7 tool hl7 fhir validator jar file validate messages add function project parse message class call validate structure

@@ -1,1 +1,1 @@
-hl7 fhir creat relationship patient locat fhir creat relationship resourc patient resourc locat room bed find
+hl7 fhir create relationship patient location fhir create relationship resource patient resource location room bed find

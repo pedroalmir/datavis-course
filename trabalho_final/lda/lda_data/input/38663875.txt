@@ -1,1 +1,1 @@
-error convert valu type int expect argument type uint line red flag error copi past code xcode project brought error line project read heart rate watcho idea
+error convert value type int expected argument type uint line red flag error copy pasted code xcode project brought error line project reading heart rate watchos idea

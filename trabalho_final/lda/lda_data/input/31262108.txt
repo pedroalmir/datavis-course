@@ -1,1 +1,1 @@
-try metadata healthkit try data healthkit send uuid item nsuuid convert string don wrong idea metadata string xcode suggest add string anyobject variabl metadata creat sampl got error
+trying metadata healthkit trying data healthkit sending uuid item nsuuid converted string don wrong idea metadata string xcode suggested add string anyobject variable metadata create sample got error

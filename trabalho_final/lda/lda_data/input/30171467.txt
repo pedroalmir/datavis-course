@@ -1,1 +1,1 @@
-googlefit wasn abl connect request fail android follow code main thing connect googl plai servic onconnect method servic start call startservic method run program follow log messag code 2nd class basic intent servic mistak idea went wrong thank theo
+googlefit wasn able connect request failed android following code main thing connects google play service onconnected method service started calling startservice method run program following log message code 2nd class basically intent service mistake idea went wrong thanks theo

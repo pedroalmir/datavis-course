@@ -1,1 +1,1 @@
-visual dicom file try creat new dicom file jpg metadata tri code gener final dicom file open radiant dicom viewer gener mydicom confirm metdata dicom imag
+visualize dicom file trying create new dicom file jpg metadata tried code generate final dicom file open radiant dicom viewer generate mydicom confirm metdata dicom image

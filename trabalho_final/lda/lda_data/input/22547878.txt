@@ -1,1 +1,1 @@
-queri accid inform fhir investig hl7 fhir decis support context try find extract accid inform given patient assum resourc type find fit
+query accident information fhir investigating hl7 fhir decision support context trying find extract accident information given patient assumed resource type find fits

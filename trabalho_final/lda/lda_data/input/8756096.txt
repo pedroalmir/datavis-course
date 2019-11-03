@@ -1,1 +1,1 @@
-window width center calcul dicom imag rescal intercept rescal slope dicom imag calcul window width window center
+window width center calculation dicom image rescale intercept rescale slope dicom image calculate window width window center

@@ -1,1 +1,1 @@
-namespaceid universalid universalid type hl7 hl7 messag datatyp consist namespaceid universalid universalid type differ entiti specifi mainli know namespaceid scope organ
+namespaceid universalid universalid type hl7 hl7 messages datatype consists namespaceid universalid universalid type different entity specify mainly know namespaceid scope organization

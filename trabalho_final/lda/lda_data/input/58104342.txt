@@ -1,1 +1,1 @@
-patient recommend drink water encod snome fhir procedur patient recommend drink water encod snome express fhir procedur public guidelin encod record snome doc spars exampl
+patient recommended drink water encode snomed fhir procedure patient recommended drink water encoded snomed expression fhir procedure public guideline encoding records snomed doc sparse example

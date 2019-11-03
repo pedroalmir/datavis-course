@@ -1,1 +1,1 @@
-pars hl7 messag hapi java try pars hl7 messag version hapi abl valu segment msh evn pid pv1 get valu msh seg segment evn pid pv1 come null pleas look code give solut
+parse hl7 message hapi java trying parse hl7 message version hapi able value segment msh evn pid pv1 getting value msh seg segments evn pid pv1 comes null please look code give solution

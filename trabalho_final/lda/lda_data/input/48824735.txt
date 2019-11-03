@@ -1,1 +1,1 @@
-differ btahl72x btahl72xml send reciev pipelin sure btahl72x btahl72xml send receiv pipelin biztalk vice versa
+difference btahl72x btahl72xml send recieve pipelines sure btahl72x btahl72xml send receive pipelines biztalk vice versa

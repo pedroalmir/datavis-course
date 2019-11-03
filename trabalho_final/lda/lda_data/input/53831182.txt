@@ -1,1 +1,1 @@
-niftynet handl multipl gpu train niftynet train cnn gpu understand gpu train independ loss valu iter result gpu combin infer time believ multipl gpu reduc train time niftynet doesn case
+niftynet handle multiple gpu training niftynet train cnn gpu understand gpu trained independently loss values iteration result gpu combined inference time believe multiple gpu reduces training time niftynet doesn case

@@ -1,1 +1,1 @@
-dcmtk applic dcmtk applic successfulli compil dcmtk simul creat workspac dcmtk project applic file target depend link binari think miss part set header librari search path try header file sai dcm2xml sai file found wrong think simpler wai framework
+dcmtk ios application dcmtk application successfully compiled dcmtk ios simulator created workspace added dcmtk project application added file target dependency linked binary think missing part set header library search path try header file say dcm2xml says file found wrong think simpler way framework

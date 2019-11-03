@@ -1,1 +1,1 @@
-pydicom read pixel data need gdcm pillow code pretti straightforward give runtim error sure help help
+pydicom read pixel data needs gdcm pillow code pretty straightforward gives runtime error sure help helpful

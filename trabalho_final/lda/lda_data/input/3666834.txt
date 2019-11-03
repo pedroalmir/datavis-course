@@ -1,1 +1,1 @@
-read dicom tag valu opendicom read dicom tag opendicom read dicom tag valu
+read dicom tag value opendicom reading dicom tag opendicom read dicom tag values

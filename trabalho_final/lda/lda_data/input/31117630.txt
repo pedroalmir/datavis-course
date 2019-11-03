@@ -1,1 +1,1 @@
-appdeleg initi healthkit wake app background code app detect updat healthkit data background init method appdeleg call code run background method appdeleg call document applic lifecycl background code appreci
+appdelegate initialize healthkit wakes app background code app detect updates healthkit data background init method appdelegate called code run background methods appdelegate called documentation application lifecycle background code appreciated

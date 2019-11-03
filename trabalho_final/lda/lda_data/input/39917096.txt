@@ -1,1 +1,1 @@
-fhir resourc rule fhir rule manag rule definit new fhir resourc search specif resourc type resourc type rule rule contain condit action condit connect oper condit met action shall perform specif resourc type rule abl defin rule fhir
+fhir resource rule fhir rule management rule definition new fhir resources search specific resource type resource type rules rules contain condition action condition connected operator condition met action shall performed specific resource type rules able define rules fhir

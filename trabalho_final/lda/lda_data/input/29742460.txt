@@ -1,1 +1,1 @@
-step count googl fit api php got problem googl api php client googl fit sum step made found doesn work look gist php code problem didn enter 1st loop return question return fals step tri retriev data oauth playground didn data got
+steps count google fit api php got problem google api php client google fit sum steps made found doesn work look gist php code problem didn enter 1st loop returns question returns false steps tried retrieve data oauth playground didn data got

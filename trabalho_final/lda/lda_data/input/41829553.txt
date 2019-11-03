@@ -1,1 +1,1 @@
-fhir custom extens add add custom extens schedul resourc app schedul visit motiv reason know list classifi appoint encount reason mine sure part correct add extens wai multipl visit motiv specif schedul list thing correct wrong
+fhir adding custom extension add add custom extension schedule resource app schedule visit motive reasons know list classified appointments encounter reasons mine sure part correct add extension way multiple visit motive specific schedule list thing correct wrong

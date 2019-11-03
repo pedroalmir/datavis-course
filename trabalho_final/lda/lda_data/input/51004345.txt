@@ -1,1 +1,1 @@
-python winerror directori name invalid open sampl dicom file got error winerror directori name invalid anaconda pydicom aif help help load dicom file gener appreci
+python winerror directory name invalid opening sample dicom files got error winerror directory name invalid anaconda pydicom aif help help load dicom file general appreciate

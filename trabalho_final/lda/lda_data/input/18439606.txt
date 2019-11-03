@@ -1,1 +1,1 @@
-dicom convert bit 8bit big tree deepli find solut follow question convert pixeldata dicom file 8bit byte file bitsalloc 16bit grayscal color know color simpleperpixel
+dicom convert bit 8bit big tree deeply find solution follow question convert pixeldata dicom file 8bit byte file bitsallocated 16bit grayscale color know color simpleperpixel

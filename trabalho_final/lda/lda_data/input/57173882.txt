@@ -1,1 +1,1 @@
-fix lookuperror unknown encod iso work chang dicom header pydicom patientnam contain korean modifi patientnam english iso error output try look charset part relat iso solv problem solv problem thank error messag follow
+fix lookuperror unknown encoding iso working changing dicom header pydicom patientname contains korean modified patientname english iso error output trying looked charset part related iso solve problem solve problem thanks error message follows

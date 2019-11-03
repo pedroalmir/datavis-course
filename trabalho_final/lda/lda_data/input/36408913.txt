@@ -1,1 +1,1 @@
-dicom toolkit dcmtk window centr width current dcmtk new toolkit understand abl read window centr width normalis purpo dicomimag dcm imag object dicom data read valu opencv mat object normalis follow show read transfer data opencv mat help appreci thank
+dicom toolkit dcmtk window centre width currently dcmtk new toolkit understand able read window centre width normalisation purpos dicomimage dcm image object dicom data read values opencv mat object normalise following shows reading transferring data opencv mat help appreciated thanks

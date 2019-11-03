@@ -1,1 +1,1 @@
-matlab save multipl dicom file jpeg png format read dicom format file displai manuali file jpeg png option work file time dicom file multipl dicom data file jpeg format folder read file time tri multipl file
+matlab saving multiple dicom files jpeg png format read dicom format file display manualy file jpeg png option work file time dicom files multiple dicom data files jpeg format folder read file time tried multiple file

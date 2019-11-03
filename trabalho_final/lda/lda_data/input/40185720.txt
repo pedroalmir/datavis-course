@@ -1,1 +1,1 @@
-analog opencv imdecod itk opencv itk wonder itk decod medic imag buffer opencv exampl dicom file read buffer api itk thank
+analog opencv imdecode itk opencv itk wondering itk decode medical image buffer opencv example dicom file read buffer api itk thank

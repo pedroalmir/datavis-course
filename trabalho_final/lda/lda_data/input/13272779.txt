@@ -1,1 +1,1 @@
-make dicomdir file dcmtk absolut path creat dicmdir file dcmmkdir file path isn dicomdir path exampl know get vision thank ggk
+making dicomdir file useing dcmtk useing absolute path create dicmdir file dcmmkdir file path isn dicomdir path example know getting vision thanks ggk

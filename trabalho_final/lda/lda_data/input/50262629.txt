@@ -1,1 +1,1 @@
-hide warn messag import python script import pydicom python script follow command have warn messag follow warn messag hide
+hide warning message import python script import pydicom python script following command having warning message following warning message hide

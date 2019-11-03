@@ -1,1 +1,1 @@
-custom healthkit hkquantitytyp identifi add new hkquantitytypeidentifi healthkit sampl creat enum type interest tri creat properti hkquantitytyp quantitytypeforidentifi properti return nil tri defin extens hkquantitytyp custom identifi did work code idea
+custom healthkit hkquantitytype identifier add new hkquantitytypeidentifier healthkit sample created enum type interested tried create property hkquantitytype quantitytypeforidentifier property returned nil tried define extension hkquantitytype custom identifier did work code idea

@@ -1,1 +1,1 @@
-escap charact hl7 messag uhn hl7v2 util terser creat hl7 messag hl7 field set follow valu home hl7 messag type mdm version escap charact hl7 messag try hl7 messg obx print usn server patholog quantum help print proper messag
+escape character hl7 message uhn hl7v2 util terser create hl7 message hl7 field set following value home hl7 message type mdm version escape character hl7 messages try hl7 messge obx printed usne server pathology quantum help print proper message

@@ -1,1 +1,1 @@
-itk imagefileread read add vtk imagewrit object creation read successfulli dicom file itk imagefileread export imag vtkjpegwrit add line code doesn run begin execut read file comment line read file writer connect file reader don moment wast time try figur problem
+itk imagefilereader reading add vtk imagewriter object creation read successfully dicom file itk imagefilereader export image vtkjpegwriter add line code doesn run beginning execution read file comment line read file writer connected file reader don moment wasting time trying figure problem

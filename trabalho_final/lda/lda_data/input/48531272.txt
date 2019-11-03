@@ -1,1 +1,1 @@
-hkactivitysummari datecompon strang reason execut return date compon summari queri return data correct date date data tri set timezon local result remain summari model hkacitivitysummaryqueri
+hkactivitysummary datecomponents strange reason executing returned date component summary query returns data correct date date data tried setting timezone locale result remain summary model hkacitivitysummaryquery

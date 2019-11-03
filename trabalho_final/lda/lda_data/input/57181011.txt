@@ -1,1 +1,1 @@
-creat new tag dicom dcm4che add specif tag java program dcm4che dicom librari
+create new tags dicom dcm4che add specifics tags java program dcm4che dicom library

@@ -1,1 +1,1 @@
-upload dicom imag xnat curl follow script upload dicom imag xnat instanc know correct wai slow data structur somedir patientid sessionid scan scannam dcm
+upload dicom images xnat curl following script upload dicom images xnat instance know correct way slow data structured somedir patientid sessionid scans scanname dcm

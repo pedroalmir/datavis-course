@@ -1,1 +1,1 @@
-importerror import name logger try run niftynet keep show error cpu version tensorflow info tensorflow tensorflow version instal tensorflow gpu
+importerror import name logger trying run niftynet keeps showing error cpu version tensorflow info tensorflow tensorflow version install tensorflow gpu

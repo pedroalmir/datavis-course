@@ -1,1 +1,1 @@
-defin sequenc item ecg dicom clearcanva librari clearcanva librari dicom ecg imag defin channel inform channel sourc sequenc channel sensit unit sequenc channel extract defin channel clearcanva sampl code thank help
+defining sequence item ecg dicom clearcanvas library clearcanvas library dicomizing ecg image define channel information channel source sequence channel sensitivity unit sequence channel extract define channel clearcanvas sample code thanks help

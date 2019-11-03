@@ -1,1 +1,1 @@
-spm dicom convert python ipython nipyp new python specif ipython run step run simpl dicom convers statist packag call spm mri imag file describ nipyp run wonder wrong get error messag file chang output hang idea wrong like miss simpl sorri
+spm dicom convert python ipython nipype new python specifically ipython running step run simple dicom conversion statistical package called spm mri image file described nipype run wondering wrong getting error message file change output hangs idea wrong likely missing simple sorry

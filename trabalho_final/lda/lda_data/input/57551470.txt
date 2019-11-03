@@ -1,1 +1,1 @@
-creat dicom waveform raw data try creat wave raw ecg data found mandatori tag code add attribut draw graphic
+create dicom waveform raw data trying create wave raw ecg data found added mandatory tags code adds attribute draw graphics

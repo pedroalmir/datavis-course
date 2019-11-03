@@ -1,1 +1,1 @@
-pars nte segment order chang got hl7 messag nte segment hl7 messag type rde version pass messag nte nhapi pars follow messag chang posit nte right msh nhapi abl pars
+parse nte segment order changed got hl7 message nte segment hl7 message type rde version passing message nte nhapi parsing following message change position nte right msh nhapi able parse

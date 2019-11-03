@@ -1,1 +1,1 @@
-hl7 segment messag type segment restrict segment specif messag type creat sampl hl7 adt ref messag segment hl7 rule defin segment specif messag type hl7 messag correct
+hl7 segment message type segment restrictions segment specific message type create sample hl7 adt ref message segment hl7 rules defined segment specific message type hl7 message correct

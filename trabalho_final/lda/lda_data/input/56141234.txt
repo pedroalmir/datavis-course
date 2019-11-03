@@ -1,1 +1,1 @@
-valid hl7 messag python hl7 tool python hl7 tool receiv messag server valid messag send back acknowledg messag messag receiv valid method cursori check fulli valid messag actual valid messag
+validate hl7 message python hl7 tool python hl7 tool receiving message server validate message send back acknowledge message message received valid method cursory check fully validate message actually validate message

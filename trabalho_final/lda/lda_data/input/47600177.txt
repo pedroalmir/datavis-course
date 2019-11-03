@@ -1,1 +1,1 @@
-creat synthea demograph counti file gener synthet popul default counti json config file creat specif creat differ state
+create synthea demographic county files generate synthetic population default county json config files created specifically create different state

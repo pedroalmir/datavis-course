@@ -1,1 +1,1 @@
-adjust resolut dicom imag work dicom imag chang resolut imag pixel entri access dicom header chang resolut thank
+adjusting resolution dicom image working dicom image change resolution image pixel entry access dicom header change resolution thank

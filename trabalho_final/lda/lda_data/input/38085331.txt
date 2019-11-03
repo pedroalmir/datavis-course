@@ -1,1 +1,1 @@
-resourc retriev fhir object fhir object model resourc driven model fine client sai patient inform call patient relat resourc organ care provid make call patient relat inform singl call
+resource retrieval fhir object fhir object model resource driven model fine client say patient information called patient related resource organization care provider make call patient related information single call

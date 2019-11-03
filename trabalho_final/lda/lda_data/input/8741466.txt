@@ -1,1 +1,1 @@
-identifi compress dicom imag tag identifi dicom imag compress format know read compress imag pixel data
+identify compressed dicom image tag identify dicom image compressed format know read compressed image pixel data

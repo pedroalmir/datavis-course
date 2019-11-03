@@ -1,1 +1,1 @@
-step count hourli basi healthkit swift plot graph step taken user hourli basi specif date user step start todai end todai get hkstatist object period time abl break data sampl step taken slot slot
+steps count hourly basis healthkit swift plot graph steps taken user hourly basis specific date user steps start today end today getting hkstatistics object period time able break data sample steps taken slot slot

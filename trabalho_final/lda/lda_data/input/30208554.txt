@@ -1,1 +1,1 @@
-heart rate background googl fit try creat android applic base googl fit successfulli get heart rate raw sensor data type android activ heart rate background implement android servic googl fit record api
+heart rate background google fit trying create android application based google fit successfully getting heart rate raw sensor data type android activity heart rate background implement android service google fit recording api

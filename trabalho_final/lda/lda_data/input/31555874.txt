@@ -1,1 +1,1 @@
-convert hl7 messag json convert hl7 messag json hapi convert messag xml json librari convert xml json output xml output segmennam fieldnam msh json segmennam fieldnam give meanig name field figur map element xml differ kei json
+converting hl7 message json convert hl7 message json hapi convert message xml json library convert xml json output xml output segmenname fieldname msh json segmenname fieldname give meanigful name field figure map element xml different key json

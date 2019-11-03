@@ -1,1 +1,1 @@
-fhir multipl class name project attempt gener class fhir resourc handl multipl class name exampl organ patient resourc compos class name contact contact complex date type pleas help regard
+fhir multiple class name project attempting generate classes fhir resource handle multiple class name example organization patient resource composed class name contact contact complex date type please help regards

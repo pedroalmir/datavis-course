@@ -1,1 +1,1 @@
-type system outofmemoryexcept thrown memori stream work wpf applic memori stream write method write dicom data byte show type try write big dicom data have size pleas suggest solut resolv piec code
+type system outofmemoryexception thrown memory stream working wpf application memory stream write method write dicom data byte shows type try write big dicom data having size please suggest solution resolve piece code

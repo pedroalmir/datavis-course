@@ -1,1 +1,1 @@
-print hl7 messag consol pass object constructor paramet object hl7 oru type hl7 print hl7 consol obx print wrong code write hl7 messag socket simpler wai java handel hl7
+printing hl7 message console passing object adding parameter object hl7 oru type hl7 print hl7 console obx printed wrong code write hl7 message socket simpler way java handel hl7

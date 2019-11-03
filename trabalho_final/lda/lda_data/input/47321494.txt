@@ -1,1 +1,1 @@
-fhir api enabl write note patient chart specif epic look wai write note patient chart epic couldn find current fhir spec write note didn find propos option
+fhir api enable write notes patient chart specifically epic looking way write notes patient chart epic couldn find current fhir spec writing notes didn find proposal option

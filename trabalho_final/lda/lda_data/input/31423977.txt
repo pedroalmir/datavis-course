@@ -1,1 +1,1 @@
-send dialysi data hl7 format dialysi data contain differ field valu dialysi map dialysi valu standard hl7 format
+send dialysis data hl7 format dialysis data contains different field values dialysis map dialysis values standard hl7 format

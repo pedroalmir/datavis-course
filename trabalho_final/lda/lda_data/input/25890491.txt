@@ -1,1 +1,1 @@
-move segment repeat field piec code try work interfac basic take field drop segment problem leav data move index pid segment variabl return undefin reason sampl hl7 msg transform test system live data resembl test test idea pointer move
+move segment repeating field piece code trying work interface basically take field drop segments problem leaves data moving indexed pid segment variable returning undefined reason sample hl7 msg transform test system live data resemble test test ideas pointer moving

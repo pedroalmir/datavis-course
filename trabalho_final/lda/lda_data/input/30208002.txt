@@ -1,1 +1,1 @@
-hl7 server hl7 listen develop web servic suppos hl7 file client pars xml push data databas question focu requir heard usual emr system send hl7 file tcp actual hl7 server work creat hl7 listen hipaa complianc hl7 push server tcp explain
+hl7 server hl7 listener developed web service suppose hl7 file client parse xml push data database question focus requirement heard usually emr system send hl7 file tcp actually hl7 server work create hl7 listener hipaa compliance hl7 push server tcp explain

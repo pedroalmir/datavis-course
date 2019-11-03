@@ -1,1 +1,1 @@
-number seri dicom file dimension data dicom dimens time valu dwi determin slice seri dimens exampl imag decid seri slice vice versa edit figur check slice posit given posit repeat increment number stack python code
+number series dicom file dimensional data dicom dimension time value dwi determine slice series dimension example image decide series slice vice versa edit figured checking slice position given position repeats increment number stacks python code

@@ -1,1 +1,1 @@
-convert dicom imag vti chang dicom seri vti implement python pleas help thank code
+convert dicom images vti change dicom series vti implement python please help thank code

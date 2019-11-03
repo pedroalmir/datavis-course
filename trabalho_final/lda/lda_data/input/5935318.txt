@@ -1,1 +1,1 @@
-dicom file structur succeed read dicom prefix tag know follow
+dicom file structure succeeded read dicom prefix tag know following

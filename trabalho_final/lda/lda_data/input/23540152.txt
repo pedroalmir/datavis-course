@@ -1,1 +1,1 @@
-transform hl7 xml apach camel rout new hl7 convert hl7v2 xml apach camel rout extract hl7 messag file help convert hl7 xml
+transforming hl7 xml apache camel route new hl7 convert hl7v2 xml apache camel route extracting hl7 message file help convert hl7 xml

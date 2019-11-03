@@ -1,1 +1,1 @@
-makefil dcmtk3 ubuntu14 debug debug code dcmtk3 code ubuntu14 don know origin makefil paramet try debug work add makefil add movescu dcmtk makefil
+makefile dcmtk3 ubuntu14 debug debug code dcmtk3 code ubuntu14 don know original makefile parameter try debug work add makefile add movescu dcmtk makefile

@@ -1,1 +1,1 @@
-serialis fhir resourc json api fhir api attempt pars xml file serialis json 1st line work fine xml file bundl pars inputbundl object serialis json 2nd line code error info xml file taken directli idea wrong
+serialising fhir resource json api fhir api attempting parse xml file serialise json 1st line works fine xml file bundle parsed inputbundle object serialise json 2nd line code error info xml file taken directly idea wrong

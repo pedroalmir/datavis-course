@@ -1,1 +1,1 @@
-idl read multipl dicom imag dat file write program idl read dicom imag store big matrix final dat file dicom name im0 im1 im2 im21777 wrote code get error idl version sure loop dicom name im0 im1 im2 store big matrix full data make matrix possibl make dimens
+idl reading multiple dicom image dat file writing program idl read dicom image store big matrix finally dat file dicom name im0 im1 im2 im21777 wrote code getting error idl version sure loop dicom name im0 im1 im2 store big matrix full data make matrix possible make dimension

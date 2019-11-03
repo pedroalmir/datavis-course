@@ -1,1 +1,1 @@
-render skin vtk develop applic window form read sequenc dicom imag transform object pretti bone vtk framework try skin get blank screen issu thank advanc
+rendering skin vtk developing application window forms reads sequence dicom image transform object pretty bones vtk framework trying skin getting blank screen issue thanks advance

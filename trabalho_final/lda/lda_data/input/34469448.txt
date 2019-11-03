@@ -1,1 +1,1 @@
-help open dicom file matlab got black imag open dicom file matlab code open dicom file
+help opening dicom file matlab got black image opening dicom file matlab code opening dicom files

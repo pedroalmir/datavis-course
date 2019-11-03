@@ -1,1 +1,1 @@
-hl7 cdr compon repres implement new try figur repres pid segment pid pid cdr compon consist sub compon made valu look standard separ defin msh appear aren separ differenti valu standard separ place exampl insight assist appreci
+hl7 cdr component represented implemented new trying figure represent pid segment pid pid cdr component consists sub component made values look standard separator defined msh appears aren separator differentiate value standard separator place example insight assistance appreciated

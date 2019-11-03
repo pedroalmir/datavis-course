@@ -1,1 +1,1 @@
-hl7 messag type retriev data work hl7 system client hl7 messag retriev glucommet data xml format extern applic type hl7 messag
+hl7 message type retrieve data working hl7 system client hl7 message retrieve glucommeters data xml format external application type hl7 message

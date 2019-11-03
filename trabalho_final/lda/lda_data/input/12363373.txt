@@ -1,1 +1,1 @@
-pars convert hl7 messag html page given hl7 messag transform pretti html page displai content read mode xslt templat librari help librari sampl hl7 messag
+parse convert hl7 message html page given hl7 message transform pretty html page display content reading mode xslt template library help library sample hl7 message

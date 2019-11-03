@@ -1,1 +1,1 @@
-error compress pixel data miss item delimit work dicom file try dicomread filenam dcm matlab give follow error view file dicom view softwar oni viewer sant dicom dicomread error imag format start begin wai file view
+error compressed pixel data missing item delimiter working dicom files try dicomread filename dcm matlab gives following error view file dicom viewing software onis viewer sante dicom dicomread error image format start beginning way file view

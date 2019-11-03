@@ -1,1 +1,1 @@
-healthkit workout constant exactli hkworkoutactivitytyp exampl hkworkoutactivitytyperun differ hkworkoutactivitytypehik simpli label differ factor valu calcul activ calori distanc
+healthkit workout constant exactly hkworkoutactivitytype example hkworkoutactivitytyperunning differ hkworkoutactivitytypehiking simply labels different factor values calculating active calories distance

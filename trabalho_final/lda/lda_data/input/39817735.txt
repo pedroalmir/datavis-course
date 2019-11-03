@@ -1,1 +1,1 @@
-class doesn confirm protocol wcsessiondeleg error show requir method implement part code class doesn implement wcsessiondeleg protocol compil error xcode beta swift deploy target ios10 watcho
+class doesn confirm protocol wcsessiondelegate error showing required method implemented part code class doesn implement wcsessiondelegate protocol compiler error xcode beta swift deployment target ios10 watcho

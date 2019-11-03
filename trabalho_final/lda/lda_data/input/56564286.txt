@@ -1,1 +1,1 @@
-load imag gener arrai wxpython frame try produc programm displai dicom imag move slice event button test 1st move slice arrai code base exampl file viewer onlin test button call randomli gener imag simplifi code show pixel arrai travel slice displai gener imag
+loading image generated array wxpython frame trying produce programme display dicom image move slice event button test 1st moving slices array code based example file viewer online test button call randomly generated image simplified code show pixel array travel slice display generated image

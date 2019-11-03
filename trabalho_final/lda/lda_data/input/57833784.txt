@@ -1,1 +1,1 @@
-convert dicom slice singl volum imag number slice possibl convert singl file correct slice arrang pars imageio python packag
+convert dicom slice single volume image number slice possible convert single file correct slice arrangement parse imageio python package

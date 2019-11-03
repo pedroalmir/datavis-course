@@ -1,1 +1,1 @@
-volum render vtk new field render dicom imag vtk tkit instal vtk visual studio try creat volum render dicom imag suppos got studi implement dll file vtk tkit order proce volum render creation question start
+volume render vtk new field render dicom image vtk tkit installed vtk visual studio trying create volume rendering dicom image suppose got study implement dll files vtk tkit order proceed volume rendering creation question start

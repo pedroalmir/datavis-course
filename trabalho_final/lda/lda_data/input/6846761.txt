@@ -1,1 +1,1 @@
-determin imageposit reconstruct mpr dicom imag set imag made mpr gener view new seri dicom determin imageposit new imag imageposit imageorient known origin seri problem origin seri orient direct
+determine imageposition reconstructed mpr dicom image set image made mpr generate views new series dicom determine imageposition new image imageposition imageorientation known original series problem original series oriented direction

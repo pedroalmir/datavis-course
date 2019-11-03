@@ -1,1 +1,1 @@
-dicom queri retriev work rest api mydicom sdk dll wai queri dicom
+dicom query retrieve works rest api mydicom sdk dll way query dicom

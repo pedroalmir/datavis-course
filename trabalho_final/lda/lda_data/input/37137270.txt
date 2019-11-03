@@ -1,1 +1,1 @@
-custom resourc hapi fhir problem custom resourc rest server access clinic inform form extern databas custom resourc myappoint custom attribut question client web servic client class code ident myappoint class client custom resourc thank
+custom resources hapi fhir problem custom resource restful server access clinical information form external database custom resource myappointment custom attribute question client uses web service client class code identical myappointment class client custom resource thanks

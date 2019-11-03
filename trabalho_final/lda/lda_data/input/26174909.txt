@@ -1,1 +1,1 @@
-set healthkit request author tableview appear healthkit app found inform appl develop page isn explain call method modal tableview appear ask user permiss chang idea
+set healthkit request authorization tableview appearance adding healthkit app found useful information apple developer page isn explained call method modal tableview appear asking user permission change idea

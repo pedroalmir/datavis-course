@@ -1,1 +1,1 @@
-refer extern pdf fhir resourc want add refer extern 3rd parti pdf datasheet inform medic resourc best add extens url extens point home page datasheet valuestr url pdf pdf current avail api exampl want refer pdf avail follow set url valuestr
+adding reference external pdf fhir resource wanting add reference external 3rd party pdf datasheet information medication resource best add extension url extension pointing home page datasheet valuestring url pdf pdf currently available api example wanted reference pdf available following set url valuestring

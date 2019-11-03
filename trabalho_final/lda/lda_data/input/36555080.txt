@@ -1,1 +1,1 @@
-send hl7 mllp try send hl7 mllp tell wrong code
+send hl7 mllp trying send hl7 mllp tell wrong code

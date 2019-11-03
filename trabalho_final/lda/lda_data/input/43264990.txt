@@ -1,1 +1,1 @@
-postgr createus command found instal homebrew mac run brew instal postgresql run postgr run command get follow error bash createus command found
+postgres createuser command found installing homebrew mac running brew install postgresql running postgre running command getting following error bash createuser command found

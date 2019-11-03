@@ -1,1 +1,1 @@
-convert json hl7 mirth connect defin javascript transform tip failur transform code follow follow
+convert json hl7 mirth connect define javascript transformer tip failure transformation code follows follows

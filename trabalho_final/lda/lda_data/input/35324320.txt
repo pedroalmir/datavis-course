@@ -1,1 +1,1 @@
-instal pydicom pip found try import librari give suggest fix pleas screenshot isn packag pydicom instal credit igor look work sublim text build import dicom work eclips pydev environ solv problem eclips path python interpret configur hand auto config didn add path
+installed pydicom pip found try import library give suggestion fix please screenshot isn package pydicom installed credit igor looks working sublime text build import dicom working eclipse pydev environment solved problem eclipse adding path python interpreter configuration hand auto config didn add path

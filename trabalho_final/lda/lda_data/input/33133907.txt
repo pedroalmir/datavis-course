@@ -1,1 +1,1 @@
-dicom viewer highlight specif area papaya view dicom imag highlight specif region imag user drag region try jcrop plugin work fix papaya viewer built function captur drag event
+dicom viewer highlight specific area papaya view dicom image highlight specific region image user drags region trying jcrop plugin work fix papaya viewer built function capture drag event

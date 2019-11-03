@@ -1,1 +1,1 @@
-hl7 relat clinic flow know articl tutori describ clinic flow relat hl7 messag gener read hl7 spec look connect dot exampl patient admit hosptial event happen theh hl7 trigger creat lab test order rout respect system
+hl7 relation clinical flow know article tutorial describe clinical flow relates hl7 message generated read hl7 spec looking connect dot example patient admitted hosptial event happen theh hl7 trigger created lab test ordered route respective systems

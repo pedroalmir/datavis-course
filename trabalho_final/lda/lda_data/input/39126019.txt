@@ -1,1 +1,1 @@
-transform collect string rdd try pars hl7 valu jar file jar file pars hl7 valu string execut code work fine scala thing run scala code sampl get error solv issu convert code updat sampl error
+transforming collections strings rdd trying parse hl7 values jar files jar files parse hl7 values string executed code working fine scala thing run scala code sample getting error solve issue convert code update sample error

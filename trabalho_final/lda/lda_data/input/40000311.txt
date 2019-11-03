@@ -1,1 +1,1 @@
-fhir rest multipl patient resourc singl call titl sai post patient resourc fhir multipl call have patient pass xml hundr thousand patient add ton data wonder effici wai post
+fhir restful adding multiple patients resource single call title says posting patient resources fhir multiple call having patient passed xml hundreds thousands patient add ton data wondering efficient way post

@@ -1,1 +1,1 @@
-know creat fhir resourc creat diagnosticreport observ allergi resourc captur creat resourc app patient practition differenti createdbi couldnt map field purpos
+know created fhir resource creating diagnosticreport observation allergy resource capture creating resource app patient practitioner differentiate createdby couldnt map field purpose

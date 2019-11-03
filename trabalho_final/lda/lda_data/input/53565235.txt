@@ -1,1 +1,1 @@
-output infer section niftynet run find infer model csv file loss find label file imag themself infer section border output interp order document infer output output folder believ model dir written system section follow content
+output inference section niftynet run find inference model csv files loss find label files images themself inference section border output interp order documentation inference output output folder believe model dir written system section following content

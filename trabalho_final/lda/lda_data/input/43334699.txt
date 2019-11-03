@@ -1,1 +1,1 @@
-differ dcm2pnm dcmj2pnm dcml2pnm titl sai differ dcm2pnm dcmj2pnm dcml2pnm command dcmtk toolkit convert dicom imag format special situat prefer edit dcml2pnm support format purpo advantag command
+difference dcm2pnm dcmj2pnm dcml2pnm title says difference dcm2pnm dcmj2pnm dcml2pnm commands dcmtk toolkit convert dicom image format special situation preferred edit dcml2pnm supports formats purpos advantage command

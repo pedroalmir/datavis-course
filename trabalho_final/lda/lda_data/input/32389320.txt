@@ -1,1 +1,1 @@
-dicom encod hierarchi iso iso default encod utf8 work dicom data serial header attribut dicom file patient name japanes charact encod input data attribut set iso serial throw creat input data iso serial data know iso subset utf8 iso blindli creat encod thank help
+dicom encoding hierarchy iso iso uses default encoding utf8 working dicom data serialize header attribute dicom file patient name japanese characters encoding input data attribute set iso serializer throws create input data iso serializes data know iso subset utf8 iso blindly create encoding thanks help

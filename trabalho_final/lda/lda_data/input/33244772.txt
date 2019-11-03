@@ -1,1 +1,1 @@
-date time hkquantitysampl heartratesampl watch os2 healthkit retriev hearter intern watch sensor depend time app background deactiv heartratesampl retriev retriev date time specif sampl written healthkit
+date time hkquantitysample heartratesample watch os2 healthkit retrieve hearterate internal watch sensor depending time app background deactivated heartratesamples retrieved retrieve date time specific sample written healthkit

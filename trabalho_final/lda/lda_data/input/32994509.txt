@@ -1,1 +1,1 @@
-convert imag coordin world coordin vtk know convert imag coordin acquir physic coordin tal
+convert image coordinates world coordinates vtk know convert image coordinates acquired physical coordinates tal

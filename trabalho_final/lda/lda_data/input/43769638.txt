@@ -1,1 +1,1 @@
-tab activ googl fit api creat app tab fragment 1st fragment tri api work suppos write code api mainact work fine wrong get error android studio code form fragment code form main activ
+tabbed activity google fit api created app tabs fragment 1st fragment tried api works suppose write code api mainactivity works fine wrong getting error android studio code form fragment code form main activity

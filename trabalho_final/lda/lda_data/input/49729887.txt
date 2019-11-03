@@ -1,1 +1,1 @@
-niftynet evalu action output incorrect try new evalu action infer gener metric output csv file show score averag distanc jaccard dice data volum find document evalu action sure wrong option doesn work infer evalu appli data valid set thank
+niftynet evaluation action output incorrect trying new evaluation action inference generate metrics output csv files show scores average distance jaccard dice data volume find documentation evaluation action sure wrong option doesn work inference evaluation applied data validation set thanks

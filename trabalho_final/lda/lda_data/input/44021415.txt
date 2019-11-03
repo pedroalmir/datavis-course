@@ -1,1 +1,1 @@
-fhir stu3 listresourc listentrycompon getitemtarget function recogn referenc resourc convert code fhir stu3 try organ resourc referenc list entri item refer call getitemtarget listentrycompon return null resourc wrong part code pleas help thank
+fhir stu3 listresource listentrycomponent getitemtarget function recognizing referenced resource converting code fhir stu3 trying organization resource referenced list entry item reference calling getitemtarget listentrycomponent returns null resource wrong part code please help thank

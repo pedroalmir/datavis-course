@@ -1,1 +1,1 @@
-rxnorm snome map medic list medic system map migrat wai match rxnorm snome concept databas link servic
+rxnorm snomed mapping medication listed medical system mapped ids migrate way match rxnorm ids snomed concept ids database links service

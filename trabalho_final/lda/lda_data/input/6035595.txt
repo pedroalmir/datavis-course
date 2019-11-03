@@ -1,1 +1,1 @@
-receiv unsolicit hl7 messag hapi simpl server try develop simpl hl7 server hapi librari base exampl send queri messag acknowledg socket send qbp luck receiv queri respons seper port tri follow exampl close possibl tri replac simpleserv twoportserv didn work better idea
+receive unsolicited hl7 messages hapi simple server trying develop simple hl7 server hapi library based example send query message acknowledgement socket send qbp luck receiving query response seperate port tried follow example closely possible tried replacing simpleserver twoportserver didn work better idea

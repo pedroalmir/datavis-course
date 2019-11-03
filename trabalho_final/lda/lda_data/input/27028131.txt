@@ -1,1 +1,1 @@
-fhir test server contini integr hl7 fhir github releas make proof new resourc commit avail fhir server test thank advanc regard
+fhir test server continious integration hl7 fhir github release make proof new resource commits available fhir server testing thanks advance regards

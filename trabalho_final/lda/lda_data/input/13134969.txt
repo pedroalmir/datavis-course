@@ -1,1 +1,1 @@
-jpeg rgb dicom grayscal standard jpeg file convert dicom imag convert jpeg back dicom new imag pixel data becasu grayscal data store singl byte channel pixel store data format chang window width center thank advanc
+jpeg rgb dicom grayscale standard jpeg file converted dicom image convert jpeg back dicom new image pixel data becasue grayscale data stored single byte channel pixel store data format change window width center thanks advance

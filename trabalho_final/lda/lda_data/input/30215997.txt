@@ -1,1 +1,1 @@
-hl7 fhir profil adapt data type composit element date data type datetim profil possibl element date adapt data type instanc data type date
+hl7 fhir profile adapting data type composition element date data type datetime profile possible element date adapts data type instance data type date

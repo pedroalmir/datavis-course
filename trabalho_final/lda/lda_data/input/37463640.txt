@@ -1,1 +1,1 @@
-patch delet weight datasourc delet data insert app try patch delet weight data sourc googl fit api local client fetch work fine return try send delet request follow problem setup special access
+patch delete weight datasource delete data inserted app trying patch delete weight data source google fitness api local client fetching works fine returns try send delete request following problem setup special access

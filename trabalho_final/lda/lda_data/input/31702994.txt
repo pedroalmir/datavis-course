@@ -1,1 +1,1 @@
-sort hksamplequeri item quantiti fetch healthkit quantiti data sort quantiti valu possibl know filter find similar kei sort exampl
+sort hksamplequery items quantity fetch healthkit quantity data sort quantity value possible know filter find similar key sorting example

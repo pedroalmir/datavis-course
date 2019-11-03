@@ -1,1 +1,1 @@
-healthkit systol diastol blood pressur valu code save blood pressur data health kit wai diastol combin singl entri health app current diffrent entri save systol diastol blood pressur health app
+ios healthkit systolic diastolic blood pressure values code saving blood pressure data health kit way diastolic combine single entry health app currently diffrent entry saved systolic diastolic blood pressure health app

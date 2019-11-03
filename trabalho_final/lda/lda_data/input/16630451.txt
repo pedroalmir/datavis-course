@@ -1,1 +1,1 @@
-dicom grayscal matlab convert dicom imag grayscal imag matlab thank
+dicom grayscale matlab convert dicom image grayscale image matlab thanks

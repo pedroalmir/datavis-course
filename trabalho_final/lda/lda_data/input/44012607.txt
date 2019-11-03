@@ -1,1 +1,1 @@
-fhir encount patient appoint practic try fhir pull patient encount appoint intermedi databas analysi fhir api appear design handl patient time encount time effici wai pull full set encount keep current appoint
+fhir encounters patients appointment practice trying fhir pull patients encounter appointment intermediate database analysis fhir api appear designed handle patient time encounter time efficient way pull full set encounter keep current appointments

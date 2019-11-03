@@ -1,1 +1,1 @@
-hl7 orm messag dg1 part pid obr orc hapi latest version hapi creat orm messag messag gener fine specif question locat dg1 diagnosi segment exampl output dg1 part orc obr segment sampl messag copi sourc desir output lead lab dg1 part pid group idea gener dg1 part pid segment
+hl7 orm message dg1 part pid obr orc hapi latest version hapi create orm message message generating fine specific question location dg1 diagnosis segment example output dg1 part orc obr segment sample message copied source desired output leading lab dg1 part pid group idea generate dg1 part pid segment

@@ -1,1 +1,1 @@
-valid sampl fhir json bundl resourc ajv try valid ajv command line fhir schema samplebundledanieltojson json directori plai differ option parametr exampl set referenc schema success idea fhir json valid thank
+validate sample fhir json bundle resource ajv trying validate ajv command line fhir schema samplebundledanieltojson json directory play different option parametre example setting referenced schema success idea fhir json validation thanks

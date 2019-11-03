@@ -1,1 +1,1 @@
-typeerror iter arrai numpi pydicom try creat simpl dicom viewer plot imag matplotlib show plot dicom imag tkinter run code error pleas help error occur try plot believ wuth wai declar valu
+typeerror iteration array numpy pydicom trying create simple dicom viewer plot image matplotlib show plot dicom image tkinter run code error please help error occurs try plot believe wuth way declared value

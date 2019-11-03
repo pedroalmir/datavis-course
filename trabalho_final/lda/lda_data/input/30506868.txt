@@ -1,1 +1,1 @@
-build gdcm cmake previous download gdcm built cmake follow command work fine repeat sai find bunch header file time lanfinfo pthread unix build fail step miss thought note time
+building gdcm cmake previously downloaded gdcm built cmake following command worked fine repeat says find bunch header files sys time lanfinfo pthread unix build fails step missing thought noted time

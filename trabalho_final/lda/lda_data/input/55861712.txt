@@ -1,1 +1,1 @@
-differ identifi fhir resourc entiti defin attribut logic artifact resourc defin attribut name descript extern identifi busi identifi wonder differ attribut rest api definit uniqu locat resourc abl retriev resourc similar storag identifi
+difference identifier fhir resource entity define attribute logical artifact resource define attribute named description external identifier business identifier wondering difference attribute restful api definition uniquely locate resource able retrieve resource similar storage identifier

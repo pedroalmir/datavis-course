@@ -1,1 +1,1 @@
-hl7 trigger siu pull inform emr look wai pull inform emr hl7 schedul inform exist emr inform siu messag understand notif feed new inform wai trigger siu exist schedul record order pull schedul date time wai achiev hl7 thank
+hl7 triggering siu pull information emr looking way pull information emr hl7 scheduling information existing emr information siu messages understanding notification feed new information way trigger siu existing scheduling record order pull scheduling dates time way achieve hl7 thanks

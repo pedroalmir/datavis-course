@@ -1,1 +1,1 @@
-retriev subset fhir resourc interest abil retriev specif element fhir resourc singl url call exampl suppos interest gender patient read url have walk xml node path time right function appear exist think sens commun interest thank jeff
+retrieving subset fhir resource interested ability retrieve specific element fhir resource single url call example suppose interested gender patient read url having walk xml node path time right functionality appear exist think usefulness sense community interest thanks jeff

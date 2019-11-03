@@ -1,1 +1,1 @@
-render jpeg imag compress dicom dicom try creat simpl winform viewer show dicom file gener novarad pac system follow code run code follow error assum decompress jpeg done dicom try plai gdcm librari couldn find wrapper notic comment sai roll dicom suggest thank
+render jpeg image compression dicom dicom try create simple winforms viewer show dicom files generated novarad pacs system following code run code following error assuming decompress jpeg done dicom trying play gdcm library couldn find wrapper noticed comments saying rolled dicom suggestion thanks

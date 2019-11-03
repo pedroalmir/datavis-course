@@ -1,1 +1,1 @@
-mandatori segment ref hl7 messag nhapi terser gener ref messag attach pleas help follow question segment mandatori ref obx segment present ref messag obr segment
+mandatory segments ref hl7 message nhapi terser generate ref message attachment please help following questions segment mandatory ref obx segment present ref message obr segment

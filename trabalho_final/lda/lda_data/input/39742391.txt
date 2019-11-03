@@ -1,1 +1,1 @@
-hl7 error msa field accessionno requir hl7soup hl7 client add new patient record avail help fix error receiv check hl7 manual didn help unreli follow messag client got follow respons don know field try refer check manual suggest visit number chang error help thank advanc
+hl7 error msa field accessionno required hl7soup hl7 client add new patient record avail help fix error received checked hl7 manual didn help unreliable following message client got following response don know field trying refer checked manual suggest visit number changed error help pls thanks advance

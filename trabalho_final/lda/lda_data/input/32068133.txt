@@ -1,1 +1,1 @@
-post xml json fhir api server work medic applic base hl7 fhir try add new record xml json intern server error xml try post post xml api server php curl get intern server error tri json luck json spent fix issu couldn find solut help appreci thank
+post xml json fhir api server working medical application based hl7 fhir trying add new record xml json internal server error xml trying post posting xml api server php curl getting internal server error tried json luck json spent fix issue couldn find solution help appreciated thanks

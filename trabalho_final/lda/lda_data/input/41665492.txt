@@ -1,1 +1,1 @@
-fhir app make call api endpoint github repositori url add code call fhir api creat app follow step tutori insert code call endpoint fhir cerner dstu2 medic statement possibl call post api sandbox know hope learn thank
+fhir app make call api endpoint github repository url add code calling fhir apis created app following steps tutorial insert code call endpoint fhir cerner dstu2 medication statement possible call post api sandbox yes know hope learn thanks

@@ -1,1 +1,1 @@
-dicom mhd convert itk simpleitk try convert dicom file mhd file code work inform lost convers take seri convert mhd file base seri simpler wai convert dicom mhd mha format python help highli appreci
+dicom mhd converter itk simpleitk trying convert dicom files mhd file code works information lost conversion takes series convert mhd file based series simpler way convert dicom mhd mha format python help highly appreciated

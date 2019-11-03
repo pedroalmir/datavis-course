@@ -1,1 +1,1 @@
-incorrect pixel valu data cursor matlab open dicom imag matlab r2014b place data cursor specif set coordin obtain index pixel valu match set coordin imag matrix attach imag idea happen
+incorrect pixel value data cursor matlab open dicom image matlab r2014b place data cursor specific set coordinates obtain index pixel value match set coordinates image matrix attached image idea happening

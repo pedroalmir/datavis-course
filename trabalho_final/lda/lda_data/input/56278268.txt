@@ -1,1 +1,1 @@
-read dicom file dlang possibl read imag wide medic field languag dicom specif given discuss topic page detail think specif librari purpos librari avail discuss read dicom file librari read dicom imag languag sampl dicom imag avail
+reading dicom files dlang possible read image widely medical field language dicom specification given discussion topic page detail think specific library purpose library available discussion reading dicom files library read dicom images language sample dicom image available

@@ -1,1 +1,1 @@
-hl7 adt messag valid conform profil xml valid hl7 adt version messag conform xml profil version java program valid messag xml get error proce solv input messag consol output
+hl7 adt message validation conformance profile xml validate hl7 adt version message conformance xml profile version java program validates message xml getting error proceed solving input message console output

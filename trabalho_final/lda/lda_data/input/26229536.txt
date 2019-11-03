@@ -1,1 +1,1 @@
-push compress file remot dicom server dcmsnd tool push compress file remot dicom server problem retriv uncompress file server dcmqr file form imag give failur statu file start decompress file dcmsnd tool push file remot dicom server proper compres file
+push compressed files remote dicom server dcmsnd tool pushing compressed files remote dicom server problem retriving uncompressed files server dcmqr files form image gives failure status files start decompression files dcmsnd tool pushing files remote dicom server proper compresed files

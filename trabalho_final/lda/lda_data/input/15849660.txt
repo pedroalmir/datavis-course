@@ -1,1 +1,1 @@
-enhanc sop class draw region interest modal have variou dicom tag variou tag draw region interest roi modal dicom file help know modal tag draw marker modal referenti tag roi refer sop instanc uid respect modal
+enhanced sop class useful draw region interest modality having various dicom tag various tag draw region interest roi modality dicom file help know modality tag draw marker modality referential tag roi reference sop instance uid respect modality

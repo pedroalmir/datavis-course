@@ -1,1 +1,1 @@
-convert dicom bmp imag current evil dicom librari open dicom file abl access dicom file open pixel stream pixelstream bmp imag
+convert dicom bmp image currently evil dicom library opening dicom files able access dicom file open pixel stream pixelstream bmp image

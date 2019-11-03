@@ -1,1 +1,1 @@
-write dcm file jpg write dcm file jpg tri follw code give follow error tri get error pleas help solv matlab version r2011a
+write dcm file jpg write dcm file jpg tried follwing code giving following error tried getting error please help solve matlab version r2011a

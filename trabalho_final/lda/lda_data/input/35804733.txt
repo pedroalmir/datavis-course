@@ -1,1 +1,1 @@
-mirth send messag differ sever server host network have labdaq have medisoft send hl7 messag drop labdaq folder medisoft look mirth setup connect mode file reader writer
+mirth sending message different sever server hosted network having labdaq having medisoft send hl7 messages dropped labdaq folder medisoft looking mirth setup connectivity mode file reader writer

@@ -1,1 +1,1 @@
-postgresql data type advis sql data type dicom uid sampl primari kei
+postgresql data type advise sql data type dicom uid sample primary key

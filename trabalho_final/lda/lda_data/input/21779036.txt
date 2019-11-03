@@ -1,1 +1,1 @@
-get patient analysi result hl7 get patient analysi result hl7 analysi date analysi result amount unit refer sequenc
+getting patient analysis results hl7 getting patient analysis results hl7 analysis date analysis result amount unit reference sequence

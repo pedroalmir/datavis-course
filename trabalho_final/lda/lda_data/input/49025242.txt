@@ -1,1 +1,1 @@
-read dcm file itk itk librari read dcm file exampl cmake build exampl appear exampl write dcm png format visual studio face error wrong gdcm
+reading dcm files itk itk library reading dcm files example cmake build example appear example write dcm png format visual studio face error wrong gdcm

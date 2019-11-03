@@ -1,1 +1,1 @@
-sort dicom imag matlab work lung data set matlab sort slice correctli show knew done instanc number paramet dicom header did manag run correct code piec code
+sorting dicom images matlab working lung data sets matlab sort slice correctly show knew done instance number parameter dicom header did manage run correct code piece code

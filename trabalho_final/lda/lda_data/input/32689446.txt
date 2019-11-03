@@ -1,1 +1,1 @@
-true dicom media storag sop instanc uid sop instanc uid question read dicom standard dicom file media storag sop instanc uid sop instanc uid
+true dicom media storage sop instance uid sop instance uid questions reading dicom standard dicom file media storage sop instance uid sop instance uid

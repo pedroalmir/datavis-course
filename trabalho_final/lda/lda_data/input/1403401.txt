@@ -1,1 +1,1 @@
-pars dicom file pars dicom file edit dicom tag
+parse dicom files parse dicom files edit dicom tag

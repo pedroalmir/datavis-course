@@ -1,1 +1,1 @@
-extract statu code methodoutcom outcom creat oper hapi fhir extract statu hapi fhir creat method wai recov methodoutcom workaround exist
+extracting status code methodoutcome outcome create operation hapi fhir extract status hapi fhir create method way recover methodoutcome workaround exists

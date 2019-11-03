@@ -1,1 +1,1 @@
-attributeerror filedataset object attribut pixelspac convert filetyp seri imag dcm mha follow code get follow error tri throw error help solv problem
+attributeerror filedataset object attribute pixelspacing convert filetype series image dcm mha following code getting following error tried adding throw error help solve problem

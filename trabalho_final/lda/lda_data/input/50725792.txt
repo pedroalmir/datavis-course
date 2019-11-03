@@ -1,1 +1,1 @@
-avail imag handler decod transfer syntax jpeg lossless read dicom plote matplotlib pydicom python3 problem problem solv thank
+available image handler decode transfer syntax jpeg lossless read dicom ploting matplotlib pydicom python3 problem problem solved thank

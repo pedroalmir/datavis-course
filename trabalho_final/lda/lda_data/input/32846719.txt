@@ -1,1 +1,1 @@
-clear imag renderwindowcontrol activ renderwindowcontrol order displai dicom seri wai abl delet imag displai control user reload new seri help thank
+clear image renderwindowcontrol activize renderwindowcontrol order display dicom series way able delete image displayed control user reloads new series help thanks

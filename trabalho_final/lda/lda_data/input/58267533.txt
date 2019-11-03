@@ -1,1 +1,1 @@
-issu special chacractor pars dicom korean patient name daikonj pars dicom file have troubl korean patient name pars return special symbol radiant applic dicom4ch result special symbol realiti expect dicom file have korean patient name
+issue special chacractor parse dicom korean patient name daikonjs parse dicom file having trouble korean patient name parse return special symbol radiant application dicom4che result special symbol reality expected dicom file having korean patient name

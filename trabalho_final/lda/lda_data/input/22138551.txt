@@ -1,1 +1,1 @@
-pars binari dicom data dart current work web applic read write binari dicom data goal prove possibl done quickli dart best wai pars binari data string int doubl dart
+parsing binary dicom data dart currently working web application read write binary dicom data goal prove possible done quickly dart best way parse binary data strings int doubles dart

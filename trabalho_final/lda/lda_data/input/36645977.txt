@@ -1,1 +1,1 @@
-creat dicomimag scratch dcmtk order data creat scratch similar done default constructor document look constructor load exist data possibl directli low level viabl approach dcmtk
+create dicomimage scratch dcmtk order data create scratch similar done default documentation looks load existing data possible directly going low level viable approach dcmtk

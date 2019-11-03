@@ -1,1 +1,1 @@
-hapi hl7 messag try hapi creat hl7 messag send hl7 messag mllp pam profil hapi creat hl7 messag find document exampl hapi find hapi resourc
+hapi hl7 message trying hapi create hl7 message send hl7 message mllp pam profile hapi create hl7 message find documentation example hapi find hapi resource

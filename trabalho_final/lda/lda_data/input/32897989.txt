@@ -1,1 +1,1 @@
-uncaught referenceerror dicompars defin applic backbon node requir fail doesn find defin need jqueri cornerston dicompars wrong return error code
+uncaught referenceerror dicomparser defined application backbone node require fails doesn find defined needs jquery cornerstone dicomparser wrong returns error code

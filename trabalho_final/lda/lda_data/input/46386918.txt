@@ -1,1 +1,1 @@
-match rang dsl queri elast search doesn work help queri result problem magnitud file systol main document search
+match range dsl query elastic search doesn work help query result problem magnitude filed systolic main document search

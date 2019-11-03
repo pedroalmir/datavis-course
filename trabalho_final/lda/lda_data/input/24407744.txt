@@ -1,1 +1,1 @@
-run fhir valid java jar download valid pack unzip valid zip read readm txt tri run hl7 fhir valid jar file window command prompt encount follow error mysourcefil xml unknown command pleas help thank
+run fhir validator java jar downloaded validation pack unzip validator zip read readme txt tried run hl7 fhir validator jar file window command prompt encountered following error mysourcefile xml unknown command please help thanks

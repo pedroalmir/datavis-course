@@ -1,1 +1,1 @@
-namespac dicomconvert class namespac dicomconvert class asp
+namespace dicomconvert class namespace dicomconvert class asp

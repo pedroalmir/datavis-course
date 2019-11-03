@@ -1,1 +1,1 @@
-error pars hl7 hl7api hl7api pars hl7 file python follow link sampl hl7 get desir result hl7 file get error understand wrong edit sampl code code pars hl7 file code pars sampl hl7 file mention link
+error parsing hl7 hl7apy hl7apy parse hl7 files python following link sample hl7 getting desired result hl7 file getting error understand wrong edit sample code code parsing hl7 files code parsing sample hl7 file mentioned link

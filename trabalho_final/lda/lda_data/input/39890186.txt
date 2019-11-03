@@ -1,1 +1,1 @@
-nifi pars hl7 try pars hl7 file store hdf nifi find exampl proper wai achiev pleas help
+nifi parsing hl7 trying parse hl7 files stored hdfs nifi finding example proper way achieve please help

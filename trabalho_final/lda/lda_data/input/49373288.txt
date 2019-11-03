@@ -1,1 +1,1 @@
-hl7 encod separ charact regard hl7 pipe delimit data exactli encod charact work follow exampl field field repetit compon sub compon correct pars raw hl7 data
+hl7 encoding separator character regards hl7 pipe delimited data exactly encoding character work following example fields field repetitions component sub component correct parsing raw hl7 data

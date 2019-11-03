@@ -1,1 +1,1 @@
-clearcanva file dicomfil check file dicomfil
+clearcanva file dicomfile check file dicomfile

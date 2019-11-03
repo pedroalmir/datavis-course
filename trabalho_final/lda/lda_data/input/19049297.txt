@@ -1,1 +1,1 @@
-creat hl7 messag java new hl7 creat applic hapi2 applic accept hl7 messag respond accept messag hapi doesn support messag wai accept hl7 messag respond api avail hl7 messag java hapi
+create hl7 message java new hl7 created application hapi2 applicable accept hl7 messages respond accept messages hapi doesn support messages way accept hl7 messages respond api available hl7 messages java hapi

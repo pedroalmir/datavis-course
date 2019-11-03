@@ -1,1 +1,1 @@
-extra charact pull healthkit pull healthkit data hksamplequeri creat arrai popul tableview tableviewcel charact blood sugar number screenshot cell queri data help pleas setup tableview
+extra character pulling healthkit pull healthkit data hksamplequery create array populate tableview tableviewcell character blood sugar number screenshot cell query data help please setup tableview

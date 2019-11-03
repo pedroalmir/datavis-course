@@ -1,1 +1,1 @@
-dicom window center window width try implement dicom veiwer thought done imag differ matlab check tag found imag valu window center window width calcul ymin ymax problem case calcul valu know implement
+dicom window center window width trying implement dicom veiwer thought done image different matlab checked tag found image value window center window width calculate ymin ymax problem case calculate values know implement

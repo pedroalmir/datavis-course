@@ -1,1 +1,1 @@
-hl7 cda progress note map loinc code hl7 section look document hl7 implement guid clinic document architectur releas progress note releas contain loinc code section exampl code assess find hl7 segment map
+hl7 cda progress notes mapping loinc codes hl7 section looking document hl7 implementation guide clinical document architecture release progress note release contains loinc code section example code assessment find hl7 segment maps

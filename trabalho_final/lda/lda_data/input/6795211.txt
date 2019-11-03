@@ -1,1 +1,1 @@
-read chines charact dicom file start feel dicom standard try write small program read file dump inform text file dataset patient name chines read store name current read name file convert code page chines write text file chines charact text file miss work window
+read chinese characters dicom files started feel dicom standard trying write small program read file dump information text file dataset patient names chinese read store name currently reading name file converting code page chinese writing text file chinese character text file missing working window

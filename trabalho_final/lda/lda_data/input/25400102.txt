@@ -1,1 +1,1 @@
-hkhealthstor requestauthorizationtosharetyp readtyp complet return success captur handl user cancel healthkit premiss complet block return success nil error
+hkhealthstore requestauthorizationtosharetypes readtypes completion returns success capture handle user cancelling healthkit premissions completion block returns success nil error

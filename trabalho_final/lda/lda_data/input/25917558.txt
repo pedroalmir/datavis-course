@@ -1,1 +1,1 @@
-save workout healthkit try workout healthkit code prompt user permiss accept code creat run activ last hour burn calori distanc save workout hkhealthstor give success valu nil error point expect open health app find workout distanc calori burn miss
+saving workouts healthkit trying workout healthkit code prompting user permission accepting code creates running activity lasts hour burns calory distance saving workout hkhealthstore gives success value yes nil error point expect opening health app find workout distance calory burned missing

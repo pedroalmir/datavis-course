@@ -1,1 +1,1 @@
-rchannel sensit dicom waveform try make ecg viewer read dicom file data channel definit seqeunc got waveform sampl channel problem tag channel sensit figur mean purpos
+rchannel sensitivity dicom waveform trying make ecg viewer reading dicom files data channel definition seqeunce got waveform sample channel problem tag channel sensitivity figure meaning purpose

@@ -1,1 +1,1 @@
-fhir complex extens add extens multipl field exampl extens relat visit motiv structur applic moment pretti sure correct name field precis valu time
+fhir complex extension add extension multiple field example extension related visit motive structured application moment pretty sure correct name field precise value time

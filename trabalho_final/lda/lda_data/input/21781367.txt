@@ -1,1 +1,1 @@
-retriv access token oauth with new dotnet retriv access token oauth api kei secret creat final url hit retriv token respons remot server return error intern server error final url pleas help successfuli retriv oauth token oauth secret thank
+retrive access tokens oauth withing new dotnet retrive access tokens oauth api key secret creat final url hit retrive tokens response remote server returned error internal server error final url please help successfuly retriving oauth token oauth secret thank

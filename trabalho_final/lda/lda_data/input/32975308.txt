@@ -1,1 +1,1 @@
-fhir extens defin structuredefinit profil resourc fhir extens defin structuredefinit resourc profil definit exist sole structuredefinit profil resourc valid
+fhir extension defined structuredefinition profiled resource fhir extension defined structuredefinition resource profile definition exist solely structuredefinition profiled resource valid

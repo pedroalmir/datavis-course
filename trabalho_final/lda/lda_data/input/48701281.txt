@@ -1,1 +1,1 @@
-captur store data repeat hl7 segement current captur data messag insert databas easi valu singl segment captur segment data multipl segment messag store databas databas tabl column messag insert 1st captur code loop multipl segment messag store databas thank
+capture store data repeating hl7 segement currently capture data messages insert database easy value single segment capture segment data multiple segment message store database database table columns message insert 1st capture codes loop multiple segments message store database thanks

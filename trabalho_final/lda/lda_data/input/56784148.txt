@@ -1,1 +1,1 @@
-fetch dicom element dcm file pydicom element squar bracket try extract dicom file pydicom librari valu element couldn valu acquisit type squar bracket tri show error python space kei
+fetch dicom element dcm file pydicom element square bracket trying extract dicom file pydicom library value element couldn value acquisition type square bracket tried showing error python ide space key

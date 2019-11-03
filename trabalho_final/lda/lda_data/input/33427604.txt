@@ -1,1 +1,1 @@
-possibl skip pars field hapi apach camel mina2 hapi receiv hl7 messag notic take time unmarsh creat messag object time increas larger messag messag obx segment obx obx field test manual remov field obx found improv perform wai tell hapi pars field obx
+possible skip parsing field hapi apache camel mina2 hapi receive hl7 messages noticed taking time unmarshal create message object time increases larger message message obx segment obx obx field tested manually removing field obx found improvement performance way tell hapi parse field obx

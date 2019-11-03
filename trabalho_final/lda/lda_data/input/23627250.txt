@@ -1,1 +1,1 @@
-delet resourc simpl send server implement send header delet implicitli appli current version resourc
+deleting resource simple send server implements send header delete implicitly apply current version resource

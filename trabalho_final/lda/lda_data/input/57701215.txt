@@ -1,1 +1,1 @@
-fhir server azur deploy debug set new open sourc fhir server azur portal fulli understand code base structur best tool prof recognis directori structur allow full remot debug
+fhir server azure deployment debugging setting new open source fhir server azure portal fully understand code base structure best tooling prof recognise directory structure allow full remote debugging

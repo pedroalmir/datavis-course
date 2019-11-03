@@ -1,1 +1,1 @@
-convert grayscal png rgb png imag dataset medic imag grayscal png format convert rgb format tri solut vain
+convert grayscale png rgb png image dataset medical images grayscale png format converted rgb format tried solution vain

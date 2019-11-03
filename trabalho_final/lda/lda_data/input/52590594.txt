@@ -1,1 +1,1 @@
-full optic densiti represent rang shade grai dicom imag normal imag rang shade grai dicom monochrom imag
+full optical density representation range shade gray dicom image normal images range shade gray dicom monochrome image

@@ -1,1 +1,1 @@
-hl7 send messag lan program try add hl7 manag system develop nhapi creat messag blood result cbc devic lan configur devic client host know creat messag detail send lan devic result listen devic bottom line give exampl send hl7 messag lan listen result
+hl7 send message lan programming trying add hl7 management system developed nhapi create message blood result cbc device lan configure device client host know create message detail send lan device result listening device bottom line give example send hl7 message lan listen result

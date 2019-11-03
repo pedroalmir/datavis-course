@@ -1,1 +1,1 @@
-make hl7 commun assynchron current initi acceptor applic commun sequenti make asynchron process mean initi applic thread send request backend applic wait respons backend make asynchron right hl7 protocol
+make hl7 communication assynchronous currently initiator acceptor applications communicate sequentially make asynchronous process mean initiator application thread sends request backend application wait response backend make asynchronous right hl7 protocol

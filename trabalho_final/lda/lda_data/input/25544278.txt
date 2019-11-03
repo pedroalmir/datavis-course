@@ -1,1 +1,1 @@
-android java pars hl7 messag hapi defaulthapicontext error try pars hl7 messag know fix hapi pleas help thank advanc catlog base tutori
+android java parsing hl7 message hapi defaulthapicontext error trying parsing hl7 message know fix hapi please help thanks advance catlog bases tutorial

@@ -1,1 +1,1 @@
-draw dicom raw data try develop tool visual dicom imag itk librari problem draw data gdcm librari provid itk librari 3rd parti lib read imag correctli retriev tag retriev pixel data put qpixmap qimag tri qpixelmap loaddata fals return valu qimag app crash help thank
+draw dicom raw data trying develop tool visualize dicom image itk library problem drawing data gdcm library provided itk library 3rd party lib reading image correctly retrieved tag retrieve pixels data put qpixmap qimage tried qpixelmap loaddata false return value qimage app crash help thank

@@ -1,1 +1,1 @@
-fhir jaxb xjc code gener try gener java code xsd fhir download code gener schema ran got follow import eclips xsd error fhir base xsd sure solv exampl account xsd directori
+fhir jaxb xjc code generation trying generate java code xsd fhir downloaded code generation schema ran got following imported eclipse xsd errors fhir base xsd sure solve example account xsd directory

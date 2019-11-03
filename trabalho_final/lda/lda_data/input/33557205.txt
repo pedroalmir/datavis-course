@@ -1,1 +1,1 @@
-queri healthkit hkcategorytypeidentifiersleepanalysi built method import sleep sampl return proper valu hour asleep method queri sleep data look date format call data novemb contain data return
+query healthkit hkcategorytypeidentifiersleepanalysis built method imports sleep sample return proper value hour asleep method query sleep data looks date formatted calling data november contains data return

@@ -1,1 +1,1 @@
-healthkit enablebackgrounddeliveryfortyp unavail calcul heart rate hour try trigger enablebackgrounddeliveryfortyp creat hkobserverqueri realis method disabl trigger job check heart rate hour follow queri run sampl
+healthkit enablebackgrounddeliveryfortype unavailable calculate heart rate hour trying trigger enablebackgrounddeliveryfortype creating hkobserverquery realised method disabled trigger job check heart rate hour following query running sample

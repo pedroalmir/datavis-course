@@ -1,1 +1,1 @@
-error get imageread pars dicom imag try implement sampl piec code imag dicomobject imageread reader imageread iter got know wrong jdk7 windows7
+error getting imagereader parsing dicom image try implement sample piece code image dicomobject imagereader reader imagereader iter got know wrong jdk7 windows7

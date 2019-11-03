@@ -1,1 +1,1 @@
-healthkit multipl hkanchoredobjectqueri return data sampl type hkanchoredobjectqueri updatehandl multipl type healthkit sampl data return data hkquantitytypeidentifierstepcount hksampletyp code help appreci func readhealthkitdata type hksampletyp
+healthkit multiple hkanchoredobjectquery returning data sample type hkanchoredobjectquery updatehandler multiple types healthkit sample data returns data hkquantitytypeidentifierstepcount hksampletype code help appreciated func readhealthkitdata type hksampletype

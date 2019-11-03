@@ -1,1 +1,1 @@
-cconvert nifti file dicom python convert set nifti file dicom format python script know neat solut dicom nifti convers dcm2nii didn find opposit tri work med2imag throw overwhelm amount try help
+cconvert nifti files dicom python convert set nifti files dicom format python script know neat solution dicom nifti conversion dcm2nii didn find opposite tried work med2image throw overwhelming amount trying help

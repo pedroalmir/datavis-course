@@ -1,1 +1,1 @@
-upload dicom imag click event webmango webmango modifi html syntax upload dicom imag click brows button hardcod valu param variabl work select random file empti dicom viewer imag upload initi param actual imag viewer give incorrect view imag sagitt coron view code
+upload dicom image click event webmango webmango modified html syntax upload dicom image clicking browse button hardcoded value params variable work selecting random file empty dicom viewer image uploaded initialize param actual images viewer gives incorrect view image sagittal coronal view code

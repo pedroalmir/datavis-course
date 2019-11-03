@@ -1,1 +1,1 @@
-search fhir complex nest queri haven found exampl instruct complex nest queri look search fhir resourc exampl pseudo code name mari gender femal address citi springfield address state name mari gender femal address citi springfield address state activ true possibl
+search fhir complex nested queries haven found examples instruction complex nested query look searching fhir resource examples pseudo code name mary gender female address city springfield address state name mary gender female address city springfield address state active true possible yes

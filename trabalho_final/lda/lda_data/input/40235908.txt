@@ -1,1 +1,1 @@
-with api integr android build android app show with user activ data applic try call refresh token url get invalid signatur respons
+withings api integration android building android app shows withings user activity data application trying call refresh token url getting invalid signature response

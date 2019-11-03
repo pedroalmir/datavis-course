@@ -1,1 +1,1 @@
-fhir appoint reason resourc implement fhir moment have troubl deal appoint reason know valu set avail implement valu set problemat reason resourc app practition add modifi delet reason variou field color valu set won app hint idea implement thing
+fhir appointment reasons resource implementing fhir moment having trouble dealing appointment reasons know value set available implement value set problematic reasons resource app practitioner add modify delete reasons various field color value set won app hints idea implement thing

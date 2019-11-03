@@ -1,1 +1,1 @@
-process multipl medic imag file nii format matlab try process multipl imag folder medic imag nii format load imag struct contain header imag inform img img extract imag uint16 format question transform function done imag separ folder
+processing multiple medical image files nii format matlab trying process multiple image folder medical images nii format load images struct contain headers image information img img extract image uint16 format question transformation function done image separate folder

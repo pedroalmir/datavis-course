@@ -1,1 +1,1 @@
-convert gdcm imag java bufferedimag gdcm read dicom imag easi wai read dicom file gdcm convert java bufferedimag follow tell right track complet exampl thank
+converting gdcm image java bufferedimage gdcm read dicom images easy way read dicom file gdcm convert java bufferedimage following tell right track complete example thanks

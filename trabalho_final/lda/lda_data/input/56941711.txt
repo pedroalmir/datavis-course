@@ -1,1 +1,1 @@
-write arrai dicom imag folder dicom imag store imag arrai print differ folder find method write imag cv2 imwrit
+write array dicom image folder dicom image stored images array print different folder find method write image cv2 imwrite

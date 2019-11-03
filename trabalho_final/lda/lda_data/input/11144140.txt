@@ -1,1 +1,1 @@
-attach split hl7 file recreat messag transmit hapi parser pars hl7 file come compani work move attach obx segment hl7 file valid stack allow attach pass wai take multipl obx segment break attach recreat pass wire side
+attachment split hl7 file recreated message transmitted hapi parser parse hl7 files come company working moving attachment obx segment hl7 file validator stack uses allow attachment pass way take multiple obx segment break attachment recreate passed wire side

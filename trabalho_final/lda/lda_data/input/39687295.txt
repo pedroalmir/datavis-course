@@ -1,1 +1,1 @@
-python dicom get pixel valu dicom file try pixelvalu dicom file python dicom librari return arrai zero code result idea valu pixel thank advanc andra
+python dicom getting pixel value dicom file trying pixelvalues dicom file python dicom library returns array zeros code result idea values pixel thanks advance andra

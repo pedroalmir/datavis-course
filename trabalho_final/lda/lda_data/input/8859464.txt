@@ -1,1 +1,1 @@
-dicom dcmtk webpag pac server run list studi seri dcmtk standalon applic basic oper select studi select seri obtain patient inform obtain data work webpag prefer lightweight server idea creat simpl queri pac server dicom protocol suggest forum page idea librari
+dicom dcmtk webpage pacs server running list studies series dcmtk standalone applications basic operation select study select serie obtain patient information obtain data work webpage prefer lightweight server idea create simple query pacs server dicom protocol suggest forums pages ideas library

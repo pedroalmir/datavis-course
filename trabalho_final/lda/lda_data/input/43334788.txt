@@ -1,1 +1,1 @@
-dicom imag convert dcmtk imag convert imag format tri follow command extract dicom file did work dcmj2pnm dcml2pnm produc grai box imag correctli read proper dicom viewer softwar problem solv
+dicom image converting dcmtk image converting image format tried following commands extracting dicom file did work dcmj2pnm dcml2pnm produce gray box image correctly read proper dicom viewer software problem solved

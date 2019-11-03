@@ -1,1 +1,1 @@
-fix constant valid accuraci machin learn try imag classif dicom imag balanc class pre train model train model constant valid accuraci valid loss fluctuat predict model return arrai predict imag model predict class constant val accuraci possibl overfit
+fix constant validation accuracy machine learning trying image classification dicom image balanced class pre trained model train model constant validation accuracy validation loss fluctuating predicting model returns array prediction image model predicts class constant val accuracy possibly overfitting

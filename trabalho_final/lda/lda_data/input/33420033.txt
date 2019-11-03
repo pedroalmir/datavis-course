@@ -1,1 +1,1 @@
-python open file loop dicom current read dicom imag manual code work try make code shorter easier creat loop read file code code current work receiv error advic wrong pleas
+python opening files loop dicom currently reading dicom image manually code worked trying make code shorter easier creating loop read file code code currently working receiving error advice going wrong please

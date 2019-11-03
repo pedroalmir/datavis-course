@@ -1,1 +1,1 @@
-pars hl7 messag pars hl7 messag firstli valid messag pars
+parse hl7 message parse hl7 message firstly validate message parse

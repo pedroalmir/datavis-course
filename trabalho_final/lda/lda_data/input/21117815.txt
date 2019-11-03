@@ -1,1 +1,1 @@
-hl7 fhir serialis json asp web api hl7 fhir packag creat ewout kramer asp web api unfortun built json serial isn gener json correctli contain suggest framework code work repetit isn follow convent json xml serial method web api fhir object packag avail write
+hl7 fhir serialisation json asp web api hl7 fhir package created ewout kramer tying asp web api unfortunately built json serialization isn generating json correctly contains suggested framework code works repetitive isn following convention json xml serialization methods web api fhir objects package available write

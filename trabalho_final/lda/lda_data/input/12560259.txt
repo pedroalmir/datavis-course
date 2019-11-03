@@ -1,1 +1,1 @@
-dicom librari support dicom transfer syntax look dicom librari support possibl transfer syntax list dicom standard decod dicom medic imag gdcm librari doesn support thank advanc dcmtk great librari trivial case know mdcm librari transfer syntax support
+dicom library supporting dicom transfer syntax looking dicom library supports possible transfer syntax listed dicom standard decode dicom medical image gdcm library doesn support thanks advance dcmtk great library trivial case know mdcm library transfer syntax support

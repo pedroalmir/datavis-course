@@ -1,1 +1,1 @@
-visual dicom file multipl frame matlab gener brain tumor tumorsim convert mha dcm gdcm2vtk tool visual matlab tri follow ankl demo base singl frame dicom file follow error
+visualizing dicom file multiple frames matlab generated brain tumor tumorsim converted mha dcm gdcm2vtk tool visualize matlab tried following ankle demo based single frame dicom file following error

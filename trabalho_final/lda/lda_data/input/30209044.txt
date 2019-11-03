@@ -1,1 +1,1 @@
-set vtklookupt volum dicom imag got mip maximum intens project volum medic project view imag make volum set chang volum find appropri wai experi vtk explain add set chang
+set vtklookuptable volume dicom image got mip maximum intensity projection volume medical project viewing image making volume set change volume find appropriate way experience vtk explain add set change

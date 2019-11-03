@@ -1,1 +1,1 @@
-pars multipl obr segment hl7 hapi terser pars multipl obr segment hl7 hapi terser sampl hl7 messag access obx parent segment child obx segment terser
+parse multiple obr segment hl7 hapi terser parse multiple obr segment hl7 hapi terser sample hl7 message access obx parent segment child obx segment terser

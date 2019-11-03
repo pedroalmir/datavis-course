@@ -1,1 +1,1 @@
-pars dicomdir displai avail imag think add imag manag function pars exist dicomdir file displai content tree structur exist applic java dcm4che qestion pars dicomdir file inform displai content java tree
+parse dicomdir display available image thinking add image management function parse existing dicomdir file display content tree structure existing application java dcm4che qestion parse dicomdir file information display content java tree

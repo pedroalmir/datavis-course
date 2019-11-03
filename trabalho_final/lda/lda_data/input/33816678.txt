@@ -1,1 +1,1 @@
-fhir api read web resourc basic exampl fhir api work try read sampl patient data 2nd line throw formatexcept tri patient rel absolut path didn help
+fhir api read web resource basic example fhir api work trying read sample patient data 2nd line throws formatexception tried patients relative absolute path didn help

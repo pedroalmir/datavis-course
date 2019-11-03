@@ -1,1 +1,1 @@
-encod support execpt pars hl7 messag applic try construct hl7 messag send applic nhapi messag successfulli construct try extract throw error encod notsupportedexcept specif framework hl7 version languag piec code immedi line construct messag
+encoding supported execption parsing hl7 message application trying construct hl7 message send application nhapi message successfully constructed trying extract throws error encoding notsupportedexception specification framework hl7 version language piece code immediately line constructed message

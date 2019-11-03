@@ -1,1 +1,1 @@
-creat anatom region studi code sequenc edit dicom file dcmodifi add anatom region studi code sequenc element tag unsur add tag add child list tag
+create anatomic region study code sequence edit dicom file dcmodify add anatomic region study code sequence element tag unsure add tag add child list tag

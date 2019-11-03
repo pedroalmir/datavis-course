@@ -1,1 +1,1 @@
-statu error try add ondatapointlisten try add listen raw data sensor successfulli discov ble sensor abl subscrib record api get raw valu add possibl code print fail regist listen statu error resolut possibl explan return data sourc appropri type
+status error trying add ondatapointlistener trying add listener raw data sensor successfully discovered ble sensor able subscribe recording api getting raw value add possible code print failed register listener status error resolution possible explanation return data source appropriate type

@@ -1,1 +1,1 @@
-java librari android project give top level develop app work dicom protocol result pixelm librari extract data file know imebra weak thing add pixelm jar lib folder add line build gradl give error try build run project idea solv problem
+adding java library android project gives top level develop app work dicom protocol result pixelmed library extract data files know imebra weak thing add pixelmed jar lib folder add line build gradle gives error try build run project idea solve problem

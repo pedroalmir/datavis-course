@@ -1,1 +1,1 @@
-process dicom imag project chang specif program process bmp imag program read compress uncompress dicom imag librari avail process dicom imag
+processing dicom image project change specific program process bmp image program read compressed uncompressed dicom image library available process dicom image

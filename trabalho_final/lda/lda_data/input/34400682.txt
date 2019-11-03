@@ -1,1 +1,1 @@
-healthkit creat predic specif sourc date rang search healthkit data specif given data sourc user log long time don data back specif period time gener predic specifi sourc specifi date rang
+healthkit create predicate specific source date range search healthkit data specific given data source user logged long time don data back specific period time generate predicate specifies source specifies date range

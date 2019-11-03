@@ -1,1 +1,1 @@
-gdcm librari read dicom file tri read dicom file gdcm librari code sampl success dcm file read file fine sampl fail dcm file gdcm throw couldn read tri open file dicom viewer radiant work wrong gdcm build read gdcm pleas find sampl
+gdcm library read dicom file tried read dicom file gdcm library code sample success dcm file read file fine sample failed dcm file gdcm throws couldn read tried open file dicom viewer radiant worked wrong gdcm build read gdcm please find sample

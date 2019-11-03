@@ -1,1 +1,1 @@
-jpeg lossless dicom transfer syntax defin jpeg lossless nonhierarch 1st order predict process select valu mean format jpeg indic differ jpeg list bottom section possibl read write format python look doc clear format support
+jpeg lossless dicom transfer syntax defined jpeg lossless nonhierarchical 1st order prediction processes selection value mean format jpeg indicate difference jpeg listed bottom section possible read write format python looking doc clear format supported

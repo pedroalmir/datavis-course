@@ -1,1 +1,1 @@
-purpos wado dicom servic class user provid try figur differ transfer dicom file scu scp pynetdicom3 wado api method transfer dicom file figur standard case
+purpose wado dicom service class users provider trying figure difference transferring dicom files scu scp pynetdicom3 wado api method transferring dicom files figure standard case

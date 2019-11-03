@@ -1,1 +1,1 @@
-field valu name name structur valu hl7 field specifi name structur file hl7 messag line code work name field known runtim strongli type method
+field value name name structure value hl7 field specifying name structure filed hl7 message line code works name field known runtime strongly type method

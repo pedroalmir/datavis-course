@@ -1,1 +1,1 @@
-swift error undeclar type viewcontrol work app researchkit swift xcode researchkit softwar rel straightforward particular section code view control messag type sure fix code
+swift error undeclared type viewcontroller working app researchkit swift xcode researchkit software relatively straightforward particular section code view controller message type sure fix code

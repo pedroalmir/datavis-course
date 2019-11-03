@@ -1,1 +1,1 @@
-login clearcanva attempt read write protect memori indic memori corrupt encount error clearcanva server compani tri restart mssql clearcanva servic servic msc error reccur resort restart server affect daili oper
+login clearcanva attempted read write protected memory indication memory corrupt encounter error clearcanvas server company tried restart mssql clearcanvas service services msc error reccurring resort restart server affect daily operation

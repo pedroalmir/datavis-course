@@ -1,1 +1,1 @@
-phr person health record ccd develop develop phr app patient inform ccd clinic ccd nar block accompani semant block
+phr personal health record ccd development developing phr app patient information ccd clinic ccd narative block accompany semantic block

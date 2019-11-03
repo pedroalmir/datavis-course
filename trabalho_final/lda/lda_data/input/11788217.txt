@@ -1,1 +1,1 @@
-store dicom header sql hipaa read dicom header store databas list dicom object store encrypt anonym order hipaa compliant sort list dicom tag store patientid patientsnam patientsbirthd studyd studyinstanceuid sopinstanceuid
+storing dicom headers sql hipaa reading dicom header storing database list dicom objects store encrypted anonymized order hipaa compliant sort list dicom tag storing patientid patientsname patientsbirthdate studydate studyinstanceuid sopinstanceuid

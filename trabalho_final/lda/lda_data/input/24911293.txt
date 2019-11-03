@@ -1,1 +1,1 @@
-java rest client fhir data model give exampl java rest client search patient fhir data model
+java rest client fhir data model give example java rest client search patient fhir data model

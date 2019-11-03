@@ -1,1 +1,1 @@
-unit test hksamplequeri swift read data code look specif code extract demo purpos question
+unit test hksamplequery swift read data code looks specific code extracted demo purpose question

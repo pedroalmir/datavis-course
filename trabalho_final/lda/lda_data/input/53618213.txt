@@ -1,1 +1,1 @@
-googl fit permiss problem technic help googl fit rest rest api make app requir access locat inform respons request get json access token made follow request work request bodi correct respons done follow bodi datasourceid datatypenam chang got tri fit scope read write
+google fit permission problem technical help google fit rest rest api making app requires access location information response request getting json access token made following request works request body correct response done following body datasourceid datatypename changed got tried fitness scope read write

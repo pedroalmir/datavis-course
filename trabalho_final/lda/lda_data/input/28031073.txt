@@ -1,1 +1,1 @@
-send header orbeon xform submiss api depend header specif behavior exampl header post support updat version match valu send header orbeon xform submiss
+send header orbeon xform submission api depends header specific behavior example header post support updating version matches value send header orbeon xforms submission

@@ -1,1 +1,1 @@
-fhir action name spec ambigu resourc action rest detail underscor prefix action name histori search summari section underscor correct name
+fhir action names spec ambiguous resource action rest detail underscore prefixed action name history search summary section underscores correct name

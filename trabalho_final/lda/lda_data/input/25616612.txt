@@ -1,1 +1,1 @@
-abl run sampl heathkit project fitstoreandretrievehealthkitdata iphon download sampl health kit app fitstoreandretrievehealthkitdata appl develop site try run iphon xcode beta fail run app devic get error solut
+able run sample heathkit project fitstoreandretrievehealthkitdata iphone downloaded sample health kit app fitstoreandretrievehealthkitdata apple developer site trying run iphone xcode beta failed run app device getting error solution

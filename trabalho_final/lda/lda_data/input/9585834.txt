@@ -1,1 +1,1 @@
-read multifram dicom imag abl read 1st frame read frame frame file
+read multiframe dicom image able read 1st frame read frame frame file

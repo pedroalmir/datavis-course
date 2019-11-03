@@ -1,1 +1,1 @@
-show imag picturebox try displai dicom imag opendicom correct
+show image picturebox trying display dicom image opendicom correct

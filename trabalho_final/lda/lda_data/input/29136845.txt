@@ -1,1 +1,1 @@
-set default encod hapi fhir rest client librari commun fhir server occasion deliv unclean xml error avoid json easi overrid fluent chain mention method don wai set encod accept server send default wai set default encod context client creation appli
+set default encoding hapi fhir restful client library communicate fhir server occasionally delivering unclean xml error avoided json easy override adding fluent chain mentioned methods don way set encoding accept server sends default way set default encoding context client creation applies

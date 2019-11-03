@@ -1,1 +1,1 @@
-fhir publish templat gener apr updat top schema new process did read tool hl7 fhir igpublish creat new html download jar file run command get error thread main java lang error unknown version
+fhir publisher templates generated apr update top schema new process did reading tool hl7 fhir igpublisher create new html download jar file run command getting error thread main java lang error unknown version

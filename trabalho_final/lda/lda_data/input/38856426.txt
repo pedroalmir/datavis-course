@@ -1,1 +1,1 @@
-add medic therapeut class fhir wonder wai add therapeut class code medic definit
+add medication therapeutic class fhir wonder way add therapeutic class code medication definition

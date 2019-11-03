@@ -1,1 +1,1 @@
-integr system mirth connecth hl7 system 1st hl7 interfac 2nd interfac commun system util mirth connect 2nd system side receiv hl7 messag 1st system write direct databas viabl option develop hl7 interfac 2nd system
+integrate system mirth connecth hl7 system 1st hl7 interface 2nd interface communicate system utilizing mirth connect 2nd system side receive hl7 messages 1st system write direct database viable option develop hl7 interface 2nd system

@@ -1,1 +1,1 @@
-list voic command trigger heart rate check list exist voic command creat intent action mime type googl heart rate googl bpm discov exampl googl check puls
+list voice commands trigger heart rate check list existing voice commands create intent action mime type google heart rate google bpm discovered example google check pulse

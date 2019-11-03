@@ -1,1 +1,1 @@
-hkobserverqueri completionhandl try make app healthkit weight data send remot server put completionhandl success hook async request server completionhandl call error nil exampl written
+hkobserverquery completionhandler trying make app uses healthkit weight data sends remote server put completionhandler success hook async request server completionhandler called error nil example written

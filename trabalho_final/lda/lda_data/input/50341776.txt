@@ -1,1 +1,1 @@
-perform issu read dicom data cell arrai read dicom file written follow code read file store data cell arrai process later singl dicom file contain data execut code took minut complet iter point perform issu follow code
+performance issue reading dicom data cell array read dicom files written following code read file store data cell array process later single dicom file contains data execute code took minute complete iteration point performance issue following code

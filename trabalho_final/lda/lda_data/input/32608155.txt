@@ -1,1 +1,1 @@
-healthkit read workout know fetch workout data healthkit tutori swift tri object base tutori get result question save workout read workout data displai
+ios healthkit reading workout know fetch workouts data healthkit tutorial swift tried objective based tutorial getting result question saving workout read workouts data display

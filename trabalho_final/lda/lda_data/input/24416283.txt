@@ -1,1 +1,1 @@
-hl7 fhir advanc queri look fhir rest api complex queri server patient data search parm url specifi give basic oper date nest group queri criterion look exampl post xml represent queri server result back capabl exist exampl thank
+hl7 fhir advanced query looking fhir rest apis complex query server patient data search parm url specified gives basic operation dates nesting groupings query criterion looking example post xml representation query server result back capability exist example thanks

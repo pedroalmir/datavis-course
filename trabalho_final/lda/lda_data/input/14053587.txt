@@ -1,1 +1,1 @@
-pars hl7 messag start pars hl7 messag start xml
+parse hl7 message starting fhs parse hl7 message starting fhs xml

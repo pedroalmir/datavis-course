@@ -1,1 +1,1 @@
-dicom tiff invert lut python pil frombuff command dicom imag data tiff imag somehwer process imag intens invert invert lut idea overcom tri imageop invert function pil give support imag mode error code guidanc appreci python pil pydicom
+dicom tiff inverted lut python pil frombuffer command dicom image data tiff image somehwere process image intensity inverted inverted lut idea overcome tried imageops invert function pil gives supported image mode error code guidance appreciated python pil pydicom

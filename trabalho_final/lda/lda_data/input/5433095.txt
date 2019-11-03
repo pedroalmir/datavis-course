@@ -1,1 +1,1 @@
-itk librari load dicom imag try show dicom imag iphon ipad look wai know build librari sampl code show dicom file help exampl learn
+itk library load dicom images ios trying show dicom image iphone ipad looking way know build library ios sample code show dicom file help example learn

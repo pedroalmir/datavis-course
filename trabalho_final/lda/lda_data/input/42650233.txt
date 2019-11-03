@@ -1,1 +1,1 @@
-access rgb pixel arrai dicom file pydicom try access dicom file rgb pixel arrai unknown compress extract grayscal pixel arrai work complet fine goal convert common grayscal arrai unfortun result arrai contain correct pixel data content fals scale spatial disturb issu
+access rgb pixel array dicom files pydicom try access dicom file rgb pixel array unknown compression extracting grayscale pixel array works completely fine goal convert common grayscale array unfortunately result array containing correct pixel data content false scaled spatially disturbed issue

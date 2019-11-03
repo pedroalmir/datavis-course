@@ -1,1 +1,1 @@
-librari read pixel dicom imag read individu pixel valu dicom imag
+library read pixel dicom image read individual pixel values dicom image

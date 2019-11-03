@@ -1,1 +1,1 @@
-android googl fit onconnectionfail sign requir issu sign run basicsensorapi sampl file connect get result cancel select account dialog end logcat run oneplu idea googl consol set correct sha1 fit api enabl
+android google fit onconnectionfailed sign required issue sign running basicsensorapi sample file connect getting result canceled select account dialog end logcat running oneplus idea google console set correct sha1 fitness api enabled

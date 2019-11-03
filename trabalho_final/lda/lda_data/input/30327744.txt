@@ -1,1 +1,1 @@
-open dicom file find directori start try oper dicom file format instal oro dicom open file header interact session file locat doesn program did
+open dicom file find directory started trying operate dicom file format installed oro dicom open file header interactive session files located doesn program did

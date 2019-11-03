@@ -1,1 +1,1 @@
-dicom imag process categori dicom imag file separ sai read 1st data set patient name
+dicom image processing categories dicom image file separately say read 1st data set patient name

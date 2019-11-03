@@ -1,1 +1,1 @@
-annot dicom file look applic python allow take exist dicom file subsequ add marker medic imag colour point coordin marker final imag done pydicom program thought welcom
+annotate dicom files looking application python allow take existing dicom file subsequently add marker medical image coloured points coordinate marker final image done pydicom program thought welcome

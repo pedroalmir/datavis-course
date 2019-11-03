@@ -1,1 +1,1 @@
-notifi patient fever design object send alert patient fever given temperatur read minut suppos temperatur class measur class class temperatur
+notifying patient fever design object send alert patient fever given temperature reading minute suppose temperature class measure class class temperature

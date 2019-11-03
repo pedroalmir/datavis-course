@@ -1,1 +1,1 @@
-differ hl7 standard differ hl7 usa standard
+difference hl7 standards difference hl7 usa standards

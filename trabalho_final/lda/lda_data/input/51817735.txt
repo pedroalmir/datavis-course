@@ -1,1 +1,1 @@
-pydicom errror print indexerror list index rang pydicom try read test file error pleas help
+pydicom errror printed indexerror list index range pydicom try read test file error please help

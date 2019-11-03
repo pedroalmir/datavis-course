@@ -1,1 +1,1 @@
-itk imageseriesread read dicom seri problem itk read dicom imag seri pleas look code intercept itk exampl program output dicom seri name correctli execut reader updat sai imag size requir imag seri download hopeless error happen demo program
+itk imageseriesreader read dicom series problem itk read dicom images series please look code intercepted itk examples program output dicom series name correctly executing reader update says image size required image series downloaded hopeless error happens demo program

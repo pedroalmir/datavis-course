@@ -1,1 +1,1 @@
-get invalidoperationexcept messagecontract attribut run wcf consol host contract run remov oprequest class complet sure give wider scope try soap bodi enclos tag paramet name exampl bodi extract soap messag conform standard hl7v3 pix manag soap web servic idea
+getting invalidoperationexception adding messagecontract attribute running wcf console host contract run remove oprequest class completely sure give wider scope trying soap body enclosing tag parameter name example body extract soap message conform standard hl7v3 pix manager soap web service idea

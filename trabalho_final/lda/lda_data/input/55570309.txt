@@ -1,1 +1,1 @@
-custom health check gcp try custom health check gcp loadbalanc creat ingress haven got custom health check
+custom health check gcp try custom health check gcp loadbalancer added create ingress haven got custom health check

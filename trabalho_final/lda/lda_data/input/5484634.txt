@@ -1,1 +1,1 @@
-dcmtk iphon project successfulli ccmake compil dcmtk3 build environ don know compil file new project move dcmtk compil new iphon project error path
+dcmtk iphone project successfully ccmake compile dcmtk3 build ios environment don know compiled file new ios project moved dcmtk compiling new iphone project error path

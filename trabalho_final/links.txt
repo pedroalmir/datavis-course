@@ -30,6 +30,11 @@ https://observablehq.com/@d3/sunburst
 https://observablehq.com/@yuhaochen1997/tree-of-topic-wrods
 https://agoldst.github.io/dfr-browser/demo/#/model/list/frac
 
+R:
+	https://rdrr.io/github/mlinegar/litMagModelling/src/R/makeLDAvis.R
+	https://github.com/sethsch/dfrtopics/tree/43362fd4aea25caedf59f610fb02f3aaa30334ca
+	https://github.com/cpsievert/LDAvis
+
 Regex:
 	https://www.regextester.com
 
@@ -49,4 +54,15 @@ tokens.forEach(function(token, index){
 		tokensStem.push(stemToken.trim());
 	}
 })
+
+/*var sentencesData = [];
+for (var m = 0; m < theta.length; m++) {
+    var probPerTopic = {};
+    for (var k = 0; k < theta[m].length; k++) {
+        probPerTopic["topic" + k] = {"text": topicText[k].trim(), "probability": theta[m][k] * 100};
+    }
+    sentencesData.push({"sentence": sentences[m], probPerTopic})
+    //console.log(probPerTopic);
+}
+*/
 	

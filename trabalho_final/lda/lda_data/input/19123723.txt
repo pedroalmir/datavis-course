@@ -1,1 +1,1 @@
-open sourc hl7 cda api look hl7 clinic document architectur api open sourc prefer exactli nhapi structur object model build specif messag type messag class creat messag messag nhapi look mirthconnect primarili java javascript base haven strong candid googl hope know
+open source hl7 cda api looking hl7 clinical document architecture api open source preferably exactly nhapi structured object model building specific message type message class creating messages messages nhapi looked mirthconnect primarily java javascript based haven strong candidates google hoping know

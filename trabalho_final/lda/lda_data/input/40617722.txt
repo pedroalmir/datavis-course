@@ -1,1 +1,1 @@
-dcmj2pnm tojpeg patient name miss new dcmj2pnm succesfulli convert dcm file jpg commandlin win dcmj2pnm test dcm test jpg miss patient name organ name dcm file jpeg pleas guid theas detail jpeg file
+dcmj2pnm tojpeg patient name missing new dcmj2pnm succesfully converted dcm file jpg commandline win dcmj2pnm exe test dcm test jpg miss patient name organization name dcm file jpeg please guide thease details jpeg file

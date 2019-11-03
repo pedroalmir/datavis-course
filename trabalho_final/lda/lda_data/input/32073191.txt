@@ -1,1 +1,1 @@
-move file locat filter condit satisfi mirth new mirth process action sourc perform rule sourc filter satisfi channel
+move files location filter condition satisfies mirth new mirth processing action source perform rule source filter satisfies channel

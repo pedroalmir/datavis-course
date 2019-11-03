@@ -1,1 +1,1 @@
-hl7 fhir diagnosticord code categori creat diagnosticord hl7 fhir standard return type order full blood count categori type exampl laboratori diagnosticord item code properti custom valu presum probabl order type repres categori order creat extens misunderstood specif
+hl7 fhir diagnosticorder code category creating diagnosticorder hl7 fhir standard return type order full blood count category type example laboratory diagnosticorder item code property custom value presume probably order type represent category order create extension misunderstood specification

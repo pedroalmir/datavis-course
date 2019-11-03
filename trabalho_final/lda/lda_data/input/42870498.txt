@@ -1,1 +1,1 @@
-resampl regist imag data 1st medic imag dataset given patient acquir time differ modal frame refer coordin space differ dataset don know origin dataset smaller physic dimens voxel size number frame differ resampl regist imag matter 1st
+resampling registering image data 1st medical image dataset given patient acquired time different modality frame reference coordinate space different dataset don know origin dataset smaller physical dimension voxel sizes number frame different resample register image matter 1st

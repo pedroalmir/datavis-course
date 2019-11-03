@@ -1,1 +1,1 @@
-read dicom file read dicom file differ tag
+reading dicom file read dicom file different tag

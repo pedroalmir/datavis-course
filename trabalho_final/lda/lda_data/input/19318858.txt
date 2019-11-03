@@ -1,1 +1,1 @@
-read dicom file dynam dsa imag dynam dsa imag dicom format consist header patient inform seri rai imag data show bone motion file method librari vtk itk gdcm read data
+read dicom file dynamic dsa image dynamic dsa image dicom format consists header patient information series ray image data show bone motion file method library vtk itk gdcm read data

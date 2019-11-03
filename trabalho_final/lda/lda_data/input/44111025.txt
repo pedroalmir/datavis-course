@@ -1,1 +1,1 @@
-blank node sparql queri result rdflib queri queri owl class graph construct ontolog rdflib return result contain blank node wish queri queri dicom owl download machin result receiv modifi queri blank node
+blank node sparql query result rdflib query querying owl class graph constructed ontology rdflib returns result contain blank node wish queries query dicom owl downloaded machine result receive modify query blank node

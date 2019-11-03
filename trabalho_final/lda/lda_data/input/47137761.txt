@@ -1,1 +1,1 @@
-search procedur request return kei valu pair updat json file validprocedurerequest json run curl command validprocedurerequest json file note tell successfulli creat mean kei updat fhir databas run curl command get updat object question retriev kei valu submit request
+search procedure request return key value pair updated json file validprocedurerequest json run curl command validprocedurerequest json file note tells successfully create means key updated fhir database run curl command getting updated object question retrieve key values submitted request

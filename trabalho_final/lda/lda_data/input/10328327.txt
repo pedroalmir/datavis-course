@@ -1,1 +1,1 @@
-load dicomimag imageio jai develop applic load dicom imag netbean platform develop app give null pointer jsr api miss plugin havnt wrong sourc code plz share idea
+load dicomimage imageio jai developing application load dicom image netbeans platform developed app give null pointer jsr api missing plugins havnt wrong added source code plz share ideas

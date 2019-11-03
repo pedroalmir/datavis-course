@@ -1,1 +1,1 @@
-python read convert raw imag file work scan medic imag raw format basic matrix voxel slice extract slice file separ file result definit look chest scan textur imag strang pixel misplac relev info locat associ mhd info file sure look
+python read convert raw image file working scan medical image raw format basically matrix voxels slice extract slice file separate files result definitely looks chest scan texture image strange pixel misplaced relevant info located associated mhd info file sure look

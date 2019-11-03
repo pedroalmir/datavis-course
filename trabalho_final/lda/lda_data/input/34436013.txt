@@ -1,1 +1,1 @@
-creat multipl version hl7 messag singl applic hapi new hl7 hapi read hapi tutori figur support pars multipl version hl7 singl applic sure support multipl hl7 version creat new messag packag structur version construct hl7 messag version hapi
+creating multiple versions hl7 messages single application hapi new hl7 hapi reading hapi tutorial figured support parsing multiple versions hl7 single application sure support multiple hl7 version creating new message package structure version construct hl7 message version hapi

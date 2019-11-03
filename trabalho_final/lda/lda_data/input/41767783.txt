@@ -1,1 +1,1 @@
-new dicom tag pydicom try convert dti siemen dicom nifti freesurf util fail file miss necessari gener file tag don valu don appear tri got follow error wai manual insert tag
+adding new dicom tag pydicom trying convert dti siemens dicoms nifti freesurfer utility failing files missing necessary generate files tags don values don appear tried adding got following error way manually insert tag

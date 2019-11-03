@@ -1,1 +1,1 @@
-calcul window width window center bitmap try implement dicom viewer dicom file set window width window center set paramet bitmap found doesn work right know wrong edit left imag expect result receiv dicom librari right imag result process function
+calculate window width window center bitmap trying implement dicom viewer dicom file set window width window center set parameter bitmap found doesn work right know wrong edit left image expected result received dicom library right image result processing function

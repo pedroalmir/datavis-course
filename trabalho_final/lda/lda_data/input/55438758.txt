@@ -1,1 +1,1 @@
-fit startblescan success scan stop band request sensor data band android app real time difficulti permiss check devic bluetooth default api try exampl time onscanstop callback don explan don understand fail code onconnect tri data type show scan success callback second
+fitness startblescan successful scan stopped band request sensor data band android app real time difficulty permission checked device bluetooth default api trying example time onscanstopped callback don explanation don understand fails code onconnected tried data type shows scan successful callback second

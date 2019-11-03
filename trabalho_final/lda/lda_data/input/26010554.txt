@@ -1,1 +1,1 @@
-requestauthorizationtosharetyp method displai permiss prompt xcode requestauthorizationtosharetyp call back complet method
+requestauthorizationtosharetypes method displaying permissions prompt ios xcode requestauthorizationtosharetype calling back completion method

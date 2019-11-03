@@ -1,1 +1,1 @@
-convert jpeg dicom dcmtk tring convert dicom jpeg transfer syntax regular dicom file explicit endian implicit endian abl read pixel dicom jpeg file buffer stuck creat jpeg dicom file dcmtk librari tri get error
+converting jpeg dicom dcmtk tring convert dicom jpeg transfer syntax regular dicom file explicit endian implicit endian able read pixel dicom jpeg file buffer stuck create jpeg dicom file dcmtk library tried getting error

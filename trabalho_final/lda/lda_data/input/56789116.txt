@@ -1,1 +1,1 @@
-fhir extend oper paramet addit paramet patient resourc right add addit paramet extend oper add add paramet patient resourc type multipl valu abl map patient data extend oper paramet add addit paramet patient resourc type
+fhir extending operation parameter additional parameter patient resource right add additional parameter extended operation add add parameter patient resource type multiple value able map patient data extended operation parameter add additional parameter patient resource type

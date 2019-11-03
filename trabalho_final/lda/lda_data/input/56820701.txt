@@ -1,1 +1,1 @@
-hapi fhir custom search respons build rest fhir search api requir custom respons differ custom resourc api return patient follow that object arrai object return bundl
+hapi fhir custom search response building restful fhir search api requires custom response different custom resource api return patient follows thats object array objects return bundle

@@ -1,1 +1,1 @@
-camel mina listen multipl port successfulli camel mina listen singl port modifi configur listen port exactli sure snip xml config associ class applic properti compon class
+camel mina listening multiple port successfully camel mina listening single port modify configuration listen ports exactly sure snip xml config associated class application properties component class

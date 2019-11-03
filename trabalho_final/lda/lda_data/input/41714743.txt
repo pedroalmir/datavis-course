@@ -1,1 +1,1 @@
-dicom imag resiz convert numpi arrai thousand dicom imag folder read stack imag numpi arrai imag differ size stack add step resiz imag
+dicom image resizing converting numpy array thousands dicom images folder read stack image numpy array image different size stacked add step resizes image

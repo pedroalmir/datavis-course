@@ -1,1 +1,1 @@
-fhir data element multipl data type quot exampl diagnosticord fhir resourc supportinginform data element support multipl data type refer observ condit documentrefer implement design stage possibl select data type pleas help thank
+fhir data element multiple data type quote example diagnosticorder fhir resource supportinginformation data element support multiple data types reference observation condition documentreference implementation design stage possible select data type please help thanks

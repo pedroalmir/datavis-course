@@ -1,1 +1,1 @@
-calcul tempor resolut dicom header calcul tempor resolut mri sequenc written dicom header dicom inform calcul tempor resolut worth mention sequenc slice slice time point
+calculate temporal resolution dicom header calculate temporal resolution mri sequence written dicom header dicom information calculate temporal resolution worth mentioning sequence slice slice time points

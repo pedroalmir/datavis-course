@@ -1,1 +1,1 @@
-histogram dicom imag matlab try plot histogram matlab dicom imag medic imag format colormap standard grai level imhist work suggest
+histogram dicom image matlab trying plot histogram matlab dicom image medical image format colormap standard gray levels imhist working suggestion

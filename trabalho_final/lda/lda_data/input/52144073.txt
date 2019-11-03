@@ -1,1 +1,1 @@
-process xrai imag dcm file pydicom find slicethick attribut new imag process know pre process dicom imag python follow tutori slicethick attribut data calcul sampl dataset code error got
+processing xray images dcm files pydicom find slicethickness attribute new image processing know pre process dicom image python following tutorial slicethickness attribute data calculate sample dataset code error got

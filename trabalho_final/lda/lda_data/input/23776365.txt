@@ -1,1 +1,1 @@
-convers dicom yuv file seri dicom file load matlab creat yuv file dicom slice know regard
+conversion dicom yuv file series dicom files loaded matlab create yuv file dicom slice know regards

@@ -1,1 +1,1 @@
-itk imag convert vtkimagedata try read dicom imag itk reader convert vtkimagedata render convert itk imag itk imagetovtkimagefilt render vtkrenderwindow origin volum set center volum set coordin render window dicom imag code
+itk image convert vtkimagedata trying read dicom image itk reader convert vtkimagedata rendering convert itk image itk imagetovtkimagefilter render vtkrenderwindow origin volume set center volume set coordinate render window dicom image code

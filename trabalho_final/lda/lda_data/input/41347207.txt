@@ -1,1 +1,1 @@
-fhir contain practionn generalpractition fhir specif mention contain resourc embed refer exist look xsd figur valid xml patient xsd mechan attempt correct wai contain refer
+fhir contained practionner generalpractitioner fhir specification mentioned contained resource embedded reference exists looking xsd figure validate xml patient xsd mechanism attempt correct way contained reference

@@ -1,1 +1,1 @@
-hl7 ccd differ codesystem pleas clarifi look sampl ccd document suppli hl7 ccd implement guid excerpt lab result section know restrict codesystem identif true snome loinc identifi lab test batteri group lab test respect done simpli help demonstr fact codesystem reason
+hl7 ccd different codesystem please clarify looking sample ccd document supplied hl7 ccd implementation guide excerpt lab results section know restriction codesystem identification true snomed loinc identifying lab test batteries group lab tests respectively done simply help demonstrate fact codesystem reason

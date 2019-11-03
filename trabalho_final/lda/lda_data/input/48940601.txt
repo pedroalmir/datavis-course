@@ -1,1 +1,1 @@
-instal dicompyl python conda pip try instal dicompyl read dicom plan file conda get packagenotfounderror packag github download instal tar command python setup egg info fail error code directori wai instal conda tar
+install dicompyler python conda pip trying install dicompyler read dicom plan files conda getting packagenotfounderror package github downloading install tar command python setup egg info failed error code directory way install conda tar

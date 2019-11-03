@@ -1,1 +1,1 @@
-load open dicom imag file java imagej librari make app netbean platform java swing 1st load open dicom imag file imagej librari java
+load open dicom image file java imagej library make app netbeans platform java swing 1st load open dicom image file imagej library java

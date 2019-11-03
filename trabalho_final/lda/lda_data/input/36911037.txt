@@ -1,1 +1,1 @@
-specif messag segment hl7 java specif segment hl7 name segment exampl pipepars class don know segment structur name repeat segment dg1 pv1 obx attach line data file row segment pentaho kettl java code kettl solut help pleas
+specific message segment hl7 java specific segment hl7 name segment example pipeparser class don know segment structure name repeated segment dg1 pv1 obx attached lines data filed row segment pentaho kettle java code kettle solution help please

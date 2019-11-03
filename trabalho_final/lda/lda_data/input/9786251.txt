@@ -1,1 +1,1 @@
-hl7 messag insert data sql server mirth send receiv hl7 messag possibl insert custom data char datatyp sql server databas pick hl7 messag file type map column databas transform insert databas option gener statu outbound hl7 messag mirth
+hl7 message insert data sql server mirth sending receiving hl7 message possible insert custom data char datatype sql server database picking hl7 message file type mapping columns database transformer inserting database option generating status outbound hl7 message mirth

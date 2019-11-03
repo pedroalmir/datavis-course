@@ -1,1 +1,1 @@
-issu ragard pars xml data hl7 java applic hl7 encod decod concept abl encod simpl string hl7 messag abl decod hl7 messag xml format convert xml file data hl7 messag help give refer help
+issues ragarding parsing xml data hl7 java application hl7 encoding decoding concept able encode simple string hl7 message able decode hl7 message xml format convert xml file data hl7 message help give reference help

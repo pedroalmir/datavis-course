@@ -1,1 +1,1 @@
-imag png mitk uisng mitk workbench imag png jpeg tiff mitk option avail nrrd nifti vtk vtk legaci imag
+images png mitk uisng mitk workbench image png jpeg tiff mitk option available nrrd nifti vtk vtk legacy image

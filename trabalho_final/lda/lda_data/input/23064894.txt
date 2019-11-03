@@ -1,1 +1,1 @@
-hl7 text messag find specif field inform hl7 file pid segment patient name uhcmcdo travers obr segment order submit databas tabl tire find pid 5th field patient name know search specif valu dynam chang valu file patient name order pull report
+hl7 text message find specific field information hl7 files pid segment patient name uhcmcdo traverse obr segment order submit database table tired finding pid going 5th field patient name know search specific value dynamic changing values file patient name order pull report

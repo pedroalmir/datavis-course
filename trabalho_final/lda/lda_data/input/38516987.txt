@@ -1,1 +1,1 @@
-illegalstateexcept sign googl api client get follow error mean prevent suggest similar question onactivityresult initi connect attempt success reattempt believ reattempt caus problem initi connect failur user action make sign mode handl
+illegalstateexception sign google api client getting following error mean prevent suggestion similar question onactivityresult initial connection attempt successful reattempted believe reattempt causing problem initial connection failure user action makes sign mode handle

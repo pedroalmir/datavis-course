@@ -1,1 +1,1 @@
-anaconda packag instal pydicom follow problem tri instal pydicom packag python follow command window anaconda setup work fine packag instal type list open spyder pycharm type idea wrong went fine pleas assist
+anaconda package installation pydicom following problem tried install pydicom package python following command windows anaconda setup work fine package installed type list open spyder pycharm type idea wrong went fine please assist

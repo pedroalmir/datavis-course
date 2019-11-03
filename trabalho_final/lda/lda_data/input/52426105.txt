@@ -1,1 +1,1 @@
-convert dicomimag dcmtk depth mat opencv object code don result pictur imag depth chang 16uc1 nonsens imag obvious 17bit 16bit store correctli question opencv map type 32sc1 32sc2 32sc3 32sc4 differ bitmask prevent get garbag rest upper bit
+convert dicomimage dcmtk depth mat opencv object code don result picture image depth change 16uc1 nonsense image obviously 17bits 16bit stored correctly question opencv map type 32sc1 32sc2 32sc3 32sc4 difference bitmask prevent getting garbage rest upper bit

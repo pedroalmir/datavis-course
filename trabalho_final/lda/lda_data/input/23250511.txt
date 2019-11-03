@@ -1,1 +1,1 @@
-refer element resourc current work xml fhir resourc found element resourc cross refer resourc encount resourc element serviceprovid cross refer resourc organ case wai specifi element resourc organ encount resourc xml valid correctli
+reference element resource currently working xml fhir resource found element resource cross reference resources encounter resource element serviceprovider cross reference resource organization case way specify elements resource organization encounter resource xml validated correctly

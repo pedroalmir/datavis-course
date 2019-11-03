@@ -1,1 +1,1 @@
-hl7 encod transform connector mule new mule anypointstudio help usag hl7 encod transform connector creat applic hl7 encod transform transfer file directori transform xml flow made follow file logger hl7 encod transform connector logger file
+hl7 encoding transformer connector mule new mule anypointstudio help usage hl7 encoding transformer connector created application hl7 encoding transformer transferring file directory transforming xml flow made follows file logger hl7 encoding transformer connector logger file

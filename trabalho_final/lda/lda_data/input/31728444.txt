@@ -1,1 +1,1 @@
-dcmmkdir creat new file append applic dcmmkdir creat dicomdir file bunch dicom file problem put inform dicomdir file creat file name similar dda11008 command line arg follow file creat dicomdir size pleas know inform thank advanc
+dcmmkdir creating new file appending application uses dcmmkdir exe create dicomdir file bunch dicom files problem put information dicomdir file creates file name similar dda11008 command line arg follows file created dicomdir size please know information thanks advance

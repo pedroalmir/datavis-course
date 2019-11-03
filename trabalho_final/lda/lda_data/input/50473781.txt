@@ -1,1 +1,1 @@
-set sampl qbp qpd segment java
+set sample qbp qpd segment java

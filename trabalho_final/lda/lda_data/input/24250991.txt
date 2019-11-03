@@ -1,1 +1,1 @@
-mime type dicom file java tri follow result tri method know file dicom don extens differ know file dicom path note duplic doesn cover dicom file apach tika give return doesn identifi imag nifti file exactli mime tika
+mime type dicom files java tried following result tried method know file dicom don extension different know file dicom path note duplicate doesn cover dicom files apache tika gives return doesn identify image useful nifti files exactly mime tika

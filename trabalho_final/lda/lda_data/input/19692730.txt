@@ -1,1 +1,1 @@
-bwboundari imag border bwboundari imag border return integ valu float pixel spatial pixel fix
+bwboundary image border bwboundary image border returns integer values float pixel spatial pixel fix

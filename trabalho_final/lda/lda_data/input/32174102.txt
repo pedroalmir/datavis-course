@@ -1,1 +1,1 @@
-convert hl7 json look convert hl7 older edi format messag json make process apach drill compress parquet look have luck find util non xml hl7 json convers suggest refer librari
+converting hl7 json looking convert hl7 older edi format messages json make processable apache drill compressible parquet looked having luck finding utility non xml hl7 json conversion suggestion reference library

@@ -1,1 +1,1 @@
-read dicom imag read file
+read dicom image read file

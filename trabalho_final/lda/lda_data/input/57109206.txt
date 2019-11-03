@@ -1,1 +1,1 @@
-add metadata dicom file continu try obtain dicom file jpg imag metadata writt java program code metadata incomplet don know tri simpl code attribut error found mandatori tag tri miss attribut thank
+add metadata dicom file continuation trying obtained dicom file jpg image metadata writte java program code adding metadata incomplete don know tried simple code adding attribute error found mandatory tag tried missing attribute thank

@@ -1,1 +1,1 @@
-patient inform dicom imag vtkdicomimageread patient inform name descript name studyid studyuid imag data want patient vtkdicomimageread doesn function posisbl solut vtkmedicalimagereader2 librari read dicom imag dcm file extens itk snap best wai patient thank bunch
+patient information dicom image vtkdicomimagereader patient information name descriptive name studyid studyuid image data wanted patient vtkdicomimagereader doesn function posisble solution vtkmedicalimagereader2 library read dicom image dcm file extension itk snap best way patient thanks bunch

@@ -1,1 +1,1 @@
-stopqueri hkobserverqueri initi background background hkobserverqueri work great app realiz user disabl healthkit permiss set queri continu launch app background return result chang permiss don continu launch app user doesn track activ wai address
+stopquery hkobserverquery initiated background background hkobserverquery working great app realized user disables healthkit permission setting query continue launch app background return result change permissions don continue launching app user doesn tracking activity way address

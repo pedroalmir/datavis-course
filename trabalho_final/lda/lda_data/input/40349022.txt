@@ -1,1 +1,1 @@
-convert hl7 fhir replac hl7 transact fhir resourc transact know option map fhir resourc base research doc discuss potenti option stand map adt encount extens children resourc refer model adt fhir messag process bundl resourc linkag info recommend thank
+convert hl7 fhir replace hl7 transaction fhir resource transaction know option map fhir resource based researches doc discussion potential option stand map adt encounter extension children resource references model adt fhir messaging process bundle resources linkage info recommendation thanks

@@ -1,1 +1,1 @@
-clearcanva pixeldata chang dicom file pixeldata directli chang imag find method clearcanva program understand properti row colunm
+clearcanvas pixeldata change dicom file pixeldata directly change image find methods clearcanvas program understand property row colunm

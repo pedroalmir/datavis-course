@@ -1,1 +1,1 @@
-python ioerror run folder tree try read seri dicom file folder tree code run tree read file problem get ioerror file definit exist check file permiss thread haven manag work ioerror idea
+python ioerror running folder tree trying read series dicom files folder tree code run tree reading file problem getting ioerror files definitely exist checked file permission thread haven managed working ioerror idea

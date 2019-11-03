@@ -1,1 +1,1 @@
-dce mri time axi time sampl interv dce mri data mean signal intens time time sampl pixel know sampl interv read dicom inform dicom imag comput time comput dicom inform content time tag give inform work matlab
+dce mri time axis time sample interval dce mri data means signal intensity time time sample pixel know sample interval read dicom information dicom image compute time compute dicom information content time tag gives information working matlab

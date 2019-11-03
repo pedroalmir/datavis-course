@@ -1,1 +1,1 @@
-decompress jpeg2000 encod file openjpeg imag servic decompress dicom imag bmp dcmtk incas jpeg2000 advic openjpeg pass compress imag openjpeg uncompress imag back suggest welcom
+decompress jpeg2000 encoded files openjpeg image service decompress dicom images ans bmp dcmtk incase jpeg2000 adviced openjpeg pass compressed image openjpeg uncompressed image back suggestion welcomed

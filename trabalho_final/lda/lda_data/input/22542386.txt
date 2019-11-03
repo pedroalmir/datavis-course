@@ -1,1 +1,1 @@
-load dicom imag load simpl dicom imag gui applic tri follow link download vtk cmake cmake execut file run don help link internet link ask download dicom librari guid regard
+loading dicom image load simple dicom image gui application tried follow link downloaded vtk cmake cmake executable file run don helpful links internet link ask download dicom library guide regarding

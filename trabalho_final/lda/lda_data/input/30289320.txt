@@ -1,1 +1,1 @@
-vtk read dicom file try iter pixel dicom file demo wai pixel arrai reader object
+vtk read dicom file trying iterate pixels dicom file demo way pixels array reader object

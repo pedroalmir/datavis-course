@@ -1,1 +1,1 @@
-worklistqueri find return find respons option kei support find request worklist specif pac return option kei support return data tri empti string null patient exist patientid result request work pac resolv request code fellow oak dicom dicom log
+worklistquery find returns find response optional key supported find request worklist specific pac returns optional key supported returns data tried empty string null patient existing patientid result request works pac going resolved request code fellow oak dicom dicom log

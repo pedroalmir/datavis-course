@@ -1,1 +1,1 @@
-overwrit msg mirth destin 1st call soap webservic take respons destin convert mutabl xml object logger error msg show valid msg return suggest help
+overwrite msg mirth destinations 1st calls soap webservice take response destination convert mutable xml object logger error msg shows valid msg returns suggestion help

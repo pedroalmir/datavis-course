@@ -1,1 +1,1 @@
-read write dicom imag matlab version current matlab version read dicom imag write back function avail help
+read write dicom images matlab version currently matlab version read dicom image write back functions available help

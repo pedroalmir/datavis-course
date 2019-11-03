@@ -1,1 +1,1 @@
-itk simpleitk dicom seri load wrong order slous space incorrect problem occur number dataset particularli notic dicom space read imag brain slice lung slice
+itk simpleitk dicom series loaded wrong order slouse spacing incorrect problem occurs number dataset particularly noticed dicoms spacing read image brain slice lung slice

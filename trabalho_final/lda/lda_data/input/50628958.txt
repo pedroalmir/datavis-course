@@ -1,1 +1,1 @@
-gener dice loss gradient implement kera try implement gener dice loss implement differ convnet written kera backend try train model loss function follow error rais happen loss function try implement know address issu tell non differenti oper present code
+generalized dice loss gradient implemented kera trying implement generalized dice loss implemented different convnet written kera backend try train model loss function following error raised happen loss functions try implement know address issue tell non differentiable operator present code

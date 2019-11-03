@@ -1,1 +1,1 @@
-pars cda hl7 document work project given cda hl7 document pars extract data databas find good parser librari read cda xml return differ section idea best wai approach pretti new healthcar tech field miss imag librari pars cdc object
+parsing cda hl7 document working project given cda hl7 documents parse extract data database find good parser library reads cda xml returns different section idea best way approach pretty new healthcare tech field missing imaging library parse cdc object

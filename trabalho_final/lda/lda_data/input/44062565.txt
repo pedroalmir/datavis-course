@@ -1,1 +1,1 @@
-queri letter sparql python librari rdflib queri semant dicom owl file queri label contain letter abl figur queri label contain letter code given get result queri semant dicom owl file contain follow tripl imag try search
+querying letter sparql python library rdflib query semantic dicom owl file query label containing letter able figure query label containing letter code given getting result query semantic dicom owl files contain following triples image trying search

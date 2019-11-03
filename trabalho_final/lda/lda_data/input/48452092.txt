@@ -1,1 +1,1 @@
-dimension axi read file dicom packag python stack dicom imag read python dicom packag imag actual stack imag channel dimens height width try order entri dimens output chang pick correct hypothesi document illumin
+dimensional axis read file dicom package python stack dicom image reading python dicom package image actually stack image channel dimensions height width try order entry dimension output change picking correct hypothesis documentation illuminating

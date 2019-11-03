@@ -1,1 +1,1 @@
-hl7 hl7 messag format express bnf lalr compat repost new messsag orgigin ask bnf grammar hl7 possibl express hl7 bnf bnf lalr complaint complet determinist devon cook gold parser toolset figur ask start creat bnf
+hl7 hl7 message format expressable bnf lalr compatability reposted new messsage orgiginally asked bnf grammar hl7 possible express hl7 bnf bnf lalr complaint completely deterministic devon cooks gold parser toolset figured ask started creating bnf

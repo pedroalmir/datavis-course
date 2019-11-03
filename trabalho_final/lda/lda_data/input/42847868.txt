@@ -1,1 +1,1 @@
-fhir delet vital data link talk write vital inform fhir databas demonstr data collect capabl find larg amount databas make graph look clutter delet particular observ set observ observ given patient loinc code
+fhir delete vital data link talks write vital information fhir database demonstrating data collection capability find large amount database making graph look cluttered delete particular observation set observation observation given patient loinc code

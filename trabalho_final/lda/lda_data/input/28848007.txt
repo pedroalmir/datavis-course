@@ -1,1 +1,1 @@
-nhapi pars issu new nhapi pars hl7 messag issu face pars adt messag pv1 segment null attach sampl messag code sampl messag code
+nhapi parsing issue new nhapi parse hl7 message issue facing parsing adt message pv1 segment null attaching sample message code sample message code

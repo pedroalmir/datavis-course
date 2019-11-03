@@ -1,1 +1,1 @@
-xtk displai label map slightli chang demo load imag demo load mri imag fine work load label map main volum add label map volum load fail volum show error consol follow idea wrong suppos debug error
+xtk display label map slightly changed demo load image demo load mri image fine works load label map main volume add label map volume loading fails volume shows error console following idea wrong supposed debug errors

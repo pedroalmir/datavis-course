@@ -1,1 +1,1 @@
-oper failur condit delet fhir server larg number patient try perform condit delet involv record attempt delet patient meet criterion receiv follow fhir client hl7 fhir rest feel due default batch size don know alter ifhircli delet find
+operation failure conditional delete fhir server large number patient trying perform conditional delete involves record attempting delete patient meet criterion receive following fhir client hl7 fhir rest feeling due default batch size don know alter ifhirclient delete find

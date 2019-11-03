@@ -1,1 +1,1 @@
-convert dicom monochrom monochrom work project dicom imag compar dicom imag problem monochrom monochrom mean white black respect convert pixel intens compar pydicom toolkit
+convert dicom monochrome monochrome working project dicom image compare dicom images problem monochrome monochrome means white black respectively convert pixel intensity compare pydicom toolkit

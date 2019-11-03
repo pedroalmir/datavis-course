@@ -1,1 +1,1 @@
-matlab dicom slice dicom imag load matrix matlab question show specif slice imag orthogon direct view slice posit
+matlab dicom slice dicom image loaded matrix matlab question show specific slice image orthogonal direction view slice position

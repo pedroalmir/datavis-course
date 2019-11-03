@@ -1,1 +1,1 @@
-hl7api displai data multipl obx field try pars hl7 file hl7api have hl7 sampl sampl code try read obx repeat segment get data displai wrong
+hl7apy displaying data multiple obx field trying parse hl7 files hl7apy having hl7 sample sample code trying read obx repeating segment getting data displaying wrong

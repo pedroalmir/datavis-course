@@ -1,1 +1,1 @@
-read imagetyp vtk dicom reader applic hand sit top vtk vtkdicomimageread get imag posit width height good good wai read imagetyp string tag gener read tag back vtkdicomimageread pass tag valu back dicom file
+read imagetype vtk dicom reader application hand sitting top vtk vtkdicomimagereader getting image position width height good good way read imagetype string tag general read tag back vtkdicomimagereader pass tag value back dicom file

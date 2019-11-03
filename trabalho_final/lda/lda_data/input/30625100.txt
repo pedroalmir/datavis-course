@@ -1,1 +1,1 @@
-fhir dstu2 correct wai repres extens valu collect current look creat fhir dstu2 extens extens return collect valu correct wai repres fhir dstu2 list extens extens extens collect valu thank
+fhir dstu2 correct way represent extension value collection currently looking creating fhir dstu2 extension extension return collection values correct way represent fhir dstu2 list extension extension extension collection value thanks

@@ -1,1 +1,1 @@
-user cancel dialog get error user cancel dialog try simpl code exampl ionic framework
+user cancelled dialog getting error user cancelled dialog try simple code example ionic framework

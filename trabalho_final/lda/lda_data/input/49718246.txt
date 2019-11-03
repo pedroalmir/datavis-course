@@ -1,1 +1,1 @@
-instal gdcm window import gdcm python got anerror instal gdcm window import gdcm python got error environ python2 gdcm gdcm window
+install gdcm window import gdcm python got anerror install gdcm window import gdcm python got error environment python2 gdcm gdcm window

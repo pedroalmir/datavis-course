@@ -1,1 +1,1 @@
-get listen regist statu code sensorsapi implement custom datasourc step counter regist listen fail listen regist statu code function finddatasourc work want add listen datasourc know problem thank code
+getting listener registered status code sensorsapi implemented custom datasource step counter register listener fails listener registered status code function finddatasource works wanted add listener datasource know problem thank code

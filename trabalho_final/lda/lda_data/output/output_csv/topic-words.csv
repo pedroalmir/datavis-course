@@ -1,21 +1,11 @@
 Topic Id,Top Words...
-0,app healthkit health appl heart watch rate workout user iphon kit data permiss delet sampl
-1,data read store write record possibl type wai sourc access abl blood valu applic extract
-2,work code result test show fine problem tri set add give issu check doesn follow
-3,fhir resourc patient search server extens profil valid refer element exampl creat paramet defin bundl
-4,class java creat object json gener implement custom librari model attribut api field convert applic
-5,api request access rest user url respons token list oauth return call page content author
-6,time queri step data background healthkit count date call run return start updat sleep sampl
-7,file dicom imag tag read librari dcm python creat code convert load displai wai pydicom
-8,error code follow call method function problem tri run line return chang issu wrong output
-9,hl7 messag segment pars field hapi obx valid pid charact msh version line encod nhapi
-10,server send applic servic web client connect request pac retriev respons local receiv implement scp
-11,valu type cda null document string element code differ section unit list ccd entri text
-12,patient medic inform hl7 system order devic standard lab procedur relat clinic model schedul ehr
-13,imag dicom pixel jpeg file convert window compress bit frame byte format chang dcmtk process
-14,exampl find question possibl set instal differ understand work make found sourc specif time base
-15,project researchkit creat model train niftynet framework label task view build wai swift develop research
-16,messag hl7 xml mirth send receiv schema channel biztalk port ack connect listen gener respons
-17,studi store seri tabl find multipl wai modal differ tag number patient instanc column singl
-18,imag dicom slice matlab seri scan volum pixel valu displai posit view python size arrai
-19,fit googl api step app android activ data user count calori connect sensor histori devic
+0,fhir resource patient json search extension server element reference null profile observation bundle type list api system query identifier request
+1,data database information patient medical application find system store project table record device sql stored standard create list based make
+2,error code problem method run project function class file issue working work line fine library wrong call don works missing
+3,dicom image file files pixel read library dcm convert series images code data matlab python format display window slice jpeg
+4,find type set number time result code question class don 1st source create point case found custom object work string
+5,tag data values file syntax niftynet transfer output private sequence length read bit dataset sample attribute label list extract element
+6,app healthkit data health apple heart watch ios rate workout user query iphone kit sample background read swift time permission
+7,google fit api data app step android steps user activity count fitness code time application device read history calory sensor
+8,server send application mirth service response message request client receive hl7 connect query port web data channel dicom retrieve pacs
+9,hl7 message xml segment messages field parse schema file hapi cda version parsing ccd obx java msh pid biztalk character

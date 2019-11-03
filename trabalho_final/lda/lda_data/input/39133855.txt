@@ -1,1 +1,1 @@
-smart fhir python client bundl fhir patient bundl json oper interest smart fhir python client model make work json file easier exampl given follow possibl instanti gener bundl object class abl access differ resourc bundl
+smart fhir python client bundle fhir patient bundle json operation interested smart fhir python client model make working json file easier example given following possible instantiate generic bundle object class able access different resource bundle

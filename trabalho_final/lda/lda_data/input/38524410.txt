@@ -1,1 +1,1 @@
-error find function readdicom instal request packag work directori set correctli try open data fail read got feedback chang
+error find function readdicom installed requested package working directory set correctly trying open data failed read got feedback change

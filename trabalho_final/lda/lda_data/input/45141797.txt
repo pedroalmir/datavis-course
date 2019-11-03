@@ -1,1 +1,1 @@
-access binari data file code read dicom file txt file binari mode open text file notepad document viewer show exactli content hex editor show open dicom file manipul data text document tri print content text file consol print complet gibberish access manipul binari data
+access binary data file code read dicom file txt file binary mode open text file notepad document viewer shows exactly contents hex editor shows open dicom file manipulate data text document tried printing contents text file console prints complete gibberish access manipulate binary data

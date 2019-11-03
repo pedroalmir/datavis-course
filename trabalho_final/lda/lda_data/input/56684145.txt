@@ -1,1 +1,1 @@
-set valu medic prescrib period medic statement resourc medic prescrib patient lifetim resourc prescrib durat effect period howevev case set end date infin given doctor prescrib medic entir lifespan approach achiev scenario convent infin end date
+set value medications prescribed period medication statement resource medication prescribed patient lifetime resource prescribed duration effective period howevever case set end date infinity given doctor prescribed medication entire lifespan approach achieve scenario conventional infinity end date

@@ -1,1 +1,1 @@
-nhapi compon valu figur think valu pid rax nhapi hl7 have difficulti assum compon rxa administeredcod compon set valu assum thing rxa getsubstancemanufacturernam compon rxa getadministrationnot gina
+nhapi component values figured think value pid rax nhapi hl7 having difficulty assuming component rxa administeredcode component set value assume thing rxa getsubstancemanufacturername component rxa getadministrationnotes gina

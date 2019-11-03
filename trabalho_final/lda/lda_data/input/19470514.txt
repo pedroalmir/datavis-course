@@ -1,1 +1,1 @@
-queri resourc fhir retriev list resourc fhir server possibl list resourc get resourc themself exampl 1st page profil resourc return resourc want profil name possibl
+querying resources fhir retrieve list resource fhir server possible list resource getting resources themself example 1st page profile resource return resource wanted profile ids name possible

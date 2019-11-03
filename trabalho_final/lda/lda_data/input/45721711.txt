@@ -1,1 +1,1 @@
-fhir resourc includ patient incom household member patient incom household member number emr epic openemr find fhir resourc includ paramet defin
+fhir resource includes patient income household member patient income household member number emr epic openemr find fhir resource includes parameters defined

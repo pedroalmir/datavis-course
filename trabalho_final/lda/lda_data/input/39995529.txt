@@ -1,1 +1,1 @@
-attempt convert incompat unit error healthkit statist queri swift need calcul cumul sum calori get error nsinvalidargumentexcept reason attempt convert incompat unit kcal count line unit defin differ return number calori function
+attempt convert incompatible units error healthkit statistics query swift needing calculate cumulative sum calory getting error nsinvalidargumentexception reason attempt convert incompatible unit kcal count line unit defined different return number calory function

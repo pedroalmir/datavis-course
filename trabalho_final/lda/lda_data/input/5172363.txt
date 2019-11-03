@@ -1,1 +1,1 @@
-common imag format dicom common imag format dicom
+common image format dicom common image format dicom

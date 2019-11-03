@@ -1,1 +1,1 @@
-swift healthkit authent try make basic script pull daili step healthkit page trigger happen request permiss read healthkit data work wrong code offer suggest
+swift healthkit authenticate trying make basic script pull daily step healthkit ios page triggered happens request permission read healthkit data work going wrong code offer suggestion

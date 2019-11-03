@@ -1,1 +1,1 @@
-export dicom imag tif format get memori error line solv
+export dicom images tif format getting memory error line solve

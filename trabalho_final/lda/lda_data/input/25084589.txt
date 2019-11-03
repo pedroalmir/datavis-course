@@ -1,1 +1,1 @@
-fhir valid extens resourc spark add valid extens resourc spark typic case look tabl valu extens valu check assum valid extens resourc suffic hook spark valid resourc
+fhir adding validation extensions resource spark add validation extensions resource spark typical case look table values extension value checked assume validating extension resource suffice hooks spark validate resource

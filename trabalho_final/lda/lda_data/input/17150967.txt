@@ -1,1 +1,1 @@
-mri imag slideshow seri mri imag dicom file format upload view slideshow folder contain dat file dcm slice tri load got follow messag imread gotten follow did textscan got similar error messag
+mri images slideshow series mri images dicom file format upload view slideshow folder contains dat file dcm slice tried load got following message imread gotten following did textscan got similar error messages

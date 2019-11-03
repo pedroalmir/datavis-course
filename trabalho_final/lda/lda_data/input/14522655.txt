@@ -1,1 +1,1 @@
-vtkgdcmimageread volum render read seri dicom imag displai volum follow step ipp sorter setfilenam vtkimagechangeinform tri visual vtkimageviewer2 send code wrote pretti sure load sort imag give error code thank help
+vtkgdcmimagereader volume rendering read series dicom image display volume followed steps ipp sorter setfilenames vtkimagechangeinformation tried visualize vtkimageviewer2 sending code wrote pretty sure load sorts image gives error code thanks help

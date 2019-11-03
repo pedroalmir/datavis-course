@@ -1,1 +1,1 @@
-send neg valu obx segment hl7 send neg measur numer obx segment oru profil pcd dec profil hl7 find requir defin thank
+send negative value obx segment hl7 send negative measured numeric obx segment oru profile pcd dec profile hl7 find requirement defined ihe thanks

@@ -1,1 +1,1 @@
-histogram dicom file try make histogram dicom file life figur get neg valu index transpos imag index neg sure wrong valu correct file size header depth width program try process matlab error attempt access hist64 index posit integ logic equat bin width imag depth bin
+histogram dicom file trying make histogram dicom file life figure getting negative value index transposed image index negative sure wrong value correct file size header depth width program trying process matlab error attempted access hist64 index positive integer logical equation bin width image depth bin

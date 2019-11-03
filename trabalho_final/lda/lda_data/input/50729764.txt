@@ -1,1 +1,1 @@
-extract capabl singl fhir resourc capabl interact metadata best wai extract capabl singl resourc type patient intent determin avail search paramet resourc type current capabl statement weight
+extract capability single fhir resource capabilities interaction metadata best way extract capability single resource type patient intent determine available search parameter resource type currently capability statement weight

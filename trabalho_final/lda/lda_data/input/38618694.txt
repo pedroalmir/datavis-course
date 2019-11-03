@@ -1,1 +1,1 @@
-write struct dicom header creat privat dicom tag know possibl tag store struct dicom file dicomwrit alik creat field dicom header struct field save patient name char data exampl thank advanc
+write struct dicom header created private dicom tag know possible tag store struct dicom file dicomwrite alike creating field dicom header struct field saving patient name char data example thank advance

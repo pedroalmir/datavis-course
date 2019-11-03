@@ -1,1 +1,1 @@
-writenifti failur error object dim indic pixdim object index miss valu true fals need try write nifti file creat dicom imag exampl dicom imag kaggl data scienc bowl accept term download exampl file found stage1 folder
+writenifti failure error object dim indices pixdim object index missing value true false needed trying write nifti file created dicom image example dicom image kaggle data science bowl accept terms download example file found stage1 folder

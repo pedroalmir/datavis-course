@@ -1,1 +1,1 @@
-queri retriev scp client support ipv6 dvtk variou need test dicom relat functionalist applic unfortun queri retriev scp client doesn support ipv6 format util allow queri data ipv6
+query retrieve scp client supports ipv6 dvtk various needs testing dicom related functionalist application unfortunately query retrieve scp client doesn support ipv6 format utility allow query data ipv6

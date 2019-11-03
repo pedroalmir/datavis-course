@@ -1,1 +1,1 @@
-dicom move develop scu servic class user applic queri pac retriev dicom imag move dicom protocol retriev imag
+dicom move develop scu service class user application querying pac retrieve dicom image move dicom protocol retrieve image

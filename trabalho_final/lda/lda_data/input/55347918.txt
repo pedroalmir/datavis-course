@@ -1,1 +1,1 @@
-creat new dicom imag annot creat pydicom file file dcm format annot
+create new dicom image annotation create pydicom file file dcm format annotation

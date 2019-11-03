@@ -1,1 +1,1 @@
-inform instal hl7 fhir server new fhir framework plan instal fhir latest version colleg server try work implement api fhir couldn find link instruct instal fhir resourc need pleas
+information installation hl7 fhir server new fhir framework planning install fhir latest version college server try work implementing apis fhir couldn find useful link instruction install fhir resource needful please

@@ -1,1 +1,1 @@
-name hkworkoutactivitytyp healthkit properti return list activ creat look activ name odd find activ miss
+name hkworkoutactivitytype healthkit property returns list activity create look activity name odd find activity missing

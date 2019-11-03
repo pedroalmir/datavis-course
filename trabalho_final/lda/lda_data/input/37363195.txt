@@ -1,1 +1,1 @@
-statu div fhir narr narr child element statu div have cardin understand narr child element statu div resourc narr child element discharg summari exampl resourc valid valid fhir valid miss misunderstand
+status div fhir narrative narrative child elements status div having cardinality understanding narratives child elements status div resource narrative child element discharge summary example resource validated valid fhir validator missing misunderstanding

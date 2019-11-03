@@ -1,1 +1,1 @@
-load dicom imag gdcm librari convert system window control imag load dicom imag gdcm librari download instal gdcm librari don know read dicom imag gdcm convert format displai wpf applic pleas share piec code show achiev
+load dicom image gdcm library convert system window control image load dicom image gdcm library downloaded installed gdcm library don know read dicom image gdcm convert format displayed wpf application please share piece code showing achieve

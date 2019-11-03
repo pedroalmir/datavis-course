@@ -1,1 +1,1 @@
-search procedur resourc nullabl date look fhir procedur look possibl search date scenario procedur valu complet procedur statu complet procedur statu progress case defin valu know sort procedur possibl search procedur try wai return result throw error server miss
+search procedure resource nullable date looking fhir procedure looks possible search date scenario procedure value complete procedures status completed procedure status progress case defined value know sort procedure possible search procedure trying way return results throws error server missing

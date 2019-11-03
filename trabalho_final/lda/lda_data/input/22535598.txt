@@ -1,1 +1,1 @@
-write bit imag dicom file format gdcm successfulli written bit imag dicom file librari try write bit imag dicom file code point miss done
+writing bit image dicom file format gdcm successfully written bit image dicom file library trying write bit image dicom file code point missing done

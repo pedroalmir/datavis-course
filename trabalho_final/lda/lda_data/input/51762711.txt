@@ -1,1 +1,1 @@
-dicom fail move move request fail peer abort associ connect run follow command find scu tool offi dicom toolkit dcmtk keep get error associ work actual move fail moment transfer
+dicom fail move move request failed peer aborted association connected running following command find scu tool offis dicom toolkit dcmtk keep getting error association worked actual move fail moment transfer

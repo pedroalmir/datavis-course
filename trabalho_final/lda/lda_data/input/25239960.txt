@@ -1,1 +1,1 @@
-carriag return hl7 messag charact alia design segment termin hl7 messag charact prohibit field data consist line break line break encod wai best practic option line feed special escap sequenc escap differ option valid expect hl7 messag encod line break hl7 messag
+carriage return hl7 message character alias designated segment terminator hl7 message character prohibited field data consist line breaks line break encoded way best practice option line feed special escape sequence escape different option valid expect hl7 message encode line breaks hl7 messages

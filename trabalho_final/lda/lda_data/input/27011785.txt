@@ -1,1 +1,1 @@
-hl7 sampl messag know good place find exampl hl7 qry messag hl7 messag type gener work case patient receiv care facil transfer facil emr abl queri patient clinic summari send messag emr tri unsuccessfulli find sampl demonstr messag respons implement thank advanc
+hl7 sample messages know good place find examples hl7 qry messages hl7 message type general working case patient receiving care facility transfers facility emr able query patient clinical summary sending message emr tried unsuccessfully find useful sample demonstrate message response implemented thanks advance

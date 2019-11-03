@@ -1,1 +1,1 @@
-read content privat dicom tag dcm4che2 toolkit question simpl read privat dicom tag dcm4che2 toolkit abl pars read public dicom tag getstr read privat dicom tag
+read content private dicom tag dcm4che2 toolkit question simple read private dicom tag dcm4che2 toolkit able parse read public dicom tags getstring read private dicom tag

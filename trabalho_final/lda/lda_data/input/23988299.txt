@@ -1,1 +1,1 @@
-tcp hl7 messag period segment termin receiv hl7 messag tcp get messag period end segment hl7 receiv engin process messag break sampl messag tcp segment end period process messag replac period period exist midst messag help appreci
+tcp hl7 message period segment terminator receiving hl7 message tcp getting message periods end segments hl7 receiver engine process message breaking sample message tcp segment ended period process message replace period period exist midst message help appreciated

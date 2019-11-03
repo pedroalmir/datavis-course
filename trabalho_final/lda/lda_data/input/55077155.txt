@@ -1,1 +1,1 @@
-arrai hkworkout userdefault add arrai hkworkout userdefault arrai core data
+adding array hkworkout userdefaults add array hkworkouts userdefault array core data

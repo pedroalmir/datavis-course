@@ -1,1 +1,1 @@
-guid hl7 implement try handl hl7 reason clear data structur encod protocol remain mystifi actual implement mechan sequenc request ack respons ack thing ack ack receiv nack ack pointer start look learn thing
+guide hl7 implementation trying handle hl7 reasonably clear data structure encoding protocol remain mystified actual implementation mechanics sequence request ack response ack thing ack ack receive nack ack pointer start looking learn thing

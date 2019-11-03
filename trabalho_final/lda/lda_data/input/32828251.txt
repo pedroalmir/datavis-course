@@ -1,1 +1,1 @@
-set default valu picker appl researchkit try answer format orkvaluepickeranswerformat select long list select open differ answer format
+set default value picker apple researchkit trying answer format orkvaluepickeranswerformat select long list selection open different answer format

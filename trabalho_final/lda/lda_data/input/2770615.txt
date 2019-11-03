@@ -1,1 +1,1 @@
-imag given dicom file clearcanva librari pleas help extract imag binari data dicom file
+image given dicom file clearcanvas library please help extracting image binary data dicom file

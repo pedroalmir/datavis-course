@@ -1,1 +1,1 @@
-healthkit unexpectedli found nil unwrap option try read data healthkit error tell applic crash understand try unwrap option try option error tell forc unwrap code try remov bang oper error sai
+healthkit unexpectedly found nil unwrapping optional try read data healthkit error telling application crashed understand trying unwrap optional try optional error telling force unwrap code try remove bang operator error saying

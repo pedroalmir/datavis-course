@@ -1,1 +1,1 @@
-extract sagitt coron cut axial view pydicom try read seri dcm file default show axial view code code figur relev idx idi particular dcm file question sagitt coron cut plot given axial cut thank advanc edit colonelfazackerlei answer perfectli line show
+extract sagittal coronal cut axial view pydicom trying read series dcm files default show axial view code code figure relevant idx idy particular dcm file question sagittal coronal cut plot given axial cut thanks advance edit colonelfazackerley answered perfectly adding line show

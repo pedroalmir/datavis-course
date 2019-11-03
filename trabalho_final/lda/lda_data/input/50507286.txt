@@ -1,1 +1,1 @@
-papaya dicom viewer move slous work arrai contain list dicom slice slice arrai click button slice viewer remain slice visibl slous come 1st exampl imag have file name 1st count show click button move imag dicom attribut valu 1st slous 2nd slous 3rd slice thanx
+papaya dicom viewer moving slouse working array contains list dicom slice slices array click button slices viewer remaining slice visible slouse coming 1st example image having file name 1st count show click button move images dicom attribute values 1st slouse 2nd slouse 3rd slice thanx

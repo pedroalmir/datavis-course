@@ -1,1 +1,1 @@
-revers map fhir archetyp possibl try understand risk involv system speak fhir speak openehr archetyp especi observ questionnair devic patient resourc content format map seamlessli possibl util extens requir major issu map peopl organis vendor done map
+reversible mapping fhir archetype possible trying understand risk involved system speaking fhir speaking openehr archetype especially observation questionnaire device patient resource content formats mapped seamlessly possibly utilizing extension required major issue mapping people organisations vendor done mappings

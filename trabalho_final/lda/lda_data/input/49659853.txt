@@ -1,1 +1,1 @@
-set hkanchoredobjectqueri receiv updat time queri try set deliv result time made queri head logic set hkqueryanchor persist show initi declar store local date sampl download construct anchor date code return sampl healthkit
+setting hkanchoredobjectquery receive update time queried trying set deliver result time made query head logic setting hkqueryanchor persist show initial declaration store locally date sample downloaded construct anchor date code returns sample healthkit

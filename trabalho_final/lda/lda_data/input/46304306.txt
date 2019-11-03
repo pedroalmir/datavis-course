@@ -1,1 +1,1 @@
-gener uniqu dicom uid work dicom gate pet data artifici creat dicom imag seri includ gate data inquir increment valu sopinstanceuid label imag slous phase gate differ valu slous gate increment gate find logic valu chosen refer valu written
+generate unique dicom uid working dicom gated pet data artificially create dicom image series includes gated data inquiring increment values sopinstanceuid label image slouse phase gate different value slouse gate incremented gate find logic value chosen reference value written

@@ -1,1 +1,1 @@
-read show header imag dicom file show imag header frame window form dicom file gdcm librari help
+read show header image dicom file show image header frame window form dicom file gdcm library help

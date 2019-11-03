@@ -1,1 +1,1 @@
-tag string digit number string hl7 messag lab result add line break digit number exampl string digit string date timestamp chang test
+adding tag string digit number string hl7 message lab result add line break digit number example string digit string date timestamp change test

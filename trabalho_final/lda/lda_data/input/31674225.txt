@@ -1,1 +1,1 @@
-basic compart search new fhir understand concept compart search read compart group similar resourc compart search follow path compart type paramet compart condit pleas give reason paramet request pleas give exampl request
+basics compartment search new fhir understand concept compartment search read compartment group similar resource compartment search following path compartment type parameters compartment condition please give reasons parameter request please give example request

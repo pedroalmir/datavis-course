@@ -1,1 +1,1 @@
-open navig healthkit result graph app wai open navig healthkit result graph health bodi measur bodi fat percentag app
+open navigate healthkit results graph app way open navigate healthkit results graph health body measurements body fat percentage app

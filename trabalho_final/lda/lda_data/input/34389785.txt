@@ -1,1 +1,1 @@
-obtain measur dicom imag singl dicom imag obtain real measur pixelspac inform mean pixel correspond plane slicethick mean distanc slice direct thank thank great
+obtaining measurement dicom image single dicom image obtain real measurement pixelspacing information mean pixel correspond planes slicethickness mean distance slices direction thanks thanks great

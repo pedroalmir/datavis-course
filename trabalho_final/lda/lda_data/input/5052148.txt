@@ -1,1 +1,1 @@
-dcmtk work project read dicom imag instal dcmtk win7 bit vs2010 pleas explain procedur dcmtk program
+dcmtk working project read dicom image install dcmtk win7 bit vs2010 please explain procedure dcmtk program

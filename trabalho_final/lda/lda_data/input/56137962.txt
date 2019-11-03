@@ -1,1 +1,1 @@
-valu specif segment terser method case segment repetit try read hl7 messag multipl segment method get valu 1st segment try read method return valu method return valu expect return terser full path
+value specific segment terser method case segment repetition trying read hl7 messages multiple segment method getting values 1st segment trying read method return value method return value expect return terser full path

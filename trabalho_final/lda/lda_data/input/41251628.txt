@@ -1,1 +1,1 @@
-warn dicom decompress pixel valu fail code rubi run dcm imag dcm imag give warn error find read dicom fine extract patient inform figur pull dicom imag make jpg thank help
+warn dicom decompressing pixel values failed code ruby run dcm image dcm image gives warning error find reading dicom fine extract patient information figure pull dicom image make jpg thank help

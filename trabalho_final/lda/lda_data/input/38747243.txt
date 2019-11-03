@@ -1,1 +1,1 @@
-cast json hapi fhir object appoint json cast dstu2 hapi fhir json object standard librari avail googl gson librari work give valu object field convert json uhn fhir model dstu2 resourc appoint class give appoint object empti field
+cast json hapi fhir object appointment json cast dstu2 hapi fhir json object standard library available google gson library works give value object field convert json uhn fhir model dstu2 resource appointment class gives appointment object empty field

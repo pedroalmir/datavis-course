@@ -1,1 +1,1 @@
-dicom uncompress dcm2dcm get compress dicom file server uncompress dcm2dcm api problem get origin dicom imag got imag dot circl pleas solut origin compress imag uncompress imag
+dicom uncompression dcm2dcm getting compressed dicom files server uncompressed dcm2dcm api problem getting original dicom image got image dot circle please solution original compressed image uncompressed image

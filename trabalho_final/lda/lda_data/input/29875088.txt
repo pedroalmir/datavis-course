@@ -1,1 +1,1 @@
-singl titl ipaddress dcmtk pac server process dcmqrscp dcmqrscp cfg file contain detail hosttabl aetitl tabl vendor tabl hostabl creat titl question shall singl aetitl differ ipaddress
+single title ipaddress dcmtk pacs server process dcmqrscp exe exe dcmqrscp cfg file contain detail hosttable aetitle table vendor table hostable create title question shall single aetitle different ipaddress

@@ -1,1 +1,1 @@
-hl7 fhir better rest api json adapt format databas rest api implement fhir json queri databas haven rest better adapt json structur databas rest api
+hl7 fhir better restful api json adapt format database restful api implementation fhir json query database haven restful better adapt json structure database restful api

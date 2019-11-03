@@ -1,1 +1,1 @@
-dcm4che queri sop instanc level queri dcm4che local server metadata imag inventori problem run line abl retriev output metadata dicom local server run command receiv error crush server leav queri minut time abl restart servic work queri imag level
+dcm4che query sop instance level query dcm4che local server metadata images inventory problem run lines able retrieve output metadata dicom local server run command receive error crush server leaving query minute time able restart service working query image level

@@ -1,1 +1,1 @@
-dicom imag bufferedimag window wai convert dicom file bufferedimag dicom file mult frame set bufferedimag window current dcm4che run problem dcm4che jai thunk nativ dll clib jiio dll compli compil window know open sourc librari thank
+dicom image bufferedimage window way convert dicom file bufferedimage dicom file mult frame set bufferedimages window currently dcm4che running problem dcm4che uses jai thunk native dll clib jiio dll complied compiled window know open source library thanks

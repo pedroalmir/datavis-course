@@ -1,1 +1,1 @@
-fhir try learn basic fhir implement node come follow code sai creat instanc fhir client know question dumb clarif topic start learn node back thank advanc code creat instanc fhir client know implement code access fhir server
+fhir trying learn basics fhir implement node come following code says create instance fhir client know question dumb clarifications topic started learning node back thanks advance code creating instance fhir client know implement code access fhir server

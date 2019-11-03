@@ -1,1 +1,1 @@
-new privat entri kei pydicom add correspond text kei tag pydicom read dicom file abl add entri dicom file method read valu hexa code check method call find method pydicom follow exactli exampl follow error tri work privat attribut readabl pydicom instal thank advanc
+adding new private entry key pydicom add corresponding text keys tags pydicom read dicom file able add entry dicom file method read value hexa code checked method called find method pydicom followed exactly example following error tried work private attribute readable pydicom installation thank advance

@@ -1,1 +1,1 @@
-swift hkcategorysampl creat follow error doc indic correct argument type pass actual complain code
+swift hkcategorysample create following error doc indicate correct argument type pass actually complaining code

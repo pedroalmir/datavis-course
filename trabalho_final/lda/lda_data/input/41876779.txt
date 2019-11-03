@@ -1,1 +1,1 @@
-make sure messag control btahl7 ack messag origin mesag requir messag control msh hl7 ack messag equal messag control msh origin messag btahl7 biztalk cu5 case present messag control ack actual permut origin messag messag control help appreci
+make sure message control btahl7 ack message original mesage requirement message control msh hl7 ack message equal message control msh original message btahl7 biztalk cu5 case present message control ack actually permutation original message message control help appreciated

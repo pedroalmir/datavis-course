@@ -1,1 +1,1 @@
-prevent connect time try select big data loop recent develop system fetch huge data sql server creat hl7 messag data send hl7 messag applic fetch data creat hl7 messag loop problem face connect time minut run applic prevent problem
+prevent connection time trying select big data looping recently develop system fetch huge data sql server create hl7 messages data send hl7 messages application fetch data create hl7 messages looping problem facing connection time minute running application prevent problem

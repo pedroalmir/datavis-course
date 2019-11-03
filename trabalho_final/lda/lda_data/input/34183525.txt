@@ -1,1 +1,1 @@
-fhir structuredefinit profil element aggreg snapshot roll aggreg differenti element base element creat snapshot
+fhir structuredefinitions profile element aggregate snapshot roll aggregate differential element base element create snapshot

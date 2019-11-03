@@ -1,1 +1,1 @@
-read dicom tag tag itk itk read dicom file call read tag valu work fine tag gantri angl problem come try read tag embed getvaluefromtag read back empti string exposur sequenc valu read tag tag itk look itk document wai
+read dicom tag tag itk itk read dicom file calling read tag value works fine tag gantry angle problem comes trying read tag embedded getvaluefromtag read back empty string exposure sequence value read tag tag itk looking itk documentation way

@@ -1,1 +1,1 @@
-schedul search paramet fhir fhir document mention search paramet paramet mandatori user client send request search schedul
+scheduling search parameters fhir fhir documentation mentions search parameter parameters mandatory user client sends request searching schedule

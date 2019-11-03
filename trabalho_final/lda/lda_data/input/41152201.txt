@@ -1,1 +1,1 @@
-defin resourc data match predefin field new fhir try understand resourc work assum patient data store patient resourc defin fhir patient resourc sai data limit patient name gender birthdat omit field defin patient resourc
+define resource data match predefined field new fhir trying understand resource work assume patient data store patient resource define fhir patient resource say data limited patient name gender birthdate omit field defining patient resource

@@ -1,1 +1,1 @@
-show dicom imag header wonder possibl differ imag header displai imag pac tag chang displai
+show dicom image header wonder possible different image header display images pac tag changed display

@@ -1,1 +1,1 @@
-adjust window level dicom file vtk try chang imag window width level understood creat vtkwindowlevellookupt attach mapper describ don understand mapper come input connect code
+adjust window level dicom file vtk trying change image window width level understood create vtkwindowlevellookuptable attach mapper described don understand mapper comes input connection code

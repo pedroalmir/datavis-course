@@ -1,1 +1,1 @@
-fhir patient upload retriev patient photo fhir patient resourc photo variabl attach imag patient question exampl upload patient photo format support retriev patient photo post old
+fhir patient upload retrieve patient photo fhir patient resource photo variable attachment image patient question example upload patient photo format supported retrieve patient photo post old

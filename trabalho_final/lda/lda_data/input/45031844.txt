@@ -1,1 +1,1 @@
-mllp connect creat new spring boot applic fetch hl7 messag process case mllp protocol data transfer implement java advantag mllp
+mllp connection going create new spring boot application fetch hl7 messages process case mllp protocol data transfer implement java advantage mllp

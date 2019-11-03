@@ -1,1 +1,1 @@
-start implement hl7 fhir asp web api new assign implement send compliant messag initi thought transform store data fhir compliant data json tri given produc class throw start transform data fhir compliant data
+start implementing hl7 fhir asp web api new assigned implement send compliant messages initial thought transform stored data fhir compliant data json tried given produce class throwing start transforming data fhir compliant data

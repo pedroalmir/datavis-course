@@ -1,1 +1,1 @@
-defin medic schedul fhir dstu2 look defin medic schedul fhir medicat prescript resourc data model asid schedul follow drug medic start date end date administr time site rout exampl know possibl exist dstu2 specif cheer
+defining medication schedule fhir dstu2 looking define medication schedule fhir medicatation prescription resource data model aside schedule follows drug medication start date end date administration time site route example know possible existing dstu2 specification cheer

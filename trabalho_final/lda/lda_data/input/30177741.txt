@@ -1,1 +1,1 @@
-construct healthkit hkunit mmol millimol liter blood glucos valu blood glucos valu back health construct healthkit hkunit mmol millimol liter blood glucos valu follow throw termin app due uncaught nsinvalidargumentexcept reason pars factor string
+construct healthkit hkunit mmol millimole liter blood glucose values blood glucose values added back health ios construct healthkit hkunit mmol millimole liter blood glucose values following throw terminating app due uncaught nsinvalidargumentexception reason parse factorization string

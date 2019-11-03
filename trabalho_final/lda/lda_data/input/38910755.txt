@@ -1,1 +1,1 @@
-pynetdicom qyueri retriv studi date time try queri retriev exampl qrscu work good patient name search search studi basi studyd studytim note avail try studyrootfindsopclass tri give error pleas help fetch studi studi date time
+pynetdicom qyuery retrive study date time trying query retrieve example qrscu working good patient name search search study basis studydate studytime note available try studyrootfindsopclass tried gives error please help fetch study study date time

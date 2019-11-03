@@ -1,1 +1,1 @@
-niftynet data augment set niftynet project data augment config file notic rotat angl scale percentag random flip check document don understand proper set random flip flip shall thank
+niftynet data augmentation setting niftynet project data augmentation config file noticed rotation angle scaling percentage random flipping checked document don understand proper setting random flipping flip shall thank

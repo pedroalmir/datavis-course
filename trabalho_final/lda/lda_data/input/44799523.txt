@@ -1,1 +1,1 @@
-vtk zoom jpeg reader dicom reader exampl code vtk read jpeg imag dicom file run project zomm imag right button mous code direct relat zoom class tell vtk zoom project
+vtk zoom jpeg reader dicom reader example code vtk read jpeg image dicom file run project zomm image right button mouse code direct relation zoom class tell vtk zoom project

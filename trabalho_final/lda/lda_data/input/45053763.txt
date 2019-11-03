@@ -1,1 +1,1 @@
-build pie chart research kit new swift tri build piechart research kit app write code refer run code show error type viewcontrol conform protocol ork piechartview datasourc pleas suggest solv issu code
+build pie chart research kit new swift tried build piechart research kit app write code reference run code showing error type viewcontroller conform protocol ork piechartview datasource please suggest solve issue code

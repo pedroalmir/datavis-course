@@ -1,1 +1,1 @@
-initi hkobserverqueri updatehandl try learn current goal make applic observ queri sampl type background initi observerqueri sampletyp predic try custom updatehandl initi xcode rais issu issu
+initialize hkobserverquery updatehandler trying learn current goal make application observe query sample type background initialize observerquery sampletype predicate try custom updatehandler initialization xcode raises issue issue

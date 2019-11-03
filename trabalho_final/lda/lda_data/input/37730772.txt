@@ -1,1 +1,1 @@
-distanc slice dicom calcul distanc slice imag posit distanc millimet convert pixel pixel space tag dicom present physic distanc pixel row column imag calcul distanc slice pixel valu tag
+distance slices dicom calculating distance slice image position distance millimeter convert pixel pixel spacing tag dicom present physical distance pixel row column image calculate distance slices pixel value tag

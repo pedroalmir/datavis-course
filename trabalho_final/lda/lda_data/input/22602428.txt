@@ -1,1 +1,1 @@
-fhir handl resourc resourc new fhir develop fhir server pleas help handl resourc resourc exampl encount resourc partof resourc encount similarli organ resourc organ try goe infinit loop proce class retriev data databas time thank advanc
+fhir handle resource resource new fhir develop fhir server please help handle resource resource example encounter resource partof resource encounter similarly organization resource organization trying goes infinite loop proceed class retrieving data database time thanks advance

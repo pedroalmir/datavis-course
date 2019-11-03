@@ -1,1 +1,1 @@
-listen tcp receiv data hl7 machin send data tcp specifi port continu listen port displai data receiv screen creat connect scenario connect creat hl7 machin start send
+listen tcp receive data hl7 machine sends data tcp specified port continuously listen port display data received screen creates connection scenario connection created hl7 machine starts sending

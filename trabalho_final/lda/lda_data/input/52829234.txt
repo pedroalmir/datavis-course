@@ -1,1 +1,1 @@
-pac return valu move rsp dcmtk3 send move command pac dcmtk receiv move rsp error know reason error don know pac return valu move rsp know move rsp statu dicom tag error messag pass move rsp
+pacs return values move rsp dcmtk3 send move command pac dcmtk receives move rsp error know reason error don know pacs return values move rsp know move rsp status dicom tag error message passed move rsp

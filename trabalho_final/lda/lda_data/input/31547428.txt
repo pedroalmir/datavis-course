@@ -1,1 +1,1 @@
-creat send applic hl7 messag end caret nhapi creat send facil abcsit msh segment
+create sending application hl7 message end caret nhapi create sending facility abcsite msh segment

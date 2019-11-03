@@ -1,1 +1,1 @@
-dcmj2pnm error chang unencapsul represent pixel data try dcmj2pnm binari dcmtk toolkit convert dicom file set bmp follow command keep get error chang unencapsul represent pixel data know process imag
+dcmj2pnm error change unencapsulated representation pixel data trying dcmj2pnm binary dcmtk toolkit convert dicom file set bmps following command keep getting error change unencapsulated representation pixel data know process image

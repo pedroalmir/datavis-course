@@ -1,1 +1,1 @@
-superimpos imag matlab grei color matrix 1st roi dicom imag grei scale 2nd matrix valu 2nd matrix did threshold kept valu rang superimpos matric imag show result figur mean background grei imag superimpos color imag region non valu help thank
+superimpose images matlab grey color matrix 1st roi dicom image grey scale 2nd matrix values 2nd matrix did thresholding kept value range superimpose matrices image show result figure means background grey image superimposed color image region non values help thanks

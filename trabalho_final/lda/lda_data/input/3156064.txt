@@ -1,1 +1,1 @@
-audio format support dicom audio format support dicom dicom standard
+audio format supported dicom audio format supported dicom dicom standard

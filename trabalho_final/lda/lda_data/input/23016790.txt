@@ -1,1 +1,1 @@
-with api respons request token setup describ step answer post copi past final url gener step send request url respons browser screen remain empti reason happen oauth token oauth secret append callback url
+withings api response request token setup described step answer post copy paste final url generated step send request url response browser screen remains empty reason happening oauth token oauth secret appended callback url

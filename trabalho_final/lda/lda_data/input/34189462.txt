@@ -1,1 +1,1 @@
-fhir issummari type profil issummari true mean type profil especi mean root element type
+fhir issummary type profile issummary true mean type profile especially mean root element type

@@ -1,1 +1,1 @@
-delphi send receiv command echo dicom commun pac modal messag pac server delphi displai messag ascii format memo1 possibl indi compon exampl code send echo command modal emul pac server connect incom messag memo1 chamelon hl7 compon displai messag delphi
+delphi send receive command echo dicom communication pacs modality message pacs server delphi display message ascii format memo1 possible indy component example code send echo command modality emulator pacs server connected incoming message memo1 chamelon hl7 component display message delphi

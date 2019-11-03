@@ -1,1 +1,1 @@
-fhir pass oauth token search queri nodej app nodej app connect fhir server queri patient data sure pass oauth2 token getpati function fhir node librari applic
+fhir pass oauth token search query nodejs app nodejs app connects fhir server query patient data sure pass oauth2 token getpatient function fhir node library application

@@ -1,1 +1,1 @@
-store eeg data fhir store data electron health record ehr eeg data set matlab edf format store fhir record sampl mental health record avail fhir format
+store eeg data fhir store data electronic health record ehr eeg data sets matlab edf format store fhir record sample mental health record available fhir format

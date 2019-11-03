@@ -1,1 +1,1 @@
-read multipl orc obr segment hl7 messag hapi follow hl7 messag pars try fetch valu obr orc segment hapi terser method follow statement give follow error end messag reach iter loop don know wrong gui pleas help proper input teaser method valu
+read multiple orc obr segment hl7 message hapi following hl7 message parse trying fetch values obr orc segment hapi terser method follows statement gives following error end message reached iterating loop don know wrong guy please help proper input teaser method value

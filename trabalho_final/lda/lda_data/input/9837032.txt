@@ -1,1 +1,1 @@
-read multifram dicom imag itk read singl frame dicom imag fine sure read multi frame dicom file sai multipl imag singl dicom file code read singl frame dicom think line imag buffer load imagebuf divid part number frame dicom part construct imag done
+read multiframe dicom image itk read single frame dicom image fine sure reading multi frame dicom file say multiple image single dicom file code read single frame dicom thinking line image buffer loaded imagebuf divided parts number frame dicom part construct image done

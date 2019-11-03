@@ -1,1 +1,1 @@
-find retriev match studi pac server dcm4che clearcanva archiv server dicom studi filter studi base tag tri filter studi manufactur name queri tri studi manufactur name philip return result empti manufactur tag studi manufactur tag info tri differ level argument luck miss
+find retrieve matching study pacs server dcm4che clearcanva archive server dicom studies filter studies based tag tried filter studies manufacturer name query tried studies manufacturer name philip return result empty manufacturer tag study manufacturer tag info tried different level argument luck missing

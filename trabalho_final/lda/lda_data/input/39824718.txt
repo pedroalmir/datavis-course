@@ -1,1 +1,1 @@
-hl7 server send respons simpl app creat php tri client hl7 soup download send receiv successfulli tri custom applic creat php successfulli connect hl7 server presum send respons problem messag send code creat pleas refer code link thank advanc
+hl7 server sends response simple app created php tried client hl7 soup downloaded sending receiving successfully tried custom application created php successfully connect hl7 server presumably send response problem message sending code created please refer code link thanks advance

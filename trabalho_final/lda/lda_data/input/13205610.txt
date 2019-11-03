@@ -1,1 +1,1 @@
-load multipl dicom file view time matlab folder mri dicom imag taken differ time interv folder consist dicom imag imag view movi time new handl dicom imag matlab pleas help thank advanc regard
+load multiple dicom files view time matlab folders mri dicom image taken different time intervals folder consists dicom image image view movie time new handling dicom images matlab please help thank advance regards

@@ -1,1 +1,1 @@
-brats17 argument run good even try reproduc result wang cascad convolout network niftynet try train cnn start brat segment app creat csv follow error don know fix help welcom best regard paul
+brats17 argument run good evening trying reproduce result wang cascaded convoloutional network niftynet trying train cnn starts brats segmentation app creates csv following error don know fix help welcomed best regards paul

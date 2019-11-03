@@ -1,1 +1,1 @@
-dicom mergecom mc3 total attribut length multipl size older version mergecom librari receiv latest version tri integr latest mergecom librari get follow error echo log merg log pleas find attach wireshark log snapshot wireshark associ associ rsp echo echo rsp abort
+dicom mergecom mc3 total attribute length multiple size older version mergecom library received latest version tried integrate latest mergecom library getting following error echo logged merge log please find attached wireshark logs snapshots wireshark association association rsp echo echo rsp abort

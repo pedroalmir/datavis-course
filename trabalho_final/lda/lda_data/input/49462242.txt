@@ -1,1 +1,1 @@
-dicom addupd delet search header tage help add updat delet search function dicom header dicom imag pixel data dicom header work desktop
+dicom addupdate delete search header tages help add update delete search functionality dicom header dicom image pixel data dicom header working desktop

@@ -1,1 +1,1 @@
-healthkit read health valu iphon object app read queri try add predic queri code tri output print cast wrong date valu thank
+healthkit reading health values iphone objective app read query trying add predicate query code tried output printing cast wrong date values thanks

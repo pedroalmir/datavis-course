@@ -1,1 +1,1 @@
-compil dcmtk 1st time work dicom imag dcmtk compil instal
+compile dcmtk ios 1st time going work dicom image dcmtk compiled installed ios

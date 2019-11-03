@@ -1,1 +1,1 @@
-read dcm file nest directori form nest directori patient level folder read dcm file correspond seri level folder access dcm file seri level folder featur dicom object sourc code insert doc mongo suggest appreci thank advanc
+reading dcm files nested directory form nested directory patient level folder read dcm files corresponding series level folder access dcm file series level folder features dicom object source code insert doc mongo suggestion appreciated thanks advance

@@ -1,1 +1,1 @@
-matlab view contrast dicom look wai displai constrast dicom file render basic imag contrast fine build matrix render contrast disapear drawn contour intens imag stack matrix wai plot voxel intens
+matlab view contrast dicom looking way display constrast dicom files render basically image contrast fine building matrix render contrast disapear drawn uses contour intensity image stacked matrix way plot voxel intensity

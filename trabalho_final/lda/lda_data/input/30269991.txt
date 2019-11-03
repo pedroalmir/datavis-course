@@ -1,1 +1,1 @@
-get hang task wait stack call web api call asynchron aysnc creat simpl test consol program line class defin visual studio state await oper current code run synchron await oper follow statement throw catch task
+getting hang task wait stack calls web api called asynchronously aysnc created simple test console program line class defined visual studio state await operator currently code run synchronously await operator following statement throws catch task

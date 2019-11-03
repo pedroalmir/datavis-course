@@ -1,1 +1,1 @@
-swift healthkit try access app set thought properli run nsarrayi allowauthorizationforreadingwithentitl unrecogn selector instanc error sure follow rai wenderlich post app isn work entitl run code case idea tri look debug figur
+swift healthkit trying access ios app set thought properly runs nsarrayi allowauthorizationforreadingwithentitlement unrecognized selector instance error sure followed ray wenderlichs post app isn working entitle run code case idea tried looking debug figure

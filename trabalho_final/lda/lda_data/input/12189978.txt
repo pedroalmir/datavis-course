@@ -1,1 +1,1 @@
-evildicom problem voxelgrid try implement problem find compon voxelgrid dll evildicom compon call voxel work tutori ask version chang evildicom compon add imag picturebox
+evildicom problem voxelgrid trying implement problem find component voxelgrid dll evildicom component called voxel work tutorial asking version change evildicom component add image picturebox

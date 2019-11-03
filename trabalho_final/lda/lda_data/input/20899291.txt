@@ -1,1 +1,1 @@
-renam file metadata content renam file field metadata patient name dicom file exampl found util call dcmdump extract part renam file test gave know part renam dcm file thank advanc
+rename files metadata content rename files field metadata patient names dicom files example found utility called dcmdump extract part rename file tested gave know part rename dcm file thanks advance

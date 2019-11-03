@@ -1,1 +1,1 @@
-clearcanva check file dicomdir read dicom tag dicomdir check file dicomdir try know file haven dicomdir name
+clearcanva check file dicomdir read dicom tag dicomdir check file dicomdir trying know files haven dicomdir name

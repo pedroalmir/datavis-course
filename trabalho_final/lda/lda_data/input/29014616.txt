@@ -1,1 +1,1 @@
-pars dicom tag arraylist dcm4chee2 pars tag convert metadata arraylist type string tostr method convert tag dicomobject string notic get full list dicom tag code descript tell dicomobject method full list tostr code current
+parsing dicom tag arraylist dcm4chee2 parse tag converting metadata arraylist type string tostring method convert tag dicomobject string noticing getting full list dicom tags code description tell dicomobject method full list tostring code currently

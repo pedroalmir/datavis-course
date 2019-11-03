@@ -1,1 +1,1 @@
-repres patient room number fhir resourc look fhir document patient resourc find wai specifi patient room number pertain organ facil associ found locat resourc type don associ patient thought
+represent patient room number fhir resource looking fhir documentation patient resource find way specify patient room number pertains organization facility associated found location resource type don associated patient thought

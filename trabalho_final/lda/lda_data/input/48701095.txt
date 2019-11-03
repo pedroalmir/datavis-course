@@ -1,1 +1,1 @@
-health record health app health kit abl read write sampl data health app bodi mass height weight read profil data gender blood type piec code request auth read write method given pragma mark helper pragma mark read method pragma mark write method find clue add record
+health record added health app health kit able read write sample data health app body mass height weight read profile data age gender blood type piece code request auth read write method given pragma mark helper pragma mark read methods pragma mark write method finding clue add record

@@ -1,1 +1,1 @@
-displai dicom monochrome2 have bit store bit alloc displai dicom file have photometr interpret monochrome2 specif imag extract singl frame byte arrai follow wai displai file displai origin imag help load displai monochrome2 dicom imag
+display dicom monochrome2 having bit stored bit allocated display dicom file having photometric interpretation monochrome2 specifications image extract single frames byte array following way display file displaying original image help load display monochrome2 dicom image

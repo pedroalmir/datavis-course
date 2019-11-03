@@ -1,1 +1,1 @@
-read content dicom file java dicom file contain seri cat scan imag implement dicom librari java read file extract imag store store imag bufferedimag data type
+read content dicom file java dicom file contains series cat scan images implementation dicom library java read file extract image stored store image bufferedimage data type

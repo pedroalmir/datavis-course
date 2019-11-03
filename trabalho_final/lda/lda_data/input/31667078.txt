@@ -1,1 +1,1 @@
-dicom imag annot actual posit imag displai area size bigger sai annot annot text line area put imag area put annot area viewer displai area displai imag annot annot viewer displai gsp
+dicom image annotation actual position image display area size bigger saying annotation annotations text lines area put image area put annotation area viewer display area display image annotation annotation viewer display gsp

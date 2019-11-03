@@ -1,1 +1,1 @@
-hkworkoutsessionmanag protocol method get call conform attempt updat protocol method updat function get print displai setup requir initi add code updat eventu chang updat eventu chang dashboardcontrol swift workoutscontrol swift
+hkworkoutsessionmanager protocol method getting called conformed attempted update protocol method update function getting printed displayed setup requires initialization add code update eventually changes update eventually changes dashboardcontroller swift workoutscontroller swift

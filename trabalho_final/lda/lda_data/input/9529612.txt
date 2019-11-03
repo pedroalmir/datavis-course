@@ -1,1 +1,1 @@
-dicom imag process librari object languag creat medic app involv dicom dcm imag process know librari framework avail object languag directli integr project gone variou sourc itk osirix imebra written secondli javascript html base framework nativ app thank aditya
+dicom image processing libraries objective language create medical app involves dicom dcm image processing know libraries framework available objective language directly integrate project gone various source itk osirix imebra written secondly javascript html based framework native app thanks aditya

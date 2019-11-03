@@ -1,1 +1,1 @@
-view differ plane dicom imag slice dicom data slice displai plane axial sagitt coron data read slice matlab matrix follow displai imag sagitt coron plane exchang wrong understand orient dicom imag consid increas increas increas
+viewing different plane dicom image slice dicom data slice display planes axial sagittal coronal data read slices matlab matrix follows display image sagittal coronal plane exchanged wrong understanding orientation dicom image considered increasing increasing increasing

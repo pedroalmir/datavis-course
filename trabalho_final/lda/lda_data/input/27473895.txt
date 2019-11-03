@@ -1,1 +1,1 @@
-error convert dicom jpeg work code convert dicom iamg dcm jpeg format code give javax imageio spi imagereaderspi provid sun media imageioimpl plugin pcx pcximagereaderspi found error error receiv idea miss
+error converting dicom jpeg working code convert dicom iamge dcm jpeg format code giving javax imageio spi imagereaderspi provider sun media imageioimpl plugins pcx pcximagereaderspi found error error receiving idea missing

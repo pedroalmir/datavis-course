@@ -1,1 +1,1 @@
-export dicom structur set look wai export structur set dicom file algorithm segment structur output set contour export dicom rtstructset languag prefer python solut work add python wrapper thank
+export dicom structure set looking way export structure sets dicom file algorithm segmentation structure output set contour export dicom rtstructset language preference python solution work add python wrapper thank

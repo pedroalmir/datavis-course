@@ -1,1 +1,1 @@
-pars hl7 php hl7 xml try pars extract data tag fail miser call function work fine tag don repeat tag repeat suck xml string abl pars follow xml grab data follow tag segment messag try code give occurr help
+parsing hl7 php hl7 xml trying parse extract data tag failing miserably call function works fine tag don repeat tag repeat sucks xml string able parse following xml grab data following tags segments message trying code gives occurrence help

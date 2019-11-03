@@ -1,1 +1,1 @@
-hkquantitytypeidentifi initi string try creat hkobjecttyp follow valu nill enum valu string creat object authent
+hkquantitytypeidentifier initialize string trying create hkobjecttype following values nill enum values string create object authentication

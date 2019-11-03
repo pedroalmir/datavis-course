@@ -1,1 +1,1 @@
-purpos pydicom sequenc class understand purpos class sequenc pydicom read exampl provid document page pydicom list dataset describ exampl element dataset class understand requir thank
+purpose pydicom sequence class understand purpose class sequence pydicom read example provided documentation page pydicom list dataset described example element dataset class understand required thanks

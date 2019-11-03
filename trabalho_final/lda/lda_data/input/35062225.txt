@@ -1,1 +1,1 @@
-matlab dicominfo fail try open dicom file index exce matrix dimens work smoothli know matter
+matlab dicominfo fails trying open dicom file index exceeds matrix dimension work smoothly know matter

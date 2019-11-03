@@ -1,1 +1,1 @@
-pars hl7 priori messagetyp knowledg nhapi pars messag don know messagetyp msh runtim read msh header read messagetyp field pars messag messag type frustrat lack document exampl base new hl7 thought understand hl7 spec tri nhapi
+parsing hl7 priori messagetype knowledge nhapi parse message don know messagetype msh runtime read msh header read messagetype field parse message message type frustrated lack documentation example base new hl7 thought understanding hl7 spec tried nhapi

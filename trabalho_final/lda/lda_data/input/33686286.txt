@@ -1,1 +1,1 @@
-resolv index exce matrix dimens matlab try read seri dicom imag folder name seri code read seri dicom imag particular folder get error index exce matrix dimens
+resolve index exceeds matrix dimensions matlab trying read series dicom image folder named series code read series dicom image particular folder getting error index exceeds matrix dimension

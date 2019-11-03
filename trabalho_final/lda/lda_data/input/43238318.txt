@@ -1,1 +1,1 @@
-simpl displai dicom format file imag try read simpl dicom file name mono1 chest size imag expain imag data end file figur show imag data locat end file follow code read displai imag file show random mix black white pixel work follow code read imag displai imag problem solv
+simple display dicom format file image trying read simple dicom file named mono1 chest sized image expained image data end file figure shows image data located end file following code read display image file shows random mix black white pixel work following code read image display image problem solve

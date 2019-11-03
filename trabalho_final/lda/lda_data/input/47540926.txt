@@ -1,1 +1,1 @@
-largest connect compon segment imag segment imag scan valu function label skimag measur ndarrai connect compon largest connect compon label output ndarrai idea code look thank
+largest connected component segmentation image segmentation image scan values function label skimage measure ndarray connected component largest connected component label output ndarray idea code looks thanks

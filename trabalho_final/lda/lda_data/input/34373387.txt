@@ -1,1 +1,1 @@
-error stop workout session restart start stop workout session try start 2nd workout 1st stop error start 1st stop close restart app xcode ios9 watch stop interfacecontrol healthkitmanag
+error stopped workout session restarted start stop workout session try start 2nd workout 1st stopped error start 1st stopped closing restarting app xcode ios9 watch stopping interfacecontroller healthkitmanager

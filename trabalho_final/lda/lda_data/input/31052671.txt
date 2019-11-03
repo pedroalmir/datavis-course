@@ -1,1 +1,1 @@
-repres encount relat charg appropri place fhir model encount relat charg profession facil store extens encount resourc claim resourc altogeth
+representing encounter related charges appropriate place fhir model encounter related charges professional facility stored extension encounter resource claim resource altogether

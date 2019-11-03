@@ -1,1 +1,1 @@
-pixelm read dicom file try follow tutori read dicom file code run fix got pixelm jar
+pixelmed read dicom file trying follow tutorial read dicom files code run fix got pixelmed jar

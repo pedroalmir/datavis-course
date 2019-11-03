@@ -1,1 +1,1 @@
-load dicom file cornerston bucket load imag dicom file store bucket cornerston reactj know load imag local directori know retriev cloud look solut non work
+load dicom file cornerstone bucket aws load image dicom file stored bucket aws cornerstone reactj know load image local directory know retrieve cloud looked solution non worked

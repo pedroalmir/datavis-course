@@ -1,1 +1,1 @@
-dcmtk storescp write file memori storescp storescp dicom applic send dicom file storescp dcm file gener pleas inform switch statement prevent file gener store oper
+dcmtk storescp exe writing files memory storescp exe storescp dicom application send dicom files storescp dcm file generated please inform switch statement preventing file generation store operation

@@ -1,1 +1,1 @@
-encrypt decrypt algorithm interpret hl7 messag want know hl7 messag interpret algorithm encrypt decrypt messag base segment data pass lead appreci
+encryption decryption algorithm interpret hl7 messages wanted know hl7 messages interpreted algorithm uses encrypt decrypt message based segments data passed leads appreciated

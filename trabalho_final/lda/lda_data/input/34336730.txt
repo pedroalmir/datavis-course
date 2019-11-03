@@ -1,1 +1,1 @@
-vtkimageviewer2 chang volum data slous space valu chang slice thick dicom volum data vtkimageviewer2 exampl origin data space slice chang slice thick valu slice code
+vtkimageviewer2 changing volume data slouse spacing value change slice thickness dicom volume data vtkimageviewer2 example original data spacing slice change slice thickness value slices code
