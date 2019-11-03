@@ -1,39 +1,38 @@
 https://observablehq.com/@observablehq/introduction-to-promises
 
-https://observablehq.com/@esperanc/wordle-like-clouds
-
-https://observablehq.com/@borowski-9ld/word-cloud
-
-https://observablehq.com/@amal994/visualizing-unstructured-text
-
-https://observablehq.com/d/82aa31ba06a10716
-
-https://winkjs.org/showcase-bm25-text-search/
-
-https://github.com/spencermountain/compromise
-
 https://geeklad.com/remove-stop-words-in-javascript
-
 https://geeklad.com/remove-stop-words-in-javascript
 
 https://stackoverflow.com/questions/48719873/how-to-get-median-and-quartiles-percentiles-of-an-array-in-javascript-or-php
 
-https://agoldst.github.io/dfr-browser/demo/#/model/list
 
 
-https://observablehq.com/@fil/worker
-https://observablehq.com/@olemi/topic-model
-https://observablehq.com/@spencermountain/nlp-compromise
-https://observablehq.com/@owendall/compromise-topics
-https://observablehq.com/@aaron-613/zoomable-sunburst-hack-by-aaron
-https://observablehq.com/@d3/sunburst
+
+Checked:
+	https://observablehq.com/@fil/worker
+	https://observablehq.com/@olemi/topic-model
+	https://observablehq.com/@spencermountain/nlp-compromise
+	https://observablehq.com/@owendall/compromise-topics
+	https://observablehq.com/@aaron-613/zoomable-sunburst-hack-by-aaron
+	https://agoldst.github.io/dfr-browser/demo/#/model/list/frac
+	https://observablehq.com/@borowski-9ld/word-cloud
+	https://observablehq.com/@esperanc/wordle-like-clouds
+	https://observablehq.com/@amal994/visualizing-unstructured-text
+	https://observablehq.com/d/82aa31ba06a10716
+	https://agoldst.github.io/dfr-browser/demo/#/model/list
+	https://github.com/spencermountain/compromise
+	
+https://observablehq.com/@d3/sunburst	
 https://observablehq.com/@yuhaochen1997/tree-of-topic-wrods
-https://agoldst.github.io/dfr-browser/demo/#/model/list/frac
+
 
 R:
 	https://rdrr.io/github/mlinegar/litMagModelling/src/R/makeLDAvis.R
 	https://github.com/sethsch/dfrtopics/tree/43362fd4aea25caedf59f610fb02f3aaa30334ca
 	https://github.com/cpsievert/LDAvis
+	http://4humwhatevery1says.pbworks.com/w/page/104256241/Topic%20Modeling%20Systems%20and%20Interfaces
+	https://ldavis.cpsievert.me/reviews/reviews.html
+	https://bl.ocks.org/pedroalmir/1241ade99769d8db12741755a1334a78
 
 Regex:
 	https://www.regextester.com
