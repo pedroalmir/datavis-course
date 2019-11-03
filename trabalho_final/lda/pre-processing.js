@@ -41,7 +41,6 @@ function executePreProcessing(){
                 .then(function(data){
                     // Data preprocessing...
                     let textPosts = [];
-                    let reverseStemMap = d3.map();
                     let text = 'id,text\n';
                     data.forEach(function(d, i){ 
                         console.log('Iteration ' + i)         
@@ -102,43 +101,28 @@ function executePreProcessing(){
                             /* The more powerful filter provided by compromise NPL library. Here we remove the stop words too. */
                             var htmlClean = nlp(temp).normalize(nlpConfig).sentences().delete(stop_words).terms().out().trim()
                             
-                            // Extracting tokens...
-                            var tokensStem = [];
-                            var tokens = htmlClean.split(" ");
-                            
-                            tokens.forEach(function(token, index){
-                                var stemToken = stemmer(token.trim());
-                                if(stemToken !== undefined && stemToken.length > 0){
-                                    reverseStemMap.set(stemToken.trim(), token.trim())
-                                    tokensStem.push(stemToken.trim());
-                                }
-                            })
-
-                            var finalPostTxt = tokensStem.join(' ');
                             // Double check of patterns...
                             basicRegexs.concat(specialRegex).forEach(function(regex){
-                                finalPostTxt = finalPostTxt.replace(regex, ' ')
+                                htmlClean = htmlClean.replace(regex, ' ')
                             });
-                            finalPostTxt = finalPostTxt.toLowerCase().trim()
-
+                            htmlClean = htmlClean.toLowerCase().trim()
 
                             /** 
                              * This variable is used to download a file with all cleaned posts
                              * To split in multiple files use the following command:
                              * $ split -l 1 -d -a 4 --additional-suffix=.txt posts.txt file 
                              **/
-                            text += d.Id + ',' + finalPostTxt + "\n"
+                            text += d.Id + ',' + htmlClean + "\n"
                             
                             textPosts.push({
                                 "id": d.Id,
-                                "text": finalPostTxt
+                                "text": htmlClean
                             })
                         }  
                     })
                     console.log('Done!')
                     console.timeEnd("ProcessingTime");
                     download('PostsTreated.csv', text)
-                    download('ReverseStem.json', JSON.stringify(reverseStemMap))
                 })
         })
 }

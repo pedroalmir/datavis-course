@@ -47,8 +47,6 @@ function executeLDA(sentences, numberOfTopics, numberOfTermsPerTopic, alphaValue
                     vocab.push(wStemmed);
                     vocabOrig[wStemmed] = w;
                 };
-                if(i == 653 && vocab.indexOf(wStemmed) == -1) 
-                    console.log('Verificar aqui')
                 documents[i].push(vocab.indexOf(wStemmed));
             }
         }
@@ -163,8 +161,7 @@ class LDA {
             for (var n = 0; n < N; n++) {
                 var topic = parseInt("" + (this.getRandom() * K));
                 this.z[m][n] = topic;
-                if(this.nw[this.documents[m][n]] !== undefined) this.nw[this.documents[m][n]][topic]++;
-                else console.log(m, n, this.documents[m][n])
+                this.nw[this.documents[m][n]][topic]++;
                 this.nd[m][topic]++;
                 this.nwsum[topic]++;
             }

@@ -37,3 +37,16 @@ Regex:
 Tools:
 	https://hapifhir.github.io/hapi-hl7v2/
 	
+Snippets:
+// Extracting tokens...
+var tokensStem = [];
+var tokens = htmlClean.split(" ");
+
+tokens.forEach(function(token, index){
+	var stemToken = stemmer(token.trim());
+	if(stemToken !== undefined && stemToken.length > 0){
+		reverseStemMap.set(stemToken.trim(), token.trim())
+		tokensStem.push(stemToken.trim());
+	}
+})
+	
