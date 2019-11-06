@@ -1,0 +1,14 @@
+{
+  "name": "44ff145d6f990ab6",
+  "main": "44ff145d6f990ab6@1255.js",
+  "version": "1255.0.0",
+  "homepage": "https://observablehq.com/d/44ff145d6f990ab6",
+  "author": {
+    "name": "Pedro Almir",
+    "url": "https://observablehq.com/@pedroalmir"
+  },
+  "type": "module",
+  "peerDependencies": {
+    "@observablehq/runtime": "4"
+  }
+}
