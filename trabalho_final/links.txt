@@ -1,10 +1,12 @@
 https://observablehq.com/@observablehq/introduction-to-promises
-
+http://www.findtheconversation.com/about-the-conversation/
 https://geeklad.com/remove-stop-words-in-javascript
 https://geeklad.com/remove-stop-words-in-javascript
 
 https://stackoverflow.com/questions/48719873/how-to-get-median-and-quartiles-percentiles-of-an-array-in-javascript-or-php
 
+
+https://ldavis.cpsievert.me/reviews/reviews.html
 
 
 
