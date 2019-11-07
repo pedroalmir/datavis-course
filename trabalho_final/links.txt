@@ -9,6 +9,8 @@ https://stackoverflow.com/questions/48719873/how-to-get-median-and-quartiles-per
 https://ldavis.cpsievert.me/reviews/reviews.html
 
 
+https://www.tidytextmining.com/topicmodeling.html
+
 
 Checked:
 	https://observablehq.com/@fil/worker

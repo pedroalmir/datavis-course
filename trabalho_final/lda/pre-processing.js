@@ -1,6 +1,6 @@
 const countPattern = (str, pattern) => { return ((str || '').match(pattern) || []).length };
 
-function executePreProcessing(){
+function executePreProcessing(justOpenDiscussions){
     console.log("Let's begin!");
     console.time("ProcessingTime");
 
@@ -32,8 +32,14 @@ function executePreProcessing(){
             
             data.forEach(function(d, i){
             //Discussion restriction
-                if(d.UserDiscussionCount > 0){      
-                    idMap.set(d.Id, d.Title)                            
+                if(justOpenDiscussions){
+                     if(d.AcceptedAnswerId === "" && d.AnswerCount > 0 && d.UserDiscussionCount > 0){
+                        idMap.set(d.Id, d.Title)
+                     }       
+                }else{
+                    if(d.UserDiscussionCount > 0){       
+                        idMap.set(d.Id, d.Title)                            
+                    }
                 }
             })
             
@@ -122,7 +128,12 @@ function executePreProcessing(){
                     })
                     console.log('Done!')
                     console.timeEnd("ProcessingTime");
-                    download('PostsTreated.csv', text);
+                    if(justOpenDiscussions){
+                        download('OpenDiscussionTreated.csv', text);
+                    }else{
+                        download('PostsTreated.csv', text);
+                    }
+                    
                     
                     return textPosts;
                 })
