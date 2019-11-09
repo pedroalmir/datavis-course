@@ -1,1 +1,1 @@
-[{"children":[{"children":[{"children":[{"name":["fhir resource patient"],"order":[1]},{"name":["google fit message"],"order":[4]}],"order":[1]},{"name":["app data healthkit"],"order":[3]}],"order":[1]},{"name":["dicom image file"],"order":[2]}],"order":[1]}]
+{"name":"node3","children":[{"name":"google fit api"},{"name":"node2","children":[{"name":"app data healthkit"},{"name":"node1","children":[{"name":"fhir message resource"},{"name":"dicom image file"}]}]}]}

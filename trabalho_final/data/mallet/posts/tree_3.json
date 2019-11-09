@@ -1,1 +1,1 @@
-[{"children":[{"name":["dicom image file"],"order":[1]},{"children":[{"name":["fhir message resource"],"order":[2]},{"name":["app data google"],"order":[3]}],"order":[2]}],"order":[1]}]
+{"name":"node2","children":[{"name":"dicom image file"},{"name":"node1","children":[{"name":"app data google"},{"name":"fhir message resource"}]}]}

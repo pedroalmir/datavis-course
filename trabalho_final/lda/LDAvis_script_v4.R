@@ -135,8 +135,7 @@ outputBasePath2 <- "D:/Git/datavis-course/trabalho_final/data/mallet/openDiscuss
 
 stopWordsPath <- "D:/Git/datavis-course/trabalho_final/lda/stop_words.txt"
 
-#nTopicsList <- c(3,4,6,8,12,16,24,32,48,64,96,128,192,256,384,512)
-nTopicsList <- c(5)
+nTopicsList <- c(3,4,6,8,12,16,24,32,48,64,96,128,192,256,384,512)
 
 for (i in 1:length(nTopicsList)) {
    print(paste("Iteration", i, ": topics-", nTopicsList[i], sep = ""))
