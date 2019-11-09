@@ -1,0 +1,40 @@
+{
+  let result = {lda: {}, tree: {}};
+  await d3.json(URLbase + "data/mallet/posts/lda_3.json").then(function(data){result.lda.topic3 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_4.json").then(function(data){result.lda.topic4 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_6.json").then(function(data){result.lda.topic6 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_8.json").then(function(data){result.lda.topic8 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_12.json").then(function(data){result.lda.topic12 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_16.json").then(function(data){result.lda.topic16 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_24.json").then(function(data){result.lda.topic24 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_32.json").then(function(data){result.lda.topic32 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_48.json").then(function(data){result.lda.topic48 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_64.json").then(function(data){result.lda.topic64 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_96.json").then(function(data){result.lda.topic96 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_128.json").then(function(data){result.lda.topic128 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_192.json").then(function(data){result.lda.topic192 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_256.json").then(function(data){result.lda.topic256 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_384.json").then(function(data){result.lda.topic384 = data})
+  await d3.json(URLbase + "data/mallet/posts/lda_512.json").then(function(data){result.lda.topic512 = data})
+  
+  await d3.json(URLbase + "data/mallet/posts/tree_3.json").then(function(data){result.tree.topic3 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_4.json").then(function(data){result.tree.topic4 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_6.json").then(function(data){result.tree.topic6 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_8.json").then(function(data){result.tree.topic8 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_12.json").then(function(data){result.tree.topic12 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_16.json").then(function(data){result.tree.topic16 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_24.json").then(function(data){result.tree.topic24 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_32.json").then(function(data){result.tree.topic32 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_48.json").then(function(data){result.tree.topic48 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_64.json").then(function(data){result.tree.topic64 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_96.json").then(function(data){result.tree.topic96 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_128.json").then(function(data){result.tree.topic128 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_192.json").then(function(data){result.tree.topic192 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_256.json").then(function(data){result.tree.topic256 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_384.json").then(function(data){result.tree.topic384 = data})
+  await d3.json(URLbase + "data/mallet/posts/tree_512.json").then(function(data){result.tree.topic512 = data})
+  
+  console.log(JSON.stringify(result))
+  
+  return result
+}
