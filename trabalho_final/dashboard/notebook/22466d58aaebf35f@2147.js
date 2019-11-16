@@ -1,4 +1,4 @@
-// https://observablehq.com/d/093998cad1f1061f@2110
+// https://observablehq.com/d/22466d58aaebf35f@2147
 import define1 from "./576f8943dbfbd395@109.js";
 import define2 from "./2683d7ccbaaf16d5@258.js";
 import define3 from "./e93997d5089d7165@2200.js";
@@ -6,10 +6,7 @@ import define3 from "./e93997d5089d7165@2200.js";
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
-md`# Ten years of eHealth on Stack Overflow
-This work aims to analyze trends and challenges in the development of eHealth solutions, from the perspective of ICT professionals, and having as data source the Stack Overflow discussions.
-
-To answer our questions, we decided to use word clouds [WATTENBERG and VIEGAS, 2008], node-link diagrams [HEER et al., 2010], bubble maps [HEER et al., 2010], and other simple graphics as line, bar, and pie charts. All visualizations were developed using a JavaScript library called D3.js`
+md`## Ten years of eHealth on Stack Overflow (Dashboard)`
 )});
   main.variable(observer()).define(["html"], function(html){return(
 html`<code>css</code> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="crossorigin=""/>`
@@ -200,7 +197,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   let barChart = dc.barChart(view.querySelector("#chart1"))
   
   barChart
-    .width(950).height(400).gap(30)
+    .width(850).height(400).gap(30)
     .margins({top: 30, right: 50, bottom: 25, left: 40})
     .dimension(factsAndDims.dateDimPosts)
     .group(factsAndDims.postsByYearGroup)
@@ -230,7 +227,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   let barChart = dc.barChart(view.querySelector("#chart2"))
   
   barChart
-    .width(950).height(400).gap(30)
+    .width(600).height(300).gap(30)
     .margins({top: 30, right: 50, bottom: 25, left: 40})
     .dimension(osDimPosts)
     .group(finalOSGroup)
@@ -254,7 +251,9 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
 {
   let facts = crossfilter(myData.posts)
   let pLanguageDimPosts = facts.dimension(d => d.pLanguage);
-  let filter = facts.dimension(d => d.pLanguage).filter(function(d){ return d !== 'Unknown';})
+  let filter = facts.dimension(d => d.pLanguage)
+  .filter(function(d){ return ['swift', 'java',  'python', 'c#', 'objective-c', 
+                               'c++', 'javascript', '.net', 'r', 'php'].includes(d);})
   
   let postsByPLanguageGroup = pLanguageDimPosts.group()
   let finalGroup = remove_empty_bins(postsByPLanguageGroup)
@@ -263,7 +262,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   let barChart = dc.barChart(view.querySelector("#chart3"))
   
   barChart
-    .width(950).height(400).gap(30)
+    .width(600).height(300).gap(15)
     .margins({top: 30, right: 50, bottom: 25, left: 40})
     .dimension(pLanguageDimPosts)
     .group(finalGroup)
@@ -281,13 +280,16 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   return view     
 }
 );
-  main.variable(observer()).define(["html"], function(html){return(
-html`
+  main.variable(observer("by_world")).define("by_world", ["html"], function(html)
+{
+  let view = html`
   <div class='row' style='margin: 10px 20px;'>
     <h5>Map of Posts in World</h5>
-    <div class='col-md-12' id='mapid' style="min-height: 500px;"></div>
+    <div class='col-md-12' id='mapid' style="min-height: 500px; max-width: 850px"></div>
   </div>`
-)});
+  return view
+}
+);
   main.variable(observer("myMapVis")).define("myMapVis", ["initializingMap","L","getCountryValue","worldGeoJson","mapStyle"], function(initializingMap,L,getCountryValue,worldGeoJson,mapStyle)
 {
   initializingMap() 
@@ -340,7 +342,7 @@ html`
 );
   main.variable(observer("legend")).define("legend", ["L","mapColors","colorScale","d3","outlierMapColor","myMapVis"], function(L,mapColors,colorScale,d3,outlierMapColor,myMapVis)
 {
-  let legendControl = L.control({position: 'bottomright'});
+  let legendControl = L.control({position: 'bottomleft'});
 
 	legendControl.onAdd = function (map) {
 		let div = L.DomUtil.create('div', 'info legend'), labels = [], n = mapColors.length, from, to;
