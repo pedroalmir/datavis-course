@@ -5,15 +5,30 @@ library(LDAvis)
 library(jsonlite)
 library(rjson)
 
+myhclust <- function(doc.topics, topic.words, labels, balance = 0.3) {
+  ## transpose and normalize the doc topics
+  topic.docs <- t(doc.topics)
+  topic.docs <- topic.docs / rowSums(topic.docs)
+
+  hclust(balance * dist(topic.words) + (1.0 - balance) * dist(topic.docs), method="centroid", members=labels)
+}
+
 HCtoJSON <- function(hc, labels){
 
   merge <- data.frame(hc$merge)
+  print(merge)
 
   for (i in (1:nrow(merge))) {    
-    if (merge[i,1]<0 & merge[i,2]<0) {eval(parse(text=paste0("node", i, "<-list(name=\"node", i, "\", children=list(list(name=labels[-merge[i,1]]),list(name=labels[-merge[i,2]])))")))}
-    else if (merge[i,1]>0 & merge[i,2]<0) {eval(parse(text=paste0("node", i, "<-list(name=\"node", i, "\", children=list(node", merge[i,1], ", list(name=labels[-merge[i,2]])))")))}
-    else if (merge[i,1]<0 & merge[i,2]>0) {eval(parse(text=paste0("node", i, "<-list(name=\"node", i, "\", children=list(list(name=labels[-merge[i,1]]), node", merge[i,2],"))")))}
-    else if (merge[i,1]>0 & merge[i,2]>0) {eval(parse(text=paste0("node", i, "<-list(name=\"node", i, "\", children=list(node",merge[i,1] , ", node" , merge[i,2]," ))")))}
+    if (merge[i,1]<0 & merge[i,2]<0){
+	print(paste("node", i, labels[-merge[i,1]], labels[-merge[i,2]], sep=" "))
+	eval(parse(text=paste0("node", i, "<-list(name=\"node", i, "\", children=list(list(name=labels[-merge[i,1]]),list(name=labels[-merge[i,2]])))")))
+    }else if (merge[i,1]>0 & merge[i,2]<0){
+	eval(parse(text=paste0("node", i, "<-list(name=\"node", i, "\", children=list(node", merge[i,1], ", list(name=labels[-merge[i,2]])))")))
+    }else if (merge[i,1]<0 & merge[i,2]>0){
+	eval(parse(text=paste0("node", i, "<-list(name=\"node", i, "\", children=list(list(name=labels[-merge[i,1]]), node", merge[i,2],"))")))
+    }else if (merge[i,1]>0 & merge[i,2]>0){
+	eval(parse(text=paste0("node", i, "<-list(name=\"node", i, "\", children=list(node",merge[i,1] , ", node" , merge[i,2]," ))")))
+    }
   }
   
   eval(parse(text=paste0("JSON<-toJSON(node",nrow(merge), ")")))
@@ -107,21 +122,22 @@ executeLDA <- function(nTopics, dataFilePath, stopWordsPath, outputBasePath, roo
    jsonLDA <- LDAvis::createJSON(phi = json$phi, theta = json$theta, doc.length = json$doc.length, vocab = json$vocab, term.frequency = json$term.frequency)
 
    # see help("serVis") for more details
-   library(gistr)
-   LDAvis::serVis(jsonLDA, out.dir = outputDirPath, open.browser = FALSE, as.gist = FALSE)
+   #library(gistr)
+   #LDAvis::serVis(jsonLDA, out.dir = outputDirPath, open.browser = FALSE, as.gist = FALSE)
 
-   topic.labels <- mallet.topic.labels(topic.model, topic.words, 3)
-   clusters = mallet.topic.hclust(doc.topics, topic.words, 0.3)
-   #plot(clusters, labels = topic.labels)
+   clusters <- myhclust(doc.topics, topic.words, topic.labels, 0.3)
+
+   #clusters = mallet.topic.hclust(doc.topics, topic.words, 0.3)
+   plot(clusters, labels = topic.labels)
 
    #halfway <- hclustToTree(clusters, topic.labels)
    #jsonTree <- toJSON(halfway)
    jsonTree <- HCtoJSON(clusters, topic.labels)
-   write(jsonTree, jsonTreeFilePath)
+   #write(jsonTree, jsonTreeFilePath)
 
-   file.copy(jsonTreeFilePath, rootPath)
-   file.copy(paste(outputDirPath, "/lda.json", sep = ""), rootPath)
-   file.rename(paste(rootPath, "lda.json", sep = ""), paste(rootPath, "lda_", nTopics,".json", sep = ""))
+   #file.copy(jsonTreeFilePath, rootPath)
+   #file.copy(paste(outputDirPath, "/lda.json", sep = ""), rootPath)
+   #file.rename(paste(rootPath, "lda.json", sep = ""), paste(rootPath, "lda_", nTopics,".json", sep = ""))
 }
 
 dataFilePath1 <- "D:/Git/datavis-course/trabalho_final/data/PostsTreated.csv"
@@ -135,7 +151,8 @@ outputBasePath2 <- "D:/Git/datavis-course/trabalho_final/data/mallet/openDiscuss
 
 stopWordsPath <- "D:/Git/datavis-course/trabalho_final/lda/stop_words.txt"
 
-nTopicsList <- c(3,4,6,8,12,16,24,32,48,64,96,128,192,256,384,512)
+#nTopicsList <- c(3,4,6,8,12,16,24,32,48,64,96,128,192,256,384,512)
+nTopicsList <- c(3)
 
 for (i in 1:length(nTopicsList)) {
    print(paste("Iteration", i, ": topics-", nTopicsList[i], sep = ""))
@@ -145,10 +162,10 @@ for (i in 1:length(nTopicsList)) {
 
 print("##########################")
 
-for (i in 1:length(nTopicsList)) {
-   print(paste("Iteration", i, ": topics-", nTopicsList[i], sep = ""))
-   nTopics <- nTopicsList[i]
-   executeLDA(nTopics, dataFilePath2, stopWordsPath, outputBasePath2, rootPath2)
-}
+#for (i in 1:length(nTopicsList)) {
+#   print(paste("Iteration", i, ": topics-", nTopicsList[i], sep = ""))
+#   nTopics <- nTopicsList[i]
+#   executeLDA(nTopics, dataFilePath2, stopWordsPath, outputBasePath2, rootPath2)
+#}
 
 ## End(Not run)

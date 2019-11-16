@@ -20,6 +20,22 @@ Code to reorganize from notebook:
 	   import {printList} from '@spencermountain/nlp-compromise'
 	3. nlp = require('compromise')
 	
+LDA Multidimensional Scaling
+	https://medium.com/@josephimperial/the-multidimensional-scaling-mds-algorithm-for-dimensionality-reduction-9211f7fa5345
+	https://www.youtube.com/watch?v=Qnk0vVpqoNY
+	
+	https://www.youtube.com/watch?v=UkmIljRIG_M
+	[...] the size of the circles and the location of the circles don't give you any information;
+	[...] inter topic similarity matrix projected in two dimensions;
+	[...] principal components
+	[...] these axis should not be here
+	
+	
+d3-hierarchy
+	https://observablehq.com/@d3/d3-hierarchy
+	https://observablehq.com/@d3/zoomable-icicle
+	https://observablehq.com/@bstaats/arc-diagram
+	
 Code replaced:
 
 	1. words = toWords(docs.nouns().out('topk')).sort((a,b) => b.freq - a.freq).slice(0, 100)
