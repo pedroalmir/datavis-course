@@ -1,4 +1,4 @@
-// https://observablehq.com/d/22466d58aaebf35f@2147
+// https://observablehq.com/d/22466d58aaebf35f@2160
 import define1 from "./576f8943dbfbd395@109.js";
 import define2 from "./2683d7ccbaaf16d5@258.js";
 import define3 from "./e93997d5089d7165@2200.js";
@@ -6,7 +6,7 @@ import define3 from "./e93997d5089d7165@2200.js";
 export default function define(runtime, observer) {
   const main = runtime.module();
   main.variable(observer()).define(["md"], function(md){return(
-md`## Ten years of eHealth on Stack Overflow (Dashboard)`
+md`# Ten years of eHealth on Stack Overflow (Dashboard)`
 )});
   main.variable(observer()).define(["html"], function(html){return(
 html`<code>css</code> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="crossorigin=""/>`
@@ -282,12 +282,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
 );
   main.variable(observer("by_world")).define("by_world", ["html"], function(html)
 {
-  let view = html`
-  <div class='row' style='margin: 10px 20px;'>
-    <h5>Map of Posts in World</h5>
-    <div class='col-md-12' id='mapid' style="min-height: 500px; max-width: 850px"></div>
-  </div>`
-  return view
+  return html`<div id='mapid' style="min-height: 500px; max-width: 850px"></div>`
 }
 );
   main.variable(observer("myMapVis")).define("myMapVis", ["initializingMap","L","getCountryValue","worldGeoJson","mapStyle"], function(initializingMap,L,getCountryValue,worldGeoJson,mapStyle)
@@ -1165,7 +1160,7 @@ d3.scaleQuantize().domain([0, 77]).range(mapColors)
 )});
   main.variable(observer("container")).define("container", function(){return(
 function container(id, title) { 
-  return `<div class='row' style='margin: 10px 20px;'><div class='col-md-12' id='${id}'><h5>${title}</h5></div></div>`
+  return `<div><div id='${id}'></div></div>`
 }
 )});
   main.variable(observer("remove_empty_bins")).define("remove_empty_bins", function(){return(
