@@ -373,8 +373,14 @@
           // Load the notebook, observing its cells with a default Inspector
           // that simply renders the value of each cell into the provided DOM node.
           new Runtime().module(notebook, name => {
-            if (name === "by_year") {
+            if(name === "by_year") {
               return new Inspector(document.querySelector("#postByYear"));
+            }else if(name === "by_world"){
+              return new Inspector(document.querySelector("#postInWorld"));
+            }else if(name === "by_os"){
+              return new Inspector(document.querySelector("#postByOS"));
+            }else if(name === "by_pLanguage"){
+              return new Inspector(document.querySelector("#postByProgLang"));
             }
           });
         </script>
