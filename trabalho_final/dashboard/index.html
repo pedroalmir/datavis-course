@@ -325,6 +325,7 @@
                   <h6 class="m-0 font-weight-bold text-primary">Posts in World</h6>
                 </div>
                 <div class="card-body">
+                  <div id="createMap" style="display: none;"></div>
                   <div id="postInWorld"></div>
                 </div>
               </div>
@@ -362,6 +363,7 @@
             </div>
           </div>
         </div>
+        
         <!-- /.container-fluid -->
         <script type="module">
           // Load the Observable runtime and inspector.
@@ -377,6 +379,8 @@
               return new Inspector(document.querySelector("#postByYear"));
             }else if(name === "by_world"){
               return new Inspector(document.querySelector("#postInWorld"));
+            }else if(name === "myMapVis"){
+              return new Inspector(document.querySelector("#createMap"));
             }else if(name === "by_os"){
               return new Inspector(document.querySelector("#postByOS"));
             }else if(name === "by_pLanguage"){
