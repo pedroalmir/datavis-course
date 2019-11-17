@@ -197,7 +197,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   let barChart = dc.barChart(view.querySelector("#chart1"))
   
   barChart
-    .width(850).height(400).gap(30)
+    .width(byYearWidth).height(400).gap(30)
     .margins({top: 30, right: 50, bottom: 25, left: 40})
     .dimension(factsAndDims.dateDimPosts)
     .group(factsAndDims.postsByYearGroup)
