@@ -692,13 +692,8 @@ DOM.download(() => serialize(treeChartSVG.svg[0][0]), undefined, "Save as SVG")
   main.variable(observer("treeChart")).define("treeChart", ["postsMalletModel","tNumberSelect","d3t","treeChartSVG","d3"], function(postsMalletModel,tNumberSelect,d3t,treeChartSVG,d3)
 {
 // ************** Generate the tree diagram	 *****************
-var treeData = postsMalletModel.myTrees['topic' + tNumberSelect]
-  $("#topicNumberInput").change(function() {
-    var tNumberSelect = $(this).children("option:selected").val();
-    treeData = postsMalletModel.myTrees['topic' + tNumberSelect];
-    update(root);
-  });
-
+  var treeData = postsMalletModel.myTrees['topic' + tNumberSelect]
+  
   let treeChartWidth = Math.floor($($('#treeContainer').parent().get(0)).width());
   
   var i = 0, duration = 1000, root;
@@ -720,8 +715,23 @@ var treeData = postsMalletModel.myTrees['topic' + tNumberSelect]
   root.y0 = 0;
   
   update(root);
+
+  $("#topicNumberInput").change(function() {
+    var tNumberSelect = $(this).children("option:selected").val();
+    treeData = postsMalletModel.myTrees['topic' + tNumberSelect];
+    d3t.select("#treeContainer").html("");
+    var svg = d3t.select("#treeContainer").append("svg")
+	    .attr("width", width + margin.right + margin.left)
+	    .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+	    .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+    root = treeData[0];
+    root.x0 = height / 2;
+    root.y0 = 0;
   
-  treeChartSVG.svg = svg;
+    update(root);
+  });
 
   function update(source) {
     // Compute the new tree layout.
