@@ -194,7 +194,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
 );
   main.variable(observer("by_year")).define("by_year", ["md","container","dc","factsAndDims","d3"], function(md,container,dc,factsAndDims,d3)
 {
-  let byYearWidth = Math.floor($($('#postByYear').parent().get(0)).width() - 20);
+  let byYearWidth = Math.floor($($('#postByYear').parent().get(0)).width());
   let view = md`${container('chart1','Number of eHealth-related Posts by Year in Stack Overflow Website')}`
   let barChart = dc.barChart(view.querySelector("#chart1"))
   
@@ -203,7 +203,6 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
     .margins({top: 30, right: 50, bottom: 25, left: 40})
     .dimension(factsAndDims.dateDimPosts)
     .group(factsAndDims.postsByYearGroup)
-    .yAxisLabel("Posts by Year")
     .x(d3.scaleBand()).xUnits(dc.units.ordinal)
     .renderHorizontalGridLines(true)
     .controlsUseVisibility(true)
@@ -218,6 +217,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
 );
   main.variable(observer("by_os")).define("by_os", ["crossfilter","myData","remove_empty_bins","md","container","dc","d3"], function(crossfilter,myData,remove_empty_bins,md,container,dc,d3)
 {
+  let byOSWidth = Math.floor($($('#postByOS').parent().get(0)).width());
   let facts = crossfilter(myData.posts)
   let osDimPosts = facts.dimension(d => d.os)
   let filter = facts.dimension(d => d.os).filter(function(d){ return d !== 'Unknown';})
@@ -229,11 +229,10 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   let barChart = dc.barChart(view.querySelector("#chart2"))
   
   barChart
-    .width(600).height(300).gap(30)
+    .width(byOSWidth).height(300).gap(30)
     .margins({top: 30, right: 50, bottom: 25, left: 40})
     .dimension(osDimPosts)
     .group(finalOSGroup)
-    .yAxisLabel("Posts by Operational System")
     .x(d3.scaleBand()).xUnits(dc.units.ordinal)
     .ordering(function(d) { return -d.value; })
     .renderHorizontalGridLines(true)
@@ -251,6 +250,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
 );
   main.variable(observer("by_pLanguage")).define("by_pLanguage", ["crossfilter","myData","remove_empty_bins","md","container","dc","d3"], function(crossfilter,myData,remove_empty_bins,md,container,dc,d3)
 {
+  let byPLWidth = Math.floor($($('#postByProgLang').parent().get(0)).width());
   let facts = crossfilter(myData.posts)
   let pLanguageDimPosts = facts.dimension(d => d.pLanguage);
   let filter = facts.dimension(d => d.pLanguage)
@@ -264,11 +264,10 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   let barChart = dc.barChart(view.querySelector("#chart3"))
   
   barChart
-    .width(600).height(300).gap(15)
+    .width(byPLWidth).height(300).gap(15)
     .margins({top: 30, right: 50, bottom: 25, left: 40})
     .dimension(pLanguageDimPosts)
     .group(finalGroup)
-    .yAxisLabel("Posts by Programming Language")
     .x(d3.scaleBand()).xUnits(dc.units.ordinal)
     .ordering(function(d) { return -d.value; })
     .renderHorizontalGridLines(true)
@@ -284,7 +283,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
 );
   main.variable(observer("by_world")).define("by_world", ["html"], function(html)
 {
-  return html`<div id='mapid' style="min-height: 500px; max-width: 850px"></div>`
+  return html`<div id='mapid' style="min-height: 500px; width: 100%"></div>`
 }
 );
   main.variable(observer("myMapVis")).define("myMapVis", ["initializingMap","L","getCountryValue","worldGeoJson","mapStyle"], function(initializingMap,L,getCountryValue,worldGeoJson,mapStyle)
