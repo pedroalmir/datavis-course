@@ -316,7 +316,7 @@
                   <h6 class="m-0 font-weight-bold text-primary">LDAvis</h6>
                 </div>
                 <div class="card-body">
-                  <div id="postByYear"></div>
+                  <div id="ldaVisContainer"></div>
                 </div>
               </div>
               <div class="card shadow mb-4">
@@ -324,7 +324,7 @@
                   <h6 class="m-0 font-weight-bold text-primary">Topic Tree</h6>
                 </div>
                 <div class="card-body">
-                  <div id="postInWorld"></div>
+                  <div id="treeContainer"></div>
                 </div>
               </div>
             </div>
@@ -360,20 +360,22 @@
         </div>
         <!-- /.container-fluid -->
         <script type="module">
-          // Load the Observable runtime and inspector.
-          import {Runtime, Inspector} from "https://cdn.jsdelivr.net/npm/@observablehq/runtime@4/dist/runtime.js";
-      
-          // Your notebook, compiled as an ES module.
-          import notebook from "";
-      
-          // Load the notebook, observing its cells with a default Inspector
-          // that simply renders the value of each cell into the provided DOM node.
-          new Runtime().module(notebook, name => {
-            if (name === "barras1") {
-              return new Inspector(document.querySelector("#nTest"));
-            }
-          });
-        </script>
+            // Load the Observable runtime and inspector.
+            import {Runtime, Library, Inspector} from "./notebook/runtime.js";
+        
+            // Your notebook, compiled as an ES module.
+            import notebook from "./notebook/22466d58aaebf35f@2160.js";
+  
+            // Load the notebook, observing its cells with a default Inspector
+            // that simply renders the value of each cell into the provided DOM node.
+            new Runtime().module(notebook, name => {
+              if(name === "vizContainer") {
+                return new Inspector(document.querySelector("#ldaVisContainer"));
+              }else if(name === "treeChart"){
+                return new Inspector(document.querySelector("#treeContainer"));
+              }
+            });
+          </script>
       </div>
       <!-- End of Main Content -->
 
