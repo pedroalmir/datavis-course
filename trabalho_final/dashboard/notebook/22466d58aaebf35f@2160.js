@@ -692,10 +692,18 @@ DOM.download(() => serialize(treeChartSVG.svg[0][0]), undefined, "Save as SVG")
   main.variable(observer("treeChart")).define("treeChart", ["postsMalletModel","tNumberSelect","d3t","treeChartSVG","d3"], function(postsMalletModel,tNumberSelect,d3t,treeChartSVG,d3)
 {
 // ************** Generate the tree diagram	 *****************
+var treeData = postsMalletModel.myTrees['topic' + tNumberSelect]
+  $("#topicNumberInput").change(function() {
+    var tNumberSelect = $(this).children("option:selected").val();
+    treeData = postsMalletModel.myTrees['topic' + tNumberSelect];
+    update(root);
+  });
+
+  let treeChartWidth = Math.floor($($('#treeContainer').parent().get(0)).width());
+  
   var i = 0, duration = 1000, root;
-  var height = 1000, width = 720;
+  var height = 1000, width = treeChartWidth;
   var margin = ({top: 20, right: 120, bottom: 20, left: 120});
-  var treeData = postsMalletModel.myTrees['topic' + tNumberSelect]
 
   var tree = d3t.layout.tree().size([height, width]);
   var diagonal = d3t.svg.diagonal().projection(function(d) { return [d.y, d.x]; });
