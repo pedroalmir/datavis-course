@@ -280,7 +280,9 @@
                   <h6 class="m-0 font-weight-bold text-primary">LDAvis</h6>
                 </div>
                 <div class="card-body">
-                  <div id="ldaVisContainer" class="ldavis_container" style="height: 760px; width: 100%"></div>
+                  <div class='row' style='margin: 10px 20px;'>
+                    <div id="ldaVisContainer" class="ldavis_container" style="height: 760px; width: 100%"></div>
+                  </div>
                 </div>
               </div>
               <div class="card shadow mb-4">
@@ -348,8 +350,6 @@
                 return new Inspector(document.querySelector("#execVisNone"));
               }else if(name === "treeChart"){
                 return new Inspector(document.querySelector("#execVisNone"));
-              }else if(name === "tNumberSelect"){
-                return new Inspector(document.querySelector("#selectTopicNumberDiv"));
               }else if(name === "wordCloud"){
                 return new Inspector(document.querySelector("#wordCloud"));
               }
