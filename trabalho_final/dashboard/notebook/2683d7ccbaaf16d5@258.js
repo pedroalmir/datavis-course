@@ -14,7 +14,7 @@ md`# LDAvis`
 'use strict';
 
 var LDAvis = function(to_select, data_or_file_name) {
-    let LDAvisWidth = Math.floor($($('#ldaVisContainer').parent().parent().get(0)).width());  
+    let LDAvisWidth = Math.floor($($('#ldaVisContainer').parent().parent().get(0)).width()) - 40;  
     // This section sets up the logic for event handling
     var current_clicked = {
         what: "nothing",

@@ -299,26 +299,29 @@
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">More Information about LDAvis</h6>
                 </div>
-                <div class="card-body">
+                <div class="card-body">    
                   <div class="row">
-                    <div id="selectTopicNumberDiv" class="col-lg-12">
-                        <div><div style="font: 700 0.9rem sans-serif;">Topic Number</div>
-                        <select name="tNumberSelect">
-                          <option value="3">3</option><option value="4">4</option><option value="6">6</option><option value="8">8</option><option value="12">12</option><option value="16">16</option><option value="24">24</option><option value="32">32</option><option value="48">48</option><option value="64">64</option><option value="96">96</option><option value="128">128</option><option value="192">192</option><option value="256">256</option><option value="384">384</option><option value="512">512</option>
-                        </select>
-                        <div style="font-size: 0.85rem; font-style: italic;">Please select a number of topic to visualize.</div></div>
+                    <div class="col-lg-12">
+                      <p class="text-justify" style="margin: 0;font-size: 14px;">Lorem Ipsum is simply dummy text of the printing and 
+                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
+                        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
                     </div>
                   </div>    
                   <div class="row">
-                      <div class="col-lg-12">
-                          <p class="text-justify" style="margin: 0;font-size: 14px;">Lorem Ipsum is simply dummy text of the printing and 
-                              typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-                              unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                              five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
-                              in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                              publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
-                      </div>
-                    </div>    
+                    <div id="selectTopicNumberDiv" class="col-lg-12">
+                      <form>
+                        <div class="form-group">
+                          <label for="topicNumberInput">Topic Number</label>
+                          <select name="tNumberSelect" id="topicNumberInput" aria-describedby="topicHelp" class="form-control">
+                            <option value="3">3</option><option value="4">4</option><option value="6">6</option><option value="8">8</option><option value="12">12</option><option value="16">16</option><option value="24">24</option><option value="32">32</option><option value="48">48</option><option value="64">64</option><option value="96">96</option><option value="128">128</option><option value="192">192</option><option value="256">256</option><option value="384">384</option><option value="512">512</option>
+                          </select>
+                        </div>
+                      </form>
+                    </div>
+                  </div>
                 </div>
               </div>
               <div class="card shadow mb-2">

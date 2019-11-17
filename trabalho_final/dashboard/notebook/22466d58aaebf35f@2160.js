@@ -623,8 +623,15 @@ DOM.download(() => serialize(treeChartSVG.svg[0][0]), undefined, "Save as SVG")
   main.import("serialize", child1);
   main.variable(observer("vizContainer")).define("vizContainer", ["d3","LDAvis","postsMalletModel","tNumberSelect"], function(d3,LDAvis,postsMalletModel,tNumberSelect)
 {
+
   d3.select("#ldaVisContainer").html("");
   new LDAvis('#ldaVisContainer', postsMalletModel.lda['topic' + tNumberSelect]);
+
+  $("#topicNumberInput").change(function() {
+    var tNumberSelect = $(this).children("option:selected").val();
+    d3.select("#ldaVisContainer").html("");
+    new LDAvis('#ldaVisContainer', postsMalletModel.lda['topic' + tNumberSelect]);
+  });
 }
 );
   main.variable(observer("dendrogram")).define("dendrogram", ["tree","postsMalletModel","tNumberSelect","d3"], function(tree,postsMalletModel,tNumberSelect,d3)
