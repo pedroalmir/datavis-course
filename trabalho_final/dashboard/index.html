@@ -659,7 +659,7 @@ div.dc-html-legend {
                   <h6 class="m-0 font-weight-bold text-primary">Posts in World</h6>
                 </div>
                 <div class="card-body">
-                  <div id="createMap" style="display: none;"></div>
+                  <div id="execVisNone" style="display: none;"></div>
                   <div id="postInWorld"></div>
                 </div>
               </div>
@@ -714,9 +714,9 @@ div.dc-html-legend {
             }else if(name === "by_world"){
               return new Inspector(document.querySelector("#postInWorld"));
             }else if(name === "myMapVis"){
-              return new Inspector(document.querySelector("#createMap"));
+              return new Inspector(document.querySelector("#execVisNone"));
             }else if(name === "legend"){
-              return new Inspector(document.querySelector("#createMap"));
+              return new Inspector(document.querySelector("#execVisNone"));
             }else if(name === "by_os"){
               return new Inspector(document.querySelector("#postByOS"));
             }else if(name === "by_pLanguage"){

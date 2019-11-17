@@ -333,30 +333,33 @@
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">More Information about LDAvis</h6>
                 </div>
-                <div class="card-body" id="nTest">    
-                  <p class="text-justify" style="margin: 0;font-size: 14px;">Lorem Ipsum is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-                    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
-                    in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                <div class="card-body">
+                  <div class="row">
+                    <div id="selectTopicNumberDiv" class="col-lg-12"></div>
+                  </div>    
+                  <div class="row">
+                      <div class="col-lg-12">
+                          <p class="text-justify" style="margin: 0;font-size: 14px;">Lorem Ipsum is simply dummy text of the printing and 
+                              typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
+                              unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
+                              five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
+                              in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
+                              publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                      </div>
+                    </div>    
                 </div>
               </div>
               <div class="card shadow mb-2">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">More Information about Topic Tree</h6>
+                  <h6 class="m-0 font-weight-bold text-primary">Word Cloud</h6>
                 </div>
-                <div class="card-body" id="nTest">    
-                  <p class="text-justify" style="margin: 0;font-size: 14px;">Lorem Ipsum is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-                    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
-                    in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                <div class="card-body">
+                  <div id="wordCloud"></div>
                 </div>
               </div>
             </div>
           </div>
+          <div id="execVisNone" style="display: none;"></div>
         </div>
         <!-- /.container-fluid -->
         <script type="module">
@@ -370,9 +373,15 @@
             // that simply renders the value of each cell into the provided DOM node.
             new Runtime().module(notebook, name => {
               if(name === "vizContainer") {
-                return new Inspector(document.querySelector("#ldaVisContainer"));
+                return new Inspector(document.querySelector("#execVisNone"));
+              }else if(name === "treeData"){
+                return new Inspector(document.querySelector("#execVisNone"));
               }else if(name === "treeChart"){
-                return new Inspector(document.querySelector("#treeContainer"));
+                return new Inspector(document.querySelector("#execVisNone"));
+              }else if(name === "tNumberSelect"){
+                return new Inspector(document.querySelector("#selectTopicNumberDiv"));
+              }else if(name === "wordCloud"){
+                return new Inspector(document.querySelector("#wordCloud"));
               }
             });
           </script>
