@@ -837,8 +837,11 @@ d3.json(URLbase + 'data/json/words.json')
 )});
   main.variable(observer("createWordCloudSvg")).define("createWordCloudSvg", ["d3cloud","width","cloudConfig","cloudScale","rotateWord","baseFont","fontSize","d3","DOM"], function(d3cloud,width,cloudConfig,cloudScale,rotateWord,baseFont,fontSize,d3,DOM){return(
 function createWordCloudSvg(words) {
+
+  let wordCloudWidth = Math.floor($($('#wordCloud').parent().get(0)).width());  
+
   var layout = d3cloud()
-    .size([width, width * 9/16]) 
+    .size([wordCloudWidth, wordCloudWidth * 9/16]) 
     .words(words)
     .padding(cloudConfig.padding * cloudScale)
     .rotate(rotateWord)
