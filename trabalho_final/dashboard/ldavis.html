@@ -356,6 +356,13 @@
                 return new Inspector(document.querySelector("#wordCloud"));
               }
             });
+            $("#topicNumberInput").change(function() {
+              new Runtime().module(notebook, name => {
+                if(name === "treeChart"){
+                  return new Inspector(document.querySelector("#execVisNone"));
+                }
+              });
+            });
           </script>
       </div>
       <!-- End of Main Content -->
