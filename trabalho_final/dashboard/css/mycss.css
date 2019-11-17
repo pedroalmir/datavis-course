@@ -1,0 +1,371 @@
+/* Always set the map height explicitly to define the size of the div
+     * element that contains the map. */
+     #map {
+        height: 100%;
+      }
+      /* Optional: Makes the sample page fill the window. */
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+  
+      .qualis_wrapper {
+        column-count: 2;
+        column-gap: 50px;
+        padding: 50px;
+      }
+  
+      .qualis_p {
+        line-height: 1.6; 
+        font-family: Helvetica;
+        text-align: justify;
+        margin: 0;
+        font-size: 14px;
+      }
+  
+      .qualis {
+        float: left;
+        width: 250px;
+        shape-margin:20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+  
+      .table > tbody > tr > td {
+        vertical-align: middle;
+      }
+      .node {
+          cursor: pointer;
+      }
+  
+      .node circle {
+        fill: #fff;
+        stroke: steelblue;
+        stroke-width: 3px;
+      }
+  
+      .node text {
+        font: 12px sans-serif;
+      }
+  
+      .link {
+        fill: none;
+        stroke: #ccc;
+        stroke-width: 2px;
+      }
+  
+  /* Taken from https://github.com/cpsievert/LDAvis */
+  /* Copyright 2013, AT&T Intellectual Property */
+  /* MIT Licence */
+  .ldavis_container path {
+    fill: none;
+    stroke: none;
+  }
+  
+  .ldavis_container .xaxis .tick.major {
+      fill: black;
+      stroke: black;
+      stroke-width: 0.1;
+      opacity: 0.7;
+  }
+  
+  .ldavis_container .slideraxis {
+      fill: black;
+      stroke: black;
+      stroke-width: 0.4;
+      opacity: 1;
+  }
+  
+  .ldavis_container text {
+      font-family: sans-serif;
+      font-size: 11px;
+  }
+  
+  /*om: smaller font */
+  .ldavis_container * {
+     font-size: 11px;
+  }
+  
+  /*om: so that the "lambda box is right aligned */
+  .ldavis_container div {
+      margin-right: 0px;
+  }
+  
+  .info {
+    padding: 6px 8px;
+    font: 14px/16px Arial, Helvetica, sans-serif;
+    background: white;
+    background: rgba(255,255,255,0.8);
+    box-shadow: 0 0 15px rgba(0,0,0,0.2);
+    border-radius: 5px;
+  }
+  
+  .info h4 {
+    margin: 0 0 5px;
+    color: #777;
+  }
+  
+  .legend {
+    text-align: left;
+    line-height: 18px;
+    color: #555;
+  }
+  .legend i {
+    width: 18px;
+    height: 18px;
+    float: left;
+    margin-right: 8px;
+    opacity: 0.7;
+  }
+  
+  #chart4 g.row text {
+      fill: black !important;
+  }
+  .dc-chart path.dc-symbol, .dc-legend g.dc-legend-item.fadeout {
+    fill-opacity: 0.5;
+    stroke-opacity: 0.5; }
+  
+  .dc-chart rect.bar {
+    stroke: none;
+    cursor: pointer; }
+    .dc-chart rect.bar:hover {
+      fill-opacity: .5; }
+  
+  .dc-chart rect.deselected {
+    stroke: none;
+    fill: #ccc; }
+  
+  .dc-chart .pie-slice {
+    fill: #fff;
+    font-size: 12px;
+    cursor: pointer; }
+    .dc-chart .pie-slice.external {
+      fill: #000; }
+    .dc-chart .pie-slice :hover, .dc-chart .pie-slice.highlight {
+      fill-opacity: .8; }
+  
+  .dc-chart .pie-path {
+    fill: none;
+    stroke-width: 2px;
+    stroke: #000;
+    opacity: 0.4; }
+  
+  .dc-chart .selected path, .dc-chart .selected circle {
+    stroke-width: 3;
+    stroke: #ccc;
+    fill-opacity: 1; }
+  
+  .dc-chart .deselected path, .dc-chart .deselected circle {
+    stroke: none;
+    fill-opacity: .5;
+    fill: #ccc; }
+  
+  .dc-chart .axis path, .dc-chart .axis line {
+    fill: none;
+    stroke: #000;
+    shape-rendering: crispEdges; }
+  
+  .dc-chart .axis text {
+    font: 12px sans-serif !important; }
+  
+  .dc-chart .grid-line, .dc-chart .axis .grid-line, .dc-chart .grid-line line, .dc-chart .axis .grid-line line {
+    fill: none;
+    stroke: #ccc;
+    shape-rendering: crispEdges; }
+  
+  .dc-chart .brush rect.selection {
+    fill: #4682b4;
+    fill-opacity: .125; }
+  
+  .dc-chart .brush .custom-brush-handle {
+    fill: #eee;
+    stroke: #666;
+    cursor: ew-resize; }
+  
+  .dc-chart path.line {
+    fill: none;
+    stroke-width: 1.5px; }
+  
+  .dc-chart path.area {
+    fill-opacity: .3;
+    stroke: none; }
+  
+  .dc-chart path.highlight {
+    stroke-width: 3;
+    fill-opacity: 1;
+    stroke-opacity: 1; }
+  
+  .dc-chart g.state {
+    cursor: pointer; }
+    .dc-chart g.state :hover {
+      fill-opacity: .8; }
+    .dc-chart g.state path {
+      stroke: #fff; }
+  
+  .dc-chart g.deselected path {
+    fill: #808080; }
+  
+  .dc-chart g.deselected text {
+    display: none; }
+  
+  .dc-chart g.row rect {
+    fill-opacity: 0.8;
+    cursor: pointer; }
+    .dc-chart g.row rect:hover {
+      fill-opacity: 0.6; }
+  
+  .dc-chart g.row text {
+    fill: #fff;
+    font-size: 12px;
+    cursor: pointer; }
+  
+  .dc-chart g.dc-tooltip path {
+    fill: none;
+    stroke: #808080;
+    stroke-opacity: .8; }
+  
+  .dc-chart g.county path {
+    stroke: #fff;
+    fill: none; }
+  
+  .dc-chart g.debug rect {
+    fill: #00f;
+    fill-opacity: .2; }
+  
+  .dc-chart g.axis text {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none; }
+  
+  .dc-chart .node {
+    font-size: 0.7em;
+    cursor: pointer; }
+    .dc-chart .node :hover {
+      fill-opacity: .8; }
+  
+  .dc-chart .bubble {
+    stroke: none;
+    fill-opacity: 0.6; }
+  
+  .dc-chart .highlight {
+    fill-opacity: 1;
+    stroke-opacity: 1; }
+  
+  .dc-chart .fadeout {
+    fill-opacity: 0.2;
+    stroke-opacity: 0.2; }
+  
+  .dc-chart .box text {
+    font: 10px sans-serif;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    pointer-events: none; }
+  
+  .dc-chart .box line {
+    fill: #fff; }
+  
+  .dc-chart .box rect, .dc-chart .box line, .dc-chart .box circle {
+    stroke: #000;
+    stroke-width: 1.5px; }
+  
+  .dc-chart .box .center {
+    stroke-dasharray: 3, 3; }
+  
+  .dc-chart .box .data {
+    stroke: none;
+    stroke-width: 0px; }
+  
+  .dc-chart .box .outlier {
+    fill: none;
+    stroke: #ccc; }
+  
+  .dc-chart .box .outlierBold {
+    fill: red;
+    stroke: none; }
+  
+  .dc-chart .box.deselected {
+    opacity: 0.5; }
+    .dc-chart .box.deselected .box {
+      fill: #ccc; }
+  
+  .dc-chart .symbol {
+    stroke: none; }
+  
+  .dc-chart .heatmap .box-group.deselected rect {
+    stroke: none;
+    fill-opacity: 0.5;
+    fill: #ccc; }
+  
+  .dc-chart .heatmap g.axis text {
+    pointer-events: all;
+    cursor: pointer; }
+  
+  .dc-chart .empty-chart .pie-slice {
+    cursor: default; }
+    .dc-chart .empty-chart .pie-slice path {
+      fill: #fee;
+      cursor: default; }
+  
+  .dc-data-count {
+    float: right;
+    margin-top: 15px;
+    margin-right: 15px; }
+    .dc-data-count .filter-count, .dc-data-count .total-count {
+      color: #3182bd;
+      font-weight: bold; }
+  
+  .dc-legend {
+    font-size: 11px; }
+    .dc-legend .dc-legend-item {
+      cursor: pointer; }
+  
+  .dc-hard .number-display {
+    float: none; }
+  
+  div.dc-html-legend {
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: inherit;
+    float: right;
+    padding-right: 2px; }
+    div.dc-html-legend .dc-legend-item-horizontal {
+      display: inline-block;
+      margin-left: 5px;
+      margin-right: 5px;
+      cursor: pointer; }
+      div.dc-html-legend .dc-legend-item-horizontal.selected {
+        background-color: #3182bd;
+        color: white; }
+    div.dc-html-legend .dc-legend-item-vertical {
+      display: block;
+      margin-top: 5px;
+      padding-top: 1px;
+      padding-bottom: 1px;
+      cursor: pointer; }
+      div.dc-html-legend .dc-legend-item-vertical.selected {
+        background-color: #3182bd;
+        color: white; }
+    div.dc-html-legend .dc-legend-item-color {
+      display: table-cell;
+      width: 12px;
+      height: 12px; }
+    div.dc-html-legend .dc-legend-item-label {
+      line-height: 12px;
+      display: table-cell;
+      vertical-align: middle;
+      padding-left: 3px;
+      padding-right: 3px;
+      font-size: 0.75em; }
+  
+  .dc-html-legend-container {
+    height: inherit; 
+}
