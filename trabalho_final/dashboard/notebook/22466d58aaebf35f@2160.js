@@ -5,6 +5,7 @@ import define3 from "./e93997d5089d7165@2200.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
+  
   main.variable(observer()).define(["md"], function(md){return(
 md`# Ten years of eHealth on Stack Overflow (Dashboard)`
 )});
@@ -193,6 +194,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
 );
   main.variable(observer("by_year")).define("by_year", ["md","container","dc","factsAndDims","d3"], function(md,container,dc,factsAndDims,d3)
 {
+  let byYearWidth = Math.floor($($('#postByYear').parent().get(0)).width() - 20);
   let view = md`${container('chart1','Number of eHealth-related Posts by Year in Stack Overflow Website')}`
   let barChart = dc.barChart(view.querySelector("#chart1"))
   
