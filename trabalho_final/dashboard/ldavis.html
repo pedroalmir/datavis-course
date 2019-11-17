@@ -280,7 +280,7 @@
                   <h6 class="m-0 font-weight-bold text-primary">LDAvis</h6>
                 </div>
                 <div class="card-body">
-                  <div id="ldaVisContainer"></div>
+                  <div id="ldaVisContainer" class="ldavis_container" style="height: 760px; width: 100%"></div>
                 </div>
               </div>
               <div class="card shadow mb-4">
@@ -299,7 +299,13 @@
                 </div>
                 <div class="card-body">
                   <div class="row">
-                    <div id="selectTopicNumberDiv" class="col-lg-12"></div>
+                    <div id="selectTopicNumberDiv" class="col-lg-12">
+                        <div><div style="font: 700 0.9rem sans-serif;">Topic Number</div>
+                        <select name="tNumberSelect">
+                          <option value="3">3</option><option value="4">4</option><option value="6">6</option><option value="8">8</option><option value="12">12</option><option value="16">16</option><option value="24">24</option><option value="32">32</option><option value="48">48</option><option value="64">64</option><option value="96">96</option><option value="128">128</option><option value="192">192</option><option value="256">256</option><option value="384">384</option><option value="512">512</option>
+                        </select>
+                        <div style="font-size: 0.85rem; font-style: italic;">Please select a number of topic to visualize.</div></div>
+                    </div>
                   </div>    
                   <div class="row">
                       <div class="col-lg-12">
