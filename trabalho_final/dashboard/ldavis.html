@@ -30,10 +30,13 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled" id="accordionSidebar">
 
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-eye"></i>
+        </div>
         <div class="sidebar-brand-text mx-3">eHealth LDAvis</div>
       </a>
 
@@ -41,9 +44,9 @@
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <i class="fas fa-fw fa-tachometer-alt" style="font-size: 20px;"></i>
           <span>Dashboard</span></a>
       </li>
 
@@ -58,24 +61,24 @@
       <!-- Nav Item - Charts -->
       <li class="nav-item">
         <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-chart-area"></i>
+          <i class="fas fa-fw fa-chart-area" style="font-size: 20px;"></i>
           <span>Basic Charts</span></a>
       </li>
 
       <!-- Nav Item - Tables -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="ldavis.html">
-          <i class="fas fa-project-diagram fa-table"></i>
+          <i class="fas fa-project-diagram fa-table" style="font-size: 20px;"></i>
           <span>LDAvis</span></a>
       </li>
 
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
 
-      <!-- Sidebar Toggler (Sidebar) -->
+      <!-- Sidebar Toggler (Sidebar) 
       <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
+      </div>-->
 
     </ul>
     <!-- End of Sidebar -->
@@ -192,77 +195,12 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+            <h1 class="h3 mb-0 text-gray-800">Ten Years of eHealth Discussions on Stack Overflow</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
           </div>
 
           <!-- Content Row -->
-          <div class="row">
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body" style="padding: 0.8rem 1.25rem;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">eHealth Posts</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">4488</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fab fa-stack-overflow fa-3x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body" style="padding: 0.8rem 1.25rem;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Discussions</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">3469</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-comments fa-3x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-info shadow h-100 py-2">
-                <div class="card-body" style="padding: 0.8rem 1.25rem;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Open Questions</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">1765</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-question-circle fa-3x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-warning shadow h-100 py-2">
-                <div class="card-body" style="padding: 0.8rem 1.25rem;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Users</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">2474</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-users fa-3x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
           <!-- Content Row -->
 
@@ -274,27 +212,8 @@
 
           <!-- Content Row -->
           <div class="row">
-            <div class="col-lg-9 mb-6">
-              <div class="card shadow mb-4">
-                <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                  <h6 class="m-0 font-weight-bold text-primary">LDAvis</h6>
-                </div>
-                <div class="card-body">
-                  <div class="row" style="margin: 10px 20px;">
-                    <div id="ldaVisContainer" class="ldavis_container" style="height: 760px; width: 100%"></div>
-                  </div>
-                </div>
-              </div>
-              <div class="card shadow mb-4">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Topic Tree</h6>
-                </div>
-                <div class="card-body">
-                  <div id="treeContainer"></div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-3 mb-2">
+            
+            <div class="col-lg-6 mb-2">
               <div class="card shadow mb-2">
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">More Information about LDAvis</h6>
@@ -323,15 +242,63 @@
                   </div>
                 </div>
               </div>
-              <div class="card shadow mb-2">
+              <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Word Cloud</h6>
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h6 class="m-0 font-weight-bold text-primary">Topic Tree</h6>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="d-flex align-items-center">
+                        <div class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="card-body">
-                  <div id="wordCloud"></div>
+                  <div id="treeContainer"></div>
                 </div>
               </div>
+              <div class="card shadow mb-2">
+                  <div class="card-header py-3">
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h6 class="m-0 font-weight-bold text-primary">Word Cloud</h6>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="d-flex align-items-center">
+                          <div class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div id="wordCloud"></div>
+                  </div>
+                </div>
             </div>
+            <div class="col-lg-6 mb-6">
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h6 class="m-0 font-weight-bold text-primary">LDAvis</h6>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="d-flex align-items-center">
+                          <div class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div class="row" style="margin: 10px 20px;">
+                      <div id="ldaVisContainer" class="ldavis_container" style="height: 730px; width: 100%"></div>
+                    </div>
+                  </div>
+                </div>
+                
+              </div>
           </div>
           <div id="execVisNone" style="display: none;"></div>
         </div>
@@ -341,27 +308,30 @@
             import {Runtime, Library, Inspector} from "./notebook/runtime.js";
         
             // Your notebook, compiled as an ES module.
-            import notebook from "./notebook/22466d58aaebf35f@2160.js";
+            import notebook from "./notebook/22466d58aaebf35f@2482.js";
   
             // Load the notebook, observing its cells with a default Inspector
             // that simply renders the value of each cell into the provided DOM node.
+            var modules = ['onChangeEvent', 'createDefaultLDAAndTree', 'createLDAvis', 'createTreeChart', 'createWordCloudSvg']
             new Runtime().module(notebook, name => {
-              if(name === "vizContainer") {
-                return new Inspector(document.querySelector("#execVisNone"));
-              }else if(name === "treeData"){
-                return new Inspector(document.querySelector("#execVisNone"));
-              }else if(name === "treeChart"){
-                return new Inspector(document.querySelector("#execVisNone"));
-              }else if(name === "wordCloud"){
-                return new Inspector(document.querySelector("#wordCloud"));
+              if(modules.includes(name)) {
+                return {
+                  pending() { 
+                    console.log("Running " + name + "...")
+                    $('.spinner-border').show();
+                  },
+                  fulfilled(value) { 
+                    console.log("Done " + name + "!")
+                    $($('#ldaVisContainer-topic-value').parent()[0]).html('Topic: <span id="ldaVisContainer-topic-value"></span>')
+                    $('.spinner-border').hide();
+                  }
+                };
               }
             });
-            $("#topicNumberInput").change(function() {
-              new Runtime().module(notebook, name => {
-                if(name === "treeChart"){
-                  return new Inspector(document.querySelector("#execVisNone"));
-                }
-              });
+          </script>
+          <script type="text/javascript">
+            $(document).ready(function() {
+              
             });
           </script>
       </div>

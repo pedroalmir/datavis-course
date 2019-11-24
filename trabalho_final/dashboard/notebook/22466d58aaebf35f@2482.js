@@ -1,30 +1,21 @@
-// https://observablehq.com/d/22466d58aaebf35f@2160
+// https://observablehq.com/d/22466d58aaebf35f@2482
 import define1 from "./576f8943dbfbd395@109.js";
 import define2 from "./2683d7ccbaaf16d5@258.js";
 import define3 from "./e93997d5089d7165@2200.js";
 
 export default function define(runtime, observer) {
   const main = runtime.module();
-  
   main.variable(observer()).define(["md"], function(md){return(
-md`# Ten years of eHealth on Stack Overflow (Dashboard)`
+md`# Ten years of eHealth on Stack Overflow (Dashboard)
+
+This work aims to analyze trends and challenges in the development of eHealth solutions, from the perspective of ICT professionals, and having as data source the Stack Overflow discussions.
+
+To answer our questions, we decided to use word clouds [WATTENBERG and VIEGAS, 2008], node-link diagrams [HEER et al., 2010], bubble maps [HEER et al., 2010], and other simple graphics as line, bar, and pie charts. All visualizations were developed using a JavaScript library called D3.js`
 )});
   main.variable(observer()).define(["html"], function(html){return(
 html`<code>css</code> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous"><link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css"integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ=="crossorigin=""/>`
 )});
-  main.variable(observer("worldGeoJson")).define("worldGeoJson", ["d3","URLbase"], function(d3,URLbase){return(
-d3.json(URLbase + "data/countries.geo.json")
-)});
-  main.variable(observer("userCountry")).define("userCountry", ["d3","URLbase"], function(d3,URLbase){return(
-d3.csv(URLbase + "data/UserCountryData.csv").then(function(data){
-  let cMap = d3.map()
-  data.forEach(function(d, i){
-    cMap.set(d.UserID, {"country": d.Country, "lat": d.Latitude, "long": d.Longitude})
-  })
-  return cMap
-})
-)});
-  main.variable(observer("step6")).define("step6", ["md"], function(md){return(
+  main.variable(observer("preProcessingSnippet")).define("preProcessingSnippet", ["md"], function(md){return(
 md`
 ###### This code was used to filter and preprocess our dataset
 
@@ -39,6 +30,7 @@ myData = d3.csv(URLbase + "data/Posts.csv")
     let posts = [];
     let discussions = [];
     let tagsByYearModel = [];
+    let uUsers = d3.map();
     
     data.forEach(function(d, i){
       //Discussion restriction
@@ -85,7 +77,7 @@ myData = d3.csv(URLbase + "data/Posts.csv")
             }
           }
         }
-          
+        
         //if(pLanguage == "Unknown") console.log(tags)
         idMap.set(d.Id, i)
         var userLocation = userCountry.get(d.UserId)
@@ -100,6 +92,7 @@ myData = d3.csv(URLbase + "data/Posts.csv")
           tagsByYearModel.push({"tag": tag, "year": date.getFullYear()})
         })
           
+          
         // Filter discussions
         if(d.AcceptedAnswerId === "" && d.AnswerCount > 0 && d.UserDiscussionCount > 0){
           discussions.push({
@@ -107,16 +100,16 @@ myData = d3.csv(URLbase + "data/Posts.csv")
             "title": d.Title, 
             "creationDate": date, 
             "year": date.getFullYear(),
-            
-            "score": d.Score,
-            "viewCount": d.ViewCount,
-            "AnswerCount": d.AnswerCount,
-            "FavoriteCount": d.FavoriteCount,
-            "dCount": d.UserDiscussionCount,
-            
+
+            "score": d.Score ? parseInt(d.Score) : 0,
+            "viewCount": d.ViewCount ? parseInt(d.ViewCount) : 0,
+            "AnswerCount": d.AnswerCount ? parseInt(d.AnswerCount) : 0,
+            "FavoriteCount": d.FavoriteCount ? parseInt(d.FavoriteCount) : 0,
+            "dCount": parseInt(d.UserDiscussionCount),
+
             "userLocation": userLocation,
-            "userReputation": d.UserReputation,
-            
+            "userReputation": d.UserReputation ? parseInt(d.UserReputation) : 0,
+
             "os": os,
             "tags": tags,
             "pLanguage": pLanguage,
@@ -124,14 +117,18 @@ myData = d3.csv(URLbase + "data/Posts.csv")
           })
         }
         
+        //Only to count unique users
+        uUsers.set(d.UserId, d.UserDisplayName)
+        
         posts.push({
           "id": d.Id,
           "creationDate": date, 
           "year": date.getFullYear(),
-          "score": d.Score,
-          "viewCount": d.ViewCount,
+          "score": d.Score ? parseInt(d.Score) : 0,
+          "viewCount": d.ViewCount ? parseInt(d.ViewCount) : 0,
+          "favoriteCount": d.FavoriteCount ? parseInt(d.FavoriteCount) : 0,
           "username": d.UserDisplayName,
-          "userReputation": d.UserReputation,
+          "userReputation": d.UserReputation ? parseInt(d.UserReputation) : 0,
           "userLocation": userLocation,
           "tags": tags,
           "os": os,
@@ -139,258 +136,113 @@ myData = d3.csv(URLbase + "data/Posts.csv")
         })
      }
   })
-  
   return {"idMap": idMap, "posts": posts, "countryMap": countryMap, "tagsByYearModel": tagsByYearModel, 
-          "openDiscussions": discussions.sort(
-            (d1, d2) => d2.AnswerCount - d1.AnswerCount || d2.score - d1.score)}
+          "openDiscussions": discussions.sort((d1, d2) => d2.AnswerCount - d1.AnswerCount || d2.score - d1.score),
+          "users": uUsers}
   })
 \`\`\`
 
-The result (present in the next cell) was as download as json file just to improve the notebook performance.
+The result (present in myData cell) was as download as json file just to improve the notebook performance.
 `
+)});
+  main.variable(observer("lineStructureSnippet")).define("lineStructureSnippet", ["md"], function(md){return(
+md`
+###### This code was used to rearrange the data to allow the line chart construction
+
+\`\`\`js
+lineChartStructure = {
+  let tagsObserved = ['android', 'ios', 'dicom', 'hl7-fhir', 'hl7', 
+                      'google-fit', 'health-kit', 'swift', 'java', 'python']
+  let lineChartStructure = []
+  let lineChartMap = d3.map()
+  
+  myData.posts.forEach(function(post, index){
+    post.tags.forEach(function (tag, tIndex){
+      if(tagsObserved.includes(tag)){
+        
+        let creationDate = post.creationDate
+        let key = dateToStringKey(creationDate)
+        let month = lineChartMap.get(key)
+        if(month){
+          month[tag] = month[tag] + 1;
+          lineChartMap.set(key, month)
+        }else{
+          var obj = {};
+          tagsObserved.forEach(function(tagO, i){
+            if(tag.localeCompare(tagO) == 0){
+              obj[tagO] = 1
+            }else{
+              obj[tagO] = 0
+            }
+          })
+          lineChartMap.set(key, obj)
+        }
+      }
+    }) 
+  })
+  
+  for (var key in lineChartMap) {
+    // check if the property/key is defined in the object itself, not in parent
+    if (lineChartMap.hasOwnProperty(key)) {
+      lineChartMap[key]['date'] = stringToDate(key.replace('$', ''), "yyyy-mm-dd", "-")
+      lineChartStructure.push(lineChartMap[key])
+    }
+  }
+  
+  function dateToStringKey(date){
+    return date.getFullYear() + '-01-01'
+  }
+  
+  function stringToDate(_date,_format,_delimiter) {
+    var formatLowerCase=_format.toLowerCase();
+    var formatItems=formatLowerCase.split(_delimiter);
+    var dateItems=_date.split(_delimiter);
+    var monthIndex=formatItems.indexOf("mm");
+    var dayIndex=formatItems.indexOf("dd");
+    var yearIndex=formatItems.indexOf("yyyy");
+    var year = parseInt(dateItems[yearIndex]); 
+    // adjust for 2 digit year
+    if (year < 100) { year += 2000; }
+    var month=parseInt(dateItems[monthIndex]);
+    month-=1;
+    var formatedDate = new Date(year,month,dateItems[dayIndex]);
+    return formatedDate;
+  }
+  
+  return lineChartStructure.sort((d1, d2) => d1.date - d2.date)
+}
+\`\`\`
+
+The result (present in lineChartStructure cell) was as download as json file just to improve the notebook performance.
+`
+)});
+  main.variable(observer("worldGeoJson")).define("worldGeoJson", ["d3","URLbase"], function(d3,URLbase){return(
+d3.json(URLbase + "data/countries.geo.json")
+)});
+  main.variable(observer("userCountry")).define("userCountry", ["d3","URLbase"], function(d3,URLbase){return(
+d3.csv(URLbase + "data/UserCountryData.csv").then(function(data){
+  let cMap = d3.map()
+  data.forEach(function(d, i){
+    cMap.set(d.UserID, {"country": d.Country, "lat": d.Latitude, "long": d.Longitude})
+  })
+  return cMap
+})
 )});
   main.variable(observer("myData")).define("myData", ["d3","URLbase"], function(d3,URLbase){return(
-d3.json(URLbase + "data/json/myDataJson.json")
+d3.json(URLbase + "data/json/myDataJsonV2.json")
+)});
+  main.variable(observer("lineChartStructure")).define("lineChartStructure", ["d3","URLbase"], function(d3,URLbase){return(
+d3.json(URLbase + "data/json/lineChartStructure.json").then(function(data){
+  data.forEach(function(d, i){
+    d.date = new Date(d.date)
+  })
+  return data
+})
 )});
   main.variable(observer("postsMalletModel")).define("postsMalletModel", ["d3","URLbase"], function(d3,URLbase){return(
-d3.json(URLbase + "data/mallet/postsModel.json")
-)});
-  main.variable(observer("questions")).define("questions", ["d3","URLbase"], function(d3,URLbase){return(
-d3.csv(URLbase + "data/PostsTreated.csv").then(function(data){
-  let text = '';
-  data.forEach(function(d, i){
-    text += d.text + '\n'
-  })
-  return {"data": data, "text": text}
-})
-)});
-  main.variable(observer("openDiscussionsTxt")).define("openDiscussionsTxt", ["d3","URLbase","myData"], function(d3,URLbase,myData){return(
-d3.csv(URLbase + "data/PostsTreated.csv").then(function(data){
-  let openDiscussionsIDs = []
-  myData.openDiscussions.forEach(d => openDiscussionsIDs.push(d.id))
-  let result = data.filter(d => openDiscussionsIDs.includes(d.id))
+d3.json(URLbase + "data/mallet/postsModel.json").then(function(data){
+  let postsMalletModel = data;
   
-  let text = '';
-  result.forEach(function(d, i){
-    text += d.text + '\n'
-  })
-  
-  return {"data": result, "text": text}
-})
-)});
-  main.variable(observer("ldaModel")).define("ldaModel", ["d3","URLbase"], function(d3,URLbase){return(
-d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
-)});
-  main.variable(observer("factsAndDims")).define("factsAndDims", ["crossfilter","myData"], function(crossfilter,myData)
-{
-  let facts = crossfilter(myData.posts)
-  let dateDimPosts = facts.dimension(d => d.year)
-  let postsByYearGroup = dateDimPosts.group()
-  
-  return {
-    dateDimPosts: dateDimPosts, postsByYearGroup: postsByYearGroup
-  }
-}
-);
-  main.variable(observer("by_year")).define("by_year", ["md","container","dc","factsAndDims","d3"], function(md,container,dc,factsAndDims,d3)
-{
-  let byYearWidth = Math.floor($($('#postByYear').parent().get(0)).width());
-  let view = md`${container('chart1','Number of eHealth-related Posts by Year in Stack Overflow Website')}`
-  let barChart = dc.barChart(view.querySelector("#chart1"))
-  
-  barChart
-    .width(byYearWidth).height(400).gap(30)
-    .margins({top: 30, right: 50, bottom: 25, left: 40})
-    .dimension(factsAndDims.dateDimPosts)
-    .group(factsAndDims.postsByYearGroup)
-    .x(d3.scaleBand()).xUnits(dc.units.ordinal)
-    .renderHorizontalGridLines(true)
-    .controlsUseVisibility(true)
-    .renderLabel(true)
-    .clipPadding(20)
-    .brushOn(true)
-  
-  dc.renderAll()
-  
-  return view     
-}
-);
-  main.variable(observer("by_os")).define("by_os", ["crossfilter","myData","remove_empty_bins","md","container","dc","d3"], function(crossfilter,myData,remove_empty_bins,md,container,dc,d3)
-{
-  let byOSWidth = Math.floor($($('#postByOS').parent().get(0)).width());
-  let facts = crossfilter(myData.posts)
-  let osDimPosts = facts.dimension(d => d.os)
-  let filter = facts.dimension(d => d.os).filter(function(d){ return d !== 'Unknown';})
-  
-  let postsByOSGroup = osDimPosts.group()
-  let finalOSGroup = remove_empty_bins(postsByOSGroup)
-  
-  let view = md`${container('chart2','Number of eHealth-related Posts by Operational System')}`
-  let barChart = dc.barChart(view.querySelector("#chart2"))
-  
-  barChart
-    .width(byOSWidth).height(300).gap(30)
-    .margins({top: 30, right: 50, bottom: 25, left: 40})
-    .dimension(osDimPosts)
-    .group(finalOSGroup)
-    .x(d3.scaleBand()).xUnits(dc.units.ordinal)
-    .ordering(function(d) { return -d.value; })
-    .renderHorizontalGridLines(true)
-    .controlsUseVisibility(true)
-    .renderLabel(true)
-    .clipPadding(20)
-    .brushOn(true)
-    .elasticX(true)
-  
-  
-  dc.renderAll()
-  
-  return view     
-}
-);
-  main.variable(observer("by_pLanguage")).define("by_pLanguage", ["crossfilter","myData","remove_empty_bins","md","container","dc","d3"], function(crossfilter,myData,remove_empty_bins,md,container,dc,d3)
-{
-  let byPLWidth = Math.floor($($('#postByProgLang').parent().get(0)).width());
-  let facts = crossfilter(myData.posts)
-  let pLanguageDimPosts = facts.dimension(d => d.pLanguage);
-  let filter = facts.dimension(d => d.pLanguage)
-  .filter(function(d){ return ['swift', 'java',  'python', 'c#', 'objective-c', 
-                               'c++', 'javascript', '.net', 'r', 'php'].includes(d);})
-  
-  let postsByPLanguageGroup = pLanguageDimPosts.group()
-  let finalGroup = remove_empty_bins(postsByPLanguageGroup)
-  
-  let view = md`${container('chart3','Number of eHealth-related Posts by Programming Language')}`
-  let barChart = dc.barChart(view.querySelector("#chart3"))
-  
-  barChart
-    .width(byPLWidth).height(300).gap(15)
-    .margins({top: 30, right: 50, bottom: 25, left: 40})
-    .dimension(pLanguageDimPosts)
-    .group(finalGroup)
-    .x(d3.scaleBand()).xUnits(dc.units.ordinal)
-    .ordering(function(d) { return -d.value; })
-    .renderHorizontalGridLines(true)
-    .controlsUseVisibility(true)
-    .renderLabel(true)
-    .clipPadding(20)
-    .brushOn(true)
-  
-  dc.renderAll()
-  
-  return view     
-}
-);
-  main.variable(observer("by_world")).define("by_world", ["html"], function(html)
-{
-  return html`<div id='mapid' style="min-height: 500px; width: 100%"></div>`
-}
-);
-  main.variable(observer("myMapVis")).define("myMapVis", ["initializingMap","L","getCountryValue","worldGeoJson","mapStyle"], function(initializingMap,L,getCountryValue,worldGeoJson,mapStyle)
-{
-  initializingMap() 
-  
-  let mapInstance = L.map('mapid').setView([20.593684, 10.451526], 2)//center [lat, long], zoom
-  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
-    maxZoom: 17
-  }).addTo(mapInstance)
-  
-  let infoControl = L.control()
-	infoControl.onAdd = function (map) {
-		this._div = L.DomUtil.create('div', 'info');
-		this.update();
-		return this._div;
-	}
-  
-  function createInfoLabel(feat){
-    let country = feat.properties.name
-    let posts = getCountryValue(country)
-    return '<strong>' + country + '</strong>: ' + (posts ? posts : 0)
-  }
-
-	infoControl.update = function (feat) {
-			this._div.innerHTML = '<h5>Number of Posts</h5>' 
-        + (feat ?  createInfoLabel(feat) : 'Mouse over a country');
-	}
-   
-  function highlightFeature(e) {
-		let layer = e.target;
-		layer.setStyle({weight: 2, color: '#AAA', dashArray: '', fillOpacity: 0.7 });
-		if (!L.Browser.ie && !L.Browser.opera) layer.bringToFront();
-		infoControl.update(layer.feature);
-  }
-  
-  let geoj;
-	function resetHighlight(e) { geoj.resetStyle(e.target); infoControl.update(); }
-	function zoomToFeature(e) { mapInstance.fitBounds(e.target.getBounds()); }
-
-	function onEachFeature(feature, layer) {
-		layer.on({ mouseover: highlightFeature, mouseout: resetHighlight, click: zoomToFeature });
-	}
-  
-  geoj = L.geoJson(worldGeoJson, {style: mapStyle, onEachFeature: onEachFeature}).addTo(mapInstance);
-  
-  infoControl.addTo(mapInstance);
-  
-  return mapInstance
-}
-);
-  main.variable(observer("legend")).define("legend", ["L","mapColors","colorScale","d3","outlierMapColor","myMapVis"], function(L,mapColors,colorScale,d3,outlierMapColor,myMapVis)
-{
-  let legendControl = L.control({position: 'bottomleft'});
-
-	legendControl.onAdd = function (map) {
-		let div = L.DomUtil.create('div', 'info legend'), labels = [], n = mapColors.length, from, to;
-		for (let i = 0; i < n; i++) {
-			let c = mapColors[i]
-      let fromto = colorScale.invertExtent(c);
-			labels.push(
-				'<i style="background:' + mapColors[i] + '"></i> ' +
-				d3.format("d")(fromto[0]) + (d3.format("d")(fromto[1]) ? '&ndash;' + d3.format("d")(fromto[1]) : '+'));
-		}
-    labels.push('<i style="background:' + outlierMapColor + '"></i> >300')
-		div.innerHTML = labels.join('<br/>')
-		return div
-	}
-  legendControl.addTo(myMapVis)
-  return legendControl
-}
-);
-  main.variable(observer("initializingMap")).define("initializingMap", ["L"], function(L){return(
-function initializingMap() {
-  var container = L.DomUtil.get('mapid');
-  if(container != null){
-    container._leaflet_id = null;
-  }
-}
-)});
-  main.variable(observer()).define(["html"], function(html){return(
-html`
-<div class="row">
-  <div class="col-md-12 text-center h4">Topic Modeling (LDAVis)</div>
-</div>
-<div class="row">
-  <div class="col-md-12 text-center">
-    See <a href="http://mallet.cs.umass.edu/index.php">Mallet Website</a> and LDAVis 
-    <a href="http://bl.ocks.org/AlessandraSozzi/raw/ce1ace56e4aed6f2d614ae2243aab5a5/#topic=0&lambda=1&term=">Demo 1</a>
-    or
-    <a href="http://www.kennyshirley.com/LDAvis/#topic=0&lambda=1&term=">Demo 2</a>.
-  </div>
-</div>`
-)});
-  main.variable(observer()).define(["html"], function(html){return(
-html`
-  <div class='row' style='margin: 10px 20px;'>
-    <div id='ldaVisContainer' class='ldavis_container' style='height: 760px; width: 100%'></div>
-  </div>
-`
-)});
-  main.variable(observer("wordCloud")).define("wordCloud", ["createWordCloudSvg","words"], function(createWordCloudSvg,words){return(
-createWordCloudSvg(words)
-)});
-  main.variable(observer("treeData")).define("treeData", ["postsMalletModel"], function(postsMalletModel)
-{
   let tree = [{
     "name": "Topics",
     "parent": "null",
@@ -598,382 +450,21 @@ createWordCloudSvg(words)
   appendNode('Platforms', 'healthvault', [])
   
   postsMalletModel.myTrees["topic48"] = JSON.parse(JSON.stringify(tree))
-}
-);
-  main.variable(observer("viewof tNumberSelect")).define("viewof tNumberSelect", ["select"], function(select){return(
-select({
-  title: "Topic Number",
-  description: "Please select a number of topic to visualize.",
-  options: [3,4,6,8,12,16,24,32,48,64,96,128,192,256,384,512],
-  value: 3
+  postsMalletModel.myTrees["topic64"] = JSON.parse(JSON.stringify(tree))
+  postsMalletModel.myTrees["topic96"] = JSON.parse(JSON.stringify(tree))
+  postsMalletModel.myTrees["topic128"] = JSON.parse(JSON.stringify(tree))
+  postsMalletModel.myTrees["topic192"] = JSON.parse(JSON.stringify(tree))
+  postsMalletModel.myTrees["topic256"] = JSON.parse(JSON.stringify(tree))
+  postsMalletModel.myTrees["topic384"] = JSON.parse(JSON.stringify(tree))
+  postsMalletModel.myTrees["topic512"] = JSON.parse(JSON.stringify(tree))
+  
+  return postsMalletModel;
 })
 )});
-  main.variable(observer("tNumberSelect")).define("tNumberSelect", ["Generators", "viewof tNumberSelect"], (G, _) => G.input(_));
-  main.variable(observer()).define(["html"], function(html){return(
-html`
-  <div class='row' style='margin: 10px 20px;'>
-    <div id='treeContainer'></div>
-  </div>
-`
-)});
-  main.variable(observer()).define(["DOM","serialize","treeChartSVG"], function(DOM,serialize,treeChartSVG){return(
-DOM.download(() => serialize(treeChartSVG.svg[0][0]), undefined, "Save as SVG")
-)});
-  const child1 = runtime.module(define1);
-  main.import("serialize", child1);
-  main.variable(observer("vizContainer")).define("vizContainer", ["d3","LDAvis","postsMalletModel","tNumberSelect"], function(d3,LDAvis,postsMalletModel,tNumberSelect)
-{
-
-  d3.select("#ldaVisContainer").html("");
-  new LDAvis('#ldaVisContainer', postsMalletModel.lda['topic' + tNumberSelect]);
-
-  $("#topicNumberInput").change(function() {
-    var tNumberSelect = $(this).children("option:selected").val();
-    d3.select("#ldaVisContainer").html("");
-    new LDAvis('#ldaVisContainer', postsMalletModel.lda['topic' + tNumberSelect]);
-  });
-}
-);
-  main.variable(observer("dendrogram")).define("dendrogram", ["tree","postsMalletModel","tNumberSelect","d3"], function(tree,postsMalletModel,tNumberSelect,d3)
-{
-  const root = tree(postsMalletModel.tree['topic' + tNumberSelect]);
-
-  const svg = d3.create("svg")
-      .style("max-width", "100%")
-      .style("height", "auto")
-      .style("font", "11px sans-serif")
-      .style("margin", "5px");
-
-  const link = svg.append("g")
-    .attr("fill", "none")
-    .attr("stroke", "#555")
-    .attr("stroke-opacity", 0.4)
-    .attr("stroke-width", 1.5)
-  .selectAll("path")
-    .data(root.links())
-    .join("path")
-      .attr("d", d => `
-        M${d.target.y},${d.target.x}
-        C${d.source.y + root.dy / 2},${d.target.x}
-         ${d.source.y + root.dy / 2},${d.source.x}
-         ${d.source.y},${d.source.x}
-      `);
-
-  const node = svg.append("g")
-      .attr("stroke-linejoin", "round")
-      .attr("stroke-width", 3)
-    .selectAll("g")
-    .data(root.descendants())
-    .join("g")
-      .attr("transform", d => `translate(${d.y},${d.x})`);
-
-  node.append("circle")
-      .attr("fill", d => d.children ? "#555" : "#999")
-      .attr("r", 2.5);
-
-  node.append("text")
-      .attr("dy", "0.31em")
-      .attr("x", d => d.children ? -6 : 6)
-      .text(d => d.data.name)
-    .filter(d => d.children)
-      .attr("text-anchor", "end")
-    .clone(true).lower()
-      .attr("stroke", "white");
-
-  //yield svg.node();
-  //svg.attr("viewBox", autoBox);
-}
-);
-  main.variable(observer("treeChartSVG")).define("treeChartSVG", function()
-{
-  return {svg: null}
-}
-);
-  main.variable(observer("treeChart")).define("treeChart", ["postsMalletModel","tNumberSelect","d3t","treeChartSVG","d3"], function(postsMalletModel,tNumberSelect,d3t,treeChartSVG,d3)
-{
-// ************** Generate the tree diagram	 *****************
-  var i = 0, duration = 1000, root;
-  var height = 1000, width = 720;
-  var margin = ({top: 20, right: 120, bottom: 20, left: 120});
-  var treeData = postsMalletModel.myTrees['topic' + tNumberSelect]
-
-  var tree = d3t.layout.tree().size([height, width]);
-  var diagonal = d3t.svg.diagonal().projection(function(d) { return [d.y, d.x]; });
-  
-  d3t.select("#treeContainer").html("");
-  var svg = d3t.select("#treeContainer").append("svg")
-	  .attr("width", width + margin.right + margin.left)
-	  .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-	  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-  root = treeData[0];
-  root.x0 = height / 2;
-  root.y0 = 0;
-  
-  update(root);
-  
-  treeChartSVG.svg = svg;
-
-  function update(source) {
-    // Compute the new tree layout.
-    var nodes = tree.nodes(root), links = tree.links(nodes);
-
-    // Normalize for fixed-depth.
-    nodes.forEach(function(d) { d.y = d.depth * 120; });
-
-    // Update the nodes…
-    var node = svg.selectAll("g.node").data(nodes, function(d) { return d.id || (d.id = ++i); });
-
-    // Enter any new nodes at the parent's previous position.
-    var nodeEnter = node.enter().append("g")
-	    .attr("class", d => ("node " + d.name.replace(' ', '').toLowerCase().trim()))
-	    .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-	    .on("click", click);
-
-    nodeEnter.append("circle")
-	    .attr("r", 1e-6)
-	    .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-
-    nodeEnter.append("text")
-	    .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
-	    .attr("dy", ".35em")
-	    .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-	    .text(function(d) { return d.name; })
-	    .style("fill-opacity", 1e-6)
-      .call(wrap, 150);
-
-    // Transition nodes to their new position.
-    var nodeUpdate = node.transition().duration(duration)
-	    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
-
-    nodeUpdate.select("circle").attr("r", 10)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-
-    nodeUpdate.select("text").style("fill-opacity", 1);
-
-    // Transition exiting nodes to the parent's new position.
-    var nodeExit = node.exit().transition().duration(duration)
-	    .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
-	    .remove();
-
-    nodeExit.select("circle").attr("r", 1e-6);
-    nodeExit.select("text").style("fill-opacity", 1e-6);
-
-    // Update the links…
-    var link = svg.selectAll("path.link").data(links, function(d) { return d.target.id; });
-
-    // Enter any new links at the parent's previous position.
-    link.enter().insert("path", "g")
-	    .attr("class", "link")
-	    .attr("d", function(d) {
-		    var o = {x: source.x0, y: source.y0};
-		    return diagonal({source: o, target: o});
-	    });
-
-    // Transition links to their new position.
-    link.transition().duration(duration).attr("d", diagonal);
-
-    // Transition exiting nodes to the parent's new position.
-    link.exit().transition().duration(duration)
-	    .attr("d", function(d) {
-		    var o = {x: source.x, y: source.y};
-		    return diagonal({source: o, target: o});
-	    })
-	  .remove();
-
-    // Stash the old positions for transition.
-    nodes.forEach(function(d) {
-	    d.x0 = d.x;
-	    d.y0 = d.y;
-    });
-  }
-  
-  function wrap(text, twidth) {
-    text.each(function() {
-      
-      var text = d3.select(this),
-        words = text.text().split(/\s+/).reverse(),
-        word, line = [], 
-        lineNumber = 0,
-        lineHeight = 1.1, // ems
-        y = text.attr("y"),
-        dy = parseFloat(text.attr("dy"));
-      
-      while (word = words.pop()) {
-        line.push(word);
-        if(line.join(" ").length > 20 && line.join(" ") != 'diagnostic order schedule'){
-          var tspan = text.text(null).append("tspan").attr("x", -15).attr("y", y).attr("dy", "-0.3em")
-          tspan.text(line.join(" "));
-          line.pop();
-          tspan.text(line.join(" "));
-          line = [word];
-          tspan = text.append("tspan")
-            .attr("x", -15).attr("y", y)
-            .attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-        }
-      }
-    });
-  }
-
-  // Toggle children on click.
-  function click(d) {
-    if (d.children) {
-	    d._children = d.children;
-	    d.children = null;
-    } else {
-	    d.children = d._children;
-	    d._children = null;
-    }
-    update(d);
-  }
-  //###############################################
-  //###############################################
-  //###############################################
-  $("#topicNumberInput").change(function() {
-    var tNumberSelect = $(this).children("option:selected").val();
-    var i = 0, duration = 1000, root;
-  var height = 1000, width = 720;
-  var margin = ({top: 20, right: 120, bottom: 20, left: 120});
-  var treeData = postsMalletModel.myTrees['topic' + tNumberSelect]
-
-  var tree = d3t.layout.tree().size([height, width]);
-  var diagonal = d3t.svg.diagonal().projection(function(d) { return [d.y, d.x]; });
-  
-  d3t.select("#treeContainer").html("");
-  var svg = d3t.select("#treeContainer").append("svg")
-	  .attr("width", width + margin.right + margin.left)
-	  .attr("height", height + margin.top + margin.bottom)
-    .append("g")
-	  .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
-
-  root = treeData[0];
-  root.x0 = height / 2;
-  root.y0 = 0;
-  
-  update(root);
-  
-  treeChartSVG.svg = svg;
-
-  function update(source) {
-    // Compute the new tree layout.
-    var nodes = tree.nodes(root), links = tree.links(nodes);
-
-    // Normalize for fixed-depth.
-    nodes.forEach(function(d) { d.y = d.depth * 120; });
-
-    // Update the nodes…
-    var node = svg.selectAll("g.node").data(nodes, function(d) { return d.id || (d.id = ++i); });
-
-    // Enter any new nodes at the parent's previous position.
-    var nodeEnter = node.enter().append("g")
-	    .attr("class", d => ("node " + d.name.replace(' ', '').toLowerCase().trim()))
-	    .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-	    .on("click", click);
-
-    nodeEnter.append("circle")
-	    .attr("r", 1e-6)
-	    .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-
-    nodeEnter.append("text")
-	    .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
-	    .attr("dy", ".35em")
-	    .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-	    .text(function(d) { return d.name; })
-	    .style("fill-opacity", 1e-6)
-      .call(wrap, 150);
-
-    // Transition nodes to their new position.
-    var nodeUpdate = node.transition().duration(duration)
-	    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
-
-    nodeUpdate.select("circle").attr("r", 10)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
-
-    nodeUpdate.select("text").style("fill-opacity", 1);
-
-    // Transition exiting nodes to the parent's new position.
-    var nodeExit = node.exit().transition().duration(duration)
-	    .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
-	    .remove();
-
-    nodeExit.select("circle").attr("r", 1e-6);
-    nodeExit.select("text").style("fill-opacity", 1e-6);
-
-    // Update the links…
-    var link = svg.selectAll("path.link").data(links, function(d) { return d.target.id; });
-
-    // Enter any new links at the parent's previous position.
-    link.enter().insert("path", "g")
-	    .attr("class", "link")
-	    .attr("d", function(d) {
-		    var o = {x: source.x0, y: source.y0};
-		    return diagonal({source: o, target: o});
-	    });
-
-    // Transition links to their new position.
-    link.transition().duration(duration).attr("d", diagonal);
-
-    // Transition exiting nodes to the parent's new position.
-    link.exit().transition().duration(duration)
-	    .attr("d", function(d) {
-		    var o = {x: source.x, y: source.y};
-		    return diagonal({source: o, target: o});
-	    })
-	  .remove();
-
-    // Stash the old positions for transition.
-    nodes.forEach(function(d) {
-	    d.x0 = d.x;
-	    d.y0 = d.y;
-    });
-  }
-  
-  function wrap(text, twidth) {
-    text.each(function() {
-      
-      var text = d3.select(this),
-        words = text.text().split(/\s+/).reverse(),
-        word, line = [], 
-        lineNumber = 0,
-        lineHeight = 1.1, // ems
-        y = text.attr("y"),
-        dy = parseFloat(text.attr("dy"));
-      
-      while (word = words.pop()) {
-        line.push(word);
-        if(line.join(" ").length > 20 && line.join(" ") != 'diagnostic order schedule'){
-          var tspan = text.text(null).append("tspan").attr("x", -15).attr("y", y).attr("dy", "-0.3em")
-          tspan.text(line.join(" "));
-          line.pop();
-          tspan.text(line.join(" "));
-          line = [word];
-          tspan = text.append("tspan")
-            .attr("x", -15).attr("y", y)
-            .attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-        }
-      }
-    });
-  }
-
-  // Toggle children on click.
-  function click(d) {
-    if (d.children) {
-	    d._children = d.children;
-	    d.children = null;
-    } else {
-	    d.children = d._children;
-	    d._children = null;
-    }
-    update(d);
-  }
-  });
-  //return svg.node();
-}
-);
   main.variable(observer()).define(["md"], function(md){return(
 md`
-###### This code was used to filter the top 100 most frequent words
+###### This code was used to filter the top 100 most frequent words 
+Compromise NLP js library:
 
 \`\`\`js
   toWords(docs.nouns().out('topk')).sort((a,b) => b.freq - a.freq).slice(0, 100)
@@ -983,13 +474,647 @@ md`
   main.variable(observer("words")).define("words", ["d3","URLbase"], function(d3,URLbase){return(
 d3.json(URLbase + 'data/json/words.json')
 )});
-  main.variable(observer("createWordCloudSvg")).define("createWordCloudSvg", ["d3cloud","width","cloudConfig","cloudScale","rotateWord","baseFont","fontSize","d3","DOM"], function(d3cloud,width,cloudConfig,cloudScale,rotateWord,baseFont,fontSize,d3,DOM){return(
-function createWordCloudSvg(words) {
+  main.variable(observer("questions")).define("questions", ["d3","URLbase"], function(d3,URLbase){return(
+d3.csv(URLbase + "data/PostsTreated.csv").then(function(data){
+  let text = '';
+  data.forEach(function(d, i){
+    text += d.text + '\n'
+  })
+  return {"data": data, "text": text}
+})
+)});
+  main.variable(observer("openDiscussionsTxt")).define("openDiscussionsTxt", ["d3","URLbase","myData"], function(d3,URLbase,myData){return(
+d3.csv(URLbase + "data/PostsTreated.csv").then(function(data){
+  let openDiscussionsIDs = []
+  myData.openDiscussions.forEach(d => openDiscussionsIDs.push(d.id))
+  let result = data.filter(d => openDiscussionsIDs.includes(d.id))
+  
+  let text = '';
+  result.forEach(function(d, i){
+    text += d.text + '\n'
+  })
+  
+  return {"data": result, "text": text}
+})
+)});
+  main.variable(observer("ldaModel")).define("ldaModel", ["d3","URLbase"], function(d3,URLbase){return(
+d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
+)});
+  main.variable(observer("factsAndDims")).define("factsAndDims", ["crossfilter","myData"], function(crossfilter,myData)
+{
+  let facts = crossfilter(myData.posts)
+  let dateDimPosts = facts.dimension(d => d.year)
+  let postsByYearGroup = dateDimPosts.group()
+  
+  return {
+    facts: facts, dateDimPosts: dateDimPosts, postsByYearGroup: postsByYearGroup
+  }
+}
+);
+  main.variable(observer("postByYearContainer")).define("postByYearContainer", ["md","dashContainer"], function(md,dashContainer)
+{
+  return md `${dashContainer('postByYear')}`
+}
+);
+  main.variable(observer("postInWorldContainer")).define("postInWorldContainer", ["html"], function(html)
+{
+  return html`<div id='mapid' style="min-height: 500px; width: 100%"></div>`
+}
+);
+  main.variable(observer("postByOSContainer")).define("postByOSContainer", ["md","dashContainer"], function(md,dashContainer)
+{
+  return md `${dashContainer('postByOS')}`
+}
+);
+  main.variable(observer("postByProgLangContainer")).define("postByProgLangContainer", ["md","dashContainer"], function(md,dashContainer)
+{
+  return md `${dashContainer('postByProgLang')}`
+}
+);
+  main.variable(observer("splomContainer")).define("splomContainer", ["html"], function(html)
+{
+  return html`<table id="splomTable"></table>`
+}
+);
+  main.variable(observer("tagsByYearContainer")).define("tagsByYearContainer", ["md","dashContainer"], function(md,dashContainer)
+{
+  return md `${dashContainer('tagsByYear')}`
+}
+);
+  main.variable(observer("widths")).define("widths", ["$"], function($)
+{
+  let byYearWidth = Math.floor($($('#postByYear').parent().get(0)).width());
+  let byOSWidth = Math.floor($($('#postByOS').parent().get(0)).width());
+  let byPLWidth = Math.floor($($('#postByProgLang').parent().get(0)).width());
+  let tagsByYearWidth = Math.floor($($('#tagsByYear').parent().get(0)).width());
+  let treeContainerWidth = Math.floor($($('#treeContainer').parent().get(0)).width());
+  let wordCloudContainerWidth = Math.floor($($('#wordCloud').parent().get(0)).width());
+  
+  let ldaVisWidth = Math.floor($($('#ldaVisContainer').parent().get(0)).width());
+  
+  return {'postByYearWidth': byYearWidth, 'postByOSWidth': byOSWidth, 
+          'postByProgLangWidth': byPLWidth, 'tagsByYearWidth': tagsByYearWidth,
+          'treeContainerWidth': treeContainerWidth, 'wordCloudWidth': wordCloudContainerWidth,
+          'ldaVisWidth': ldaVisWidth};
+}
+);
+  main.variable(observer("by_year")).define("by_year", ["dc","widths","factsAndDims","d3"], function(dc,widths,factsAndDims,d3)
+{
+  let barChart = dc.barChart("#postByYear")
+  
+  barChart
+    .width(widths.postByYearWidth).height(400).gap(widths.postByYearWidth * 30/1000)
+    .margins({top: 20, right: 0, bottom: 25, left: 35})
+    .dimension(factsAndDims.dateDimPosts)
+    .group(factsAndDims.postsByYearGroup)
+    .x(d3.scaleBand()).xUnits(dc.units.ordinal)
+    .renderHorizontalGridLines(true)
+    .controlsUseVisibility(true)
+    .renderLabel(true)
+    .clipPadding(20)
+    .brushOn(true)
+  
+  dc.renderAll()  
+}
+);
+  main.variable(observer("by_os")).define("by_os", ["crossfilter","myData","remove_empty_bins","dc","widths","d3"], function(crossfilter,myData,remove_empty_bins,dc,widths,d3)
+{
+  let facts = crossfilter(myData.posts)
+  let osDimPosts = facts.dimension(d => d.os)
+  let filter = facts.dimension(d => d.os).filter(function(d){ return d !== 'Unknown';})
+  
+  let postsByOSGroup = osDimPosts.group()
+  let finalOSGroup = remove_empty_bins(postsByOSGroup)
+  
+  let barChart = dc.barChart("#postByOS")
+  
+  barChart
+    .width(widths.postByOSWidth).height(300).gap(widths.postByOSWidth * 30/1000)
+    .margins({top: 20, right: 0, bottom: 25, left: 35})
+    .dimension(osDimPosts)
+    .group(finalOSGroup)
+    .x(d3.scaleBand()).xUnits(dc.units.ordinal)
+    .ordering(function(d) { return -d.value; })
+    .renderHorizontalGridLines(true)
+    .controlsUseVisibility(true)
+    .renderLabel(true)
+    .clipPadding(20)
+    .brushOn(true)
+    .elasticX(true)
+  
+  dc.renderAll()
+}
+);
+  main.variable(observer("by_pLanguage")).define("by_pLanguage", ["crossfilter","myData","remove_empty_bins","dc","widths","d3"], function(crossfilter,myData,remove_empty_bins,dc,widths,d3)
+{
+  let facts = crossfilter(myData.posts)
+  let pLanguageDimPosts = facts.dimension(d => d.pLanguage);
+  let filter = facts.dimension(d => d.pLanguage)
+  .filter(function(d){ return ['swift', 'java',  'python', 'c#', 'objective-c', 
+                               'c++', 'javascript', '.net', 'r', 'php'].includes(d);})
+  
+  let postsByPLanguageGroup = pLanguageDimPosts.group()
+  let finalGroup = remove_empty_bins(postsByPLanguageGroup)
+  
+  let barChart = dc.barChart("#postByProgLang")
+  
+  barChart
+    .width(widths.postByProgLangWidth).height(300).gap(widths.postByProgLangWidth * 30/1000)
+    .margins({top: 20, right: 0, bottom: 25, left: 35})
+    .dimension(pLanguageDimPosts)
+    .group(finalGroup)
+    .x(d3.scaleBand()).xUnits(dc.units.ordinal)
+    .ordering(function(d) { return -d.value; })
+    .renderHorizontalGridLines(true)
+    .controlsUseVisibility(true)
+    .renderLabel(true)
+    .clipPadding(20)
+    .brushOn(true)
+  
+  dc.renderAll()   
+}
+);
+  main.variable(observer("splomChart")).define("splomChart", ["factsAndDims","d3","dc"], function(factsAndDims,d3,dc)
+{
+  var fields = ['score', 'userReputation', 'viewCount', 'favoriteCount'];
+  var rows = ['heading'].concat(fields.slice(0).reverse()),
+      cols = ['heading'].concat(fields);
+  
+  function make_dimension(var1, var2) {
+    return factsAndDims.facts.dimension(function(d) {
+      return [d[var1], d[var2]];
+    });
+  }
+  
+  function key_part(i) {
+    return function(kv) {
+      return kv.key[i];
+    };
+  }
+  
+  var charts = [];
+  d3.select("#splomTable").html("");
+  d3.select('#splomTable')
+    .selectAll('tr').data(rows)
+    .enter().append('tr').attr('class', function(d) {
+      return d === 'heading' ? 'sheading srow' : 'srow';
+    })
+    .each(function(row, y) {
+      d3.select(this).selectAll('td').data(cols)
+        .enter().append('td').attr('class', function(d) {
+          return d === 'heading' ? 'sheading sentry' : 'sentry';
+        })
+        .each(function(col, x) {
+          var cdiv = d3.select(this).append('div')
+          if(row === 'heading') {
+            if(col !== 'heading')
+              cdiv.text(col)
+            return;
+          }else if(col === 'heading') {
+            cdiv.text(row)
+            return;
+          }
+          cdiv.attr('class', 'chart-holder');
+          var chart = dc.scatterPlot(cdiv);
+          var dim = make_dimension(col, row), group = dim.group();
+          var showYAxis = x === 1, showXAxis = y === 4;
+          chart
+            .transitionDuration(0)
+            .width(200 + (showYAxis ? 35 : 0))
+            .height(200 + (showXAxis ? 20 : 0))
+            .margins({
+              left: showYAxis ? 35 : 1,
+              top: 5, right: 0,
+              bottom: showXAxis ? 20 : 5
+            })
+            .dimension(dim).group(group)
+            .keyAccessor(key_part(0))
+            .valueAccessor(key_part(1))
+            .x(d3.scaleLinear()).xAxisPadding("0.001%")
+            .y(d3.scaleLinear()).yAxisPadding("0.001%")
+            .brushOn(true)
+            .elasticX(true)
+            .elasticY(true)
+            .symbolSize(7)
+            .nonemptyOpacity(0.7)
+            .emptySize(7)
+            .emptyColor('#ccc')
+            .emptyOpacity(0.7)
+            .excludedSize(7)
+            .excludedColor('#ccc')
+            .excludedOpacity(0.7)
+            .renderHorizontalGridLines(true)
+            .renderVerticalGridLines(true);
+        
+          chart.xAxis().ticks(5, "");
+          chart.xAxis().tickFormat(function(d) {
+            if(d > 1000){
+              return (d/1000 + 'k')
+            }
+            return d;
+          });
+          chart.yAxis().ticks(5, "");
+          chart.yAxis().tickFormat(function(d) {
+            if(d > 1000){
+              return (d/1000 + 'k')
+            }
+            return d;
+          });
+        
+          chart.on('postRender', function(chart) {
+            // remove axes unless at left or bottom
+            if(!showXAxis)
+              chart.select('.x.axis').attr('display', 'none');
+            if(!showYAxis)
+              chart.select('.y.axis').attr('display', 'none');
+            // remove clip path, allow dots to display outside
+            chart.select('.chart-body').attr('clip-path', null);
+          });
+        
+          // only filter on one chart at a time
+          chart.on('filtered', function(_, filter) {
+            if(!filter)
+              return;
+            charts.forEach(function(c) {
+              if(c !== chart)
+                c.filter(null);
+            });
+          });
+          charts.push(chart);
+        });
+      });
+  
+  dc.renderAll();
+}
+);
+  main.variable(observer("linechart")).define("linechart", ["crossfilter","lineChartStructure","dc","d3","widths"], function(crossfilter,lineChartStructure,dc,d3,widths)
+{
+  let myDateDim = crossfilter(lineChartStructure).dimension(d => d.date)
+  
+  let compositeChart = dc.compositeChart("#tagsByYear")
+  let xScale = d3.scaleTime().domain([myDateDim.bottom(1)[0].date, myDateDim.top(1)[0].date])
+  
+  let colors = ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c','#fdbf6f','#ff7f00','#cab2d6','#6a3d9a']
+  
+  compositeChart
+    .width(widths.tagsByYearWidth).height(400)
+    .margins({top: 10, right: 10, bottom: 25, left: 110})
+    .dimension(myDateDim)
+    .x(xScale).xUnits(d3.timeDays)
+    .renderHorizontalGridLines(true)
+    .legend(dc.legend().x(10).y(20).itemHeight(13).gap(10))
+    .brushOn(false)    
+    .compose([
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['android']), 'android')
+        .ordinalColors([colors[0]]),
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['ios']), 'ios')
+        .ordinalColors([colors[1]]),
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['dicom']), 'dicom')
+        .ordinalColors([colors[2]]),
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['hl7-fhir']), 'hl7-fhir')
+        .ordinalColors([colors[3]]),
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['hl7']), 'hl7')
+        .ordinalColors([colors[4]]),
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['google-fit']), 'google-fit')
+        .ordinalColors([colors[5]]),
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['health-kit']), 'health-kit')
+        .ordinalColors([colors[6]]),
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['swift']), 'swift')
+        .ordinalColors([colors[7]]),
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['java']), 'java')
+        .ordinalColors([colors[8]]),
+      dc.lineChart(compositeChart)
+        .group(myDateDim.group().reduceSum(d => d['python']), 'python')
+        .ordinalColors([colors[9]]),
+    ])
+  
+  dc.renderAll()
+}
+);
+  main.variable(observer("myMapVis")).define("myMapVis", ["initializingMap","L","getCountryValue","worldGeoJson","mapStyle"], function(initializingMap,L,getCountryValue,worldGeoJson,mapStyle)
+{
+  initializingMap() 
+  
+  let mapInstance = L.map('mapid').setView([20.593684, 10.451526], 2)//center [lat, long], zoom
+  L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+    attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/">OpenStreetMap</a> contributors, <a href="https://creativecommons.org/licenses/by-sa/2.0/">CC-BY-SA</a>',
+    maxZoom: 17
+  }).addTo(mapInstance)
+  
+  let infoControl = L.control()
+	infoControl.onAdd = function (map) {
+		this._div = L.DomUtil.create('div', 'info');
+		this.update();
+		return this._div;
+	}
+  
+  function createInfoLabel(feat){
+    let country = feat.properties.name
+    let posts = getCountryValue(country)
+    return '<strong>' + country + '</strong>: ' + (posts ? posts : 0)
+  }
 
-  let wordCloudWidth = Math.floor($($('#wordCloud').parent().get(0)).width());  
+	infoControl.update = function (feat) {
+			this._div.innerHTML = '<h5>Number of Posts</h5>' 
+        + (feat ?  createInfoLabel(feat) : 'Mouse over a country');
+	}
+   
+  function highlightFeature(e) {
+		let layer = e.target;
+		layer.setStyle({weight: 2, color: '#AAA', dashArray: '', fillOpacity: 0.7 });
+		if (!L.Browser.ie && !L.Browser.opera) layer.bringToFront();
+		infoControl.update(layer.feature);
+  }
+  
+  let geoj;
+	function resetHighlight(e) { geoj.resetStyle(e.target); infoControl.update(); }
+	function zoomToFeature(e) { mapInstance.fitBounds(e.target.getBounds()); }
 
+	function onEachFeature(feature, layer) {
+		layer.on({ mouseover: highlightFeature, mouseout: resetHighlight, click: zoomToFeature });
+	}
+  
+  geoj = L.geoJson(worldGeoJson, {style: mapStyle, onEachFeature: onEachFeature}).addTo(mapInstance);
+  
+  infoControl.addTo(mapInstance);
+  
+  return mapInstance
+}
+);
+  main.variable(observer("legend")).define("legend", ["L","mapColors","colorScale","d3","outlierMapColor","myMapVis"], function(L,mapColors,colorScale,d3,outlierMapColor,myMapVis)
+{
+  let legendControl = L.control({position: 'bottomleft'});
+
+	legendControl.onAdd = function (map) {
+		let div = L.DomUtil.create('div', 'info legend'), labels = [], n = mapColors.length, from, to;
+		for (let i = 0; i < n; i++) {
+			let c = mapColors[i]
+      let fromto = colorScale.invertExtent(c);
+			labels.push(
+				'<i style="background:' + mapColors[i] + '"></i> ' +
+				d3.format("d")(fromto[0]) + (d3.format("d")(fromto[1]) ? '&ndash;' + d3.format("d")(fromto[1]) : '+'));
+		}
+    labels.push('<i style="background:' + outlierMapColor + '"></i> >300')
+		div.innerHTML = labels.join('<br/>')
+		return div
+	}
+  legendControl.addTo(myMapVis)
+  return legendControl
+}
+);
+  main.variable(observer("initializingMap")).define("initializingMap", ["L"], function(L){return(
+function initializingMap() {
+  var container = L.DomUtil.get('mapid');
+  if(container != null){
+    container._leaflet_id = null;
+  }
+}
+)});
+  main.variable(observer()).define(["html"], function(html){return(
+html`
+<div class="row">
+  <div class="col-md-12 text-center h4">Topic Modeling (LDAVis)</div>
+</div>
+<div class="row">
+  <div class="col-md-12 text-center">
+    See <a href="http://mallet.cs.umass.edu/index.php">Mallet Website</a> and LDAVis 
+    <a href="http://bl.ocks.org/AlessandraSozzi/raw/ce1ace56e4aed6f2d614ae2243aab5a5/#topic=0&lambda=1&term=">Demo 1</a>
+    or
+    <a href="http://www.kennyshirley.com/LDAvis/#topic=0&lambda=1&term=">Demo 2</a>.
+  </div>
+</div>`
+)});
+  main.variable(observer()).define(["html"], function(html){return(
+html`
+<div id="selectTopicNumberDiv" class="col-lg-12">
+  <div class="form-group" style="margin: 10px 0px 0px 0px;">
+    <label for="topicNumberInput"><strong>Topic Number:</strong></label>
+    <select name="tNumberSelect" id="topicNumberInput" aria-describedby="topicHelp" class="form-control">
+      <option value="3">3</option>
+      <option value="4">4</option>
+      <option value="6">6</option>
+      <option value="8">8</option>
+      <option value="12">12</option>
+      <option value="16">16</option>
+      <option value="24">24</option>
+      <option value="32">32</option>
+      <option value="48">48</option>
+      <option value="64">64</option>
+      <option value="96">96</option>
+      <option value="128">128</option>
+      <option value="192">192</option>
+      <option value="256">256</option>
+      <option value="384">384</option>
+      <option value="512">512</option>
+    </select>
+    <small id="topicHelp" class="form-text text-muted">Please select a number of topic to visualize.</small>
+  </div>
+</div>
+`
+)});
+  main.variable(observer("onChangeEvent")).define("onChangeEvent", ["$","createLDAvis","createTreeChart"], function($,createLDAvis,createTreeChart)
+{
+  $("#topicNumberInput").change(function() {
+    var tNumberSelect = $(this).children("option:selected").val();
+    createLDAvis(tNumberSelect)
+    createTreeChart(tNumberSelect)
+  });
+}
+);
+  main.variable(observer("createDefaultLDAAndTree")).define("createDefaultLDAAndTree", ["createLDAvis","createTreeChart","createWordCloudSvg"], function(createLDAvis,createTreeChart,createWordCloudSvg)
+{
+  createLDAvis(3)
+  createTreeChart(3)
+  createWordCloudSvg()
+}
+);
+  main.variable(observer()).define(["html"], function(html){return(
+html`
+  <div id='ldaVisContainer' class='ldavis_container' style='height: 760px; width: 100%'></div>
+`
+)});
+  main.variable(observer()).define(["html"], function(html){return(
+html`<div id='treeContainer'></div>`
+)});
+  main.variable(observer()).define(["DOM","serialize","treeChartSVG"], function(DOM,serialize,treeChartSVG){return(
+DOM.download(() => serialize(treeChartSVG.svg[0][0]), undefined, "Save Tree Chart as SVG")
+)});
+  main.variable(observer()).define(["html"], function(html){return(
+html`<div id="wordCloud"></div>`
+)});
+  main.variable(observer("createLDAvis")).define("createLDAvis", ["d3","LDAvis","postsMalletModel","widths"], function(d3,LDAvis,postsMalletModel,widths){return(
+function createLDAvis(topicNumber){
+  d3.select("#ldaVisContainer").html("");
+  new LDAvis('#ldaVisContainer', postsMalletModel.lda['topic' + topicNumber], widths.ldaVisWidth);
+}
+)});
+  main.variable(observer("createTreeChart")).define("createTreeChart", ["widths","postsMalletModel","d3t","updateTree","treeChartSVG"], function(widths,postsMalletModel,d3t,updateTree,treeChartSVG){return(
+function createTreeChart(topicNumber){
+  // ************** Generate the tree diagram	 *****************
+  var height;
+  if(topicNumber < 12){
+    height = 300
+  }else if(topicNumber >= 12 && topicNumber < 24){
+    height = 600
+  }else if(topicNumber >= 24){
+    height = 900
+  }else{
+    height = 1000
+  }
+  
+  var root, width = widths.treeContainerWidth;
+  var margin = ({top: 20, right: 120, bottom: 20, left: 120});
+  var treeData = postsMalletModel.myTrees['topic' + topicNumber]
+
+  var tree = d3t.layout.tree().size([height, width]);
+  var diagonal = d3t.svg.diagonal().projection(function(d) { return [d.y, d.x]; });
+
+  d3t.select("#treeContainer").html("");
+  var svg = d3t.select("#treeContainer").append("svg")
+      .attr("width", width + margin.right + margin.left)
+      .attr("height", height + margin.top + margin.bottom)
+      .append("g")
+      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+  root = treeData[0];
+  root.x0 = height / 2;
+  root.y0 = 0;
+    
+  updateTree(svg, tree, root, root, diagonal); 
+  treeChartSVG.svg = svg;
+}
+)});
+  main.variable(observer("updateTree")).define("updateTree", ["wrapTreeNode"], function(wrapTreeNode){return(
+function updateTree(svg, tree, root, source, diagonal) {
+    var i = 0, duration = 1000;
+    // Compute the new tree layout.
+    var nodes = tree.nodes(root), links = tree.links(nodes);
+
+    // Normalize for fixed-depth.
+    nodes.forEach(function(d) { d.y = d.depth * 120; });
+
+    // Update the nodes…
+    var node = svg.selectAll("g.node").data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+    // Enter any new nodes at the parent's previous position.
+    var nodeEnter = node.enter().append("g")
+	    .attr("class", d => ("node " + d.name.replace(' ', '').toLowerCase().trim()))
+	    .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+	    .on("click", function click(d) {
+        if (d.children) {
+          d._children = d.children;
+          d.children = null;
+        } else {
+          d.children = d._children;
+          d._children = null;
+        }
+        updateTree(root, d, diagonal);
+      });
+
+    nodeEnter.append("circle")
+	    .attr("r", 1e-6)
+	    .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+    nodeEnter.append("text")
+	    .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
+	    .attr("dy", ".35em")
+	    .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+	    .text(function(d) { return d.name; })
+	    .style("fill-opacity", 1e-6)
+      .call(wrapTreeNode, 150);
+
+    // Transition nodes to their new position.
+    var nodeUpdate = node.transition().duration(duration)
+	    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+    nodeUpdate.select("circle").attr("r", 10)
+      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+    nodeUpdate.select("text").style("fill-opacity", 1);
+
+    // Transition exiting nodes to the parent's new position.
+    var nodeExit = node.exit().transition().duration(duration)
+	    .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+	    .remove();
+
+    nodeExit.select("circle").attr("r", 1e-6);
+    nodeExit.select("text").style("fill-opacity", 1e-6);
+
+    // Update the links…
+    var link = svg.selectAll("path.link").data(links, function(d) { return d.target.id; });
+
+    // Enter any new links at the parent's previous position.
+    link.enter().insert("path", "g")
+	    .attr("class", "link")
+	    .attr("d", function(d) {
+		    var o = {x: source.x0, y: source.y0};
+		    return diagonal({source: o, target: o});
+	    });
+
+    // Transition links to their new position.
+    link.transition().duration(duration).attr("d", diagonal);
+
+    // Transition exiting nodes to the parent's new position.
+    link.exit().transition().duration(duration)
+	    .attr("d", function(d) {
+		    var o = {x: source.x, y: source.y};
+		    return diagonal({source: o, target: o});
+	    })
+	  .remove();
+
+    // Stash the old positions for transition.
+    nodes.forEach(function(d) {
+	    d.x0 = d.x;
+	    d.y0 = d.y;
+    });
+  }
+)});
+  main.variable(observer("wrapTreeNode")).define("wrapTreeNode", ["d3"], function(d3){return(
+function wrapTreeNode(text, twidth) {
+    text.each(function() {
+      
+      var text = d3.select(this),
+        words = text.text().split(/\s+/).reverse(),
+        word, line = [], 
+        lineNumber = 0,
+        lineHeight = 1.1, // ems
+        y = text.attr("y"),
+        dy = parseFloat(text.attr("dy"));
+      
+      while (word = words.pop()) {
+        line.push(word);
+        if(line.join(" ").length > 20 && line.join(" ") != 'diagnostic order schedule'){
+          var tspan = text.text(null).append("tspan").attr("x", -15).attr("y", y).attr("dy", "-0.3em")
+          tspan.text(line.join(" "));
+          line.pop();
+          tspan.text(line.join(" "));
+          line = [word];
+          tspan = text.append("tspan")
+            .attr("x", -15).attr("y", y)
+            .attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+        }
+      }
+    });
+  }
+)});
+  main.variable(observer("treeChartSVG")).define("treeChartSVG", function()
+{
+  return {svg: null}
+}
+);
+  main.variable(observer("createWordCloudSvg")).define("createWordCloudSvg", ["d3cloud","widths","words","cloudConfig","cloudScale","rotateWord","baseFont","fontSize","d3"], function(d3cloud,widths,words,cloudConfig,cloudScale,rotateWord,baseFont,fontSize,d3){return(
+function createWordCloudSvg() {
   var layout = d3cloud()
-    .size([wordCloudWidth, wordCloudWidth * 9/16]) 
+    .size([widths.wordCloudWidth, widths.wordCloudWidth * 9/20]) 
     .words(words)
     .padding(cloudConfig.padding * cloudScale)
     .rotate(rotateWord)
@@ -1001,9 +1126,14 @@ function createWordCloudSvg(words) {
   var myColorScale = d3.scaleLinear()
         .domain(d3.extent(words, d => d.count))
         .range(["#9ecae1", "#08306b"]);
-  const svg = DOM.svg(layout.size()[0], layout.size()[1]); // width, height
-  const group = d3.select(svg).append('g')
-    //.attr("transform", "translate(" + layout.size()[0] / 2 + "," + layout.size()[1] / 2 + ")")
+  
+  
+  d3.select("#wordCloud").html("");
+  const svg = d3.select("#wordCloud").append("svg")
+      .attr("width", layout.size()[0])
+      .attr("height", layout.size()[1]);
+  
+  const group = svg.append('g')
   
   function addWord (word) {
     const text = group.append('text');
@@ -1023,7 +1153,6 @@ function createWordCloudSvg(words) {
   }
   
   layout.start();
-  return svg;
 }
 )});
   main.variable(observer("cloudConfig")).define("cloudConfig", ["width"], function(width){return(
@@ -1033,6 +1162,9 @@ function createWordCloudSvg(words) {
   height: width/2,
   padding: 1,
 }
+)});
+  main.variable(observer()).define(["html"], function(html){return(
+html`<div class="row"><div class="col-md-12 text-center h3">LDA Snippet</div></div>`
 )});
   main.variable(observer()).define(["md"], function(md){return(
 md`
@@ -1315,6 +1447,11 @@ function container(id, title) {
   return `<div><div id='${id}'></div></div>`
 }
 )});
+  main.variable(observer("dashContainer")).define("dashContainer", function(){return(
+function dashContainer(id) { 
+  return `<div><div id='${id}'></div></div>`
+}
+)});
   main.variable(observer("remove_empty_bins")).define("remove_empty_bins", function(){return(
 function remove_empty_bins(source_group) {
     return {
@@ -1335,6 +1472,57 @@ html`<div class="row"><div class="col-md-12 text-center h3">Imports Section</div
   main.variable(observer()).define(["html"], function(html){return(
 html`<code>Style</code>
 <style>
+  tr.sheading td div {
+    text-align: center;
+  }
+
+  td.sheading {
+    position: relative;
+  }
+
+  tr.srow:not(.sheading) td.sheading div {
+    white-space: nowrap;
+    position: absolute;
+    transform:  translateX(-50%) translateY(-50%) rotate(-90deg);
+  }
+
+  .chart-holder {
+    padding: 0 1em;
+  }
+
+  path.left {
+    stroke: #1f77b4;
+  }
+
+  path.right {
+    stroke: #ff7f0e;
+  }
+
+  path.horizontal {
+    stroke-width: 1;
+    stroke-opacity: 0.5;
+  }
+
+  path.zero {
+    stroke-dasharray: 4, 4;
+  }
+
+  path.zero.right {
+    stroke-dashoffset: 4;
+  }
+
+  path.extreme {
+    stroke-dasharray: 1, 1;
+  }
+
+  path.extreme.right {
+    stroke-dashoffset: 1;
+  }
+
+  .axis > path {
+    display: none;
+  }
+
   .node {
 		cursor: pointer;
 	}
@@ -1355,20 +1543,20 @@ html`<code>Style</code>
 	  stroke-width: 2px;
 	}
 
-/* Taken from https://github.com/cpsievert/LDAvis */
-/* Copyright 2013, AT&T Intellectual Property */
-/* MIT Licence */
-.ldavis_container path {
-  fill: none;
-  stroke: none;
-}
+  /* Taken from https://github.com/cpsievert/LDAvis */
+  /* Copyright 2013, AT&T Intellectual Property */
+  /* MIT Licence */
+  .ldavis_container path {
+    fill: none;
+    stroke: none;
+  }
 
-.ldavis_container .xaxis .tick.major {
+  .ldavis_container .xaxis .tick.major {
     fill: black;
     stroke: black;
     stroke-width: 0.1;
     opacity: 0.7;
-}
+  }
 
 .ldavis_container .slideraxis {
     fill: black;
@@ -1424,114 +1612,143 @@ html`<code>Style</code>
 }
 .dc-chart path.dc-symbol, .dc-legend g.dc-legend-item.fadeout {
   fill-opacity: 0.5;
-  stroke-opacity: 0.5; }
+  stroke-opacity: 0.5; 
+}
 
 .dc-chart rect.bar {
   stroke: none;
-  cursor: pointer; }
+  cursor: pointer; 
+}
   .dc-chart rect.bar:hover {
-    fill-opacity: .5; }
+    fill-opacity: .5; 
+}
 
 .dc-chart rect.deselected {
   stroke: none;
-  fill: #ccc; }
+  fill: #ccc; 
+}
 
 .dc-chart .pie-slice {
   fill: #fff;
   font-size: 12px;
-  cursor: pointer; }
-  .dc-chart .pie-slice.external {
-    fill: #000; }
-  .dc-chart .pie-slice :hover, .dc-chart .pie-slice.highlight {
-    fill-opacity: .8; }
+  cursor: pointer; 
+}
+.dc-chart .pie-slice.external {
+    fill: #000; 
+}
+.dc-chart .pie-slice :hover, .dc-chart .pie-slice.highlight {
+    fill-opacity: .8; 
+}
 
 .dc-chart .pie-path {
   fill: none;
   stroke-width: 2px;
   stroke: #000;
-  opacity: 0.4; }
+  opacity: 0.4; 
+}
 
 .dc-chart .selected path, .dc-chart .selected circle {
   stroke-width: 3;
   stroke: #ccc;
-  fill-opacity: 1; }
+  fill-opacity: 1; 
+}
 
 .dc-chart .deselected path, .dc-chart .deselected circle {
   stroke: none;
   fill-opacity: .5;
-  fill: #ccc; }
+  fill: #ccc; 
+}
 
 .dc-chart .axis path, .dc-chart .axis line {
   fill: none;
   stroke: #000;
-  shape-rendering: crispEdges; }
+  shape-rendering: crispEdges; 
+}
 
 .dc-chart .axis text {
-  font: 10px sans-serif; }
+  font: 10px sans-serif; 
+}
 
 .dc-chart .grid-line, .dc-chart .axis .grid-line, .dc-chart .grid-line line, .dc-chart .axis .grid-line line {
   fill: none;
   stroke: #ccc;
-  shape-rendering: crispEdges; }
+  shape-rendering: crispEdges; 
+}
 
 .dc-chart .brush rect.selection {
   fill: #4682b4;
-  fill-opacity: .125; }
+  fill-opacity: .125; 
+}
 
 .dc-chart .brush .custom-brush-handle {
   fill: #eee;
   stroke: #666;
-  cursor: ew-resize; }
+  cursor: ew-resize; 
+}
 
 .dc-chart path.line {
   fill: none;
-  stroke-width: 1.5px; }
+  stroke-width: 1.5px; 
+}
 
 .dc-chart path.area {
   fill-opacity: .3;
-  stroke: none; }
+  stroke: none; 
+}
 
 .dc-chart path.highlight {
   stroke-width: 3;
   fill-opacity: 1;
-  stroke-opacity: 1; }
+  stroke-opacity: 1; 
+}
 
 .dc-chart g.state {
-  cursor: pointer; }
+  cursor: pointer; 
+}
   .dc-chart g.state :hover {
-    fill-opacity: .8; }
+    fill-opacity: .8; 
+}
   .dc-chart g.state path {
-    stroke: #fff; }
+    stroke: #fff; 
+}
 
 .dc-chart g.deselected path {
-  fill: #808080; }
+  fill: #808080; 
+}
 
 .dc-chart g.deselected text {
-  display: none; }
+  display: none; 
+}
 
 .dc-chart g.row rect {
   fill-opacity: 0.8;
-  cursor: pointer; }
+  cursor: pointer; 
+}
   .dc-chart g.row rect:hover {
-    fill-opacity: 0.6; }
+    fill-opacity: 0.6; 
+}
 
 .dc-chart g.row text {
   fill: #fff;
   font-size: 12px;
-  cursor: pointer; }
+  cursor: pointer; 
+}
 
 .dc-chart g.dc-tooltip path {
   fill: none;
   stroke: #808080;
-  stroke-opacity: .8; }
+  stroke-opacity: .8; 
+}
 
 .dc-chart g.county path {
   stroke: #fff;
-  fill: none; }
+  fill: none; 
+}
 
 .dc-chart g.debug rect {
   fill: #00f;
-  fill-opacity: .2; }
+  fill-opacity: .2; 
+}
 
 .dc-chart g.axis text {
   -webkit-touch-callout: none;
@@ -1540,25 +1757,31 @@ html`<code>Style</code>
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  pointer-events: none; }
+  pointer-events: none; 
+}
 
 .dc-chart .node {
   font-size: 0.7em;
-  cursor: pointer; }
+  cursor: pointer; 
+}
   .dc-chart .node :hover {
-    fill-opacity: .8; }
+    fill-opacity: .8; 
+}
 
 .dc-chart .bubble {
   stroke: none;
-  fill-opacity: 0.6; }
+  fill-opacity: 0.6; 
+}
 
 .dc-chart .highlight {
   fill-opacity: 1;
-  stroke-opacity: 1; }
+  stroke-opacity: 1; 
+}
 
 .dc-chart .fadeout {
   fill-opacity: 0.2;
-  stroke-opacity: 0.2; }
+  stroke-opacity: 0.2; 
+}
 
 .dc-chart .box text {
   font: 10px sans-serif;
@@ -1568,108 +1791,137 @@ html`<code>Style</code>
   -moz-user-select: none;
   -ms-user-select: none;
   user-select: none;
-  pointer-events: none; }
+  pointer-events: none; 
+}
 
 .dc-chart .box line {
-  fill: #fff; }
+  fill: #fff; 
+}
 
 .dc-chart .box rect, .dc-chart .box line, .dc-chart .box circle {
   stroke: #000;
-  stroke-width: 1.5px; }
+  stroke-width: 1.5px; 
+}
 
 .dc-chart .box .center {
-  stroke-dasharray: 3, 3; }
+  stroke-dasharray: 3, 3; 
+}
 
 .dc-chart .box .data {
   stroke: none;
-  stroke-width: 0px; }
+  stroke-width: 0px; 
+}
 
 .dc-chart .box .outlier {
   fill: none;
-  stroke: #ccc; }
+  stroke: #ccc; 
+}
 
 .dc-chart .box .outlierBold {
   fill: red;
-  stroke: none; }
+  stroke: none; 
+}
 
 .dc-chart .box.deselected {
-  opacity: 0.5; }
+  opacity: 0.5; 
+}
   .dc-chart .box.deselected .box {
-    fill: #ccc; }
+    fill: #ccc; 
+}
 
 .dc-chart .symbol {
-  stroke: none; }
+  stroke: none; 
+}
 
 .dc-chart .heatmap .box-group.deselected rect {
   stroke: none;
   fill-opacity: 0.5;
-  fill: #ccc; }
+  fill: #ccc; 
+}
 
 .dc-chart .heatmap g.axis text {
   pointer-events: all;
-  cursor: pointer; }
+  cursor: pointer; 
+}
 
 .dc-chart .empty-chart .pie-slice {
-  cursor: default; }
+  cursor: default; 
+}
   .dc-chart .empty-chart .pie-slice path {
     fill: #fee;
-    cursor: default; }
+    cursor: default; 
+}
 
 .dc-data-count {
   float: right;
   margin-top: 15px;
-  margin-right: 15px; }
+  margin-right: 15px; 
+}
   .dc-data-count .filter-count, .dc-data-count .total-count {
     color: #3182bd;
-    font-weight: bold; }
+    font-weight: bold; 
+}
 
 .dc-legend {
-  font-size: 11px; }
+  font-size: 11px; 
+}
   .dc-legend .dc-legend-item {
-    cursor: pointer; }
+    cursor: pointer; 
+}
 
 .dc-hard .number-display {
-  float: none; }
+  float: none; 
+}
 
 div.dc-html-legend {
   overflow-y: auto;
   overflow-x: hidden;
   height: inherit;
   float: right;
-  padding-right: 2px; }
+  padding-right: 2px; 
+}
   div.dc-html-legend .dc-legend-item-horizontal {
     display: inline-block;
     margin-left: 5px;
     margin-right: 5px;
-    cursor: pointer; }
+    cursor: pointer; 
+}
     div.dc-html-legend .dc-legend-item-horizontal.selected {
       background-color: #3182bd;
-      color: white; }
+      color: white; 
+}
   div.dc-html-legend .dc-legend-item-vertical {
     display: block;
     margin-top: 5px;
     padding-top: 1px;
     padding-bottom: 1px;
-    cursor: pointer; }
+    cursor: pointer; 
+}
     div.dc-html-legend .dc-legend-item-vertical.selected {
       background-color: #3182bd;
-      color: white; }
+      color: white; 
+}
   div.dc-html-legend .dc-legend-item-color {
     display: table-cell;
     width: 12px;
-    height: 12px; }
+    height: 12px; 
+}
   div.dc-html-legend .dc-legend-item-label {
     line-height: 12px;
     display: table-cell;
     vertical-align: middle;
     padding-left: 3px;
     padding-right: 3px;
-    font-size: 0.75em; }
+    font-size: 0.75em; 
+}
 
 .dc-html-legend-container {
-  height: inherit; }
+  height: inherit; 
+}
 </style>`
 )});
+  const child1 = runtime.module(define1);
+  main.import("serialize", child1);
   const child2 = runtime.module(define2);
   main.import("LDAvis", child2);
   const child3 = runtime.module(define3);

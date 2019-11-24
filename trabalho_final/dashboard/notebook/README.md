@@ -1,6 +1,6 @@
 # Ten years of eHealth on Stack Overflow (Dashboard)
 
-https://observablehq.com/d/22466d58aaebf35f@2160
+https://observablehq.com/d/22466d58aaebf35f@2482
 
 View this notebook in your browser by running a web server in this folder. For
 example:

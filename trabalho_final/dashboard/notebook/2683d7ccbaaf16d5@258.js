@@ -13,8 +13,8 @@ md`# LDAvis`
 
 'use strict';
 
-var LDAvis = function(to_select, data_or_file_name) {
-    let LDAvisWidth = Math.floor($($('#ldaVisContainer').parent().parent().get(0)).width()) - 40;  
+var LDAvis = function(to_select, data_or_file_name, width) {
+
     // This section sets up the logic for event handling
     var current_clicked = {
         what: "nothing",
@@ -57,15 +57,15 @@ var LDAvis = function(to_select, data_or_file_name) {
         bottom: 70,
         left: 30
     },
-        mdswidth = (LDAvisWidth-100)/2, //was: 530,
+        mdswidth = (width-100)/2, //was: 530,
         mdsheight = 530,
-        barwidth = (LDAvisWidth-100)/2, //was: 530,
+        barwidth = (width-100)/2, //was: 530,
         barheight = 530,
         termwidth = 90, // width to add between two panels to display terms
         mdsarea = mdsheight * mdswidth;
     // controls how big the maximum circle can be
     // doesn't depend on data, only on mds width and height:
-    var rMax = 60*LDAvisWidth/530; // was: 60;
+    var rMax = 60*width/530; // was: 60;
 
     // proportion of area of MDS plot to which the sum of default topic circle areas is set
     var circle_prop = 0.25;

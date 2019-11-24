@@ -31,10 +31,13 @@
   <div id="wrapper">
 
     <!-- Sidebar -->
-    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion" id="accordionSidebar">
-
+    <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled" id="accordionSidebar">
+      
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
+        <div class="sidebar-brand-icon rotate-n-15">
+          <i class="fas fa-eye"></i>
+        </div>
         <div class="sidebar-brand-text mx-3">eHealth LDAvis</div>
       </a>
 
@@ -44,7 +47,7 @@
       <!-- Nav Item - Dashboard -->
       <li class="nav-item active">
         <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-tachometer-alt"></i>
+          <i class="fas fa-fw fa-tachometer-alt" style="font-size: 20px;"></i>
           <span>Dashboard</span></a>
       </li>
 
@@ -59,24 +62,24 @@
       <!-- Nav Item - Charts -->
       <li class="nav-item">
         <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-chart-area"></i>
+          <i class="fas fa-fw fa-chart-area" style="font-size: 20px;"></i>
           <span>Basic Charts</span></a>
       </li>
 
       <!-- Nav Item - Tables -->
       <li class="nav-item">
         <a class="nav-link" href="ldavis.html">
-          <i class="fas fa-project-diagram fa-table"></i>
+          <i class="fas fa-project-diagram fa-table" style="font-size: 20px;"></i>
           <span>LDAvis</span></a>
       </li>
 
       <!-- Divider -->
       <hr class="sidebar-divider d-none d-md-block">
 
-      <!-- Sidebar Toggler (Sidebar) -->
+      <!-- Sidebar Toggler (Sidebar) 
       <div class="text-center d-none d-md-inline">
         <button class="rounded-circle border-0" id="sidebarToggle"></button>
-      </div>
+      </div>-->
 
     </ul>
     <!-- End of Sidebar -->
@@ -193,7 +196,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Dashboard</h1>
+            <h1 class="h3 mb-0 text-gray-800">Ten Years of eHealth Discussions on Stack Overflow</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
           </div>
 
@@ -274,11 +277,21 @@
           </div>
 
           <!-- Content Row -->
+          <div id="execVisNone" style="display: none;"></div>
           <div class="row">
             <div class="col-lg-7 mb-6">
                 <div class="card shadow mb-4">
-                    <div class="card-header py-3 d-flex flex-row align-items-center justify-content-between">
-                      <h6 class="m-0 font-weight-bold text-primary">Posts by Year</h6>
+                    <div class="card-header py-3">
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h6 class="m-0 font-weight-bold text-primary">Posts by Year</h6>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="d-flex align-items-center">
+                          <div id="by_year_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                        </div>
+                      </div>
+                    </div>
                     </div>
                     <div class="card-body">
                       <div id="postByYear"></div>
@@ -286,13 +299,40 @@
                   </div>
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Posts in World</h6>
+                  <div class="row">
+                    <div class="col-md-10">
+                        <h6 class="m-0 font-weight-bold text-primary">Posts in World</h6>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="d-flex align-items-center">
+                        <div id="myMapVis_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="card-body">
-                  <div id="execVisNone" style="display: none;"></div>
-                  <div id="postInWorld"></div>
+                  <div id="postInWorld">
+                    <div id='mapid' style="min-height: 500px; width: 100%"></div>
+                  </div>
                 </div>
               </div>
+              <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <div class="row">
+                      <div class="col-md-10">
+                          <h6 class="m-0 font-weight-bold text-primary">Splom Chart Among Score, UserReputation, ViewCount and FavoriteCount</h6>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="d-flex align-items-center">
+                          <div id="splomChart_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <table id="splomTable"></table>
+                  </div>
+                </div>
             </div>
             <div class="col-lg-5 mb-2">
               <div class="card shadow mb-2">
@@ -300,17 +340,37 @@
                   <h6 class="m-0 font-weight-bold text-primary">Abstract</h6>
                 </div>
                 <div class="card-body" id="nTest">    
-                  <p class="text-justify" style="margin: 0;font-size: 14px;">Lorem Ipsum is simply dummy text of the printing and 
-                    typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-                    unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                    five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
-                    in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                    publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                  <p class="text-justify" style="margin: 0;font-size: 14px;">
+                    Over the past decade, we have seen considerable growth in research into 
+                    computational health technologies. However, few academic papers address 
+                    the perspective and challenges reported by developers during the development 
+                    of health solutions. This research aims to collect and analyze eHealth 
+                    discussions from Stack Overflow (SO) to identify trends and challenges 
+                    based on the developers' perspective. We use the KDD process and the 
+                    methodology proposed by BANDEIRA et al. (2019). First, we make a query 
+                    for tags of questions from the SO database. Then, we process the data 
+                    and apply the LDA algorithm for topic modeling. We have identified 3469 
+                    discussions, of which 1765 are open discussions. The most discussed 
+                    topics include Digital Imaging and Communications in Medicine (DICOM), 
+                    Electronic Health Records (EHR), and technical issues about the development 
+                    of mobile apps. The data analyzed allowed us to identify trends primarily 
+                    related to the use of mobile application development platforms, as well 
+                    as strong demand for interoperability standards and stable and well-documented 
+                    tools to support the development of healthcare systems and applications.</p> 
                 </div>
               </div>
               <div class="card shadow mb-2">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Posts by Operating System</h6>
+                  <div class="row">
+                    <div class="col-md-10">
+                        <h6 class="m-0 font-weight-bold text-primary">Posts by Operating System</h6>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="d-flex align-items-center">
+                        <div id="by_os_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="card-body">
                   <div id="postByOS"></div>
@@ -318,10 +378,36 @@
               </div>
               <div class="card shadow mb-2">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Top 10 Programming Languages</h6>
+                  <div class="row">
+                    <div class="col-md-10">
+                        <h6 class="m-0 font-weight-bold text-primary">Top 10 Programming Languages</h6>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="d-flex align-items-center">
+                        <div id="by_pLanguage_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
                 <div class="card-body">
                   <div id="postByProgLang"></div>
+                </div>
+              </div>
+              <div class="card shadow mb-2">
+                <div class="card-header py-3">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h6 class="m-0 font-weight-bold text-primary">Top Tags Evolution over Years</h6>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="d-flex align-items-center">
+                        <div id="linechart_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-body">
+                  <div id="tagsByYear"></div>
                 </div>
               </div>
             </div>
@@ -330,27 +416,46 @@
         
         <!-- /.container-fluid -->
         <script type="module">
+          //python -m SimpleHTTPServer 8000
           // Load the Observable runtime and inspector.
           import {Runtime, Library, Inspector} from "./notebook/runtime.js";
       
           // Your notebook, compiled as an ES module.
-          import notebook from "./notebook/22466d58aaebf35f@2160.js";
+          import notebook from "./notebook/22466d58aaebf35f@2482.js";
 
           // Load the notebook, observing its cells with a default Inspector
           // that simply renders the value of each cell into the provided DOM node.
+          var count = 0;
+          var modules = ['by_year', 'myMapVis', 'legend', 'by_os', 'by_pLanguage', 'linechart']
           new Runtime().module(notebook, name => {
-            if(name === "by_year") {
-              return new Inspector(document.querySelector("#postByYear"));
-            }else if(name === "by_world"){
-              return new Inspector(document.querySelector("#postInWorld"));
-            }else if(name === "myMapVis"){
-              return new Inspector(document.querySelector("#execVisNone"));
-            }else if(name === "legend"){
-              return new Inspector(document.querySelector("#execVisNone"));
-            }else if(name === "by_os"){
-              return new Inspector(document.querySelector("#postByOS"));
-            }else if(name === "by_pLanguage"){
-              return new Inspector(document.querySelector("#postByProgLang"));
+            if(modules.includes(name)) {
+              return {
+                pending() { 
+                  console.log("Running " + name + "...")
+                  $('.spinner-border').show();
+                },
+                fulfilled(value) { 
+                  count++;
+                  if(count == 6){
+                    new Runtime().module(notebook, name => {
+                      if(name == 'splomChart') {
+                        return {
+                          pending() { 
+                            console.log("Running " + name + "...")
+                            $('.spinner-border').show();
+                          },
+                          fulfilled(value) { 
+                            console.log("Done " + name + "!")
+                            $('.spinner-border').hide();
+                          }
+                        };
+                      }
+                    });
+                  }
+                  console.log("Done " + name + "!")
+                  $('.spinner-border').hide();
+                }
+              };
             }
           });
         </script>
