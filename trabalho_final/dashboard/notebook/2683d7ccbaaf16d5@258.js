@@ -512,7 +512,8 @@ var LDAvis = function(to_select, data_or_file_name, width) {
             .attr("x", 0)
             .attr("y", mdsheight + 10 + (6/2)*barguide.height + 5)
             .style("dominant-baseline", "middle")
-            .text("1. saliency(term w) = frequency(w) * [sum_t p(t | w) * log(p(t | w)/p(t))] for topics t; see Chuang et. al (2012)");
+            .text("1. saliency(term w) = frequency(w) * [sum_t p(t | w) * log(p(t | w)/p(t))]");
+        //for topics t; see Chuang et. al (2012)
         d3.select("#" + barFreqsID)
             .append("a")
             .attr("xlink:href", "http://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf")
@@ -521,8 +522,8 @@ var LDAvis = function(to_select, data_or_file_name, width) {
             .attr("x", 0)
             .attr("y", mdsheight + 10 + (8/2)*barguide.height + 5)
             .style("dominant-baseline", "middle")
-            .text("2. relevance(term w | topic t) = \u03BB * p(w | t) + (1 - \u03BB) * p(w | t)/p(w); see Sievert & Shirley (2014)");
-
+            .text("2. relevance(term w | topic t) = \u03BB * p(w | t) + (1 - \u03BB) * p(w | t)/p(w);");
+        //see Sievert & Shirley (2014)
         // Bind 'default' data to 'default' bar chart
         var basebars = chart.selectAll(to_select + " .bar-totals")
                 .data(barDefault2)
@@ -613,17 +614,17 @@ var LDAvis = function(to_select, data_or_file_name, width) {
 
             // topic input container:
             var topicDiv = document.createElement("div");
-            topicDiv.setAttribute("style", "padding: 5px; background-color: #e8e8e8; display: inline-block; width: " + mdswidth + "px; height: 50px; float: left");
+            topicDiv.setAttribute("style", "padding: 13px 5px; background-color: #e8e8e8; display: inline-block; width: " + mdswidth + "px; height: 50px; float: left");
             inputDiv.appendChild(topicDiv);
 
             var topicLabel = document.createElement("label");
             topicLabel.setAttribute("for", topicID);
-            topicLabel.setAttribute("style", "font-family: sans-serif;"); 
-            topicLabel.innerHTML = "Selected Topic: <span id='" + topicID + "-value'></span>";
+            topicLabel.setAttribute("style", "font-family: sans-serif; width: 10%;"); 
+            topicLabel.innerHTML = "Topic: <span id='" + topicID + "-value'></span>";
             topicDiv.appendChild(topicLabel);
 
             var topicInput = document.createElement("input");
-            topicInput.setAttribute("style", "width: 20px");
+            topicInput.setAttribute("style", "width: 10%; text-align: center;");
             topicInput.type = "text";
             topicInput.min = "0";
             topicInput.max = K; // assumes the data has already been read in
@@ -634,19 +635,19 @@ var LDAvis = function(to_select, data_or_file_name, width) {
 
             var previous = document.createElement("button");
             previous.setAttribute("id", topicDown);
-            previous.setAttribute("style", "margin-left: 5px");
-            previous.innerHTML = "Previous Topic";
+            previous.setAttribute("style", "margin-left: 5px; width: 25%");
+            previous.innerHTML = "Prior Topic";
             topicDiv.appendChild(previous);
 
             var next = document.createElement("button");
             next.setAttribute("id", topicUp);
-            next.setAttribute("style", "margin-left: 5px");
+            next.setAttribute("style", "margin-left: 5px; width: 25%");
             next.innerHTML = "Next Topic";
             topicDiv.appendChild(next);
 
             var clear = document.createElement("button");
             clear.setAttribute("id", topicClear);
-            clear.setAttribute("style", "margin-left: 5px");
+            clear.setAttribute("style", "margin-left: 5px; width: 25%");
             clear.innerHTML = "Clear Topic";
             topicDiv.appendChild(clear);
 
@@ -655,18 +656,18 @@ var LDAvis = function(to_select, data_or_file_name, width) {
             var lambdaDivWidth = barwidth;
             var lambdaDiv = document.createElement("div");
             lambdaDiv.setAttribute("id", lambdaInputID);
-            lambdaDiv.setAttribute("style", "padding: 5px; background-color: #e8e8e8; display: inline-block; height: 50px; width: " + lambdaDivWidth + "px; float: right;"); 
+            lambdaDiv.setAttribute("style", "padding: 12px 5px; background-color: #e8e8e8; display: inline-block; height: 50px; width: " + lambdaDivWidth + "px; float: right;"); 
             inputDiv.appendChild(lambdaDiv);
 
             var lambdaZero = document.createElement("div");
-            lambdaZero.setAttribute("style", "padding: 5px; height: 20px; width: 100%; font-family: sans-serif; float: left");
+            lambdaZero.setAttribute("style", "padding: 5px; height: 20px; width: 35%; font-family: sans-serif; float: left");
             lambdaZero.setAttribute("id", lambdaZeroID);
             lambdaDiv.appendChild(lambdaZero);
             var xx = d3.select("#" + lambdaZeroID)
                     .append("text")
                     .attr("x", 0)
                     .attr("y", 0)
-                    .text("Slide to adjust relevance metric:");
+                    .text("Adjust the relevance");
             var yy = d3.select("#" + lambdaZeroID)
                     .append("text")
                     .attr("x", 125)
@@ -674,10 +675,18 @@ var LDAvis = function(to_select, data_or_file_name, width) {
                     .style("font-size", "smaller") 
                     .style("position", "absolute")
                     .text("(2)");
+            //var zz = d3.select("#" + lambdaZeroID).appendChild("<span id='" + lambdaID + "-value'>" + vis_state.lambda + "</span>");
+
+            var lambdaLabel = document.createElement("label");
+            lambdaLabel.setAttribute("id", lambdaLabelID);
+            lambdaLabel.setAttribute("for", lambdaID);
+            lambdaLabel.setAttribute("style", "width: 15%; font-family: sans-serif; padding:5px"); 
+            lambdaLabel.innerHTML = "&#955 = <span id='" + lambdaID + "-value'>" + vis_state.lambda + "</span>";
+            lambdaDiv.appendChild(lambdaLabel);
 
             var sliderDiv = document.createElement("div");
             sliderDiv.setAttribute("id", sliderDivID);
-            sliderDiv.setAttribute("style", "width: 70%; float: right; margin-top: -5px;"); 
+            sliderDiv.setAttribute("style", "width: 45%; float: right;"); 
             lambdaDiv.appendChild(sliderDiv);
 
             var lambdaInput = document.createElement("input");
@@ -691,14 +700,10 @@ var LDAvis = function(to_select, data_or_file_name, width) {
             lambdaInput.setAttribute("list", "ticks"); // to enable automatic ticks (with no labels, see below)
             sliderDiv.appendChild(lambdaInput);
 
-            var lambdaLabel = document.createElement("label");
-            lambdaLabel.setAttribute("id", lambdaLabelID);
-            lambdaLabel.setAttribute("for", lambdaID);
-            lambdaLabel.setAttribute("style", "width: 20%; font-family: sans-serif; padding:5px"); 
-            lambdaLabel.innerHTML = "&#955 = <span id='" + lambdaID + "-value'>" + vis_state.lambda + "</span>";
-            lambdaDiv.appendChild(lambdaLabel);
+            
 
-          /* was: slider scale thru svg; does not scale
+            
+            /* was: slider scale thru svg; does not scale
             // Create the svg to contain the slider scale:
             var scaleContainer = d3.select("#" + sliderDivID).append("svg")
                     .attr("width", 250)
@@ -722,19 +727,19 @@ var LDAvis = function(to_select, data_or_file_name, width) {
                     .attr("class", "slideraxis")
                     .attr("margin-top", "-10px")
                     .call(sliderAxis);
-
-            // Another strategy for tick marks on the slider; simpler, but not labels
-            // var sliderTicks = document.createElement("datalist");
-            // sliderTicks.setAttribute("id", "ticks");
-            // for (var tick = 0; tick <= 10; tick++) {
-            //     var tickOption = document.createElement("option");
-            //     //tickOption.value = tick/10;
-            //     tickOption.innerHTML = tick/10;
-            //     sliderTicks.appendChild(tickOption);
-            // }
+            */
+            //Another strategy for tick marks on the slider; simpler, but not labels
+            var sliderTicks = document.createElement("datalist");
+            sliderTicks.setAttribute("id", "ticks");
+            for (var tick = 0; tick <= 10; tick++) {
+                var tickOption = document.createElement("option");
+                tickOption.value = tick/10;
+                tickOption.innerHTML = tick/10;
+                sliderTicks.appendChild(tickOption);
+            }
             // append the forms to the containers
-            //lambdaDiv.appendChild(sliderTicks);
-         */
+            lambdaDiv.appendChild(sliderTicks);
+         
         }
 
         // function to re-order the bars (gray and red), and terms:

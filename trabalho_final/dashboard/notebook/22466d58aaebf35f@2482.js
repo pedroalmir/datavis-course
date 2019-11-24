@@ -1166,7 +1166,7 @@ function createWordCloudSvg() {
   main.variable(observer()).define(["html"], function(html){return(
 html`<div class="row"><div class="col-md-12 text-center h3">LDA Snippet</div></div>`
 )});
-  main.variable(observer()).define(["md"], function(md){return(
+  main.variable(observer("RLDASnippet")).define(["md"], function(md){return(
 md`
 ###### The LDA models were generated using the following code:
 

@@ -21,7 +21,7 @@
   <link href="css/mycss.css" rel="stylesheet">
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
   <link href="notebook/inspector.css" rel="stylesheet" type="text/css">
-  
+  <link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 </head>
 
 <body id="page-top">
@@ -46,7 +46,7 @@
       <!-- Nav Item - Dashboard -->
       <li class="nav-item">
         <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-tachometer-alt" style="font-size: 20px;"></i>
+          <i class="fas fa-tachometer-alt" style="font-size: 20px;"></i>
           <span>Dashboard</span></a>
       </li>
 
@@ -60,16 +60,22 @@
 
       <!-- Nav Item - Charts -->
       <li class="nav-item">
-        <a class="nav-link" href="index.html">
-          <i class="fas fa-fw fa-chart-area" style="font-size: 20px;"></i>
+        <a class="nav-link" href="basicCharts.html">
+          <i class="fas fa-chart-area" style="font-size: 20px;"></i>
           <span>Basic Charts</span></a>
       </li>
 
       <!-- Nav Item - Tables -->
       <li class="nav-item active">
         <a class="nav-link" href="ldavis.html">
-          <i class="fas fa-project-diagram fa-table" style="font-size: 20px;"></i>
+          <i class="fas fa-project-diagram" style="font-size: 20px;"></i>
           <span>LDAvis</span></a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="codeSnippets.html">
+          <i class="fas fa-code" style="font-size: 20px;"></i>
+          <span>Snippets</span></a>
       </li>
 
       <!-- Divider -->
@@ -195,7 +201,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Ten Years of eHealth Discussions on Stack Overflow</h1>
+            <h1 class="h3 mb-0 text-gray-800">Ten Years of eHealth Discussions on Stack Overflow - LDAvis</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
           </div>
 
@@ -213,25 +219,24 @@
           <!-- Content Row -->
           <div class="row">
             
-            <div class="col-lg-6 mb-2">
+            <div class="col-lg-6 mb-6">
               <div class="card shadow mb-2">
                 <div class="card-header py-3">
                   <h6 class="m-0 font-weight-bold text-primary">More Information about LDAvis</h6>
                 </div>
                 <div class="card-body">    
                   <div class="row">
-                    <div class="col-lg-12">
-                      <p class="text-justify" style="margin: 0;font-size: 14px;">Lorem Ipsum is simply dummy text of the printing and 
-                        typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an 
-                        unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only 
-                        five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised 
-                        in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop 
-                        publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p> 
+                    <div class="col-lg-8">
+                      <p class="text-justify" style="margin: 0;font-size: 14px;">
+                        We decided to use the Latent Dirichlet Allocation (LDA) algorithm for Topic Detection and Tracking. 
+                        And, as a strategy for visualizing topic modeling, we used LDAvis. This visualization model has two 
+                        main areas: the left pane has a two-dimensional distribution of topics. The centroids position 
+                        is calculated by the inter topic distance, and the prevalence of the topic is mapped in the circles' 
+                        area. The right panel presents the most significant terms for each topic. For more details, visit the link 
+                        <a href="https://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf" target="_blank">LDAvis Paper</a>.</p> 
                     </div>
-                  </div>    
-                  <div class="row">
-                    <div id="selectTopicNumberDiv" class="col-lg-12">
-                      <div class="form-group" style="margin: 10px 0px 0px 0px;">
+                    <div id="selectTopicNumberDiv" class="col-lg-4">
+                      <div class="form-group">
                         <label for="topicNumberInput"><strong>Topic Number:</strong></label>
                         <select name="tNumberSelect" id="topicNumberInput" aria-describedby="topicHelp" class="form-control">
                           <option value="3">3</option><option value="4">4</option><option value="6">6</option><option value="8">8</option><option value="12">12</option><option value="16">16</option><option value="24">24</option><option value="32">32</option><option value="48">48</option><option value="64">64</option><option value="96">96</option><option value="128">128</option><option value="192">192</option><option value="256">256</option><option value="384">384</option><option value="512">512</option>
@@ -322,16 +327,11 @@
                   },
                   fulfilled(value) { 
                     console.log("Done " + name + "!")
-                    $($('#ldaVisContainer-topic-value').parent()[0]).html('Topic: <span id="ldaVisContainer-topic-value"></span>')
+                    //$($('#ldaVisContainer-topic-value').parent()[0]).html('Topic: <span id="ldaVisContainer-topic-value"></span>')
                     $('.spinner-border').hide();
                   }
                 };
               }
-            });
-          </script>
-          <script type="text/javascript">
-            $(document).ready(function() {
-              
             });
           </script>
       </div>
@@ -341,7 +341,7 @@
       <footer class="sticky-footer bg-white">
         <div class="container my-auto">
           <div class="copyright text-center my-auto">
-            <span>Copyright &copy; GREat Lab 2019</span>
+            <span>Copyright &copy; <a href="https://www.great.ufc.br/" target="_blank">GREat Lab</a> 2019</span>
           </div>
         </div>
       </footer>

@@ -45,7 +45,7 @@
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">
           <i class="fas fa-tachometer-alt" style="font-size: 20px;"></i>
           <span>Dashboard</span></a>
@@ -60,7 +60,7 @@
       </div>
 
       <!-- Nav Item - Charts -->
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="basicCharts.html">
           <i class="fas fa-chart-area" style="font-size: 20px;"></i>
           <span>Basic Charts</span></a>
@@ -202,7 +202,7 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Ten Years of eHealth Discussions on Stack Overflow</h1>
+            <h1 class="h3 mb-0 text-gray-800">Ten Years of eHealth Discussions on Stack Overflow - Basic Charts</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
           </div>
 
@@ -322,23 +322,23 @@
                   </div>
                 </div>
               </div>
-              <div class="card shadow mb-4">
-                  <div class="card-header py-3">
-                    <div class="row">
-                      <div class="col-md-10">
-                          <h6 class="m-0 font-weight-bold text-primary">Splom Chart Among Score, UserReputation, ViewCount and FavoriteCount</h6>
-                      </div>
-                      <div class="col-md-2">
-                        <div class="d-flex align-items-center">
-                          <div id="splomChart_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
-                        </div>
+              <div class="card shadow mb-2">
+                <div class="card-header py-3">
+                  <div class="row">
+                    <div class="col-md-10">
+                      <h6 class="m-0 font-weight-bold text-primary">Top Tags Evolution over Years</h6>
+                    </div>
+                    <div class="col-md-2">
+                      <div class="d-flex align-items-center">
+                        <div id="linechart_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
                       </div>
                     </div>
                   </div>
-                  <div class="card-body">
-                    <table id="splomTable"></table>
-                  </div>
                 </div>
+                <div class="card-body">
+                  <div id="tagsByYear"></div>
+                </div>
+              </div>
             </div>
             <div class="col-lg-5 mb-2">
               <div class="card shadow mb-2">
@@ -397,23 +397,6 @@
                 </div>
                 <div class="card-body">
                   <div id="postByProgLang"></div>
-                </div>
-              </div>
-              <div class="card shadow mb-2">
-                <div class="card-header py-3">
-                  <div class="row">
-                    <div class="col-md-10">
-                      <h6 class="m-0 font-weight-bold text-primary">Top Tags Evolution over Years</h6>
-                    </div>
-                    <div class="col-md-2">
-                      <div class="d-flex align-items-center">
-                        <div id="linechart_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <div id="tagsByYear"></div>
                 </div>
               </div>
             </div>

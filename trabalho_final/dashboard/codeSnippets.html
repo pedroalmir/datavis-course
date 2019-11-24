@@ -21,7 +21,6 @@
   <link href="css/mycss.css" rel="stylesheet">
   <link href="css/sb-admin-2.min.css" rel="stylesheet">
   <link href="notebook/inspector.css" rel="stylesheet" type="text/css">
-  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
   <link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
 </head>
 
@@ -32,7 +31,7 @@
 
     <!-- Sidebar -->
     <ul class="navbar-nav bg-gradient-primary sidebar sidebar-dark accordion toggled" id="accordionSidebar">
-      
+
       <!-- Sidebar - Brand -->
       <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.html">
         <div class="sidebar-brand-icon rotate-n-15">
@@ -45,7 +44,7 @@
       <hr class="sidebar-divider my-0">
 
       <!-- Nav Item - Dashboard -->
-      <li class="nav-item active">
+      <li class="nav-item">
         <a class="nav-link" href="index.html">
           <i class="fas fa-tachometer-alt" style="font-size: 20px;"></i>
           <span>Dashboard</span></a>
@@ -73,7 +72,7 @@
           <span>LDAvis</span></a>
       </li>
 
-      <li class="nav-item">
+      <li class="nav-item active">
         <a class="nav-link" href="codeSnippets.html">
           <i class="fas fa-code" style="font-size: 20px;"></i>
           <span>Snippets</span></a>
@@ -202,77 +201,12 @@
 
           <!-- Page Heading -->
           <div class="d-sm-flex align-items-center justify-content-between mb-4">
-            <h1 class="h3 mb-0 text-gray-800">Ten Years of eHealth Discussions on Stack Overflow</h1>
+            <h1 class="h3 mb-0 text-gray-800">Ten Years of eHealth Discussions on Stack Overflow - Snippets</h1>
             <a href="#" class="d-none d-sm-inline-block btn btn-sm btn-primary shadow-sm"><i class="fas fa-download fa-sm text-white-50"></i> Generate Report</a>
           </div>
 
           <!-- Content Row -->
-          <div class="row">
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-primary shadow h-100 py-2">
-                <div class="card-body" style="padding: 0.8rem 1.25rem;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-primary text-uppercase mb-1">eHealth Posts</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">4488</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fab fa-stack-overflow fa-3x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-success shadow h-100 py-2">
-                <div class="card-body" style="padding: 0.8rem 1.25rem;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-success text-uppercase mb-1">Discussions</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">3469</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-comments fa-3x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-info shadow h-100 py-2">
-                <div class="card-body" style="padding: 0.8rem 1.25rem;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-info text-uppercase mb-1">Open Questions</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">1765</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-question-circle fa-3x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <div class="col-xl-3 col-md-6 mb-4">
-              <div class="card border-left-warning shadow h-100 py-2">
-                <div class="card-body" style="padding: 0.8rem 1.25rem;">
-                  <div class="row no-gutters align-items-center">
-                    <div class="col mr-2">
-                      <div class="text-xs font-weight-bold text-warning text-uppercase mb-1">Users</div>
-                      <div class="h5 mb-0 font-weight-bold text-gray-800">2474</div>
-                    </div>
-                    <div class="col-auto">
-                      <i class="fas fa-users fa-3x text-gray-300"></i>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
+          
 
           <!-- Content Row -->
 
@@ -283,188 +217,104 @@
           </div>
 
           <!-- Content Row -->
-          <div id="execVisNone" style="display: none;"></div>
           <div class="row">
-            <div class="col-lg-7 mb-6">
-                <div class="card shadow mb-4">
-                    <div class="card-header py-3">
-                    <div class="row">
-                      <div class="col-md-10">
-                        <h6 class="m-0 font-weight-bold text-primary">Posts by Year</h6>
-                      </div>
-                      <div class="col-md-2">
-                        <div class="d-flex align-items-center">
-                          <div id="by_year_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
-                        </div>
-                      </div>
-                    </div>
-                    </div>
-                    <div class="card-body">
-                      <div id="postByYear"></div>
+            
+            <div class="col-lg-6 mb-6">
+              <div class="card shadow mb-2">
+                <div class="card-header py-3">
+                  <h6 class="m-0 font-weight-bold text-primary">Code availability</h6>
+                </div>
+                <div class="card-body">    
+                  <div class="row">
+                    <div class="col-lg-12">
+                      <p class="text-justify" style="margin: 0;font-size: 14px;">
+                        In order to improve the reproducibility of this work, all codes and data used are available on the Internet. 
+                        The query to search the OS base posts can be accessed at this link 
+                        <a href="https://data.stackexchange.com/stackoverflow/query/1124873/ehealth-discussions" target="_blank">https://data.stackexchange.com/stackoverflow/query/1124873/ehealth-discussions</a>. 
+                        The codes used to build the visualizations presented in the article are available on Observable Notebook through the 
+                        <a href="https://observablehq.com/@pedroalmir" target="_blank">observablehq.com/@pedroalmir</a> and the datasets can 
+                        be found at: <a href="https://github.com/pedroalmir/datavis-course" target="_blank">https://github.com/pedroalmir/datavis-course</a>. 
+                        All of these artifacts are licensed under a Creative Commons Attribution 4.0 International License, which permits use, sharing,
+                         adaptation, distribution and reproduction in any medium or format, as long as you give appropriate credit to the original author(s).</p> 
                     </div>
                   </div>
+                </div>
+              </div>
               <div class="card shadow mb-4">
                 <div class="card-header py-3">
                   <div class="row">
                     <div class="col-md-10">
-                        <h6 class="m-0 font-weight-bold text-primary">Posts in World</h6>
+                      <h6 class="m-0 font-weight-bold text-primary">Preprocessing Snippet</h6>
                     </div>
                     <div class="col-md-2">
                       <div class="d-flex align-items-center">
-                        <div id="myMapVis_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                        <div class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
                       </div>
                     </div>
                   </div>
                 </div>
                 <div class="card-body">
-                  <div id="postInWorld">
-                    <div id='mapid' style="min-height: 500px; width: 100%"></div>
-                  </div>
+                  <div id="preProcessingSnippet"></div>
                 </div>
               </div>
-              <div class="card shadow mb-4">
+              <div class="card shadow mb-2">
                   <div class="card-header py-3">
                     <div class="row">
                       <div class="col-md-10">
-                          <h6 class="m-0 font-weight-bold text-primary">Splom Chart Among Score, UserReputation, ViewCount and FavoriteCount</h6>
+                        <h6 class="m-0 font-weight-bold text-primary">Line Structure Chart</h6>
                       </div>
                       <div class="col-md-2">
                         <div class="d-flex align-items-center">
-                          <div id="splomChart_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                          <div class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
                         </div>
                       </div>
                     </div>
                   </div>
                   <div class="card-body">
-                    <table id="splomTable"></table>
+                    <div id="lineStructureSnippet"></div>
                   </div>
                 </div>
             </div>
-            <div class="col-lg-5 mb-2">
-              <div class="card shadow mb-2">
-                <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Abstract</h6>
-                </div>
-                <div class="card-body" id="nTest">    
-                  <p class="text-justify" style="margin: 0;font-size: 14px;">
-                    Over the past decade, we have seen considerable growth in research into 
-                    computational health technologies. However, few academic papers address 
-                    the perspective and challenges reported by developers during the development 
-                    of health solutions. This research aims to collect and analyze eHealth 
-                    discussions from Stack Overflow (SO) to identify trends and challenges 
-                    based on the developers' perspective. We use the KDD process and the 
-                    methodology proposed by BANDEIRA et al. (2019). First, we make a query 
-                    for tags of questions from the SO database. Then, we process the data 
-                    and apply the LDA algorithm for topic modeling. We have identified 3469 
-                    discussions, of which 1765 are open discussions. The most discussed 
-                    topics include Digital Imaging and Communications in Medicine (DICOM), 
-                    Electronic Health Records (EHR), and technical issues about the development 
-                    of mobile apps. The data analyzed allowed us to identify trends primarily 
-                    related to the use of mobile application development platforms, as well 
-                    as strong demand for interoperability standards and stable and well-documented 
-                    tools to support the development of healthcare systems and applications.</p> 
-                </div>
-              </div>
-              <div class="card shadow mb-2">
-                <div class="card-header py-3">
-                  <div class="row">
-                    <div class="col-md-10">
-                        <h6 class="m-0 font-weight-bold text-primary">Posts by Operating System</h6>
-                    </div>
-                    <div class="col-md-2">
-                      <div class="d-flex align-items-center">
-                        <div id="by_os_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+            <div class="col-lg-6 mb-6">
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h6 class="m-0 font-weight-bold text-primary">R Mallet Snippet</h6>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="d-flex align-items-center">
+                          <div class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                        </div>
                       </div>
                     </div>
                   </div>
-                </div>
-                <div class="card-body">
-                  <div id="postByOS"></div>
-                </div>
-              </div>
-              <div class="card shadow mb-2">
-                <div class="card-header py-3">
-                  <div class="row">
-                    <div class="col-md-10">
-                        <h6 class="m-0 font-weight-bold text-primary">Top 10 Programming Languages</h6>
-                    </div>
-                    <div class="col-md-2">
-                      <div class="d-flex align-items-center">
-                        <div id="by_pLanguage_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
-                      </div>
-                    </div>
+                  <div class="card-body">
+                    <div id="RLDASnippet"></div>                    
                   </div>
                 </div>
-                <div class="card-body">
-                  <div id="postByProgLang"></div>
-                </div>
+                
               </div>
-              <div class="card shadow mb-2">
-                <div class="card-header py-3">
-                  <div class="row">
-                    <div class="col-md-10">
-                      <h6 class="m-0 font-weight-bold text-primary">Top Tags Evolution over Years</h6>
-                    </div>
-                    <div class="col-md-2">
-                      <div class="d-flex align-items-center">
-                        <div id="linechart_spinner" class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class="card-body">
-                  <div id="tagsByYear"></div>
-                </div>
-              </div>
-            </div>
           </div>
+          <div id="execVisNone" style="display: none;"></div>
         </div>
-        
         <!-- /.container-fluid -->
         <script type="module">
-          //python -m SimpleHTTPServer 8000
-          // Load the Observable runtime and inspector.
-          import {Runtime, Library, Inspector} from "./notebook/runtime.js";
-      
-          // Your notebook, compiled as an ES module.
-          import notebook from "./notebook/22466d58aaebf35f@2482.js";
-
-          // Load the notebook, observing its cells with a default Inspector
-          // that simply renders the value of each cell into the provided DOM node.
-          var count = 0;
-          var modules = ['by_year', 'myMapVis', 'legend', 'by_os', 'by_pLanguage', 'linechart']
-          new Runtime().module(notebook, name => {
-            if(modules.includes(name)) {
-              return {
-                pending() { 
-                  console.log("Running " + name + "...")
-                  $('.spinner-border').show();
-                },
-                fulfilled(value) { 
-                  count++;
-                  if(count == 6){
-                    new Runtime().module(notebook, name => {
-                      if(name == 'splomChart') {
-                        return {
-                          pending() { 
-                            console.log("Running " + name + "...")
-                            $('.spinner-border').show();
-                          },
-                          fulfilled(value) { 
-                            console.log("Done " + name + "!")
-                            $('.spinner-border').hide();
-                          }
-                        };
-                      }
-                    });
-                  }
-                  console.log("Done " + name + "!")
-                  $('.spinner-border').hide();
-                }
-              };
-            }
-          });
-        </script>
+            // Load the Observable runtime and inspector.
+            import {Runtime, Library, Inspector} from "./notebook/runtime.js";
+        
+            // Your notebook, compiled as an ES module.
+            import notebook from "./notebook/22466d58aaebf35f@2482.js";
+  
+            // Load the notebook, observing its cells with a default Inspector
+            // that simply renders the value of each cell into the provided DOM node.
+            var modules = ['preProcessingSnippet', 'lineStructureSnippet', 'RLDASnippet']
+            new Runtime().module(notebook, name => {
+              if(modules.includes(name)){
+                return new Inspector(document.querySelector('#' + name));
+              }
+            });
+          </script>
       </div>
       <!-- End of Main Content -->
 
