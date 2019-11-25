@@ -366,7 +366,6 @@ d3.json(URLbase + "data/mallet/postsModel.json").then(function(data){
   appendNode('ios', 'apple researchkit', [])
   changeParent('device', 'ios')
   
-  appendNode('data', 'sleep', [])
   appendNode('data', 'step', [])
   appendNode('data', 'distance', [])
   appendNode('data', 'daily period', [])
@@ -1017,7 +1016,7 @@ function updateTree(svg, tree, root, source, diagonal) {
           d.children = d._children;
           d._children = null;
         }
-        updateTree(root, d, diagonal);
+        updateTree(svg, tree, root, d, diagonal);
       });
 
     nodeEnter.append("circle")
