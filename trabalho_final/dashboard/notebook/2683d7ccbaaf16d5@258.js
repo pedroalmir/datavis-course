@@ -320,8 +320,7 @@ var LDAvis = function(to_select, data_or_file_name, width) {
         var newSmall = Math.sqrt(0.02*mdsarea*circle_prop/Math.PI);
         var newMedium = Math.sqrt(0.05*mdsarea*circle_prop/Math.PI);
         var newLarge = Math.sqrt(0.10*mdsarea*circle_prop/Math.PI);
-        var cx = 10 + newLarge,
-            cx2 = cx + 1.5 * newLarge;
+        var cx = 10 + newLarge, cx2 = cx + 1.5 * newLarge;
 
         // circle guide inspired from
         // http://www.nytimes.com/interactive/2012/02/13/us/politics/2013-budget-proposal-graphic.html?_r=0
@@ -400,6 +399,16 @@ var LDAvis = function(to_select, data_or_file_name, width) {
                 return d.topics;
             });
 
+        d3.select("#tooltipLDA").remove()
+        let node = d3.select("#ldaVisContainer")
+            .append("div")
+                .attr("id", "tooltipLDA")
+                .attr("class", "hidden")
+                .style("left","5%")
+                .style("top", "22%")
+
+        node.append("p").html("<strong>Frequency:</strong> <span id='frequencyLDA'></span>")
+
         // draw circles
         points.append("circle")
             .attr("class", "dot")
@@ -425,6 +434,11 @@ var LDAvis = function(to_select, data_or_file_name, width) {
                     topic_off(document.getElementById(old_topic));
                 }
                 topic_on(this);
+
+                //To show the tooltip
+                let node = d3.select("#tooltipLDA")
+                node.select("#frequencyLDA").text(d.Freq.toFixed(3) + '%')
+                d3.select("#tooltipLDA").classed("hidden", false)
             })
             .on("click", function(d) {
                 // prevent click event defined on the div container from firing
@@ -442,6 +456,9 @@ var LDAvis = function(to_select, data_or_file_name, width) {
             .on("mouseout", function(d) {
                 if (vis_state.topic != d.topics) topic_off(this);
                 if (vis_state.topic > 0) topic_on(document.getElementById(topicID + vis_state.topic));
+
+                //To hide the tooltip
+                d3.select("#tooltipLDA").classed("hidden", true)
             });
 
         svg.append("text")
