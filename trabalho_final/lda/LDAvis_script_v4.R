@@ -79,8 +79,8 @@ executeLDA <- function(nTopics, dataFilePath, stopWordsPath, outputBasePath, roo
    ## Create a mallet instance list object. Right now I have to specify the stoplist
    ## as a file, I can't pass in a list from R.
    ## This function has a few hidden options (whether to lowercase, how we
-   ## define a token). See ?mallet.import for details.
-   mallet.instances <- mallet.import(documents$id, documents$text, stopWordsPath, token.regexp = "\\p{L}[\\p{L}\\p{P}]+\\p{L}")
+   ## define a token). See ?mallet.import for details. \\p{L}[\\p{L}\\p{P}]+\\p{L} 
+   mallet.instances <- mallet.import(documents$id, documents$text, stopWordsPath, token.regexp = "\p{L}[\p{L}\p{D}]*")
 
    ## Create a topic trainer object.
    topic.model <- MalletLDA(num.topics = nTopics)
@@ -122,22 +122,22 @@ executeLDA <- function(nTopics, dataFilePath, stopWordsPath, outputBasePath, roo
    jsonLDA <- LDAvis::createJSON(phi = json$phi, theta = json$theta, doc.length = json$doc.length, vocab = json$vocab, term.frequency = json$term.frequency)
 
    # see help("serVis") for more details
-   #library(gistr)
-   #LDAvis::serVis(jsonLDA, out.dir = outputDirPath, open.browser = FALSE, as.gist = FALSE)
+   library(gistr)
+   LDAvis::serVis(jsonLDA, out.dir = outputDirPath, open.browser = FALSE, as.gist = FALSE)
 
-   clusters <- myhclust(doc.topics, topic.words, topic.labels, 0.3)
+   #clusters <- myhclust(doc.topics, topic.words, topic.labels, 0.3)
 
    #clusters = mallet.topic.hclust(doc.topics, topic.words, 0.3)
-   plot(clusters, labels = topic.labels)
+   #plot(clusters, labels = topic.labels)
 
    #halfway <- hclustToTree(clusters, topic.labels)
    #jsonTree <- toJSON(halfway)
-   jsonTree <- HCtoJSON(clusters, topic.labels)
+   #jsonTree <- HCtoJSON(clusters, topic.labels)
    #write(jsonTree, jsonTreeFilePath)
 
    #file.copy(jsonTreeFilePath, rootPath)
-   #file.copy(paste(outputDirPath, "/lda.json", sep = ""), rootPath)
-   #file.rename(paste(rootPath, "lda.json", sep = ""), paste(rootPath, "lda_", nTopics,".json", sep = ""))
+   file.copy(paste(outputDirPath, "/lda.json", sep = ""), rootPath)
+   file.rename(paste(rootPath, "lda.json", sep = ""), paste(rootPath, "lda_", nTopics,".json", sep = ""))
 }
 
 dataFilePath1 <- "D:/Git/datavis-course/trabalho_final/data/PostsTreated.csv"
@@ -152,7 +152,7 @@ outputBasePath2 <- "D:/Git/datavis-course/trabalho_final/data/mallet/openDiscuss
 stopWordsPath <- "D:/Git/datavis-course/trabalho_final/lda/stop_words.txt"
 
 #nTopicsList <- c(3,4,6,8,12,16,24,32,48,64,96,128,192,256,384,512)
-nTopicsList <- c(3)
+nTopicsList <- c(20)
 
 for (i in 1:length(nTopicsList)) {
    print(paste("Iteration", i, ": topics-", nTopicsList[i], sep = ""))
@@ -162,10 +162,10 @@ for (i in 1:length(nTopicsList)) {
 
 print("##########################")
 
-#for (i in 1:length(nTopicsList)) {
-#   print(paste("Iteration", i, ": topics-", nTopicsList[i], sep = ""))
-#   nTopics <- nTopicsList[i]
-#   executeLDA(nTopics, dataFilePath2, stopWordsPath, outputBasePath2, rootPath2)
-#}
+for (i in 1:length(nTopicsList)) {
+   print(paste("Iteration", i, ": topics-", nTopicsList[i], sep = ""))
+   nTopics <- nTopicsList[i]
+   executeLDA(nTopics, dataFilePath2, stopWordsPath, outputBasePath2, rootPath2)
+}
 
 ## End(Not run)

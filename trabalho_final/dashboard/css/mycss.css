@@ -4,6 +4,12 @@
   border: .20em solid currentColor;
 }
 
+.dc-chart g.row text {
+  fill: #000000 !important;
+  font-size: 12px;
+  cursor: pointer;
+}
+
 /* Always set the map height explicitly to define the size of the div
  * element that contains the map. */
 #map {
