@@ -557,8 +557,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   let tagsByYearWidth = Math.floor($($('#tagsByYear').parent().get(0)).width());
   let treeContainerWidth = Math.floor($($('#treeContainer').parent().get(0)).width());
   let wordCloudContainerWidth = Math.floor($($('#wordCloud').parent().get(0)).width());
-  let byTagsContainerWidth = Math.floor($($('interactiveChartTagsByYear').parent().get(0)).width());
-  
+  let byTagsContainerWidth = Math.floor($($('#interactiveChartTagsByYear').parent().get(0)).width());
   let ldaVisWidth = Math.floor($($('#ldaVisContainer').parent().get(0)).width());
   
   return {'postByYearWidth': byYearWidth, 'postByOSWidth': byOSWidth, 
@@ -680,6 +679,8 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
       return kv.key[i];
     };
   }
+
+  let splomWidth = Math.floor($($('#splomTable').parent().get(0)).width()/5) - 10;
   
   var charts = [];
   d3.select("#splomTable").html("");
@@ -709,8 +710,8 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
           var showYAxis = x === 1, showXAxis = y === 4;
           chart
             .transitionDuration(0)
-            .width(200 + (showYAxis ? 35 : 0))
-            .height(200 + (showXAxis ? 20 : 0))
+            .width(splomWidth + (showYAxis ? 35 : 0))
+            .height(splomWidth + (showXAxis ? 20 : 0))
             .margins({
               left: showYAxis ? 35 : 1,
               top: 5, right: 0,
