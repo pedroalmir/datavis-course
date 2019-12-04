@@ -23,6 +23,8 @@
   <link href="notebook/inspector.css" rel="stylesheet" type="text/css">
   <link rel="stylesheet" href="https://unpkg.com/leaflet@1.5.1/dist/leaflet.css" integrity="sha512-xwE/Az9zrjBIphAcBb3F6JVqxf46+CDLwfLMHloNu6KEQCAWi6HcDUbeOfBIptF7tcCzusKFjFw2yuvEpDL9wQ==" crossorigin=""/>
   <link href="/img/favicon.ico" rel="shortcut icon" type="image/vnd.microsoft.icon">
+
+  <script src="vendor/jquery/jquery.min.js"></script>
 </head>
 
 <body id="page-top">
@@ -343,10 +345,10 @@
             <div class="col-lg-5 mb-2">
               <div class="card shadow mb-2">
                 <div class="card-header py-3">
-                  <h6 class="m-0 font-weight-bold text-primary">Abstract</h6>
+                  <h6 id="abstractLabel" style="cursor: pointer;" class="m-0 font-weight-bold text-primary">Abstract</h6>
                 </div>
                 <div class="card-body" id="nTest">    
-                  <p class="text-justify" style="margin: 0;font-size: 14px;">
+                  <p id="abstractBody" class="text-justify" style="margin: 0;font-size: 14px;">
                     Over the past decade, we have seen considerable growth in research into 
                     computational health technologies. However, few academic papers address 
                     the perspective and challenges reported by developers during the development 
@@ -450,6 +452,31 @@
             }
           });
         </script>
+        <script type="text/javascript">
+          jQuery(document).ready(function() {
+            jQuery("#abstractLabel").click(function(){
+              var len = jQuery("#abstractBody").html().length;
+              console.log(len);
+              var shortAbs = '[...] The most discussed topics include Digital Imaging and Communications in Medicine (DICOM), Electronic Health Records (EHR), and technical issues about the development of mobile apps. ';
+              shortAbs += 'The data analyzed allowed us to identify trends related to the use of mobile application development platforms, as well as strong demand for interoperability standards. ';
+              shortAbs += 'Presentation link <a href="https://docs.google.com/presentation/d/1IoRomStgB7b2NlbKFxdNxoegRsmyrOCYbA1PA5MTTOM/edit?usp=sharing" target="_blank">here</a>';
+
+              var fullAbs = 'Over the past decade, we have seen considerable growth in research into computational health technologies. ';
+              fullAbs += 'However, few academic papers address the perspective and challenges reported by developers during the development of health solutions. ';
+              fullAbs += 'This research aims to collect and analyze eHealth discussions from Stack Overflow (SO) to identify trends and challenges based on the developers perspective. ';
+              fullAbs += 'We use the KDD process and the methodology proposed by BANDEIRA et al. (2019). First, we make a query for tags of questions from the SO database. ';
+              fullAbs += 'Then, we process the data and apply the LDA algorithm for topic modeling. We have identified 3469 discussions, of which 1765 are open discussions. ';
+              fullAbs += 'The most discussed topics include Digital Imaging and Communications in Medicine (DICOM), Electronic Health Records (EHR), and technical issues about the development of mobile apps. ';
+              fullAbs += 'The data analyzed allowed us to identify trends primarily related to the use of mobile application development platforms, as well as strong demand for interoperability standards and stable and well-documented tools to support the development of healthcare systems and applications. ';
+              fullAbs += 'Presentation link <a href="https://docs.google.com/presentation/d/1IoRomStgB7b2NlbKFxdNxoegRsmyrOCYbA1PA5MTTOM/edit?usp=sharing" target="_blank">here</a>';
+              if(len > 1000){
+                jQuery("#abstractBody").html(shortAbs);
+              }else{
+                jQuery("#abstractBody").html(fullAbs);
+              }
+            })
+          });
+        </script>
       </div>
       <!-- End of Main Content -->
 
@@ -494,7 +521,6 @@
   </div>
 
   <!-- Bootstrap core JavaScript-->
-  <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
   <!-- Core plugin JavaScript-->

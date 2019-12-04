@@ -636,7 +636,7 @@ var LDAvis = function(to_select, data_or_file_name, width) {
 
             var topicLabel = document.createElement("label");
             topicLabel.setAttribute("for", topicID);
-            topicLabel.setAttribute("style", "font-family: sans-serif; width: 10%;"); 
+            topicLabel.setAttribute("style", "font-family: sans-serif; width: 11%;"); 
             topicLabel.innerHTML = "Topic: <span id='" + topicID + "-value'></span>";
             topicDiv.appendChild(topicLabel);
 
