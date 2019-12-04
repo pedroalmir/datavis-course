@@ -631,7 +631,7 @@ var LDAvis = function(to_select, data_or_file_name, width) {
 
             // topic input container:
             var topicDiv = document.createElement("div");
-            topicDiv.setAttribute("style", "padding: 13px 5px; background-color: #e8e8e8; display: inline-block; width: " + mdswidth + "px; height: 50px; float: left");
+            topicDiv.setAttribute("style", "text-align: center;padding: 13px 5px; background-color: #e8e8e8; display: inline-block; width: " + mdswidth + "px; height: 50px; float: left");
             inputDiv.appendChild(topicDiv);
 
             var topicLabel = document.createElement("label");
@@ -652,20 +652,20 @@ var LDAvis = function(to_select, data_or_file_name, width) {
 
             var previous = document.createElement("button");
             previous.setAttribute("id", topicDown);
-            previous.setAttribute("style", "margin-left: 5px; width: 25%");
-            previous.innerHTML = "Prior Topic";
+            previous.setAttribute("style", "margin-left: 5px; width: 22%");
+            previous.innerHTML = "Prior";
             topicDiv.appendChild(previous);
 
             var next = document.createElement("button");
             next.setAttribute("id", topicUp);
-            next.setAttribute("style", "margin-left: 5px; width: 25%");
-            next.innerHTML = "Next Topic";
+            next.setAttribute("style", "margin-left: 5px; width: 22%");
+            next.innerHTML = "Next";
             topicDiv.appendChild(next);
 
             var clear = document.createElement("button");
             clear.setAttribute("id", topicClear);
-            clear.setAttribute("style", "margin-left: 5px; width: 25%");
-            clear.innerHTML = "Clear Topic";
+            clear.setAttribute("style", "margin-left: 5px; width: 22%");
+            clear.innerHTML = "Clear";
             topicDiv.appendChild(clear);
 
             // lambda inputs
