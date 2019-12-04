@@ -1,3 +1,6 @@
+## Trabalho Final
+[ehealthvis.html](trabalho_final/dashboard/index.html)
+
 ## Aula do dia 23/10/2019
 [exercicio1.html](d3_interactive/index.html)<br>
 [exercicio2.html](d3_interactive_2/index.html)<br>
