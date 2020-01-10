@@ -239,227 +239,11 @@ d3.json(URLbase + "data/json/lineChartStructure.json").then(function(data){
   return data
 })
 )});
-  main.variable(observer("postsMalletModel")).define("postsMalletModel", ["d3","URLbase"], function(d3,URLbase){return(
-d3.json(URLbase + "data/mallet/postsModel.json").then(function(data){
-  let postsMalletModel = data;
-  
-  let tree = [{
-    "name": "Topics",
-    "parent": "null",
-    "children": []
-  }]
-  
-  let root = tree[0]
-  postsMalletModel["myTrees"] = {}
-  
-  function searchTree(element, matchingName){
-    if(element.name == matchingName){
-      return element;
-    } else if (element.children != null){
-      var result = null;
-      for(var i = 0; result == null && i < element.children.length; i++){
-        result = searchTree(element.children[i], matchingName)
-      }
-      return result;
-    }
-    return null;
-  }
-  
-  function changeParent(childNodeName, newParentName){
-    let childNode = searchTree(root, childNodeName)
-    if(childNode){
-      let parent = searchTree(root, childNode.parent)
-      let nChildren = []
-      parent.children.forEach(function(child, i){
-        if(child.name != childNodeName) nChildren.push(child)
-      })
-      parent.children = nChildren
-      childNode.parent = newParentName
-      let newParentNode = searchTree(root, newParentName)
-      newParentNode.children.push(childNode)
-    }
-  }
-  
-  function appendNode(pNodeName, name, children){
-    let fNode = searchTree(root, pNodeName)
-    if(fNode){
-      fNode.children.push({"name": name, "parent": fNode.name, "children": children})
-    }
-  }
-  
-  function removeNode(parentName, nodeName){
-    let pNode = searchTree(root, parentName)
-    if(pNode){
-      let nChildren = []
-      pNode.children.forEach(function(child, i){
-        if(child.name != nodeName) nChildren.push(child)
-      })
-      pNode.children = nChildren
-    }
-  }
-  
-  function changeName(oldName, newName){
-    let node = searchTree(root, oldName)
-    if(node){
-      node.name = newName
-    }
-  }
-  
-  appendNode('Topics', 'Medical Image Processing', [])
-  appendNode('Topics', 'Healthcare Interoperability', [])
-  appendNode('Topics', 'Apps Development', [])
-  
-  appendNode('Medical Image Processing', 'dicom', [])
-  appendNode('Healthcare Interoperability', 'fhir', [])
-  appendNode('Apps Development', 'app', [])
-  postsMalletModel.myTrees["topic3"] = JSON.parse(JSON.stringify(tree))
-  
-  appendNode('app', 'google fit', [])
-  appendNode('app', 'apple healthkit', [])
-  postsMalletModel.myTrees["topic4"] = JSON.parse(JSON.stringify(tree))
-  
-  appendNode('dicom', 'python', [])
-  appendNode('dicom', 'matlab', [])
-  appendNode('fhir', 'patient resource', [])
-  appendNode('fhir', 'xml message', [])
-  
-  appendNode('Topics', 'Other', [])
-  appendNode('Other', 'error', [])
-  postsMalletModel.myTrees["topic6"] = JSON.parse(JSON.stringify(tree))
-  
-  appendNode('Other', 'data', [])
-  appendNode('fhir', '.dcm file', [])
-  postsMalletModel.myTrees["topic8"] = JSON.parse(JSON.stringify(tree))
-  
-  appendNode('Other', 'documentation', [])
-  appendNode('dicom', 'technology', [])
-  changeParent('python', 'technology', [])
-  changeParent('matlab', 'technology', [])
-  appendNode('dicom', 'issue', [])
-  appendNode('issue', 'image slice', [])
-  appendNode('issue', 'read file', [])
-  appendNode('issue', 'server', [])
-  appendNode('Healthcare Interoperability', 'hl7', [])
-  appendNode('hl7', 'CDA', [])
-  appendNode('hl7', 'HAPI', [])
-  postsMalletModel.myTrees["topic12"] = JSON.parse(JSON.stringify(tree))
-  
-  appendNode('app', 'android', [])
-  appendNode('app', 'ios', [])
-  
-  changeParent('google fit', 'android', [])
-  changeParent('apple healthkit', 'ios', [])
-
-  appendNode('ios', 'device', [])
-  appendNode('apple healthkit', 'heart rate', [])
-  appendNode('device', 'watch', [])
-  appendNode('device', 'iphone', [])
-  appendNode('fhir', 'mirth', [])
-  appendNode('python', 'pydicom', [])
-  
-  appendNode('Other', 'withings', [])
-  
-  appendNode('Topics', 'Platform', [])
-  appendNode('Platform', 'openehr', [])
-  appendNode('Platform', 'healthvault', [])
-  
-  appendNode('ios', 'apple researchkit', [])
-  changeParent('device', 'ios')
-  
-  appendNode('data', 'sleep', [])
-  appendNode('data', 'step', [])
-  appendNode('data', 'distance', [])
-  appendNode('data', 'daily period', [])
-  appendNode('data', 'calory', [])
-  appendNode('data', 'date', [])
-  appendNode('data', 'activity', [])
-  
-  appendNode('activity', 'running', [])
-  appendNode('activity', 'walking', [])
-   
-  postsMalletModel.myTrees["topic16"] = JSON.parse(JSON.stringify(tree))
-  
-  appendNode('hl7', 'segments', [])
-  appendNode('segments', 'obx', [])
-  appendNode('segments', 'pid', [])
-  appendNode('python', 'opencv', [])
-  appendNode('python', 'numpy', [])
-  appendNode('technology', 'c++', [])
-  appendNode('c++', 'gdcm', [])
-  appendNode('c++', 'imebra', [])
-  appendNode('CDA', 'ccd', [])
-  appendNode('withings', 'oauth', [])
-  appendNode('healthvault', 'oauth', [])
-  
-  appendNode('ios', 'apple carekit', [])
-  changeParent('device', 'ios')
-  
-  appendNode('data', 'ecg', [])
-  appendNode('data', 'glucose', [])
-  appendNode('data', 'blood', [])
-  appendNode('data', 'pressure', [])
-  changeParent('activity', 'data')
-  
-  appendNode('Apps Development', 'Tasks', [])
-  appendNode('Tasks', 'drug prescription', [])
-  appendNode('Tasks', 'health monitoring', [])
-  changeParent('data', 'Apps Development')
-  changeParent('withings', 'Platform')
-  
-  postsMalletModel.myTrees["topic24"] = JSON.parse(JSON.stringify(tree))
-  
-  appendNode('python', 'niftynet', [])
-  appendNode('data', 'height', [])
-  appendNode('data', 'weight', [])
-  appendNode('data', 'age', [])
-  appendNode('data', 'mass', [])
-  appendNode('data', 'gender', [])
-  appendNode('data', 'birthday', [])
-  appendNode('data', 'temperature', [])
-  changeParent('activity', 'data')
-  appendNode('python', 'evildicom', [])
-  appendNode('server', 'orthanc', [])
-  appendNode('fhir', 'diagnostic order schedule', [])
-  appendNode('segments', 'obr')
-  postsMalletModel.myTrees["topic32"] = JSON.parse(JSON.stringify(tree))
-  
-  removeNode('ios', 'device')
-  changeName('app', 'Op. System')
-  changeParent('Op. System', 'Apps Development')
-  changeParent('data', 'Apps Development')
-  removeNode('Topics', 'Other')
-  removeNode('healthvault', 'oauth')
-  removeNode('withings', 'oauth')
-  changeName('CDA', 'cda')
-  changeName('HAPI', 'hapi')
-  changeParent('matlab', 'technology')
-  changeParent('heart rate', 'data')
-  changeParent('activity', 'data')
-  appendNode('Apps Development', 'API', [])
-  appendNode('API', 'withings', [])
-  changeParent('Op. System', 'Apps Development')
-  changeParent('data', 'Apps Development')
-  removeNode('Topics', 'Platform')
-  appendNode('Topics', 'EHR', [])
-  changeParent('Apps Development', 'Topics')
-  changeParent('Healthcare Interoperability', 'EHR')
-  changeName('Healthcare Interoperability', 'Interoperability Standards')
-  appendNode('EHR', 'Platforms', [])
-  appendNode('Platforms', 'openehr', [])
-  appendNode('Platforms', 'healthvault', [])
-  
-  postsMalletModel.myTrees["topic48"] = JSON.parse(JSON.stringify(tree))
-  postsMalletModel.myTrees["topic64"] = JSON.parse(JSON.stringify(tree))
-  postsMalletModel.myTrees["topic96"] = JSON.parse(JSON.stringify(tree))
-  postsMalletModel.myTrees["topic128"] = JSON.parse(JSON.stringify(tree))
-  postsMalletModel.myTrees["topic192"] = JSON.parse(JSON.stringify(tree))
-  postsMalletModel.myTrees["topic256"] = JSON.parse(JSON.stringify(tree))
-  postsMalletModel.myTrees["topic384"] = JSON.parse(JSON.stringify(tree))
-  postsMalletModel.myTrees["topic512"] = JSON.parse(JSON.stringify(tree))
-  
-  return postsMalletModel;
-})
-)});
+  main.variable(observer("postsMalletModel")).define("postsMalletModel", ["d3","URLbase2"], function(d3,URLbase2){return(
+    d3.json(URLbase2 + "data/MalletModel.json").then(function(data){
+      return data;
+    })
+  )});
   main.variable(observer()).define(["md"], function(md){return(
 md`
 ###### This code was used to filter the top 100 most frequent words 
@@ -556,6 +340,7 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   let byPLWidth = Math.floor($($('#postByProgLang').parent().get(0)).width());
   let tagsByYearWidth = Math.floor($($('#tagsByYear').parent().get(0)).width());
   let treeContainerWidth = Math.floor($($('#treeContainer').parent().get(0)).width());
+  let jtreeContainerWidth = Math.floor($($('#jTreeContainer').parent().get(0)).width());
   let wordCloudContainerWidth = Math.floor($($('#wordCloud').parent().get(0)).width());
   let byTagsContainerWidth = Math.floor($($('#interactiveChartTagsByYear').parent().get(0)).width());
   let ldaVisWidth = Math.floor($($('#ldaVisContainer').parent().get(0)).width());
@@ -563,7 +348,8 @@ d3.json(URLbase + "lda/lda_data/output/d3js/lda.json")
   return {'postByYearWidth': byYearWidth, 'postByOSWidth': byOSWidth, 
           'postByProgLangWidth': byPLWidth, 'tagsByYearWidth': tagsByYearWidth,
           'treeContainerWidth': treeContainerWidth, 'wordCloudWidth': wordCloudContainerWidth,
-          'ldaVisWidth': ldaVisWidth, 'byTagsContainerWidth': byTagsContainerWidth};
+          'ldaVisWidth': ldaVisWidth, 'byTagsContainerWidth': byTagsContainerWidth,
+          'jtreeContainerWidth': jtreeContainerWidth};
 }
 );
   main.variable(observer("by_year")).define("by_year", ["dc","widths","factsAndDims","d3"], function(dc,widths,factsAndDims,d3)
@@ -951,165 +737,280 @@ html`
 </div>
 `
 )});
-  main.variable(observer("onChangeEvent")).define("onChangeEvent", ["$","createLDAvis","createTreeChart"], function($,createLDAvis,createTreeChart)
-{
-  $("#topicNumberInput").change(function() {
-    var tNumberSelect = $(this).children("option:selected").val();
-    createLDAvis(tNumberSelect)
-    createTreeChart(tNumberSelect)
-  });
-}
-);
-  main.variable(observer("createDefaultLDAAndTree")).define("createDefaultLDAAndTree", ["createLDAvis","createTreeChart","createWordCloudSvg"], function(createLDAvis,createTreeChart,createWordCloudSvg)
-{
-  createLDAvis(3)
-  createTreeChart(3) 
-  createWordCloudSvg()
-}
-);
-  main.variable(observer()).define(["html"], function(html){return(
-html`
-  <div id='ldaVisContainer' class='ldavis_container' style='height: 760px; width: 100%'></div>
-`
-)});
-  main.variable(observer()).define(["html"], function(html){return(
-html`<div id='treeContainer'></div>`
-)});
-  main.variable(observer()).define(["DOM","serialize","treeChartSVG"], function(DOM,serialize,treeChartSVG){return(
-DOM.download(() => serialize(treeChartSVG.svg[0][0]), undefined, "Save Tree Chart as SVG")
-)});
-  main.variable(observer()).define(["html"], function(html){return(
-html`<div id="wordCloud"></div>`
-)});
-  main.variable(observer("createLDAvis")).define("createLDAvis", ["d3","LDAvis","postsMalletModel","widths"], function(d3,LDAvis,postsMalletModel,widths){return(
-function createLDAvis(topicNumber){
-  d3.select("#ldaVisContainer").html("");
-  new LDAvis('#ldaVisContainer', postsMalletModel.lda['topic' + topicNumber], widths.ldaVisWidth);
-}
-)});
-  main.variable(observer("createTreeChart")).define("createTreeChart", ["widths","postsMalletModel","d3t","updateTree","treeChartSVG"], function(widths,postsMalletModel,d3t,updateTree,treeChartSVG){return(
-function createTreeChart(topicNumber){
-  // ************** Generate the tree diagram	 *****************
-  var height;
-  if(topicNumber < 12){
-    height = 300
-  }else if(topicNumber >= 12 && topicNumber < 24){
-    height = 600
-  }else if(topicNumber >= 24){
-    height = 900
-  }else{
-    height = 1000
-  }
   
-  var root, width = widths.treeContainerWidth;
-  var margin = ({top: 20, right: 120, bottom: 20, left: 120});
-  var treeData = postsMalletModel.myTrees['topic' + topicNumber]
+main.variable(observer("onChangeEvent"))
+    .define("onChangeEvent", ["$","createLDAvis","createTreeChart", "widths", "postsMalletModel"], 
+    function($,createLDAvis,createTreeChart,widths,postsMalletModel){
+      function fancysort(key_name, decreasing) {
+        decreasing = (typeof decreasing === "undefined") ? 1 : decreasing;
+        return function(a, b) {
+            if (a[key_name] < b[key_name])
+                return 1 * decreasing;
+            if (a[key_name] > b[key_name])
+                return -1 * decreasing;
+            return 0;
+        };
+      }
 
-  var tree = d3t.layout.tree().size([height, width]);
-  var diagonal = d3t.svg.diagonal().projection(function(d) { return [d.y, d.x]; });
+      function updateJoinedTree(){
+        var lambda = parseFloat($("#ldaVisContainer-lambda").val());
+          var tnumber = $("#topicNumberInput").children("option:selected").val();
+          var classes = ["dicom", "EHR", "mHealth"];
+          var ldaData = [];
+          classes.forEach(function(c){
+            var key = c + "_" + tnumber;
+            var lda = postsMalletModel.lda[key];
 
-  d3t.select("#treeContainer").html("");
-  var svg = d3t.select("#treeContainer").append("svg")
-      .attr("width", width + margin.right + margin.left)
-      .attr("height", height + margin.top + margin.bottom)
-      .append("g")
-      .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+            lda.tclass = c;
+            lda.lamData = [];
 
-  root = treeData[0];
-  root.x0 = height / 2;
-  root.y0 = 0;
-    
-  updateTree(svg, tree, root, root, diagonal); 
-  treeChartSVG.svg = svg;
-}
-)});
-  main.variable(observer("updateTree")).define("updateTree", ["wrapTreeNode"], function(wrapTreeNode){return(
-function updateTree(svg, tree, root, source, diagonal) {
-    var i = 0, duration = 1000;
-    // Compute the new tree layout.
-    var nodes = tree.nodes(root), links = tree.links(nodes);
+            for (var i = 0; i < lda['tinfo'].Term.length; i++) {
+              var obj = {};
+              for (var key in lda['tinfo']) {
+                  obj[key] = lda['tinfo'][key][i];
+              }
+              lda.lamData.push(obj);
+            }
 
-    // Normalize for fixed-depth.
-    nodes.forEach(function(d) { d.y = d.depth * 120; });
+            ldaData.push(lda);
+          });
 
-    // Update the nodes…
-    var node = svg.selectAll("g.node").data(nodes, function(d) { return d.id || (d.id = ++i); });
+          var root = {name: "Topics", parent: null, children: []};
 
-    // Enter any new nodes at the parent's previous position.
-    var nodeEnter = node.enter().append("g")
-	    .attr("class", d => ("node " + d.name.replace(' ', '').toLowerCase().trim()))
-	    .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
-	    .on("click", function click(d) {
-        if (d.children) {
-          d._children = d.children;
-          d.children = null;
-        } else {
-          d.children = d._children;
-          d._children = null;
-        }
-        updateTree(svg, tree, root, d, diagonal);
+          ldaData.forEach(function(lda){
+            var tclass = lda.tclass;
+            var stree = {name: tclass, parent: null, children: []}
+            var dats = [];
+
+            lda.mdsDat.topics.forEach(function(topic){
+              dats.push(lda.lamData.filter(function(d) {
+                return d.Category == "Topic" + topic;
+              }));
+            })
+
+            dats.forEach(function(dat){
+              for (var i = 0; i < dat.length; i++) {
+                  dat[i].relevance = lambda * dat[i].logprob + (1 - lambda) * dat[i].loglift;
+              }
+
+              dat.sort(fancysort("relevance"));
+
+              var treeTerms = [];
+              dat.slice(0, 5).forEach(d => treeTerms.push(d.Term));
+              stree.children.push({name: treeTerms.join(", "), parent: stree, children: []});
+            });
+
+            root.children.push(stree);
+          });
+
+          postsMalletModel.myTrees['joined'] = [root];
+          createTreeChart('joined', tnumber, '#jTreeContainer', widths.treeContainerWidth);
+      }
+
+      $("#topicClassInput").change(function() {
+        var tclass = $(this).children("option:selected").val();
+        var tnumber = $("#topicNumberInput").children("option:selected").val();
+        createLDAvis(tclass, tnumber)
+        createTreeChart(tclass, tnumber, '#treeContainer', widths.treeContainerWidth)
+
+        updateJoinedTree();
+        $("#ldaVisContainer-lambda").change(function(){
+          updateJoinedTree();
+        });
       });
 
-    nodeEnter.append("circle")
-	    .attr("r", 1e-6)
-	    .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+      $("#topicNumberInput").change(function() {
+        var tclass = $("#topicClassInput").children("option:selected").val();
+        var tnumber = $(this).children("option:selected").val();
+        createLDAvis(tclass, tnumber)
+        createTreeChart(tclass, tnumber, '#treeContainer', widths.treeContainerWidth)
+        createTreeChart('joined', tnumber, '#jTreeContainer', widths.treeContainerWidth)
 
-    nodeEnter.append("text")
-	    .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
-	    .attr("dy", ".35em")
-	    .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
-	    .text(function(d) { return d.name; })
-	    .style("fill-opacity", 1e-6)
-      .call(wrapTreeNode, 150);
+        updateJoinedTree();
+        $("#ldaVisContainer-lambda").change(function(){
+          updateJoinedTree();
+        });
+      });
 
-    // Transition nodes to their new position.
-    var nodeUpdate = node.transition().duration(duration)
-	    .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+      $(document).ready(function() {
+        $("#ldaVisContainer-lambda").change(function(){
+          updateJoinedTree();
+        });
+      });
+    }
+);
 
-    nodeUpdate.select("circle").attr("r", 10)
-      .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+main.variable(observer("createDefaultLDAAndTree"))
+    .define("createDefaultLDAAndTree", ["createLDAvis","createTreeChart","createWordCloudSvg","widths"], 
+    function(createLDAvis,createTreeChart,createWordCloudSvg,widths){
+      createLDAvis('all', 3)
+      createTreeChart('all', 3, '#treeContainer', widths.treeContainerWidth) 
+      createTreeChart('joined', 3, '#jTreeContainer', widths.treeContainerWidth)
+      createWordCloudSvg()
+    }
+);
 
-    nodeUpdate.select("text").style("fill-opacity", 1);
-
-    // Transition exiting nodes to the parent's new position.
-    var nodeExit = node.exit().transition().duration(duration)
-	    .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
-	    .remove();
-
-    nodeExit.select("circle").attr("r", 1e-6);
-    nodeExit.select("text").style("fill-opacity", 1e-6);
-
-    // Update the links…
-    var link = svg.selectAll("path.link").data(links, function(d) { return d.target.id; });
-
-    // Enter any new links at the parent's previous position.
-    link.enter().insert("path", "g")
-	    .attr("class", "link")
-	    .attr("d", function(d) {
-		    var o = {x: source.x0, y: source.y0};
-		    return diagonal({source: o, target: o});
-	    });
-
-    // Transition links to their new position.
-    link.transition().duration(duration).attr("d", diagonal);
-
-    // Transition exiting nodes to the parent's new position.
-    link.exit().transition().duration(duration)
-	    .attr("d", function(d) {
-		    var o = {x: source.x, y: source.y};
-		    return diagonal({source: o, target: o});
-	    })
-	  .remove();
-
-    // Stash the old positions for transition.
-    nodes.forEach(function(d) {
-	    d.x0 = d.x;
-	    d.y0 = d.y;
-    });
-  }
+main.variable(observer()).define(["html"], function(html){return(
+  html`<div id='ldaVisContainer' class='ldavis_container' style='height: 760px; width: 100%'></div>`
 )});
-  main.variable(observer("wrapTreeNode")).define("wrapTreeNode", ["d3"], function(d3){return(
-function wrapTreeNode(text, twidth) {
+
+main.variable(observer()).define(["html"], function(html){return(
+  html`<div id='treeContainer'></div>`
+)});
+
+main.variable(observer()).define(["DOM","serialize","treeChartSVG"], function(DOM,serialize,treeChartSVG){return(
+  DOM.download(() => serialize(treeChartSVG.svg[0][0]), undefined, "Save Tree Chart as SVG")
+)});
+
+main.variable(observer()).define(["html"], function(html){return(
+  html`<div id="wordCloud"></div>`
+)});
+
+main.variable(observer("createLDAvis"))
+    .define("createLDAvis", ["d3","LDAvis","postsMalletModel","widths"], 
+    function(d3,LDAvis,postsMalletModel,widths){return(
+      function createLDAvis(topicClass, topicNumber){
+        d3.select("#ldaVisContainer").html("");
+        new LDAvis('#ldaVisContainer', postsMalletModel.lda[topicClass + '_' + topicNumber], widths.ldaVisWidth);
+      }
+    )}
+);
+
+main.variable(observer("createTreeChart"))
+    .define("createTreeChart", ["widths","postsMalletModel","d3t","updateTree","treeChartSVG"], 
+    function(widths,postsMalletModel,d3t,updateTree,treeChartSVG){return(
+      function createTreeChart(topicClass, topicNumber, treeID, treeWidth){
+        // ************** Generate the tree diagram	 *****************
+        var height = ((topicNumber - 3) * 50) + 300;
+  
+        var root, width = treeWidth;
+        var margin = ({top: 20, right: 120, bottom: 20, left: 120});
+        var treeData = [];
+
+        if(topicClass == 'joined' && postsMalletModel.myTrees['joined'] === undefined){
+          var root = {name: 'Topics', parent: null, children: []};
+          root.children.push({name: 'dicom', parent: root, children: postsMalletModel.myTrees['dicom_' + topicNumber][0].children})
+          root.children.push({name: 'EHR', parent: root, children: postsMalletModel.myTrees['EHR_' + topicNumber][0].children})
+          root.children.push({name: 'mHealth', parent: root, children: postsMalletModel.myTrees['mHealth_' + topicNumber][0].children})
+          treeData.push(root);
+        }else if(topicClass == 'joined' && postsMalletModel.myTrees['joined']){
+          treeData = postsMalletModel.myTrees['joined']
+        }else{
+          treeData = postsMalletModel.myTrees[topicClass + '_' + topicNumber]
+        }
+
+        //console.log(treeData);
+
+        var tree = d3t.layout.tree().size([height, width]);
+        var diagonal = d3t.svg.diagonal().projection(function(d) { return [d.y, d.x]; });
+
+        d3t.select(treeID).html("");
+        var svg = d3t.select(treeID).append("svg")
+            .attr("width", width + margin.right + margin.left)
+            .attr("height", height + margin.top + margin.bottom)
+            .append("g")
+            .attr("transform", "translate(" + margin.left + "," + margin.top + ")");
+
+        root = treeData[0];
+        root.x0 = height / 2;
+        root.y0 = 0;
+    
+        updateTree(svg, tree, root, root, diagonal); 
+        treeChartSVG.svg = svg;
+      }
+    )}
+);
+
+main.variable(observer("updateTree"))
+    .define("updateTree", ["wrapTreeNode"], 
+    function(wrapTreeNode){return(
+      function updateTree(svg, tree, root, source, diagonal) {
+        var i = 0, duration = 1000;
+        // Compute the new tree layout.
+        var nodes = tree.nodes(root), links = tree.links(nodes);
+
+        // Normalize for fixed-depth.
+        nodes.forEach(function(d) { d.y = d.depth * 120; });
+
+        // Update the nodes…
+        var node = svg.selectAll("g.node").data(nodes, function(d) { return d.id || (d.id = ++i); });
+
+        // Enter any new nodes at the parent's previous position.
+        var nodeEnter = node.enter().append("g")
+          .attr("class", d => ("node " + d.name.replace(' ', '').toLowerCase().trim()))
+          .attr("transform", function(d) { return "translate(" + source.y0 + "," + source.x0 + ")"; })
+          .on("click", function click(d) {
+            if (d.children) {
+              d._children = d.children;
+              d.children = null;
+            } else {
+              d.children = d._children;
+              d._children = null;
+            }
+            updateTree(svg, tree, root, d, diagonal);
+          });
+
+        nodeEnter.append("circle")
+          .attr("r", 1e-6)
+          .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+        nodeEnter.append("text")
+          .attr("x", function(d) { return d.children || d._children ? -13 : 13; })
+          .attr("dy", ".35em")
+          .attr("text-anchor", function(d) { return d.children || d._children ? "end" : "start"; })
+          .text(function(d) { return d.name; })
+          .style("fill-opacity", 1e-6)
+          .call(wrapTreeNode, 150);
+
+        // Transition nodes to their new position.
+        var nodeUpdate = node.transition().duration(duration)
+          .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
+
+        nodeUpdate.select("circle").attr("r", 10)
+          .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
+
+        nodeUpdate.select("text").style("fill-opacity", 1);
+
+        // Transition exiting nodes to the parent's new position.
+        var nodeExit = node.exit().transition().duration(duration)
+          .attr("transform", function(d) { return "translate(" + source.y + "," + source.x + ")"; })
+          .remove();
+
+        nodeExit.select("circle").attr("r", 1e-6);
+        nodeExit.select("text").style("fill-opacity", 1e-6);
+
+        // Update the links…
+        var link = svg.selectAll("path.link").data(links, function(d) { return d.target.id; });
+
+        // Enter any new links at the parent's previous position.
+        link.enter().insert("path", "g")
+          .attr("class", "link")
+          .attr("d", function(d) {
+            var o = {x: source.x0, y: source.y0};
+            return diagonal({source: o, target: o});
+          });
+
+        // Transition links to their new position.
+        link.transition().duration(duration).attr("d", diagonal);
+
+        // Transition exiting nodes to the parent's new position.
+        link.exit().transition().duration(duration)
+          .attr("d", function(d) {
+            var o = {x: source.x, y: source.y};
+            return diagonal({source: o, target: o});
+          })
+        .remove();
+
+        // Stash the old positions for transition.
+        nodes.forEach(function(d) {
+          d.x0 = d.x;
+          d.y0 = d.y;
+        });
+      }
+)});
+
+main.variable(observer("wrapTreeNode")).define("wrapTreeNode", ["d3"], function(d3){return(
+  function wrapTreeNode(text, twidth) {
     text.each(function() {
       
       var text = d3.select(this),
@@ -1122,7 +1023,7 @@ function wrapTreeNode(text, twidth) {
       
       while (word = words.pop()) {
         line.push(word);
-        if(line.join(" ").length > 20 && line.join(" ") != 'diagnostic order schedule'){
+        if(line.join(" ").length > 200){
           var tspan = text.text(null).append("tspan").attr("x", -15).attr("y", y).attr("dy", "-0.3em")
           tspan.text(line.join(" "));
           line.pop();
@@ -1136,67 +1037,66 @@ function wrapTreeNode(text, twidth) {
     });
   }
 )});
-  main.variable(observer("treeChartSVG")).define("treeChartSVG", function()
-{
+
+main.variable(observer("treeChartSVG")).define("treeChartSVG", function(){
   return {svg: null}
-}
-);
-  main.variable(observer("createWordCloudSvg")).define("createWordCloudSvg", ["d3cloud","widths","words","cloudConfig","cloudScale","rotateWord","baseFont","fontSize","d3"], function(d3cloud,widths,words,cloudConfig,cloudScale,rotateWord,baseFont,fontSize,d3){return(
-function createWordCloudSvg() {
-  var layout = d3cloud()
-    .size([widths.wordCloudWidth, widths.wordCloudWidth * 9/20]) 
-    .words(words)
-    .padding(cloudConfig.padding * cloudScale)
-    .rotate(rotateWord)
-    .font(baseFont)
-    .fontSize(fontSize)
-    .on('word', addWord);
+});
   
-  //d3.schemeBlues[9][3] d3.schemeBlues[9][8]
-  var myColorScale = d3.scaleLinear()
-        .domain(d3.extent(words, d => d.count))
-        .range(["#9ecae1", "#08306b"]);
-  
-  
-  d3.select("#wordCloud").html("");
-  const svg = d3.select("#wordCloud").append("svg")
-      .attr("width", layout.size()[0])
-      .attr("height", layout.size()[1]);
-  
-  const group = svg.append('g')
-  
-  function addWord (word) {
-    const text = group.append('text');
-    text.style('font-size', '2px')
-      .style('font-family', word.font)
-      //wordColors(Math.random() + 0.2)
-      .style('fill', myColorScale(word.count))
-      .style('cursor', 'pointer')
-      .attr('text-anchor', 'middle')
-      .attr('transform', `translate(${[word.x, word.y]})rotate(${word.rotate})`)
-      .text(word.text)
-      .transition()
-      .duration(200)
-      .ease(d3.easeLinear)
-      .style('font-size', `${word.size}px`);
-    text.append('title').text(`${word.text} (${word.count})`); // toolitp
-  }
-  
-  layout.start();
-}
+main.variable(observer("createWordCloudSvg"))
+    .define("createWordCloudSvg", ["d3cloud","widths","words","cloudConfig","cloudScale","rotateWord","baseFont","fontSize","d3"], 
+    function(d3cloud,widths,words,cloudConfig,cloudScale,rotateWord,baseFont,fontSize,d3){return(
+      function createWordCloudSvg() {
+        var layout = d3cloud()
+          .size([widths.wordCloudWidth, widths.wordCloudWidth * 9/20]) 
+          .words(words)
+          .padding(cloudConfig.padding * cloudScale)
+          .rotate(rotateWord)
+          .font(baseFont)
+          .fontSize(fontSize)
+          .on('word', addWord);
+        
+        //d3.schemeBlues[9][3] d3.schemeBlues[9][8]
+        var myColorScale = d3.scaleLinear()
+              .domain(d3.extent(words, d => d.count))
+              .range(["#9ecae1", "#08306b"]);
+        
+        d3.select("#wordCloud").html("");
+        const svg = d3.select("#wordCloud").append("svg")
+            .attr("width", layout.size()[0])
+            .attr("height", layout.size()[1]);
+        
+        const group = svg.append('g')
+        
+        function addWord (word) {
+          const text = group.append('text');
+          text.style('font-size', '2px')
+            .style('font-family', word.font)
+            //wordColors(Math.random() + 0.2)
+            .style('fill', myColorScale(word.count))
+            .style('cursor', 'pointer')
+            .attr('text-anchor', 'middle')
+            .attr('transform', `translate(${[word.x, word.y]})rotate(${word.rotate})`)
+            .text(word.text)
+            .transition()
+            .duration(200)
+            .ease(d3.easeLinear)
+            .style('font-size', `${word.size}px`);
+          text.append('title').text(`${word.text} (${word.count})`); // toolitp
+        }
+        
+        layout.start();
+      }
 )});
-  main.variable(observer("cloudConfig")).define("cloudConfig", ["width"], function(width){return(
-{
-  minFontSize: 10,
-  maxFontSize: 80,
-  height: width/2,
-  padding: 1,
-}
+
+main.variable(observer("cloudConfig")).define("cloudConfig", ["width"], function(width){return({
+  minFontSize: 10, maxFontSize: 80, height: width/2, padding: 1,
+})});
+  
+main.variable(observer()).define(["html"], function(html){return(
+  html`<div class="row"><div class="col-md-12 text-center h3">LDA Snippet</div></div>`
 )});
-  main.variable(observer()).define(["html"], function(html){return(
-html`<div class="row"><div class="col-md-12 text-center h3">LDA Snippet</div></div>`
-)});
-  main.variable(observer("RLDASnippet")).define(["md"], function(md){return(
+
+main.variable(observer("RLDASnippet")).define(["md"], function(md){return(
 md`
 ###### The LDA models were generated using the following code:
 
@@ -1493,13 +1393,20 @@ function remove_empty_bins(source_group) {
     };
 }
 )});
-  main.variable(observer("URLbase")).define("URLbase", function(){return(
-"https://raw.githubusercontent.com/pedroalmir/datavis-course/master/trabalho_final/"
+
+main.variable(observer("URLbase")).define("URLbase", function(){return(
+  "https://raw.githubusercontent.com/pedroalmir/datavis-course/master/trabalho_final/"
 )});
-  main.variable(observer()).define(["html"], function(html){return(
-html`<div class="row"><div class="col-md-12 text-center h3">Imports Section</div></div>`
+
+main.variable(observer("URLbase2")).define("URLbase2", function(){return(
+  "https://raw.githubusercontent.com/pedroalmir/eHealthvis/master/"
 )});
-  main.variable(observer()).define(["html"], function(html){return(
+
+main.variable(observer()).define(["html"], function(html){return(
+  html`<div class="row"><div class="col-md-12 text-center h3">Imports Section</div></div>`
+)});
+
+main.variable(observer()).define(["html"], function(html){return(
 html`<code>Style</code>
 <style>
   tr.sheading td div {

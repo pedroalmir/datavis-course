@@ -226,7 +226,7 @@
                 </div>
                 <div class="card-body">    
                   <div class="row">
-                    <div class="col-lg-8">
+                    <div class="col-lg-6">
                       <p class="text-justify" style="margin: 0;font-size: 14px;">
                         We decided to use the Latent Dirichlet Allocation (LDA) algorithm for Topic Detection and Tracking. 
                         And, as a strategy for visualizing topic modeling, we used LDAvis. This visualization model has two 
@@ -235,11 +235,37 @@
                         area. The right panel presents the most significant terms for each topic. For more details, visit the link 
                         <a href="https://nlp.stanford.edu/events/illvi2014/papers/sievert-illvi2014.pdf" target="_blank">LDAvis Paper</a>.</p> 
                     </div>
-                    <div id="selectTopicNumberDiv" class="col-lg-4">
+                    <div id="selectTopicNumberDiv" class="col-lg-6">
+                      <div class="form-group">
+                        <label for="topicClassInput"><strong>Class of Posts:</strong></label>
+                        <select name="tClassSelect" id="topicClassInput" class="form-control">
+                          <option value="all">All</option>
+                          <option value="dicom">DICOM</option>
+                          <option value="EHR">EHR</option>
+                          <option value="mHealth">mHealth</option>
+                        </select>
+                      </div>
                       <div class="form-group">
                         <label for="topicNumberInput"><strong>Topic Number:</strong></label>
                         <select name="tNumberSelect" id="topicNumberInput" aria-describedby="topicHelp" class="form-control">
-                          <option value="3">3</option><option value="4">4</option><option value="6">6</option><option value="8">8</option><option value="12">12</option><option value="16">16</option><option value="24">24</option><option value="32">32</option><option value="48">48</option><option value="64">64</option><option value="96">96</option><option value="128">128</option><option value="192">192</option><option value="256">256</option><option value="384">384</option><option value="512">512</option>
+                          <option value="3">3</option>
+                          <option value="4">4</option>
+                          <option value="5">5</option>
+                          <option value="6">6</option>
+                          <option value="7">7</option>
+                          <option value="8">8</option>
+                          <option value="9">9</option>
+                          <option value="10">10</option>
+                          <option value="11">11</option>
+                          <option value="12">12</option>
+                          <option value="13">13</option>
+                          <option value="14">14</option>
+                          <option value="15">15</option>
+                          <option value="16">16</option>
+                          <option value="17">17</option>
+                          <option value="18">18</option>
+                          <option value="19">19</option>
+                          <option value="20">20</option>
                         </select>
                         <small id="topicHelp" class="form-text text-muted">Please select a number of topic to visualize.</small>
                       </div>
@@ -251,7 +277,7 @@
                 <div class="card-header py-3">
                   <div class="row">
                     <div class="col-md-10">
-                      <h6 class="m-0 font-weight-bold text-primary">Topic Tree</h6>
+                      <h6 class="m-0 font-weight-bold text-primary">Joined Topic Tree (adjusted lambda)</h6>
                     </div>
                     <div class="col-md-2">
                       <div class="d-flex align-items-center">
@@ -261,7 +287,7 @@
                   </div>
                 </div>
                 <div class="card-body">
-                  <div id="treeContainer"></div>
+                  <div id="jTreeContainer"></div>
                 </div>
               </div>
               <div class="card shadow mb-2">
@@ -302,7 +328,23 @@
                     </div>
                   </div>
                 </div>
-                
+                <div class="card shadow mb-4">
+                  <div class="card-header py-3">
+                    <div class="row">
+                      <div class="col-md-10">
+                        <h6 id="joinedTreeID" class="m-0 font-weight-bold text-primary">Topic Tree (lambda = 0.0)</h6>
+                      </div>
+                      <div class="col-md-2">
+                        <div class="d-flex align-items-center">
+                          <div class="spinner-border ml-auto mySpinner text-primary" style="display: none;" role="status" aria-hidden="true"></div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card-body">
+                    <div id="treeContainer"></div>
+                  </div>
+                </div>
               </div>
           </div>
           <div id="execVisNone" style="display: none;"></div>
@@ -317,7 +359,7 @@
   
             // Load the notebook, observing its cells with a default Inspector
             // that simply renders the value of each cell into the provided DOM node.
-            var modules = ['onChangeEvent', 'createDefaultLDAAndTree', 'createLDAvis', 'createTreeChart', 'createWordCloudSvg']
+            var modules = ['createDefaultLDAAndTree', 'createLDAvis', 'createTreeChart', 'createWordCloudSvg', 'onChangeEvent']
             new Runtime().module(notebook, name => {
               if(modules.includes(name)) {
                 return {
